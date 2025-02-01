@@ -4,6 +4,7 @@ A few patch sheets for the Behringer Crave from my collection.
 
 Download Here
 
+https://github.com/Connor-ed/Crave-Patch-Sheets/releases/tag/Update
 
 Current Sheets
 - Blank
