@@ -10,4 +10,4 @@ Current Sheets
 - Blank
 - Simple Pluck - 1
 - E Keys
-- Oh - Ahh
+- Ow - Ahh
