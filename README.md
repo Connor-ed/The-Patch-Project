@@ -4,10 +4,11 @@ A few patch sheets for the Behringer Crave from my collection.
 
 Download Here
 
-https://github.com/Connor-ed/Crave-Patch-Sheets/releases/tag/v0.0.2
+https://github.com/Connor-ed/Crave-Patch-Sheets/releases/tag/v0.0.3
 
 Current Sheets
 - Blank
 - Simple Pluck - 1
 - E Keys
 - Ow - Ahh
+- Kick Boom
