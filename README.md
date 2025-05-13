@@ -1,5 +1,4 @@
-# Crave Patch Sheets
-
+![BCS1](https://github.com/user-attachments/assets/5c898f55-3632-4113-b557-e8cc3fab202e)
 I got the Behringer Crave a few months ago, and I was having a hard time finding patch sheets that were easy to understand. I decided to make this little Web App using [GDevelop5](https://github.com/4ian/GDevelop) to easily create simple sheets that can be replicated at a glance. This is still early in development, so a few basic features are still missing. If you make something you want to share, I provided a link below to upload screenshots of your creations. 
 
 Test the new patch sheet builder here
