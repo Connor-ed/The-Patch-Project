@@ -1,5 +1,7 @@
 # Crave Patch Sheets
 
+I got the Behringer Crave a few months ago, and I was having a hard time finding patch sheets that were easy to understand. I decided to make this little Web App using GDevelop5 to easily create simple sheets that can be replicated at a glance. This is still early in development, so a few basic features are still missing. If you make something you want to share, I provided a link below to upload screenshots of your creations. 
+
 Test the new patch sheet builder here
 [Patch Builder (Beta)](https://itch.io/embed-upload/13672081?color=333333)
 ![BCS_B](https://github.com/user-attachments/assets/5b54c1f5-abfe-436f-92f8-5ef38f2d3889)
@@ -15,6 +17,8 @@ Download
 - Ow - Ahh (V1)
 - Kick Boom (V1)
 - Electric Pulse (V1)
+
+[Upload your sheets](https://connor.edgingtondesmet.com/patch-upload)
 
 **disclaimer**
 
