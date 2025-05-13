@@ -16,6 +16,6 @@ Download
 - Kick Boom (V1)
 - Electric Pulse (V1)
 
-**Note**
+**disclaimer**
 
 All trademarks are the property of their respective owners. The "Crave Patch Sheets" Project has no affiliation with Behringer or MusicTribe
