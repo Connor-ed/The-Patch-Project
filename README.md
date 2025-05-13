@@ -5,7 +5,8 @@ I got the Behringer Crave a few months ago, and I was having a hard time finding
 
 Test the new patch sheet builder here
 [Patch Builder (Beta)](https://itch.io/embed-upload/13676827?color=333333) (mobile devices are not supported)
-![BCS_B](https://github.com/user-attachments/assets/5b54c1f5-abfe-436f-92f8-5ef38f2d3889)
+![BCS_DEMO](https://github.com/user-attachments/assets/0144d8d2-9043-4c6f-9425-7ff681362aa5)
+
 
 Download
 [Here](https://github.com/Connor-ed/Crave-Patch-Sheets/releases/tag/v0.0.4)
