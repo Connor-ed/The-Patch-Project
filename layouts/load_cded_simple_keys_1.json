@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.3411856023473579,
+    "zoomFactor": 0.5610952083582281,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -195,7 +195,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -212,7 +212,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -229,7 +229,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 222,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -382,7 +382,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 181,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -436,7 +436,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 72,
       "keepRatio": true,
       "layer": "",
       "name": "Menu",

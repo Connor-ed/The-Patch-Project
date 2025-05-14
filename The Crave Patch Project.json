@@ -1476,7 +1476,7 @@
       {
         "file": "BCS_MEN2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"BCS_MEN2.png\",\"extension\":\".png\"}",
         "name": "BCS_MEN2.png",
         "smoothed": true,
         "userAdded": false
@@ -1926,11 +1926,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "BCS_MEN2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
