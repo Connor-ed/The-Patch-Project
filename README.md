@@ -4,7 +4,7 @@
 I got the Behringer Crave a few months ago, and I was having a hard time finding patch sheets that were easy to understand. I decided to make this little Web App using [GDevelop5](https://github.com/4ian/GDevelop) to easily create simple sheets that can be replicated at a glance. This is still early in development, so a few basic features are still missing. If you make something you want to share, I provided a link below to upload screenshots of your creations. 
 
 Test the new patch sheet builder here
-[Patch Builder (Beta)](https://itch.io/embed-upload/13676827?color=333333) (mobile devices are not supported)
+[Patch Builder (Beta)](https://itch.io/embed-upload/13687831?color=333333) (mobile devices are not supported)
 ![BCS_DEMO](https://github.com/user-attachments/assets/0144d8d2-9043-4c6f-9425-7ff681362aa5)
 
 
