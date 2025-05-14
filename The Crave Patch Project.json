@@ -1676,6 +1676,22 @@
         "name": "BCS_B_D3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "BCS_Menu-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_Menu-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1918,7 +1934,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
-      "name": "Menu",
+      "name": "Top_Menu",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1975,6 +1991,188 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Blank_K",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 276.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 251
+                          },
+                          {
+                            "x": 7,
+                            "y": 220.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 151.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 114.5
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 70.5,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 172.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 234,
+                            "y": 11
+                          },
+                          {
+                            "x": 300.5,
+                            "y": 49.5
+                          },
+                          {
+                            "x": 336,
+                            "y": 106.5
+                          },
+                          {
+                            "x": 350,
+                            "y": 177.5
+                          },
+                          {
+                            "x": 343,
+                            "y": 232
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 284.5
+                          },
+                          {
+                            "x": 271,
+                            "y": 326
+                          },
+                          {
+                            "x": 217,
+                            "y": 346
+                          },
+                          {
+                            "x": 149.5,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 109.5,
+                            "y": 339
+                          },
+                          {
+                            "x": 67.5,
+                            "y": 313.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 350
+                          },
+                          {
+                            "x": 3,
+                            "y": 350
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1993,7 +2191,10 @@
         "objectName": "Global_Sheet"
       },
       {
-        "objectName": "Menu"
+        "objectName": "Top_Menu"
+      },
+      {
+        "objectName": "Blank_K"
       }
     ]
   },

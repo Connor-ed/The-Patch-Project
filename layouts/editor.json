@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.3645833333333476,
+    "zoomFactor": 1.4679972091401252,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -439,7 +439,7 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "Menu",
+      "name": "Top_Menu",
       "persistentUuid": "3fc255b2-ad50-431c-9b65-52987f818c31",
       "width": 1920,
       "x": 0,
@@ -534,7 +534,7 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 269,
       "customSize": true,
       "depth": 48,
       "height": 131,
@@ -546,6 +546,23 @@
       "x": 117,
       "y": 127,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 48,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Blank_K",
+      "persistentUuid": "042bd75d-aff6-456a-87f5-02b7c6be08bd",
+      "width": 132,
+      "x": 281,
+      "y": 126,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
