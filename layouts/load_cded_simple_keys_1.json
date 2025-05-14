@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
+    "snap": true,
     "zoomFactor": 0.5610952083582281,
     "windowMask": false
   },
@@ -42,7 +42,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -93,7 +93,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 225,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -110,7 +110,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -127,7 +127,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 92,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -161,7 +161,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -263,7 +263,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -348,7 +348,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 179,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -436,7 +436,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 72,
+      "height": 1080,
       "keepRatio": true,
       "layer": "",
       "name": "Menu",
@@ -1008,7 +1008,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "-E KEYS-",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -1031,7 +1031,7 @@
         "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "-E KEYS-",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
