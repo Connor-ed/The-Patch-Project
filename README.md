@@ -6,19 +6,10 @@ I got the Behringer Crave a few months ago, and I was having a hard time finding
 Test the new patch sheet builder here
 [Patch Builder (Beta)](https://itch.io/embed-upload/13687831?color=333333) (mobile devices are not supported)
 ![BCS_DEMO](https://github.com/user-attachments/assets/0144d8d2-9043-4c6f-9425-7ff681362aa5)
+![BCS_PROMO](https://github.com/user-attachments/assets/6e17f1d2-5cee-434b-aaee-26d02eda5693)
 
 
-Download
-[Here](https://github.com/Connor-ed/Crave-Patch-Sheets/releases/tag/v0.0.4)
 
-
-**Current Sheets**
-- Blank (V1)
-- Simple Pluck - 1 (V1)
-- E Keys (V1)
-- Ow - Ahh (V1)
-- Kick Boom (V1)
-- Electric Pulse (V1)
 
 [Upload your sheets](https://connor.edgingtondesmet.com/patch-upload)
 
