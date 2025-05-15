@@ -1117,7 +1117,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Editor",
+            "Global_Editor",
             "",
             "",
             ""
@@ -1153,7 +1153,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Home",
+            "Global_Home",
             "",
             "",
             ""
@@ -1189,7 +1189,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Play",
+            "Global_Play",
             "",
             "",
             ""

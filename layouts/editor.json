@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": true,
+    "snap": false,
     "zoomFactor": 0.5427920802473499,
     "windowMask": false
   },
@@ -563,6 +563,57 @@
       "x": 281,
       "y": 126,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Play",
+      "persistentUuid": "394de9d6-bc27-40ff-b454-7d7fe7bef10c",
+      "width": 80,
+      "x": 912,
+      "y": 40,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 56,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Editor",
+      "persistentUuid": "b9078478-029a-4dbb-b180-2ca04d31271c",
+      "width": 57,
+      "x": 1366,
+      "y": 38,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Home",
+      "persistentUuid": "a1672d87-5e2b-435b-98b5-1057c7525872",
+      "width": 55,
+      "x": 488,
+      "y": 46,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1169,7 +1220,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Editor",
+            "Global_Editor",
             "",
             "",
             ""
@@ -1205,7 +1256,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Home",
+            "Global_Home",
             "",
             "",
             ""
@@ -1241,7 +1292,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Play",
+            "Global_Play",
             "",
             "",
             ""
