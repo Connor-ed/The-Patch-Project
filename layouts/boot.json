@@ -206,7 +206,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.1.2 - b",
+      "string": "v0.2.0 - b",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -229,7 +229,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "v0.1.2 - b",
+        "text": "v0.2.0 - b",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -423,16 +423,34 @@
             "value": "SystemInfo::IsMobile"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "LaunchFile"
+            "value": "PopUp::Alert"
           },
           "parameters": [
             "\"http://www.connor.edgingtondesmet.com/patch-mobile\"",
+            "\"Mobile devices are not supported at this time\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\""
           ]
         }
       ]
