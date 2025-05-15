@@ -13,7 +13,7 @@
     "folderProject": true,
     "orientation": "default",
     "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "8540cf9a-68a7-4e20-9abc-72f17553fa2f",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
@@ -1692,6 +1692,38 @@
         "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "BCS_Bottom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_Bottom.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BCS_Bottom2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_Bottom2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BCS_Top_layer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_Top_layer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BCS_TOP_LITE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_TOP_LITE.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1700,7 +1732,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Play",
+      "name": "Global_Play",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1742,7 +1774,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Editor",
+      "name": "Global_Editor",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1784,7 +1816,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Home",
+      "name": "Global_Home",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1934,7 +1966,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4656edcabf61f71dfd0368d92d077267a0dbfeef35ce002d4cb8774906099c57",
-      "name": "Top_Menu",
+      "name": "Global_Top_Menu",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1994,7 +2026,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Blank_K",
+      "name": "Global_Blank_Knob",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
       "variant": "",
       "variables": [],
@@ -2173,28 +2205,217 @@
           ]
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Global_Base",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_Bottom2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Global_Top_Detail",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_Top_layer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 337,
+                        "y": 969
+                      },
+                      {
+                        "x": 5608,
+                        "y": 969
+                      },
+                      {
+                        "x": 5608,
+                        "y": 2687
+                      },
+                      {
+                        "x": 337,
+                        "y": 2687
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Global_Top_Lite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_TOP_LITE.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 337,
+                        "y": 969
+                      },
+                      {
+                        "x": 5815,
+                        "y": 969
+                      },
+                      {
+                        "x": 5815,
+                        "y": 2687
+                      },
+                      {
+                        "x": 337,
+                        "y": 2687
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Play"
+        "objectName": "Global_Play"
       },
       {
-        "objectName": "Editor"
+        "objectName": "Global_Editor"
       },
       {
-        "objectName": "Home"
+        "objectName": "Global_Home"
       },
       {
         "objectName": "Global_Sheet"
       },
       {
-        "objectName": "Top_Menu"
+        "objectName": "Global_Top_Menu"
       },
       {
-        "objectName": "Blank_K"
+        "objectName": "Global_Blank_Knob"
+      },
+      {
+        "objectName": "Global_Base"
+      },
+      {
+        "objectName": "Global_Top_Detail"
+      },
+      {
+        "objectName": "Global_Top_Lite"
       }
     ]
   },
@@ -2211,7 +2432,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load_cded_simple_keys_1"
+      "referenceTo": "/layouts/load_cded_e_keys_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/load_cded_unknown_synth"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/global_base_test"
     }
   ],
   "externalEvents": [],

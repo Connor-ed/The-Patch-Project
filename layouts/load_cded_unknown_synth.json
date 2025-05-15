@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Load_95CDED_95Simple_95Keys_951",
-  "name": "Load_CDED_Simple_Keys_1",
+  "mangledName": "Load_95CDED_95UNKNOWN_95SYNTH",
+  "name": "Load_CDED_UNKNOWN_SYNTH",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.5610952083582281,
+    "zoomFactor": 0.5610952083582282,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -439,7 +439,7 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "Top_Menu",
+      "name": "Global_Top_Menu",
       "persistentUuid": "3fc255b2-ad50-431c-9b65-52987f818c31",
       "width": 1920,
       "x": 0,
@@ -473,7 +473,7 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Play",
+      "name": "Global_Play",
       "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
       "width": 65,
       "x": 925,
@@ -489,7 +489,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Play",
+      "name": "Global_Play",
       "persistentUuid": "0e39df86-08df-43cd-9c7b-73026123c40b",
       "width": 0,
       "x": 1491,
@@ -506,7 +506,7 @@
       "height": 60,
       "keepRatio": true,
       "layer": "",
-      "name": "Editor",
+      "name": "Global_Editor",
       "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
       "width": 62,
       "x": 1365,
@@ -523,7 +523,7 @@
       "height": 67,
       "keepRatio": true,
       "layer": "",
-      "name": "Home",
+      "name": "Global_Home",
       "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
       "width": 63,
       "x": 486,
@@ -1062,6 +1062,18 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Not used"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1075,6 +1087,18 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Top menu buttons"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1103,12 +1127,11 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Editor\"",
-            ""
+            "\"Editor\""
           ]
         }
       ]
@@ -1140,12 +1163,11 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Boot\"",
-            ""
+            "\"Boot\""
           ]
         }
       ]
@@ -1190,31 +1212,16 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "Detail_mode",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Sheet",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "detail Mode"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1240,6 +1247,33 @@
             "Animation",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Detail_mode",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Sheet",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]

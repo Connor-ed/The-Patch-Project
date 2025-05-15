@@ -48,7 +48,7 @@
       "height": 83,
       "keepRatio": true,
       "layer": "",
-      "name": "Editor",
+      "name": "Global_Editor",
       "persistentUuid": "6c2665ea-239a-462a-951e-3fff79edd117",
       "width": 235,
       "x": 413,
@@ -82,7 +82,7 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "Top_Menu",
+      "name": "Global_Top_Menu",
       "persistentUuid": "ef065b3c-ce00-441d-aca8-204b8bc9dcba",
       "width": 1920,
       "x": 0,
@@ -99,7 +99,7 @@
       "height": 131,
       "keepRatio": true,
       "layer": "",
-      "name": "Blank_K",
+      "name": "Global_Blank_Knob",
       "persistentUuid": "612ff6f9-02d0-43a4-9bde-62387a82ee9e",
       "width": 132,
       "x": 118,
@@ -116,7 +116,7 @@
       "height": 131,
       "keepRatio": true,
       "layer": "",
-      "name": "Blank_K",
+      "name": "Global_Blank_Knob",
       "persistentUuid": "c503a291-5c49-4542-8b25-3d2ce19a3734",
       "width": 132,
       "x": 281,
@@ -244,6 +244,18 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Main Menu Controls"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -270,26 +282,35 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Editor\"",
-            ""
+            "\"Editor\""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Redirect (Broken)"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SystemInfo::HasTouchScreen"
+            "value": "SystemInfo::IsMobile"
           },
-          "parameters": [
-            ""
-          ]
+          "parameters": []
         }
       ],
       "actions": [
@@ -305,9 +326,40 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Preload"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

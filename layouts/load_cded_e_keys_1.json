@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Editor",
-  "name": "Editor",
+  "mangledName": "Load_95CDED_95E_95Keys_951",
+  "name": "Load_CDED_E_Keys_1",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.5427920802473499,
+    "zoomFactor": 0.5610952083582281,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -42,7 +42,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -93,7 +93,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 225,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -110,7 +110,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -127,7 +127,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 92,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -161,7 +161,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -195,7 +195,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -212,7 +212,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -229,7 +229,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 222,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -263,7 +263,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -348,7 +348,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 179,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -382,7 +382,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 181,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -534,7 +534,7 @@
       "initialVariables": []
     },
     {
-      "angle": 269,
+      "angle": 270,
       "customSize": true,
       "depth": 48,
       "height": 131,
@@ -551,17 +551,17 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 131,
+      "depth": 1,
+      "height": 167,
       "keepRatio": true,
       "layer": "",
-      "name": "Global_Blank_Knob",
-      "persistentUuid": "042bd75d-aff6-456a-87f5-02b7c6be08bd",
-      "width": 132,
-      "x": 281,
-      "y": 126,
+      "name": "INST",
+      "persistentUuid": "9587fbd1-7617-485d-9251-174b226b23d2",
+      "width": 1148,
+      "x": 483,
+      "y": 117,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -797,7 +797,7 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Use Left Click to move knobs forwards. Use Right Click to move knobs backwards. Use R to reset postion.",
+        "placeholder": "",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "text area",
@@ -808,7 +808,7 @@
         "borderOpacity": 255,
         "borderWidth": 1,
         "readOnly": false,
-        "disabled": false,
+        "disabled": true,
         "paddingX": 2,
         "paddingY": 1,
         "textAlign": "left",
@@ -996,6 +996,48 @@
           ]
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "INST",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "-E KEYS-",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 255,
+        "smoothed": true,
+        "underlined": false,
+        "text": "-E KEYS-",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1012,6 +1054,9 @@
       },
       {
         "objectName": "Detail_mode"
+      },
+      {
+        "objectName": "INST"
       }
     ]
   },
@@ -1026,96 +1071,11 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Knob Control"
+      "comment": "Not used"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Rotate"
-          },
-          "parameters": [
-            "Knob",
-            "25",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Right\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Rotate"
-          },
-          "parameters": [
-            "Knob",
-            "-25",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "KeyFromTextPressed"
@@ -1126,19 +1086,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "RotateTowardAngle"
-          },
-          "parameters": [
-            "Knob",
-            "0",
-            "0",
-            "="
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1280,33 +1228,6 @@
       "conditions": [
         {
           "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "Detail_mode",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Sheet",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "inverted": true,
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
@@ -1326,6 +1247,33 @@
             "Animation",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Detail_mode",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Sheet",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
