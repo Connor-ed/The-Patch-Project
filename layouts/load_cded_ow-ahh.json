@@ -1,15 +1,15 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Load_95CDED_95E_95Keys_951",
-  "name": "Load_CDED_E_Keys_1",
+  "mangledName": "Load_95CDED_95Ow_45Ahh",
+  "name": "Load_CDED_Ow-Ahh",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,15 +17,15 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": true,
-    "zoomFactor": 0.43034038022078236,
+    "snap": false,
+    "zoomFactor": 0.5800155239905089,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
-      "angle": 66,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -110,7 +110,7 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 92,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -144,7 +144,7 @@
       "initialVariables": []
     },
     {
-      "angle": 358,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -229,7 +229,7 @@
       "initialVariables": []
     },
     {
-      "angle": 138,
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -297,7 +297,7 @@
       "initialVariables": []
     },
     {
-      "angle": 176,
+      "angle": 0,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -331,7 +331,7 @@
       "initialVariables": []
     },
     {
-      "angle": 351,
+      "angle": 179,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -1042,7 +1042,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "-OW-AHH-",
+      "string": "-E KEYS-",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -1065,7 +1065,7 @@
         "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
-        "text": "-OW-AHH-",
+        "text": "-E KEYS-",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
