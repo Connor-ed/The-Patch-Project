@@ -2004,6 +2004,70 @@
         "name": "SnapShot",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credits.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Editor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Editor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Help.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Help.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Load.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Load.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Share.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Share.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
