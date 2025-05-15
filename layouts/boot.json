@@ -67,7 +67,7 @@
       "layer": "",
       "name": "Version_details",
       "persistentUuid": "26b24a3c-7ec3-4df0-8587-e7ec3caec8f2",
-      "width": 95,
+      "width": 1914,
       "x": 5,
       "y": 1056,
       "zOrder": 9,
@@ -199,7 +199,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.1.1 - b1",
+      "string": "v0.1.2 - b.02",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -222,7 +222,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "v0.1.1 - b1",
+        "text": "v0.1.2 - b.02",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -282,8 +282,27 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SystemInfo::HasTouchScreen"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "LaunchFile"
+          },
+          "parameters": [
+            "\"http://www.connor.edgingtondesmet.com/patch-mobile\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

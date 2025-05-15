@@ -19,8 +19,8 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "The Crave Patch Project",
-    "description": "",
+    "name": "The Crave Patch Project - Nightly Build",
+    "description": "This is where all nightly builds are published for testing. ",
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -2255,6 +2255,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/uploaddownloadtextfile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/iframe"
     }
   ],
   "externalLayouts": []
