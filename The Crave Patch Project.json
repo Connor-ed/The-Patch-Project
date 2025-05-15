@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Boot",
+  "firstLayout": "Preload",
   "gdVersion": {
     "build": 230,
     "major": 5,
@@ -2068,6 +2068,70 @@
         "name": "NewSprite11",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "27.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2210,7 +2274,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BCS_MEN2",
+          "name": "Blank",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2220,7 +2284,151 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BCS_MEN2.png",
+                  "image": "24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1472,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 337
+                      },
+                      {
+                        "x": 1472,
+                        "y": 337
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Home",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1472,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 337
+                      },
+                      {
+                        "x": 1472,
+                        "y": 337
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Play",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1472,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 120
+                      },
+                      {
+                        "x": 4528,
+                        "y": 337
+                      },
+                      {
+                        "x": 1472,
+                        "y": 337
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Editor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2642,6 +2850,10 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/preload"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/boot"
     },
     {
@@ -2651,10 +2863,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/load_cded_e_keys_1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/global_base_test"
     }
   ],
   "externalEvents": [],
@@ -2710,6 +2918,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/internetconnectivity"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/authorizedplatformsvalidation"
     }
   ],
   "externalLayouts": []
