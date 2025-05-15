@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,30 +17,13 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.5800155239904913,
+    "snap": true,
+    "zoomFactor": 0.4753585087126976,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Main_menu",
-      "persistentUuid": "ead27d29-899c-40f8-b4d8-5c7901aedc01",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -87,7 +70,7 @@
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 10,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -175,69 +158,43 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Base",
+      "persistentUuid": "6bc868cb-6c88-490f-9bc8-0c94a99eebc1",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "M_TEXT",
+      "persistentUuid": "4deed82c-95e6-45ed-aeab-9dd46f71236d",
+      "width": 1968,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Main_menu",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "BCS_Menu-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3207
-                      },
-                      {
-                        "x": 0,
-                        "y": 3207
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "bold": false,
@@ -249,7 +206,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.1.2 - b.03",
+      "string": "v0.1.2 - b",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -272,7 +229,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "v0.1.2 - b.03",
+        "text": "v0.1.2 - b",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -321,19 +278,79 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "M_TEXT",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_M_TEXT.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1334,
+                        "y": 1443
+                      },
+                      {
+                        "x": 5566,
+                        "y": 1443
+                      },
+                      {
+                        "x": 5566,
+                        "y": 2590
+                      },
+                      {
+                        "x": 1334,
+                        "y": 2590
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Main_menu"
-      },
-      {
         "objectName": "Version_details"
       },
       {
         "objectName": "Editor"
+      },
+      {
+        "objectName": "M_TEXT"
       }
     ]
   },

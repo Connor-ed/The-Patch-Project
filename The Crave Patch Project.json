@@ -1732,6 +1732,14 @@
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "BCS_M_TEXT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BCS_M_TEXT.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
