@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.5427920802473517,
+    "zoomFactor": 0.19415059112741653,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -468,22 +468,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Play",
-      "persistentUuid": "0e39df86-08df-43cd-9c7b-73026123c40b",
-      "width": 0,
-      "x": 1491,
-      "y": 1213,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 60,
@@ -631,6 +615,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "Screenshot",
+      "name": "SnapShot",
+      "persistentUuid": "be3e6ff7-4fa5-400e-9701-ca79f4572a7b",
+      "width": 1920,
+      "x": 0,
+      "y": 1080,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -892,7 +893,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "IsChecked": true
+        "IsChecked": false
       },
       "childrenContent": {
         "State": {
@@ -1064,6 +1065,48 @@
           ]
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnapShot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SnapShot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "SnapShot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1080,10 +1123,39 @@
       },
       {
         "objectName": "Detail_mode"
+      },
+      {
+        "objectName": "SnapShot"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Boot"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -1397,6 +1469,45 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Save "
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RenderToSprite::RenderLayer"
+          },
+          "parameters": [
+            "",
+            "",
+            "SnapShot",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1455,7 +1566,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "top",
+      "name": "Screenshot",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

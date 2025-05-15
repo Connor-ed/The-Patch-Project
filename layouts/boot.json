@@ -413,7 +413,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Redirect (Broken)"
+      "comment": "Error"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -487,6 +487,46 @@
           "parameters": [
             "",
             "\"Editor\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "For use with online patch loading"
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "InternetConnectivity::IsDeviceOnline"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PopUp::Confirm"
+          },
+          "parameters": [
+            "\"http://www.connor.edgingtondesmet.com/patch-mobile\"",
+            "\"You are offline, please reconnect \"",
+            ""
           ]
         }
       ]
