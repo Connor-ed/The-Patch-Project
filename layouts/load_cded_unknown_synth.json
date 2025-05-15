@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": true,
-    "zoomFactor": 0.5610952083582282,
+    "snap": false,
+    "zoomFactor": 0.5610952083582283,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -563,6 +563,23 @@
       "x": 483,
       "y": 117,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 48,
+      "height": 133,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "43b444c6-385b-4473-b3d8-5457094705c8",
+      "width": 134,
+      "x": 280,
+      "y": 125,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
