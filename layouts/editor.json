@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": true,
-    "zoomFactor": 0.4027225833326087,
+    "snap": false,
+    "zoomFactor": 0.5427920802473533,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -269,7 +269,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "27df308c-2e40-4c37-bb24-1465412455a5",
       "width": 57,
       "x": 1256,
@@ -286,7 +286,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "870bb6ea-c519-4dad-8a56-51bb6ceefbdf",
       "width": 57,
       "x": 1037,
@@ -303,7 +303,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "1092e3d7-2817-49dd-85b1-eaca8010c177",
       "width": 57,
       "x": 1476,
@@ -320,7 +320,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "faf30603-25b7-4625-b5ff-f92574ecf07c",
       "width": 57,
       "x": 1689,
@@ -337,7 +337,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "bf2900b4-85d4-4e67-8400-3ef86507b011",
       "width": 57,
       "x": 1259,
@@ -354,7 +354,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "fa5be690-b7dc-43e3-a061-2404c05d6a46",
       "width": 57,
       "x": 822,
@@ -371,7 +371,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "594bdcbc-553e-4e63-9433-affde49a5f08",
       "width": 57,
       "x": 383,
@@ -388,7 +388,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "f884c653-ca16-4c44-b318-741a9b622d09",
       "width": 57,
       "x": 603,
@@ -405,7 +405,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "persistentUuid": "96ad4dcc-155d-4349-917d-544d5b2fa941",
       "width": 57,
       "x": 823,
@@ -453,31 +453,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Play",
       "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
-      "width": 65,
-      "x": 925,
-      "y": 39,
+      "width": 54,
+      "x": 930,
+      "y": 42,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Play",
-      "persistentUuid": "0e39df86-08df-43cd-9c7b-73026123c40b",
-      "width": 0,
-      "x": 1491,
-      "y": 1213,
-      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -503,14 +487,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 67,
+      "height": 52,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Home",
       "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
-      "width": 63,
-      "x": 486,
-      "y": 39,
+      "width": 58,
+      "x": 487,
+      "y": 43,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -554,31 +538,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Play",
-      "persistentUuid": "394de9d6-bc27-40ff-b454-7d7fe7bef10c",
-      "width": 80,
-      "x": 912,
-      "y": 40,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 56,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Editor",
       "persistentUuid": "b9078478-029a-4dbb-b180-2ca04d31271c",
-      "width": 57,
-      "x": 1366,
-      "y": 38,
+      "width": 55,
+      "x": 1369,
+      "y": 41,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -588,32 +555,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 51,
+      "height": 25,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Home",
       "persistentUuid": "a1672d87-5e2b-435b-98b5-1057c7525872",
       "width": 55,
       "x": 488,
-      "y": 46,
+      "y": 72,
       "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Detail",
-      "persistentUuid": "d4dec0ca-1b9a-4e9d-a1cb-108336186042",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -630,7 +580,41 @@
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 10,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Lite",
+      "persistentUuid": "2b413e8e-22fc-423d-81d9-71f557d38ab1",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "Screenshot",
+      "name": "SnapShot",
+      "persistentUuid": "be3e6ff7-4fa5-400e-9701-ca79f4572a7b",
+      "width": 1920,
+      "x": 0,
+      "y": 1080,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -741,7 +725,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewToggleSwitch",
+      "name": "Edit_Toggle",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
       "variant": "",
       "variables": [],
@@ -1064,6 +1048,48 @@
           ]
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnapShot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SnapShot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "SnapShot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1073,17 +1099,58 @@
         "objectName": "Knob"
       },
       {
-        "objectName": "NewToggleSwitch"
+        "objectName": "Edit_Toggle"
       },
       {
         "objectName": "Instuctions"
       },
       {
         "objectName": "Detail_mode"
+      },
+      {
+        "objectName": "SnapShot"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Beta Alert"
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PopUp::Alert"
+          },
+          "parameters": [
+            "",
+            "\"This is an early version of (The Crave Patch Project). Errors may occur.\"",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -1362,7 +1429,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Global_Sheet",
+            "Global_Top_Lite",
             "Animation",
             "=",
             "1"
@@ -1390,10 +1457,178 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Global_Sheet",
+            "Global_Top_Lite",
             "Animation",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Save "
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RenderToSprite::RenderLayer"
+          },
+          "parameters": [
+            "",
+            "",
+            "SnapShot",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Top Menu Animtion"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Play",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Editor",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "3"
           ]
         }
       ]
@@ -1455,7 +1690,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "top",
+      "name": "Screenshot",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

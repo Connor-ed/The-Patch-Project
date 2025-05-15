@@ -18,29 +18,12 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.5800155239905083,
+    "zoomFactor": 0.5800155239905089,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Sheet",
-      "persistentUuid": "fc6c6526-ccee-49a6-b17b-256c39aca808",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 223,
       "customSize": true,
@@ -470,14 +453,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Play",
       "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
-      "width": 65,
-      "x": 925,
-      "y": 39,
+      "width": 54,
+      "x": 930,
+      "y": 42,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -503,14 +486,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 60,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Editor",
       "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
-      "width": 62,
-      "x": 1365,
-      "y": 40,
+      "width": 54,
+      "x": 1370,
+      "y": 41,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -520,14 +503,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 67,
+      "height": 54,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Home",
       "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
-      "width": 63,
+      "width": 59,
       "x": 486,
-      "y": 39,
+      "y": 42,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -580,6 +563,40 @@
       "x": 280,
       "y": 127,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Base",
+      "persistentUuid": "fef62847-ce31-4c1b-ae7d-4db0a77ed81a",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Lite",
+      "persistentUuid": "80ebaa73-35c7-4cf3-b0eb-f2c908ea4254",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1260,7 +1277,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Global_Sheet",
+            "Global_Top_Lite",
             "Animation",
             "=",
             "0"
@@ -1287,10 +1304,139 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Global_Sheet",
+            "Global_Top_Lite",
             "Animation",
             "=",
             "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Top Menu Animtion"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Play",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Editor",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "3"
           ]
         }
       ]
