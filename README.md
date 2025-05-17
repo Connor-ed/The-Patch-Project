@@ -7,7 +7,7 @@ I got the Behringer Crave a few months ago, and I was having a hard time finding
 Test the stable version [Here](https://itch.io/embed-upload/13687831?color=333333) (mobile devices are not supported)
 
 Find nightly builds [Here](https://gd.games/games/8540cf9a-68a7-4e20-9abc-72f17553fa2f) 
-![BCS_PROMO](https://github.com/user-attachments/assets/6e17f1d2-5cee-434b-aaee-26d02eda5693)
+![BCS_PROMO](https://cravepatcher.edgingtondesmet.com)
 * Presets are currently in development.  
 
 
