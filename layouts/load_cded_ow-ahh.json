@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Editor",
-  "name": "Editor",
+  "mangledName": "Load_95CDED_95Ow_45Ahh",
+  "name": "Load_CDED_Ow-Ahh",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,14 +18,14 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.5427920802473533,
+    "zoomFactor": 0.5800155239905089,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -76,7 +76,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 225,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -93,7 +93,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -110,7 +110,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 92,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -144,7 +144,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 224,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -178,7 +178,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 223,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -195,7 +195,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -212,7 +212,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 222,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -246,7 +246,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 226,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -269,7 +269,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "27df308c-2e40-4c37-bb24-1465412455a5",
       "width": 57,
       "x": 1256,
@@ -286,7 +286,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "870bb6ea-c519-4dad-8a56-51bb6ceefbdf",
       "width": 57,
       "x": 1037,
@@ -303,7 +303,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "1092e3d7-2817-49dd-85b1-eaca8010c177",
       "width": 57,
       "x": 1476,
@@ -320,7 +320,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "faf30603-25b7-4625-b5ff-f92574ecf07c",
       "width": 57,
       "x": 1689,
@@ -331,13 +331,13 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 179,
       "customSize": true,
       "depth": 48,
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "bf2900b4-85d4-4e67-8400-3ef86507b011",
       "width": 57,
       "x": 1259,
@@ -354,7 +354,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "fa5be690-b7dc-43e3-a061-2404c05d6a46",
       "width": 57,
       "x": 822,
@@ -365,13 +365,13 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 181,
       "customSize": true,
       "depth": 48,
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "594bdcbc-553e-4e63-9433-affde49a5f08",
       "width": 57,
       "x": 383,
@@ -388,7 +388,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "f884c653-ca16-4c44-b318-741a9b622d09",
       "width": 57,
       "x": 603,
@@ -405,7 +405,7 @@
       "height": 57,
       "keepRatio": true,
       "layer": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "persistentUuid": "96ad4dcc-155d-4349-917d-544d5b2fa941",
       "width": 57,
       "x": 823,
@@ -468,16 +468,32 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Play",
+      "persistentUuid": "0e39df86-08df-43cd-9c7b-73026123c40b",
+      "width": 0,
+      "x": 1491,
+      "y": 1213,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 60,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Editor",
       "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
-      "width": 62,
-      "x": 1365,
-      "y": 40,
+      "width": 54,
+      "x": 1370,
+      "y": 41,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -487,14 +503,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 52,
+      "height": 54,
       "keepRatio": true,
       "layer": "",
       "name": "Global_Home",
       "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
-      "width": 58,
-      "x": 487,
-      "y": 43,
+      "width": 59,
+      "x": 486,
+      "y": 42,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,52 +534,35 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 131,
+      "depth": 1,
+      "height": 167,
       "keepRatio": true,
       "layer": "",
-      "name": "Global_Blank_Knob",
-      "persistentUuid": "042bd75d-aff6-456a-87f5-02b7c6be08bd",
-      "width": 132,
-      "x": 281,
-      "y": 126,
+      "name": "INST",
+      "persistentUuid": "9587fbd1-7617-485d-9251-174b226b23d2",
+      "width": 1148,
+      "x": 483,
+      "y": 117,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 55,
+      "depth": 48,
+      "height": 133,
       "keepRatio": true,
       "layer": "",
-      "name": "Global_Editor",
-      "persistentUuid": "b9078478-029a-4dbb-b180-2ca04d31271c",
-      "width": 55,
-      "x": 1369,
-      "y": 41,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Home",
-      "persistentUuid": "a1672d87-5e2b-435b-98b5-1057c7525872",
-      "width": 55,
-      "x": 488,
-      "y": 72,
-      "zOrder": 24,
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "92fad00c-a2c5-4c27-89d3-0de5105f4e0e",
+      "width": 134,
+      "x": 280,
+      "y": 127,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -576,11 +575,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Base",
-      "persistentUuid": "da5c9be1-d871-4f66-bdf3-e40298fffb82",
+      "persistentUuid": "fef62847-ce31-4c1b-ae7d-4db0a77ed81a",
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 8,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -593,28 +592,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Top_Lite",
-      "persistentUuid": "2b413e8e-22fc-423d-81d9-71f557d38ab1",
+      "persistentUuid": "80ebaa73-35c7-4cf3-b0eb-f2c908ea4254",
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "Screenshot",
-      "name": "SnapShot",
-      "persistentUuid": "be3e6ff7-4fa5-400e-9701-ca79f4572a7b",
-      "width": 1920,
-      "x": 0,
-      "y": 1080,
-      "zOrder": 26,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -725,7 +707,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Edit_Toggle",
+      "name": "NewToggleSwitch",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
       "variant": "",
       "variables": [],
@@ -849,7 +831,7 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Use Left Click to move knobs forwards. Use Right Click to move knobs backwards. Use R to reset postion.",
+        "placeholder": "",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "text area",
@@ -860,7 +842,7 @@
         "borderOpacity": 255,
         "borderWidth": 1,
         "readOnly": false,
-        "disabled": false,
+        "disabled": true,
         "paddingX": 2,
         "paddingY": 1,
         "textAlign": "left",
@@ -1050,46 +1032,46 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SnapShot",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "bold": false,
+      "italic": false,
+      "name": "INST",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "SnapShot",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "SnapShot",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "string": "-E KEYS-",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 255,
+        "smoothed": true,
+        "underlined": false,
+        "text": "-E KEYS-",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1099,7 +1081,7 @@
         "objectName": "Knob"
       },
       {
-        "objectName": "Edit_Toggle"
+        "objectName": "NewToggleSwitch"
       },
       {
         "objectName": "Instuctions"
@@ -1108,7 +1090,7 @@
         "objectName": "Detail_mode"
       },
       {
-        "objectName": "SnapShot"
+        "objectName": "INST"
       }
     ]
   },
@@ -1123,134 +1105,11 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Beta Alert"
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PopUp::Alert"
-          },
-          "parameters": [
-            "",
-            "\"This is an early version of (The Crave Patch Project). Errors may occur.\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Knob Control"
+      "comment": "Not used"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Rotate"
-          },
-          "parameters": [
-            "Knob",
-            "25",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Right\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Rotate"
-          },
-          "parameters": [
-            "Knob",
-            "-25",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Knob",
-            "",
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "KeyFromTextPressed"
@@ -1261,19 +1120,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "RotateTowardAngle"
-          },
-          "parameters": [
-            "Knob",
-            "0",
-            "0",
-            "="
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1415,33 +1262,6 @@
       "conditions": [
         {
           "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "Detail_mode",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Lite",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "inverted": true,
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
@@ -1466,40 +1286,28 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Save "
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
           "parameters": [
-            "",
-            "\"s\""
+            "Detail_mode",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "RenderToSprite::RenderLayer"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "",
-            "",
-            "SnapShot",
-            ""
+            "Global_Top_Lite",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -1632,11 +1440,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -1695,7 +1498,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Screenshot",
+      "name": "top",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,15 +17,15 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
-    "zoomFactor": 0.5800155239905089,
+    "snap": true,
+    "zoomFactor": 0.43034038022078236,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
-      "angle": 223,
+      "angle": 66,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -110,7 +110,7 @@
       "initialVariables": []
     },
     {
-      "angle": 92,
+      "angle": 270,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -144,7 +144,7 @@
       "initialVariables": []
     },
     {
-      "angle": 224,
+      "angle": 358,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -229,7 +229,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 138,
       "customSize": true,
       "depth": 1,
       "height": 112,
@@ -297,7 +297,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 176,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -331,7 +331,7 @@
       "initialVariables": []
     },
     {
-      "angle": 179,
+      "angle": 351,
       "customSize": true,
       "depth": 48,
       "height": 57,
@@ -1042,7 +1042,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "-E KEYS-",
+      "string": "-OW-AHH-",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -1065,7 +1065,7 @@
         "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
-        "text": "-E KEYS-",
+        "text": "-OW-AHH-",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
