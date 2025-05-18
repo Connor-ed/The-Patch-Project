@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Load_95CDED_95E_95Keys_951",
-  "name": "Load_CDED_E_Keys_1",
+  "mangledName": "Load",
+  "name": "Load",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,

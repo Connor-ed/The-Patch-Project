@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.5427920802473533,
+    "zoomFactor": 0.756247719810766,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -618,6 +618,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnapShot_text",
+      "persistentUuid": "ff731b16-9560-472a-b4d4-84ddda18617e",
+      "width": 1749,
+      "x": 75,
+      "y": 978,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1090,6 +1107,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SnapShot_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "right",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "right",
+        "verticalTextAlignment": "bottom",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1109,6 +1168,9 @@
       },
       {
         "objectName": "SnapShot"
+      },
+      {
+        "objectName": "SnapShot_text"
       }
     ]
   },
@@ -1637,6 +1699,50 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Screenshot::TakeScreenshot"
+          },
+          "parameters": [
+            "",
+            "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatcher_export.png\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SnapShot_text",
+                "Text",
+                "=",
+                "\"Screenshot saved at: \" + NewLine() + FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatch_export.png\""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layers": [

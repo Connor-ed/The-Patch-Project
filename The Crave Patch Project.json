@@ -24,7 +24,7 @@
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/t1324",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/t13242",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -653,6 +653,14 @@
         "kind": "image",
         "metadata": "",
         "name": "loading2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "updater.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "updater.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1381,11 +1389,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load_cded_e_keys_1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load_cded_ow-ahh"
+      "referenceTo": "/layouts/load"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
