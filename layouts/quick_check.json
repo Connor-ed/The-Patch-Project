@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Preload",
-  "name": "Preload",
+  "mangledName": "Quick_95Check",
+  "name": "Quick_Check",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -11,14 +11,14 @@
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 48,
-    "gridHeight": 72,
+    "gridWidth": 32,
+    "gridHeight": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.6197916666666673,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,11 +28,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
-      "name": "Loading_Text",
-      "persistentUuid": "610089ff-bad6-4463-b37a-3ec3569c1b03",
+      "name": "NewSprite",
+      "persistentUuid": "d5fa8332-6bc4-4002-8bad-5592a7bae999",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -44,75 +44,96 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Loading_Text",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
+      "behaviors": [],
+      "animations": [
         {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.05,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "loading2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "string": " Loading...",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": " Loading...",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 50,
-        "color": "0;0;0"
-      }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Loading_Text"
+        "objectName": "NewSprite"
       }
     ]
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Update Alert"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "UpdateChecker::UpdateAvailable"
           },
           "parameters": [
+            "",
             ""
           ]
         }
@@ -120,11 +141,21 @@
       "actions": [
         {
           "type": {
-            "value": "PrioritizeLoadingOfScene"
+            "value": "PopUp::Confirm"
           },
           "parameters": [
             "",
-            "\"Boot\""
+            "\"An update is available\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LaunchFile"
+          },
+          "parameters": [
+            "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
+            ";"
           ]
         }
       ]
@@ -134,22 +165,50 @@
       "conditions": [
         {
           "type": {
-            "value": "AreSceneAssetsLoaded"
+            "value": "PopUp::ConfimationResponse"
           },
           "parameters": [
             "",
-            "\"Boot\""
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Boot\""
+            "\"Boot\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "UpdateChecker::UpdateAvailable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\"",
+            ""
           ]
         }
       ]
@@ -207,10 +266,6 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -229,10 +284,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

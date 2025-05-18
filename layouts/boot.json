@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.31928945896902305,
+    "zoomFactor": 0.7817486425451952,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 85,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Version_details",
-      "persistentUuid": "26b24a3c-7ec3-4df0-8587-e7ec3caec8f2",
-      "width": 1914,
-      "x": 5,
-      "y": 1056,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -287,113 +270,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Blank_walls",
-      "persistentUuid": "b4116c3a-12e8-4ab2-b716-6b81bb49cc9e",
-      "width": 48,
-      "x": 2784,
-      "y": 0,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ow_Ahh",
-      "persistentUuid": "fb48d4cf-a49c-4700-9f55-18f4a270794c",
-      "width": 240,
-      "x": 2544,
-      "y": 372,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 46,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Load2",
-      "persistentUuid": "4e156b37-d479-463c-8ce6-447850ba7875",
-      "width": 240,
-      "x": 2544,
-      "y": 239,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1152,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Blank_walls",
       "persistentUuid": "6d305cc5-b521-4f00-a9c3-1912283ada77",
       "width": 48,
       "x": 2496,
       "y": 0,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 288,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Blank_walls",
-      "persistentUuid": "d175cc8c-0ae9-41ca-a768-ff4ca6c4fcb4",
-      "width": 240,
-      "x": 2544,
-      "y": 0,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "E_Keys",
-      "persistentUuid": "19d09b54-cf0c-44de-9bcf-8cbca2b33061",
-      "width": 240,
-      "x": 2544,
-      "y": 300,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 720,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Hit_box",
-      "persistentUuid": "93f0bd50-4933-4102-8e3f-e126710973c9",
-      "width": 240,
-      "x": 2544,
-      "y": 288,
-      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1120,10 +1001,10 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "isFolded": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "isFolded": true,
@@ -1153,14 +1034,14 @@
           "IsDestroyedWithParent": false
         }
       ],
-      "string": "E_Keys",
+      "string": "boot",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1176,12 +1057,12 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "E_Keys",
+        "text": "boot",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "center",
-        "characterSize": 20,
-        "color": "0;0;0"
+        "characterSize": 100,
+        "color": "255;255;255"
       }
     },
     {
@@ -1196,12 +1077,15 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": false,
           "isFolded": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": false
         },
         {
+          "isFolded": true,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -1209,15 +1093,12 @@
           "deceleration": 1500,
           "gravity": 0,
           "ignoreDefaultControls": false,
-          "isFolded": true,
           "jumpSpeed": 0,
           "jumpSustainTime": 0,
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -1270,10 +1151,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1339,12 +1220,15 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": false,
           "isFolded": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": false
         },
         {
+          "isFolded": true,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -1352,15 +1236,12 @@
           "deceleration": 1500,
           "gravity": 0,
           "ignoreDefaultControls": false,
-          "isFolded": true,
           "jumpSpeed": 0,
           "jumpSustainTime": 0,
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -2183,111 +2064,6 @@
           "parameters": [
             "",
             "\"Not available in this version.\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Update Alert"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SystemInfo::IsNativeDesktopApp"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PopUp::Alert"
-          },
-          "parameters": [
-            "",
-            "\"An update is available\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "LaunchFile"
-          },
-          "parameters": [
-            "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Load_Menu\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Sticker::Sticker::Stick"
-          },
-          "parameters": [
-            "Ow_Ahh",
-            "Sticker",
-            "Hit_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Sticker::Sticker::Stick"
-          },
-          "parameters": [
-            "E_Keys",
-            "Sticker",
-            "Hit_box",
             ""
           ]
         }
