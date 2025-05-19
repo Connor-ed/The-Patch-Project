@@ -739,6 +739,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Detailmode.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Detailmode.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Autoplay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Autoplay.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1424,6 +1440,188 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AutoPlay",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 276.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 251
+                          },
+                          {
+                            "x": 7,
+                            "y": 220.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 151.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 114.5
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 70.5,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 172.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 234,
+                            "y": 11
+                          },
+                          {
+                            "x": 300.5,
+                            "y": 49.5
+                          },
+                          {
+                            "x": 336,
+                            "y": 106.5
+                          },
+                          {
+                            "x": 350,
+                            "y": 177.5
+                          },
+                          {
+                            "x": 343,
+                            "y": 232
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 284.5
+                          },
+                          {
+                            "x": 271,
+                            "y": 326
+                          },
+                          {
+                            "x": 217,
+                            "y": 346
+                          },
+                          {
+                            "x": 149.5,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 109.5,
+                            "y": 339
+                          },
+                          {
+                            "x": 67.5,
+                            "y": 313.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 350
+                          },
+                          {
+                            "x": 3,
+                            "y": 350
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1443,6 +1641,9 @@
       },
       {
         "objectName": "Global_Blank_Knob"
+      },
+      {
+        "objectName": "AutoPlay"
       },
       {
         "objectName": "Global_Base"
