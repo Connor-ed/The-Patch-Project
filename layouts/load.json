@@ -18,420 +18,12 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.4303403802207831,
+    "zoomFactor": 0.4163025217733512,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 66,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "ebe4c5cf-a5d1-43fb-85b1-e3b397a7c6a5",
-      "width": 113,
-      "x": 1448,
-      "y": 397,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "4a55736e-f964-47d9-accd-73d90d41754e",
-      "width": 113,
-      "x": 1660,
-      "y": 396,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "7161f5fc-562f-4cd5-be3c-a2deb1fe4e2f",
-      "width": 113,
-      "x": 1660,
-      "y": 722,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 225,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "070ad07e-a1fa-4f3c-a0dc-d80dd6fbb074",
-      "width": 113,
-      "x": 1446,
-      "y": 723,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 224,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "2c545e87-40ae-4bb6-a9ae-8f748812c0c6",
-      "width": 113,
-      "x": 1012,
-      "y": 722,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "00ef7645-a9f7-4918-ad80-6b850fb66837",
-      "width": 113,
-      "x": 575,
-      "y": 723,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "389cf5e1-2f07-47df-b6ef-ed467b5c1783",
-      "width": 113,
-      "x": 356,
-      "y": 722,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 358,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "dba70b1d-d054-4be3-97f8-9e1d71b76b69",
-      "width": 113,
-      "x": 137,
-      "y": 722,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "1c9bed7e-0bd7-4ef0-945e-3f41e009885c",
-      "width": 113,
-      "x": 137,
-      "y": 396,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 223,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "45bbee8e-623f-4c5d-b4c4-64125595fd2b",
-      "width": 113,
-      "x": 356,
-      "y": 397,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 226,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "00731966-d985-47a2-a2b8-6ddd87c41b0b",
-      "width": 113,
-      "x": 576,
-      "y": 397,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 222,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "60f35391-006f-4445-a35d-be0d2448d591",
-      "width": 113,
-      "x": 795,
-      "y": 396,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 138,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "cb4c8bae-f173-45cd-aaf8-6bb33213aaa6",
-      "width": 113,
-      "x": 1010,
-      "y": 396,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 226,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob",
-      "persistentUuid": "e86b2106-1522-4f93-a58b-ce1e98dae8ab",
-      "width": 113,
-      "x": 1229,
-      "y": 397,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "27df308c-2e40-4c37-bb24-1465412455a5",
-      "width": 57,
-      "x": 1256,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "870bb6ea-c519-4dad-8a56-51bb6ceefbdf",
-      "width": 57,
-      "x": 1037,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 176,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "1092e3d7-2817-49dd-85b1-eaca8010c177",
-      "width": 57,
-      "x": 1476,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "faf30603-25b7-4625-b5ff-f92574ecf07c",
-      "width": 57,
-      "x": 1689,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 351,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "bf2900b4-85d4-4e67-8400-3ef86507b011",
-      "width": 57,
-      "x": 1259,
-      "y": 750,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "fa5be690-b7dc-43e3-a061-2404c05d6a46",
-      "width": 57,
-      "x": 822,
-      "y": 750,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 181,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "594bdcbc-553e-4e63-9433-affde49a5f08",
-      "width": 57,
-      "x": 383,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "f884c653-ca16-4c44-b318-741a9b622d09",
-      "width": 57,
-      "x": 603,
-      "y": 548,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewToggleSwitch",
-      "persistentUuid": "96ad4dcc-155d-4349-917d-544d5b2fa941",
-      "width": 57,
-      "x": 823,
-      "y": 547,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Menu",
-      "persistentUuid": "3fc255b2-ad50-431c-9b65-52987f818c31",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -572,23 +164,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Lite",
-      "persistentUuid": "80ebaa73-35c7-4cf3-b0eb-f2c908ea4254",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 30,
       "keepRatio": true,
       "layer": "",
@@ -615,6 +190,57 @@
       "x": 720,
       "y": 936,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Menu",
+      "persistentUuid": "8e964ff9-5d7c-4eac-9c8a-364fb45ca9ca",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Lite",
+      "persistentUuid": "6dcdb0c0-cb54-4a98-aedb-47d35872699f",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Knob_overlay",
+      "persistentUuid": "5f31ab19-c863-40a6-91cf-65f414000e75",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1060,7 +686,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "-OW-AHH-",
+      "string": "",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -1083,7 +709,7 @@
         "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
-        "text": "-OW-AHH-",
+        "text": "",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1100,7 +726,7 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Touch to start typing",
+        "placeholder": "",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "search",
@@ -1128,20 +754,7 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "RollingCounter",
-          "type": "RollingCounter::RollingCounter",
-          "Text": "Text",
-          "Prefix": "Score: ",
-          "Suffix": "",
-          "Duration": 1,
-          "Increment": 1,
-          "CounterValue": 0,
-          "DisplayedValue": 0,
-          "Speed": 0
-        }
-      ],
+      "behaviors": [],
       "string": "",
       "font": "",
       "textAlignment": "left",
@@ -1172,6 +785,162 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Knob_overlay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Blank",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank_knob_load.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E_Keys",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E_Keys_v01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ow-Ahh",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ow_Ahh_v01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1197,6 +966,9 @@
       },
       {
         "objectName": "Results"
+      },
+      {
+        "objectName": "Knob_overlay"
       }
     ]
   },
@@ -1560,6 +1332,84 @@
       "comment": "Text Search + Fill\n"
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Return Empty"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1581,7 +1431,7 @@
           "parameters": [
             "NewTextInput",
             "Text",
-            "startsWith",
+            "=",
             "\"E_Keys\""
           ]
         }
@@ -1589,16 +1439,39 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Results",
+            "INST",
             "Text",
             "=",
-            "\"E_Keys\""
+            "\"E_Keys\n\nNo Patch instructions\"\n"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "- Ow_Ahh"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1610,108 +1483,32 @@
           "parameters": [
             "NewTextInput",
             "Text",
-            "contains",
-            "\"e_Keys\""
+            "=",
+            "\"Ow-Ahh\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Results",
-            "Text",
+            "Knob_overlay",
+            "Animation",
             "=",
-            "\"E_Keys\""
+            "2"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"e_keys\""
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Results",
+            "INST",
             "Text",
             "=",
-            "\"E_Keys\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"Keys\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Results",
-            "Text",
-            "=",
-            "\"E_Keys\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"keys\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Results",
-            "Text",
-            "=",
-            "\"E_Keys\""
+            "\"Ow-Ahh\n\nNo Patch instructions\"\n"
           ]
         }
       ]
@@ -1816,10 +1613,6 @@
     {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "RollingCounter",
-      "type": "RollingCounter::RollingCounter"
     },
     {
       "name": "Scale",

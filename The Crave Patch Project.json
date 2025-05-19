@@ -663,6 +663,62 @@
         "name": "updater.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "aagd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aagd.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loading3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Blank_knob_load.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank_knob_load.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Patchertest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Patchertest.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E_Keys_v01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E_Keys_v01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ow_Ahh_v01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ow_Ahh_v01.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
