@@ -1,0 +1,1939 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Load",
+  "name": "Load",
+  "r": 255,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 255,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 48,
+    "gridHeight": 72,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 13880525,
+    "gridAlpha": 1,
+    "snap": true,
+    "zoomFactor": 0.3895856273827471,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 174,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Instuctions",
+      "persistentUuid": "27636d8f-5f88-4c82-ac39-156cd35208fd",
+      "width": 1152,
+      "x": 480,
+      "y": 114,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Play",
+      "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
+      "width": 54,
+      "x": 930,
+      "y": 42,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Editor",
+      "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
+      "width": 54,
+      "x": 1370,
+      "y": 41,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Home",
+      "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
+      "width": 59,
+      "x": 486,
+      "y": 42,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 48,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Detail_mode",
+      "persistentUuid": "18f750c6-f75e-44a3-aac9-7c56bff80c21",
+      "width": 134,
+      "x": 117,
+      "y": 127,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 167,
+      "keepRatio": true,
+      "layer": "",
+      "name": "INST",
+      "persistentUuid": "9587fbd1-7617-485d-9251-174b226b23d2",
+      "width": 1148,
+      "x": 483,
+      "y": 117,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Base",
+      "persistentUuid": "fef62847-ce31-4c1b-ae7d-4db0a77ed81a",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTextInput",
+      "persistentUuid": "4ae79cc9-f004-4304-8a29-2256f50b9269",
+      "width": 599,
+      "x": 100,
+      "y": 938,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Results",
+      "persistentUuid": "69afb5e6-da27-4a15-bda6-0c2b329df160",
+      "width": 1104,
+      "x": 720,
+      "y": 936,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Menu",
+      "persistentUuid": "8e964ff9-5d7c-4eac-9c8a-364fb45ca9ca",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Top_Lite",
+      "persistentUuid": "6dcdb0c0-cb54-4a98-aedb-47d35872699f",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Knob_overlay",
+      "persistentUuid": "5f31ab19-c863-40a6-91cf-65f414000e75",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Detail_overlay_autoplay",
+      "persistentUuid": "38584447-69a3-4f84-a70e-728b95c71f0c",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 271,
+      "customSize": true,
+      "depth": 48,
+      "height": 134,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AutoPlay",
+      "persistentUuid": "7ca78266-9a33-4a85-810f-c54f8fab0fb7",
+      "width": 135,
+      "x": 280,
+      "y": 127,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Knob",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_K.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BCS_K.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewToggleSwitch",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": true,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_S2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 175,
+                            "y": 0
+                          },
+                          {
+                            "x": 175,
+                            "y": 173
+                          },
+                          {
+                            "x": 0,
+                            "y": 173
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_S3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 175,
+                            "y": 0
+                          },
+                          {
+                            "x": 175,
+                            "y": 173
+                          },
+                          {
+                            "x": 0,
+                            "y": 173
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Instuctions",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "",
+        "fontResourceName": "",
+        "fontSize": 20,
+        "inputType": "text area",
+        "textColor": "0;0;0",
+        "fillColor": "248;121;47",
+        "fillOpacity": 100,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": true,
+        "paddingX": 2,
+        "paddingY": 1,
+        "textAlign": "left",
+        "maxLength": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Detail_mode",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 276.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 251
+                          },
+                          {
+                            "x": 7,
+                            "y": 220.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 151.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 114.5
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 70.5,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 172.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 234,
+                            "y": 11
+                          },
+                          {
+                            "x": 300.5,
+                            "y": 49.5
+                          },
+                          {
+                            "x": 336,
+                            "y": 106.5
+                          },
+                          {
+                            "x": 350,
+                            "y": 177.5
+                          },
+                          {
+                            "x": 343,
+                            "y": 232
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 284.5
+                          },
+                          {
+                            "x": 271,
+                            "y": 326
+                          },
+                          {
+                            "x": 217,
+                            "y": 346
+                          },
+                          {
+                            "x": 149.5,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 109.5,
+                            "y": 339
+                          },
+                          {
+                            "x": 67.5,
+                            "y": 313.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 350
+                          },
+                          {
+                            "x": 3,
+                            "y": 350
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "INST",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 255,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewTextInput",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Search...",
+        "fontResourceName": "",
+        "fontSize": 20,
+        "inputType": "search",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false,
+        "paddingX": 2,
+        "paddingY": 1,
+        "textAlign": "left",
+        "maxLength": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Results",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Knob_overlay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Blank",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank_knob_load.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E_Keys",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E_Keys_v01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ow-Ahh",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ow_Ahh_v01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Detail_overlay_autoplay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Autoplay.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 372,
+                        "y": 289
+                      },
+                      {
+                        "x": 1256,
+                        "y": 289
+                      },
+                      {
+                        "x": 1256,
+                        "y": 386
+                      },
+                      {
+                        "x": 372,
+                        "y": 386
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Knob"
+      },
+      {
+        "objectName": "NewToggleSwitch"
+      },
+      {
+        "objectName": "Instuctions"
+      },
+      {
+        "objectName": "Detail_mode"
+      },
+      {
+        "objectName": "INST"
+      },
+      {
+        "objectName": "NewTextInput"
+      },
+      {
+        "objectName": "Results"
+      },
+      {
+        "objectName": "Knob_overlay"
+      },
+      {
+        "objectName": "Detail_overlay_autoplay"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Not used"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"r\""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Top menu buttons"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Editor",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "detail Mode"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Detail_mode",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Lite",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Detail_mode",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Lite",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Top Menu Animtion"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Play",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Editor",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Animation",
+            "=",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Text Search + Fill\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Return Empty"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "- E_Keys"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"E_Keys\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"E_Keys\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"E_Keys\n\nNo Patch instructions\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"E_Keys\" "
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "AutoPlay",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "E Keys2.wav",
+            "1",
+            "50",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"E_Keys\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Play",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "E Keys2.wav",
+            "1",
+            "50",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "- Ow_Ahh"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"Ow-Ahh\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"Ow-Ahh\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Ow-Ahh\n\nNo Patch instructions\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"Ow-Ahh\" "
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "AutoPlay",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh .wav",
+            "1",
+            "50",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"Ow-Ahh\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Play",
+            "",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh .wav",
+            "1",
+            "50",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "top",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

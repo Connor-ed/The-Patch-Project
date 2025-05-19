@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Preload",
+  "firstLayout": "Quick_Check",
   "gdVersion": {
     "build": 231,
     "major": 5,
@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.0.0",
+    "version": "0.2.2",
     "name": "The Crave Patch Project",
     "description": "",
-    "author": "",
+    "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/testelect2",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/t13242",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -60,18 +60,18 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "LoadingScreenBackground",
+      "backgroundImageResourceName": "loading.png",
       "gdevelopLogoStyle": "dark",
-      "logoAndProgressFadeInDuration": 0.2,
-      "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 2,
-      "progressBarColor": 16777215,
-      "progressBarHeight": 20,
-      "progressBarMaxWidth": 200,
-      "progressBarMinWidth": 40,
-      "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
-      "showProgressBar": true
+      "logoAndProgressFadeInDuration": 0.5,
+      "logoAndProgressLogoFadeInDelay": 0.5,
+      "minDuration": 1,
+      "progressBarColor": 0,
+      "progressBarHeight": 1,
+      "progressBarMaxWidth": 400,
+      "progressBarMinWidth": 1,
+      "progressBarWidthPercent": 100,
+      "showGDevelopSplash": false,
+      "showProgressBar": false
     },
     "watermark": {
       "placement": "bottom-left",
@@ -578,6 +578,189 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "app icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "app icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_patch_into.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Crave_patch_into.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Square White Slider Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Fill Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Thumb2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loading2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "updater.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "updater.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "aagd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aagd.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loading3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Blank_knob_load.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank_knob_load.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Patchertest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Patchertest.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E_Keys_v01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E_Keys_v01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ow_Ahh_v01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ow_Ahh_v01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E Keys2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "E Keys2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ow - Ahh .wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ow - Ahh .wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Detailmode.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Detailmode.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Autoplay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Autoplay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "App_Icon_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "App_Icon_new.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1265,6 +1448,188 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AutoPlay",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      },
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 276.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 251
+                          },
+                          {
+                            "x": 7,
+                            "y": 220.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 151.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 114.5
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 70.5,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 172.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 234,
+                            "y": 11
+                          },
+                          {
+                            "x": 300.5,
+                            "y": 49.5
+                          },
+                          {
+                            "x": 336,
+                            "y": 106.5
+                          },
+                          {
+                            "x": 350,
+                            "y": 177.5
+                          },
+                          {
+                            "x": 343,
+                            "y": 232
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 284.5
+                          },
+                          {
+                            "x": 271,
+                            "y": 326
+                          },
+                          {
+                            "x": 217,
+                            "y": 346
+                          },
+                          {
+                            "x": 149.5,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 109.5,
+                            "y": 339
+                          },
+                          {
+                            "x": 67.5,
+                            "y": 313.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BCS_K3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 1
+                          },
+                          {
+                            "x": 350,
+                            "y": 350
+                          },
+                          {
+                            "x": 3,
+                            "y": 350
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1286,6 +1651,9 @@
         "objectName": "Global_Blank_Knob"
       },
       {
+        "objectName": "AutoPlay"
+      },
+      {
         "objectName": "Global_Base"
       },
       {
@@ -1298,10 +1666,6 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/preload"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/boot"
     },
     {
@@ -1310,11 +1674,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load_cded_e_keys_1"
+      "referenceTo": "/layouts/load"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load_cded_ow-ahh"
+      "referenceTo": "/layouts/quick_check"
     }
   ],
   "externalEvents": [],
@@ -1398,6 +1762,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rollingcounter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/clipboard"
     }
   ],
   "externalLayouts": []
