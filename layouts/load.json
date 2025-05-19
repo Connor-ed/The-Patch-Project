@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.30887412163427974,
+    "zoomFactor": 0.3895856273827471,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -246,7 +246,7 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 271,
       "customSize": true,
       "depth": 48,
       "height": 134,
@@ -1428,15 +1428,6 @@
       "actions": [
         {
           "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
@@ -1539,6 +1530,15 @@
       "actions": [
         {
           "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "PlaySoundCanal"
           },
           "parameters": [
@@ -1588,6 +1588,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "PlaySoundCanal"
@@ -1717,7 +1726,7 @@
           "parameters": [
             "Global_Play",
             "",
-            "",
+            "yes",
             ""
           ]
         },
