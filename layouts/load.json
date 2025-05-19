@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.4163025217733512,
+    "zoomFactor": 0.44485159988868506,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1111,14 +1111,11 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "StopSoundCanal"
           },
           "parameters": [
             "",
-            "Simple Pluck - 1.wav",
-            "",
-            "50",
-            ""
+            "1"
           ]
         }
       ]
@@ -1387,6 +1384,15 @@
       "actions": [
         {
           "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
@@ -1439,6 +1445,15 @@
       "actions": [
         {
           "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
@@ -1457,6 +1472,19 @@
             "Text",
             "=",
             "\"E_Keys\n\nNo Patch instructions\"\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "E Keys2.wav",
+            "1",
+            "50",
+            "50",
+            "1"
           ]
         }
       ]
@@ -1491,6 +1519,15 @@
       "actions": [
         {
           "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
@@ -1509,6 +1546,19 @@
             "Text",
             "=",
             "\"Ow-Ahh\n\nNo Patch instructions\"\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh .wav",
+            "1",
+            "50",
+            "50",
+            "1"
           ]
         }
       ]

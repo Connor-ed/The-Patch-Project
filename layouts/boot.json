@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4303403802207759,
+    "zoomFactor": 0.4027225833326012,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1505,6 +1505,52 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Share",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Clipboard::WriteText"
+          },
+          "parameters": [
+            "",
+            "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PopUp::Alert"
+          },
+          "parameters": [
+            "",
+            "\"Copied to Clipboard\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2118,6 +2164,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

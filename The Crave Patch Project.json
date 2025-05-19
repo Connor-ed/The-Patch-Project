@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.2.2",
+    "version": "0.2.1",
     "name": "The Crave Patch Project",
     "description": "",
     "author": "The Crave Patch Project",
@@ -64,7 +64,7 @@
       "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0.5,
       "logoAndProgressLogoFadeInDelay": 0.5,
-      "minDuration": 5,
+      "minDuration": 1,
       "progressBarColor": 0,
       "progressBarHeight": 1,
       "progressBarMaxWidth": 400,
@@ -718,6 +718,26 @@
         "metadata": "",
         "name": "Ow_Ahh_v01.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E Keys2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "E Keys2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ow - Ahh .wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ow - Ahh .wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -1452,12 +1472,7 @@
       "referenceTo": "/layouts/quick_check"
     }
   ],
-  "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/untitled-external-events"
-    }
-  ],
+  "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1542,6 +1557,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/rollingcounter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/clipboard"
     }
   ],
   "externalLayouts": []
