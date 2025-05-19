@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "name": "The Crave Patch Project",
     "description": "",
     "author": "The Crave Patch Project",
@@ -753,6 +753,14 @@
         "kind": "image",
         "metadata": "",
         "name": "Autoplay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "App_Icon_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "App_Icon_new.png",
         "smoothed": true,
         "userAdded": false
       }

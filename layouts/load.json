@@ -1420,6 +1420,33 @@
           "parameters": [
             "NewTextInput",
             "Text",
+            "contains",
+            "\"\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
             "=",
             "\"\""
           ]
@@ -1461,6 +1488,33 @@
         "textR": 0
       },
       "comment": "- E_Keys"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"E_Keys\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1518,7 +1572,6 @@
         },
         {
           "type": {
-            "inverted": true,
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
           "parameters": [
@@ -1528,15 +1581,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
         {
           "type": {
             "value": "PlaySoundCanal"
@@ -1590,15 +1634,6 @@
       "actions": [
         {
           "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySoundCanal"
           },
           "parameters": [
@@ -1623,6 +1658,33 @@
         "textR": 0
       },
       "comment": "- Ow_Ahh"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "contains",
+            "\"Ow-Ahh\" "
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1680,7 +1742,6 @@
         },
         {
           "type": {
-            "inverted": true,
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
           "parameters": [
@@ -1741,6 +1802,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "PlaySoundCanal"
