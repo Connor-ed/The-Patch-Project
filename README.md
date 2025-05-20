@@ -8,7 +8,9 @@ Test the stable version [Here](https://cravepatcher.edgingtondesmet.com) (mobile
 
 ![BCS_PROMO](https://github.com/user-attachments/assets/47ce02f8-b92a-4ee8-a10e-3f3ca5e6c144)
 
-* Presets are currently in development.  
+Would you like to contribute to this project? All assets needed to start can be found in the project [source code](https://github.com/Connor-ed/The-Crave-Patch-Project.git). we use GDevlop to build this app and it can be downloaded [here](https://gdevelop.io) 
+
+We use [Contributor Covenant Code of Conduct](https://github.com/Connor-ed/The-Crave-Patch-Project/blob/main/CODE_OF_CONDUCT.md) and we ask you to read this before you contribute.
 
 
 
