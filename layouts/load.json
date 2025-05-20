@@ -18,251 +18,18 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.3895856273827471,
+    "zoomFactor": 0.40272258333261085,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [
+  "variables": [
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 174,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Instuctions",
-      "persistentUuid": "27636d8f-5f88-4c82-ac39-156cd35208fd",
-      "width": 1152,
-      "x": 480,
-      "y": 114,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 55,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Play",
-      "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
-      "width": 54,
-      "x": 930,
-      "y": 42,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 55,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Editor",
-      "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
-      "width": 54,
-      "x": 1370,
-      "y": 41,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 54,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Home",
-      "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
-      "width": 59,
-      "x": 486,
-      "y": 42,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 48,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_mode",
-      "persistentUuid": "18f750c6-f75e-44a3-aac9-7c56bff80c21",
-      "width": 134,
-      "x": 117,
-      "y": 127,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 167,
-      "keepRatio": true,
-      "layer": "",
-      "name": "INST",
-      "persistentUuid": "9587fbd1-7617-485d-9251-174b226b23d2",
-      "width": 1148,
-      "x": 483,
-      "y": 117,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Base",
-      "persistentUuid": "fef62847-ce31-4c1b-ae7d-4db0a77ed81a",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 30,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewTextInput",
-      "persistentUuid": "4ae79cc9-f004-4304-8a29-2256f50b9269",
-      "width": 599,
-      "x": 100,
-      "y": 938,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Results",
-      "persistentUuid": "69afb5e6-da27-4a15-bda6-0c2b329df160",
-      "width": 1104,
-      "x": 720,
-      "y": 936,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Menu",
-      "persistentUuid": "8e964ff9-5d7c-4eac-9c8a-364fb45ca9ca",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Lite",
-      "persistentUuid": "6dcdb0c0-cb54-4a98-aedb-47d35872699f",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Knob_overlay",
-      "persistentUuid": "5f31ab19-c863-40a6-91cf-65f414000e75",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_overlay_autoplay",
-      "persistentUuid": "38584447-69a3-4f84-a70e-728b95c71f0c",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 271,
-      "customSize": true,
-      "depth": 48,
-      "height": 134,
-      "keepRatio": true,
-      "layer": "",
-      "name": "AutoPlay",
-      "persistentUuid": "7ca78266-9a33-4a85-810f-c54f8fab0fb7",
-      "width": 135,
-      "x": 280,
-      "y": 127,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "name": "E_Keys",
+      "type": "number",
+      "value": 1
     }
   ],
+  "instances": [],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1018,6 +785,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "E_Keys_Overlay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E_Keys_v02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1237
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1237
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1048,11 +875,50 @@
         "objectName": "Knob_overlay"
       },
       {
+        "objectName": "E_Keys_Overlay"
+      },
+      {
         "objectName": "Detail_overlay_autoplay"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"blank\"",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetWindowTitle"
+          },
+          "parameters": [
+            "yes",
+            "\"The Crave Patch Project\""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -1411,6 +1277,7 @@
       "comment": "Return Empty"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1438,6 +1305,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1490,6 +1358,7 @@
       "comment": "- E_Keys"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1507,7 +1376,7 @@
       "actions": [
         {
           "type": {
-            "value": "StopSoundCanal"
+            "value": "PauseSoundCanal"
           },
           "parameters": [
             "",
@@ -1517,6 +1386,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1557,6 +1427,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1597,6 +1468,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1677,7 +1549,7 @@
       "actions": [
         {
           "type": {
-            "value": "StopSoundCanal"
+            "value": "PauseSoundCanal"
           },
           "parameters": [
             "",
@@ -1804,7 +1676,7 @@
       "actions": [
         {
           "type": {
-            "value": "StopSoundCanal"
+            "value": "PauseSoundCanal"
           },
           "parameters": [
             "",
@@ -1822,6 +1694,59 @@
             "50",
             "50",
             "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Test build"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "NewTextInput",
+            "Text",
+            "=",
+            "\"E_Keys\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"E_Keys\"",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "\"E_Keys\""
           ]
         }
       ]

@@ -24,7 +24,7 @@
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/t13242",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.2.2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -761,6 +761,46 @@
         "kind": "image",
         "metadata": "",
         "name": "App_Icon_new.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E_Keys_v02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E_Keys_v02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "App_Icon_size_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "App_Icon_size_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loading4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading4.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1679,9 +1719,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quick_check"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/layouts"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/load_events"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1770,7 +1819,24 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/clipboard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/doubleclick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/e_keys"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/blank"
+    }
+  ]
 }
