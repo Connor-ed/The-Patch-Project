@@ -1,0 +1,67 @@
+{
+  "author": "",
+  "category": "User interface",
+  "extensionNamespace": "",
+  "fullName": "Pause when losing focus",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXBsYXktcGF1c2UiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyw1VjE5TDExLDEyTTEzLDE5SDE2VjVIMTNNMTgsNVYxOUgyMVY1IiAvPjwvc3ZnPg==",
+  "name": "PauseFocusLost",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/play-pause.svg",
+  "shortDescription": "Pauses when focus is lost, restarts when focus is regained.",
+  "version": "0.0.2",
+  "description": [
+    "When the game loses focus, either because you switch windows, open another tab in the browser or for any other reason, the game is paused and muted.",
+    "",
+    "When focus is regained, the game continues."
+  ],
+  "origin": {
+    "identifier": "PauseFocusLost",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "pause",
+    "focus"
+  ],
+  "authorIds": [
+    "6gSSmzTTyVOHCx0jw8I9OFeI0aR2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Pause when game lost focus.",
+      "fullName": "Active pause on blur",
+      "functionType": "Action",
+      "name": "Active",
+      "sentence": "Pause when game lost focus",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "var sound_manager = runtimeScene.getGame().getSoundManager();\r",
+            "var volumen = sound_manager.getGlobalVolume();\r",
+            "\r",
+            "window.addEventListener('focus', function (event) {\r",
+            "sound_manager.setGlobalVolume(volumen);\r",
+            "runtimeScene.getGame().pause(false);\r",
+            "});\r",
+            "\r",
+            "window.addEventListener('blur', function (event) {\r",
+            "sound_manager.setGlobalVolume(0);\r",
+            "runtimeScene.getGame().pause(true);\r",
+            "});"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

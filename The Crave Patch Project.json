@@ -803,6 +803,116 @@
         "name": "loading4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "App_Icon_size_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "App_Icon_size_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E Keys3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "E Keys3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "E Keys4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "E Keys4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ow - Ahh1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ow - Ahh1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1702,7 +1812,13 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Patchloading_",
+      "type": "string",
+      "value": "E_Keys"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1718,19 +1834,14 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/quick_check"
+      "referenceTo": "/layouts/load_patch"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/layouts"
+      "referenceTo": "/layouts/quick_check"
     }
   ],
-  "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/load_events"
-    }
-  ],
+  "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1827,16 +1938,32 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/extendedvariables"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pausefocuslost"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/getpropertiesdata"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/record"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
     }
   ],
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/e_keys"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/blank"
     }
   ]
 }
