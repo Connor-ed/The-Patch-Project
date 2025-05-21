@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.27962265218395094,
+    "zoomFactor": 0.45985214267365543,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -883,13 +883,13 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Use Left Click to move knobs forwards. Use Right Click to move knobs backwards. Use R to reset postion.",
+        "placeholder": "Use left-click to move knobs forwards, right-click to move backward, and double-click to reset. You can use this field to type instructions by clicking any typing.",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "text area",
         "textColor": "0;0;0",
         "fillColor": "248;121;47",
-        "fillOpacity": 100,
+        "fillOpacity": 255,
         "borderColor": "0;0;0",
         "borderOpacity": 255,
         "borderWidth": 1,
@@ -1268,7 +1268,6 @@
       "comment": "Beta Alert"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1283,12 +1282,11 @@
       "actions": [
         {
           "type": {
-            "value": "PopUp::Alert"
+            "value": "SetWindowTitle"
           },
           "parameters": [
-            "",
-            "\"This is an early version of (The Crave Patch Project). Errors may occur.\"",
-            ""
+            "yes",
+            "\"The Crave Patch Project\""
           ]
         }
       ]
@@ -1337,7 +1335,7 @@
           "parameters": [
             "Knob",
             "30",
-            ""
+            "30"
           ]
         }
       ]
@@ -1395,11 +1393,12 @@
         },
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "DoubleClick::HasDoubleClicked"
           },
           "parameters": [
             "",
-            "\"r\""
+            "\"Left\"",
+            ""
           ]
         }
       ],

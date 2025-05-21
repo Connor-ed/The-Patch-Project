@@ -289,7 +289,7 @@
       "name": "Loading_alert",
       "persistentUuid": "587bfaf4-b8fe-4d7c-845c-07b3c3daa57c",
       "width": 144,
-      "x": 0,
+      "x": 1776,
       "y": 936,
       "zOrder": 25,
       "numberProperties": [],
@@ -1377,10 +1377,22 @@
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "9.png",
+                  "image": "60.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1416,7 +1428,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "10.png",
+                  "image": "61.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1452,7 +1464,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "11.png",
+                  "image": "62.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1488,7 +1500,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "12.png",
+                  "image": "63.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1524,7 +1536,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "13.png",
+                  "image": "64.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1560,7 +1572,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "14.png",
+                  "image": "65.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1596,7 +1608,43 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "15.png",
+                  "image": "66.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 87,
+                        "y": 87
+                      },
+                      {
+                        "x": 937,
+                        "y": 87
+                      },
+                      {
+                        "x": 937,
+                        "y": 936
+                      },
+                      {
+                        "x": 87,
+                        "y": 936
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "67.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1777,6 +1825,65 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetWindowTitle"
+          },
+          "parameters": [
+            "yes",
+            "\"The Crave Patch Project\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"b\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -1926,20 +2033,13 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "Loading_alert",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetWindowTitle"
-          },
-          "parameters": [
-            "yes",
-            "\"Loading\""
+            "Animation",
+            "=",
+            "1"
           ]
         },
         {
@@ -1951,6 +2051,15 @@
             "Opacity",
             "=",
             "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetWindowTitle"
+          },
+          "parameters": [
+            "yes",
+            "\"Loading\""
           ]
         }
       ]
@@ -2041,11 +2150,13 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "Loading_alert",
-            "Animation"
+            "Animation",
+            "=",
+            "1"
           ]
         },
         {
@@ -2080,7 +2191,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "quit"
+      "comment": "buttons"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2265,22 +2376,6 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
         {
           "type": {
             "value": "DepartScene"

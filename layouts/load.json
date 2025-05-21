@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.41630252177335386,
+    "zoomFactor": 0.4753585087127178,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -235,23 +235,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_overlay_autoplay",
-      "persistentUuid": "d55028be-d847-4a87-8cbc-e2b2cb1101d3",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 271,
       "customSize": true,
       "depth": 48,
@@ -264,6 +247,40 @@
       "x": 280,
       "y": 127,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Loading_alert",
+      "persistentUuid": "2f5ff7be-271d-49e9-955f-254055b9bb0d",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Detail_overlay_autoplay",
+      "persistentUuid": "67e16e2f-e0e8-4722-9ef4-faf8e33e7da7",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -985,7 +1002,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Autoplay.png",
+                  "image": "Detailmode2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1005,11 +1022,11 @@
                         "y": 289
                       },
                       {
-                        "x": 1256,
+                        "x": 778,
                         "y": 289
                       },
                       {
-                        "x": 1256,
+                        "x": 778,
                         "y": 386
                       },
                       {
@@ -1123,6 +1140,30 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetWindowTitle"
+          },
+          "parameters": [
+            "yes",
+            "\"The Crave Patch Project\""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1170,6 +1211,35 @@
                 "Animation",
                 "=",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Play",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "2"
               ]
             }
           ]
@@ -1347,7 +1417,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Patch Loading",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1412,16 +1481,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Click the search bar below to look for patch sheets\n\nCurrent sheets:\n- E_Keys | - E_Keys | - E_Keys\n\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseMusicCanal"
-              },
-              "parameters": [
-                "",
-                "10"
+                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh |\n\""
               ]
             }
           ],
@@ -1453,7 +1513,6 @@
           "comment": "E_Keys"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1463,7 +1522,7 @@
               "parameters": [
                 "Searchbar",
                 "Text",
-                "contains",
+                "=",
                 "\"E_Keys\""
               ]
             }
@@ -1490,45 +1549,12 @@
                 "=",
                 "\"E_Keys\n\nNo patch details given\""
               ]
-            },
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "E Keys4.wav",
-                "10",
-                "50",
-                "1",
-                ""
-              ]
             }
           ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "Searchbar",
-                    "Text",
-                    "contains",
-                    "\"Ow-Ahh\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SourisSurObjet"
@@ -1538,6 +1564,15 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -1551,7 +1586,7 @@
                     "E Keys4.wav",
                     "10",
                     "50",
-                    "1",
+                    "50",
                     ""
                   ]
                 }
@@ -1572,7 +1607,6 @@
           "comment": "Ow-Ahh"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1582,7 +1616,7 @@
               "parameters": [
                 "Searchbar",
                 "Text",
-                "contains",
+                "=",
                 "\"Ow-Ahh\""
               ]
             }
@@ -1609,45 +1643,12 @@
                 "=",
                 "\"Ow-Ahh\n\nNo patch details given\""
               ]
-            },
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "Ow - Ahh1.wav",
-                "10",
-                "50",
-                "1",
-                ""
-              ]
             }
           ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "Searchbar",
-                    "Text",
-                    "contains",
-                    "\"Ow-Ahh\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SourisSurObjet"
@@ -1657,6 +1658,15 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -1670,7 +1680,7 @@
                     "Ow - Ahh1.wav",
                     "10",
                     "50",
-                    "1",
+                    "50",
                     ""
                   ]
                 }
@@ -1680,6 +1690,121 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Audio Playing alert",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
