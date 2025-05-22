@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3411856023473457,
+    "zoomFactor": 0.4163025217733335,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -54,6 +54,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Loading_alert",
+      "persistentUuid": "06320fc7-5f00-4657-ac49-a1d605e3e7ee",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -194,6 +211,74 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"a\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetWindowTitle"
+          },
+          "parameters": [
+            "yes",
+            "\"The Crave Patch Project\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Load\""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -278,6 +363,17 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"a\"",
+            ">=",
+            "2"
+          ]
         }
       ],
       "actions": [
@@ -292,11 +388,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

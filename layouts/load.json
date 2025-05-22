@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,12 +17,18 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": true,
-    "zoomFactor": 0.3895856273827471,
+    "snap": false,
+    "zoomFactor": 0.38958562738274893,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "E_Keys",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -32,7 +38,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Instuctions",
-      "persistentUuid": "27636d8f-5f88-4c82-ac39-156cd35208fd",
+      "persistentUuid": "cd561593-aad0-4c52-be15-97d6c0576000",
       "width": 1152,
       "x": 480,
       "y": 114,
@@ -49,7 +55,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Play",
-      "persistentUuid": "8f85767d-13ec-4733-93df-27ee9d520178",
+      "persistentUuid": "47750119-af4a-44d1-85db-28eadbd8786b",
       "width": 54,
       "x": 930,
       "y": 42,
@@ -66,7 +72,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Editor",
-      "persistentUuid": "df7ff77f-e768-4dec-b6d0-46abd7ca2cdd",
+      "persistentUuid": "5e449fa5-cb02-4885-b38d-0eb2dbfa7a59",
       "width": 54,
       "x": 1370,
       "y": 41,
@@ -83,7 +89,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Home",
-      "persistentUuid": "aea7344a-4886-44de-a397-08c6a629130f",
+      "persistentUuid": "c71ece13-6692-4250-83ee-f823fe3523e1",
       "width": 59,
       "x": 486,
       "y": 42,
@@ -100,7 +106,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Detail_mode",
-      "persistentUuid": "18f750c6-f75e-44a3-aac9-7c56bff80c21",
+      "persistentUuid": "f839c8e2-1987-4faa-b7a9-ddae007955b0",
       "width": 134,
       "x": 117,
       "y": 127,
@@ -117,7 +123,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "INST",
-      "persistentUuid": "9587fbd1-7617-485d-9251-174b226b23d2",
+      "persistentUuid": "02df97ed-11a5-4706-95a5-aa024ce69e63",
       "width": 1148,
       "x": 483,
       "y": 117,
@@ -134,7 +140,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Base",
-      "persistentUuid": "fef62847-ce31-4c1b-ae7d-4db0a77ed81a",
+      "persistentUuid": "4c2b5f3a-f339-4fe9-8223-301042b4f284",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -150,8 +156,8 @@
       "height": 30,
       "keepRatio": true,
       "layer": "",
-      "name": "NewTextInput",
-      "persistentUuid": "4ae79cc9-f004-4304-8a29-2256f50b9269",
+      "name": "Searchbar",
+      "persistentUuid": "e4fcffc0-fb40-419f-83dc-97d44a0b9287",
       "width": 599,
       "x": 100,
       "y": 938,
@@ -168,7 +174,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Results",
-      "persistentUuid": "69afb5e6-da27-4a15-bda6-0c2b329df160",
+      "persistentUuid": "7e777603-a480-4360-b626-acde234e8bfb",
       "width": 1104,
       "x": 720,
       "y": 936,
@@ -185,7 +191,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Top_Menu",
-      "persistentUuid": "8e964ff9-5d7c-4eac-9c8a-364fb45ca9ca",
+      "persistentUuid": "2f5130d6-6a10-4c73-a79f-5f522edcc5e6",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -202,7 +208,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Top_Lite",
-      "persistentUuid": "6dcdb0c0-cb54-4a98-aedb-47d35872699f",
+      "persistentUuid": "033db11d-ca8d-4b36-95dd-977eba434bcb",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -219,28 +225,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Knob_overlay",
-      "persistentUuid": "5f31ab19-c863-40a6-91cf-65f414000e75",
+      "persistentUuid": "2ef22a43-8b99-4d91-88de-bfad66903ca9",
       "width": 1920,
       "x": 0,
       "y": 0,
       "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_overlay_autoplay",
-      "persistentUuid": "38584447-69a3-4f84-a70e-728b95c71f0c",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -253,11 +242,62 @@
       "keepRatio": true,
       "layer": "",
       "name": "AutoPlay",
-      "persistentUuid": "7ca78266-9a33-4a85-810f-c54f8fab0fb7",
+      "persistentUuid": "54399894-db3a-471e-b5f3-677ca9c0470e",
       "width": 135,
       "x": 280,
       "y": 127,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Loading_alert",
+      "persistentUuid": "2f5ff7be-271d-49e9-955f-254055b9bb0d",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Detail_overlay_autoplay",
+      "persistentUuid": "67e16e2f-e0e8-4722-9ef4-faf8e33e7da7",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tri_Blank_",
+      "persistentUuid": "d07306d7-47bf-43c2-b286-59acb9184cce",
+      "width": 102,
+      "x": 1687,
+      "y": 189,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -703,7 +743,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "basic start",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -726,7 +766,7 @@
         "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
-        "text": "",
+        "text": "basic start",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -736,7 +776,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewTextInput",
+      "name": "Searchbar",
       "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
@@ -979,7 +1019,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Autoplay.png",
+                  "image": "Detailmode2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -999,16 +1039,76 @@
                         "y": 289
                       },
                       {
-                        "x": 1256,
+                        "x": 778,
                         "y": 289
                       },
                       {
-                        "x": 1256,
+                        "x": 778,
                         "y": 386
                       },
                       {
                         "x": 372,
                         "y": 386
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "E_Keys_Overlay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "E_Keys_v02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1237
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1237
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
                       }
                     ]
                   ]
@@ -1039,7 +1139,7 @@
         "objectName": "INST"
       },
       {
-        "objectName": "NewTextInput"
+        "objectName": "Searchbar"
       },
       {
         "objectName": "Results"
@@ -1048,70 +1148,22 @@
         "objectName": "Knob_overlay"
       },
       {
+        "objectName": "E_Keys_Overlay"
+      },
+      {
         "objectName": "Detail_overlay_autoplay"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Not used"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "\"r\""
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Top menu buttons"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Editor",
-            "",
-            "",
             ""
           ]
         }
@@ -1119,11 +1171,11 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "SetWindowTitle"
           },
           "parameters": [
-            "",
-            "\"Editor\""
+            "yes",
+            "\"The Crave Patch Project\""
           ]
         }
       ]
@@ -1133,21 +1185,9 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Home",
-            "",
-            "",
             ""
           ]
         }
@@ -1155,14 +1195,635 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "",
-            "\"Boot\""
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Menu Animation",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Top Menu Animtion"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Home",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Play",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Home",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "=",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Global_Top_Menu",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Home",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Boot\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Editor",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Editor",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Editor\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Patch Loading",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Loading"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blank"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Searchbar",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Blank\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh |\n\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This returns a blank section. A current issue is that audio will overlap if two tracks are played at the same time."
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "E_Keys"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Searchbar",
+                "Text",
+                "=",
+                "\"E_Keys\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"E_Keys\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"E_Keys\n\nNo patch details given\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "E Keys4.wav",
+                    "10",
+                    "50",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ow-Ahh"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Searchbar",
+                "Text",
+                "=",
+                "\"Ow-Ahh\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Ow-Ahh\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Ow-Ahh\n\nNo patch details given\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ow - Ahh1.wav",
+                    "10",
+                    "50",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Audio Playing alert",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Loading_alert",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1181,6 +1842,33 @@
       "conditions": [
         {
           "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Detail_mode",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Global_Top_Lite",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
           },
@@ -1206,625 +1894,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "Detail_mode",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Lite",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Top Menu Animtion"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Home",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Menu",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Home",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Menu",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Play",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Menu",
-            "Animation",
-            "=",
-            "2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Editor",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Global_Top_Menu",
-            "Animation",
-            "=",
-            "3"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Text Search + Fill\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "INST",
-            "Text",
-            "=",
-            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\"\n"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Return Empty"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"\" "
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "=",
-            "\"\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Knob_overlay",
-            "Animation",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "INST",
-            "Text",
-            "=",
-            "\"Type the name of your desired sheet in the search bar below.\n\n*Case sensitive*\nCurrent options are limited to E_Keys & Ow-Ahh\n\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "- E_Keys"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"E_Keys\" "
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"E_Keys\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Knob_overlay",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "INST",
-            "Text",
-            "=",
-            "\"E_Keys\n\nNo Patch instructions\"\n"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"E_Keys\" "
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "AutoPlay",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "E Keys2.wav",
-            "1",
-            "50",
-            "50",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"E_Keys\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Play",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "E Keys2.wav",
-            "1",
-            "50",
-            "50",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "- Ow_Ahh"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"Ow-Ahh\" "
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"Ow-Ahh\" "
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Knob_overlay",
-            "Animation",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "INST",
-            "Text",
-            "=",
-            "\"Ow-Ahh\n\nNo Patch instructions\"\n"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"Ow-Ahh\" "
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-          },
-          "parameters": [
-            "AutoPlay",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Ow - Ahh .wav",
-            "1",
-            "50",
-            "50",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::Value"
-          },
-          "parameters": [
-            "NewTextInput",
-            "Text",
-            "contains",
-            "\"Ow-Ahh\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Play",
-            "",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Ow - Ahh .wav",
-            "1",
-            "50",
-            "50",
-            "1"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
