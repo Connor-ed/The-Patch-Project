@@ -330,17 +330,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"a\"",
-            ">=",
-            "2"
-          ]
-        },
-        {
-          "type": {
             "value": "PopUp::ConfimationResponse"
           },
           "parameters": [
@@ -367,6 +356,16 @@
       "conditions": [
         {
           "type": {
+            "inverted": true,
+            "value": "UpdateChecker::UpdateAvailable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
@@ -374,16 +373,6 @@
             "\"a\"",
             ">=",
             "2"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
           ]
         }
       ],
