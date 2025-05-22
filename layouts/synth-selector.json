@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Synth_32Selector",
   "name": "Synth Selector",
-  "r": 209,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 255,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,12 +18,319 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.15392788923483275,
+    "zoomFactor": 0.5079575118131753,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Crave_Preview",
+      "persistentUuid": "7bfaa711-f64f-4242-8c0e-20124ec9ba19",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "4b629f77-8a83-49a8-9353-06002ff5d03c",
+      "width": 114,
+      "x": 137,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "50a21339-7f11-4656-a51b-5f82355b9815",
+      "width": 114,
+      "x": 357,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "42f4d2c7-279f-445c-a6b0-0ccecde2ff0e",
+      "width": 114,
+      "x": 576,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "45ccb24d-2e1c-46de-9461-62cac32292a2",
+      "width": 114,
+      "x": 794,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "abbe9097-b8a3-4b41-a131-c174c9f5e601",
+      "width": 114,
+      "x": 1009,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "5087c4a0-54d3-4a71-ae37-258e544a8dbe",
+      "width": 114,
+      "x": 1229,
+      "y": 397,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "f6834b51-8935-41b2-aee7-7ae9dc1ff07e",
+      "width": 114,
+      "x": 1448,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "913cd730-8be4-4c6f-9246-226a3ed1e6d2",
+      "width": 114,
+      "x": 1661,
+      "y": 396,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "8d4a49ad-6fcd-4f27-9f86-1785da617392",
+      "width": 114,
+      "x": 137,
+      "y": 724,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "b8fcdac5-c6bd-437c-a14a-4d3ba4dbb9ec",
+      "width": 114,
+      "x": 358,
+      "y": 723,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "e4968553-46a7-4229-b59a-aabc1a5915ea",
+      "width": 114,
+      "x": 575,
+      "y": 721,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "778f4daa-5ed7-4bd1-ab32-ee9816337b25",
+      "width": 114,
+      "x": 794,
+      "y": 721,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "fce566b7-3b78-4766-88f7-08e57b2f8be5",
+      "width": 114,
+      "x": 1011,
+      "y": 724,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "d2e90e35-5df7-462c-bf82-426a62f82739",
+      "width": 114,
+      "x": 1446,
+      "y": 725,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "8e8ca67d-ee4e-4aec-b1b8-8060afd1b147",
+      "width": 114,
+      "x": 1656,
+      "y": 723,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 92,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tri_Blank_",
+      "persistentUuid": "85a7cd76-7c14-4788-97c3-f9145b48223d",
+      "width": 106,
+      "x": 1686,
+      "y": 187,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Loading_alert",
+      "persistentUuid": "b7750dd5-3250-4152-a003-999355ad8f1e",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -45,7 +352,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "crave-test.png",
+                  "image": "Grind.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -62,19 +369,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 168
                       },
                       {
                         "x": 6000,
-                        "y": 0
+                        "y": 168
                       },
                       {
                         "x": 6000,
-                        "y": 3039
+                        "y": 3207
                       },
                       {
                         "x": 0,
-                        "y": 3039
+                        "y": 3207
                       }
                     ]
                   ]
@@ -94,7 +401,72 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoubleClick::HasDoubleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Tri_Blank_",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,

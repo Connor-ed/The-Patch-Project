@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5427920802473285,
+    "zoomFactor": 0.4163025217733335,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -266,6 +266,15 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Load\""
+          ]
         }
       ]
     },
@@ -327,7 +336,7 @@
             "",
             "\"a\"",
             ">=",
-            "1"
+            "2"
           ]
         },
         {
@@ -364,7 +373,7 @@
             "",
             "\"a\"",
             ">=",
-            "1"
+            "2"
           ]
         },
         {
