@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "name": "The Crave Patch Project",
     "description": "",
     "author": "The Crave Patch Project",
@@ -1624,6 +1624,24 @@
         "metadata": "",
         "name": "106.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "E_Keys.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E_Keys.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Simple Pluck -2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Simple Pluck -2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
