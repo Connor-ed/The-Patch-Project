@@ -1,0 +1,316 @@
+{
+  "author": "Arthur Pacaud (arthuro555)",
+  "category": "Network",
+  "extensionNamespace": "",
+  "fullName": "Webpage URL tools (Web browser)",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXdlYiIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi4zNiwxNEMxNi40NCwxMy4zNCAxNi41LDEyLjY4IDE2LjUsMTJDMTYuNSwxMS4zMiAxNi40NCwxMC42NiAxNi4zNiwxMEgxOS43NEMxOS45LDEwLjY0IDIwLDExLjMxIDIwLDEyQzIwLDEyLjY5IDE5LjksMTMuMzYgMTkuNzQsMTRNMTQuNTksMTkuNTZDMTUuMTksMTguNDUgMTUuNjUsMTcuMjUgMTUuOTcsMTZIMTguOTJDMTcuOTYsMTcuNjUgMTYuNDMsMTguOTMgMTQuNTksMTkuNTZNMTQuMzQsMTRIOS42NkM5LjU2LDEzLjM0IDkuNSwxMi42OCA5LjUsMTJDOS41LDExLjMyIDkuNTYsMTAuNjUgOS42NiwxMEgxNC4zNEMxNC40MywxMC42NSAxNC41LDExLjMyIDE0LjUsMTJDMTQuNSwxMi42OCAxNC40MywxMy4zNCAxNC4zNCwxNE0xMiwxOS45NkMxMS4xNywxOC43NiAxMC41LDE3LjQzIDEwLjA5LDE2SDEzLjkxQzEzLjUsMTcuNDMgMTIuODMsMTguNzYgMTIsMTkuOTZNOCw4SDUuMDhDNi4wMyw2LjM0IDcuNTcsNS4wNiA5LjQsNC40NEM4LjgsNS41NSA4LjM1LDYuNzUgOCw4TTUuMDgsMTZIOEM4LjM1LDE3LjI1IDguOCwxOC40NSA5LjQsMTkuNTZDNy41NywxOC45MyA2LjAzLDE3LjY1IDUuMDgsMTZNNC4yNiwxNEM0LjEsMTMuMzYgNCwxMi42OSA0LDEyQzQsMTEuMzEgNC4xLDEwLjY0IDQuMjYsMTBINy42NEM3LjU2LDEwLjY2IDcuNSwxMS4zMiA3LjUsMTJDNy41LDEyLjY4IDcuNTYsMTMuMzQgNy42NCwxNE0xMiw0LjAzQzEyLjgzLDUuMjMgMTMuNSw2LjU3IDEzLjkxLDhIMTAuMDlDMTAuNSw2LjU3IDExLjE3LDUuMjMgMTIsNC4wM00xOC45Miw4SDE1Ljk3QzE1LjY1LDYuNzUgMTUuMTksNS41NSAxNC41OSw0LjQ0QzE2LjQzLDUuMDcgMTcuOTYsNi4zNCAxOC45Miw4TTEyLDJDNi40NywyIDIsNi41IDIsMTJBMTAsMTAgMCAwLDAgMTIsMjJBMTAsMTAgMCAwLDAgMjIsMTJBMTAsMTAgMCAwLDAgMTIsMloiIC8+PC9zdmc+",
+  "name": "URLTools",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/web.svg",
+  "shortDescription": "Allows to read URL on Web browser exports of the game and manipulate URLs generally.",
+  "version": "1.0.1",
+  "description": [
+    "This extension allows to ",
+    "- Get the URL of the game page",
+    "- Reload the page",
+    "- Redirect to another page",
+    "- Get a specific part of a URL",
+    "- Get an search query parameter of a URL",
+    "- Modify a specific property of a URL"
+  ],
+  "origin": {
+    "identifier": "URLTools",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "browser",
+    "url",
+    "location",
+    "page",
+    "get",
+    "parameter"
+  ],
+  "authorIds": [
+    "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Gets the URL of the current game page.",
+      "fullName": "Get the URL of the web page",
+      "functionType": "StringExpression",
+      "name": "CurrentURL",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue = location.toString();",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Reloads the current web page.",
+      "fullName": "Reload the web page",
+      "functionType": "Action",
+      "name": "Reload",
+      "sentence": "Reload the current page",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "location.reload();",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Loads another page in place of the current one.",
+      "fullName": "Redirect to another page",
+      "functionType": "Action",
+      "name": "Redirect",
+      "sentence": "Redirect to _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "location.replace(eventsFunctionContext.getArgument(\"to\"));",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "URL to redirect to",
+          "name": "to",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Get an attribute from a URL.",
+      "fullName": "Get URL attribute",
+      "functionType": "StringExpression",
+      "name": "URLAttribute",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    (new URL(eventsFunctionContext.getArgument(\"URL\")))[eventsFunctionContext.getArgument(\"attr\")];",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The URL to get the attribute from",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "The attribute to get",
+          "name": "attr",
+          "supplementaryInformation": "[\"hash\",\"host\",\"hostname\",\"href\",\"origin\",\"password\",\"pathname\",\"port\",\"protocol\",\"search\",\"username\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Gets a parameter of a URL query string.",
+      "fullName": "Get a parameter of a URL query string",
+      "functionType": "StringExpression",
+      "name": "URLQueryStringParameter",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    (new URL(eventsFunctionContext.getArgument(\"URL\"))",
+            "        .searchParams",
+            "        .get(eventsFunctionContext.getArgument(\"param\")));",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The URL to get a query string parameter from",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "The query string parameter to get",
+          "name": "param",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Updates a specific part of a URL.",
+      "fullName": "Update a URL attribute",
+      "functionType": "StringExpression",
+      "name": "ChangeURLAttribute",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = new URL(eventsFunctionContext.getArgument(\"URL\"));",
+            "url[eventsFunctionContext.getArgument(\"part\")] = eventsFunctionContext.getArgument(\"val\");",
+            "eventsFunctionContext.returnValue = url.toString();",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The URL to change",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "The attribute to update",
+          "name": "part",
+          "supplementaryInformation": "[\"hash\",\"host\",\"hostname\",\"href\",\"origin\",\"password\",\"pathname\",\"port\",\"protocol\",\"search\",\"username\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "The new value of this attribute",
+          "name": "val",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Sets or replaces a query string parameter of a URL.",
+      "fullName": "Change a get parameter of a URL",
+      "functionType": "StringExpression",
+      "name": "ChangeURLQueryStringParameter",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = new URL(eventsFunctionContext.getArgument(\"URL\"));\r",
+            "url.searchParams.set(\r",
+            "    eventsFunctionContext.getArgument(\"param\"),\r",
+            "    eventsFunctionContext.getArgument(\"val\")\r",
+            ");\r",
+            "eventsFunctionContext.returnValue = url.toString();\r",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The URL to change",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "The query string parameter to update",
+          "name": "param",
+          "type": "string"
+        },
+        {
+          "description": "The new value of the query string parameter",
+          "name": "val",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Removes a query string parameter from an URL.",
+      "fullName": "Remove a get parameter of an URL",
+      "functionType": "StringExpression",
+      "name": "RemoveURLQueryStringParameter",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = new URL(eventsFunctionContext.getArgument(\"URL\"));\r",
+            "url.searchParams.delete(eventsFunctionContext.getArgument(\"param\"));\r",
+            "eventsFunctionContext.returnValue = url.toString();\r",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The URL to change",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "The query string parameter to remove",
+          "name": "param",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
