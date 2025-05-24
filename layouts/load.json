@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.38958562738274893,
+    "zoomFactor": 0.5079575118131997,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1456,7 +1456,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Patch Loading",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1776,7 +1775,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Simple Pluck\n\nNo patch details given\""
+                "\"Simple Pluck\n\nMIX CV >> MULTI | EXT AUDIO >> OSC PULSE | EXT AUDIO >> OSC PULSE | VCF CUTOFF >> KB CV | MIX 2 >> LFO TRI | VC MIX >> ENV | MULTI >> VC MIX\n\""
               ]
             }
           ],
