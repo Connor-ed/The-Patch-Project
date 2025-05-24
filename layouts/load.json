@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.5079575118131997,
+    "zoomFactor": 0.33005600491660975,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1775,7 +1775,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Simple Pluck\n\nMIX CV >> MULTI | EXT AUDIO >> OSC PULSE | EXT AUDIO >> OSC PULSE | VCF CUTOFF >> KB CV | MIX 2 >> LFO TRI | VC MIX >> ENV | MULTI >> VC MIX\n\""
+                "\"Simple Pluck\n\nMIX CV >> MULTI | EXT AUDIO >> OSC PULSE\nEXT AUDIO >> OSC PULSE | VCF CUTOFF >> KB CV\nMIX 2 >> LFO TRI | VC MIX >> ENV\nMULTI >> VC MIX\n\""
               ]
             }
           ],
