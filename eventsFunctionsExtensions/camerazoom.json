@@ -1,0 +1,238 @@
+{
+  "author": "",
+  "category": "Camera",
+  "extensionNamespace": "",
+  "fullName": "Camera Zoom",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjEzIiB5MT0iOSIgeDI9IjEzIiB5Mj0iMTciLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSI5IiB5MT0iMTMiIHgyPSIxNyIgeTI9IjEzIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMyIgY3k9IjEzIiByPSI5Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTcsMjFsNyw3YzEuMSwxLjEsMi45LDEuMSw0LDBsMCwwYzEuMS0xLjEsMS4xLTIuOSwwLTRsLTctNyIvPg0KPC9zdmc+DQo=",
+  "name": "CameraZoom",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg",
+  "shortDescription": "Allows to zoom camera on a layer with a speed (factor per second).",
+  "version": "0.2.1",
+  "description": [
+    "## Description",
+    "",
+    "This extension allows to zoom a camera on a layer at a given speed. The zoom speed is configurable and allows a constant as well as a variable zoom speed. An anchor point can be defined, for instance, to keep what is under the cursor at the same place on screen.",
+    "",
+    "### Actions",
+    "",
+    "- Zoom at a given speed",
+    "- Change the zoom with an anchor point",
+    "- Zoom at a given speed and with an anchor point"
+  ],
+  "origin": {
+    "identifier": "CameraZoom",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "camera",
+    "layer",
+    "zoom"
+  ],
+  "authorIds": [
+    "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
+    "30b1QQoYi1gQQHzIjMlNY8aLyYV2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Change the camera zoom at a given speed (in factor per second).",
+      "fullName": "Zoom camera with speed",
+      "functionType": "Action",
+      "name": "ZoomWithSpeed",
+      "sentence": "Zoom camera with speed: _PARAM1_ (layer: _PARAM2_, camera: _PARAM3_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "CameraZoom(Layer, Camera) * pow(ZoomSpeed, TimeDelta())",
+                "Layer",
+                "Camera"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Zoom speed",
+          "longDescription": "Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.",
+          "name": "ZoomSpeed",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "Camera",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the camera zoom and keep an anchor point fixed on screen (instead of the center).",
+      "fullName": "Zoom with anchor",
+      "functionType": "Action",
+      "name": "ZoomWithAnchor",
+      "sentence": "Change camera zoom to: _PARAM1_ with an anchor at: _PARAM4_; _PARAM5_ (layer: _PARAM2_, camera: _PARAM3_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When zooming the vector in pixels from the center to the anchor must stay the same.\nIt gives this system:\n\n/ pixel_delta(t-1) = (anchor - center(t-1)) * zoom(t-1)\n| pixel_delta(t) = (anchor - center(t)) * zoom(t)\n\\ pixel_delta(t) = pixel_delta(t-1)\n\nwhere the new center can be resolved to:\n\ncenter(t) = anchor + (center(t-1) - anchor) * zoom(t-1) / zoom(t)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "AnchorX\n+ (\n   CameraX(Layer, Camera)\n   - AnchorX\n)\n* CameraZoom(Layer, Camera)\n/ Zoom",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "AnchorY\n+ (\n   CameraY(Layer, Camera)\n   - AnchorY\n)\n* CameraZoom(Layer, Camera)\n/ Zoom",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "Zoom",
+                "Layer",
+                "Camera"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Zoom",
+          "longDescription": "1: Initial zoom, 2: zoom in x2, 0.5: zoom out x2...",
+          "name": "Zoom",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "Camera",
+          "type": "expression"
+        },
+        {
+          "description": "Anchor X",
+          "name": "AnchorX",
+          "type": "expression"
+        },
+        {
+          "description": "Anchor Y",
+          "name": "AnchorY",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the camera zoom at a given speed (in factor per second) and keep an anchor point fixed on screen (instead of the center).",
+      "fullName": "Zoom camera with speed and anchor",
+      "functionType": "Action",
+      "name": "ZoomWithSpeedAndAnchor",
+      "sentence": "Zoom camera with speed: _PARAM1_ and an anchror at: _PARAM4_; _PARAM5_ (layer: _PARAM2_, camera: _PARAM3_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CameraZoom::ZoomWithAnchor"
+              },
+              "parameters": [
+                "",
+                "CameraZoom(Layer, Camera) * pow(ZoomSpeed, TimeDelta())",
+                "Layer",
+                "Camera",
+                "AnchorX",
+                "AnchorY",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Zoom speed",
+          "longDescription": "Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.",
+          "name": "ZoomSpeed",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "Camera",
+          "type": "expression"
+        },
+        {
+          "description": "Anchor X",
+          "name": "AnchorX",
+          "type": "expression"
+        },
+        {
+          "description": "Anchor Y",
+          "name": "AnchorY",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
