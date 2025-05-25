@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5995738389111239,
+    "zoomFactor": 0.373483856425807,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -258,23 +258,6 @@
       "x": 427,
       "y": 471,
       "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1152,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Blank_walls",
-      "persistentUuid": "6d305cc5-b521-4f00-a9c3-1912283ada77",
-      "width": 48,
-      "x": 2496,
-      "y": 0,
-      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2580,12 +2563,13 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "",
-            "\"Synth Selector\"",
-            ""
+            "Global_Base",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
