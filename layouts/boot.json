@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.5995738389111239,
+    "snap": false,
+    "zoomFactor": 1.454779576863533,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -37,40 +37,6 @@
       "x": 0,
       "y": 0,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 269,
-      "customSize": true,
-      "depth": 48,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Blank_Knob",
-      "persistentUuid": "612ff6f9-02d0-43a4-9bde-62387a82ee9e",
-      "width": 132,
-      "x": 118,
-      "y": 126,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 48,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Blank_Knob",
-      "persistentUuid": "c503a291-5c49-4542-8b25-3d2ce19a3734",
-      "width": 132,
-      "x": 281,
-      "y": 126,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -266,23 +232,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1152,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Blank_walls",
-      "persistentUuid": "6d305cc5-b521-4f00-a9c3-1912283ada77",
-      "width": 48,
-      "x": 2496,
-      "y": 0,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 92,
       "keepRatio": true,
       "layer": "",
@@ -309,6 +258,40 @@
       "x": 1776,
       "y": 936,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 48,
+      "height": 132,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "063575f6-89b1-4420-bd63-ddac6c6013c4",
+      "width": 136,
+      "x": 279,
+      "y": 126,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 48,
+      "height": 132,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Global_Blank_Knob",
+      "persistentUuid": "227235fb-a2cc-4266-af98-aefdd082dbd6",
+      "width": 136,
+      "x": 115,
+      "y": 125,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1450,22 +1433,17 @@
             "yes",
             "\"The Crave Patch Project\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "DepartScene"
+            "value": "AuthorizedPlatformsValidation::AddExecution"
           },
           "parameters": [
+            "",
+            "\"gd.games\"",
             ""
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "ResetTimer"
@@ -1474,22 +1452,7 @@
             "",
             "\"b\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -1502,6 +1465,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2580,15 +2571,21 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "",
-            "\"Synth Selector\"",
-            ""
+            "Global_Base",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
