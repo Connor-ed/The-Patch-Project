@@ -1858,108 +1858,25 @@
           ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Share::IsSharingSupported"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Clipboard::WriteText"
-              },
-              "parameters": [
-                "",
-                "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PopUp::Alert"
-              },
-              "parameters": [
-                "",
-                "\"Copied to Clipboard\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "Clipboard::WriteText"
+          },
+          "parameters": [
+            "",
+            "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
+            ""
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Share::IsSharingSupported"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Share::Share"
-              },
-              "parameters": [
-                "",
-                "\"The Crave Patch Project\"",
-                "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
-                "\"Share\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AuthorizedPlatformsValidation::CheckExecution"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Clipboard::WriteText"
-              },
-              "parameters": [
-                "",
-                "\"https://github.com/Connor-ed/The-Crave-Patch-Project\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PopUp::Alert"
-              },
-              "parameters": [
-                "",
-                "\"Copied to Clipboard\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "PopUp::Alert"
+          },
+          "parameters": [
+            "",
+            "\"Copied to Clipboard\"",
+            ""
           ]
         }
       ]
