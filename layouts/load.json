@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.33005600491660975,
+    "zoomFactor": 0.4027225833326123,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1456,6 +1456,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Patch Loading",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1999,6 +2000,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
