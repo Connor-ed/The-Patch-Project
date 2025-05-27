@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.1941505911274181,
+    "zoomFactor": 0.4303403802207894,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -652,6 +652,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Name",
+      "persistentUuid": "ad1617b1-3e61-4d87-bd62-22db970c954b",
+      "width": 577,
+      "x": 97,
+      "y": 937,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1184,6 +1201,33 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Name",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Type the name of your patch here",
+        "fontResourceName": "",
+        "fontSize": 20,
+        "inputType": "text",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false,
+        "paddingX": 2,
+        "paddingY": 1,
+        "textAlign": "left",
+        "maxLength": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1206,6 +1250,9 @@
       },
       {
         "objectName": "Detail_overlay"
+      },
+      {
+        "objectName": "Name"
       }
     ]
   },
@@ -1716,21 +1763,20 @@
           },
           "parameters": [
             "",
+            "\"LSystem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
             "\"s\""
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Screenshot::TakeScreenshot"
-          },
-          "parameters": [
-            "",
-            "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatcher_export.png\""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1744,9 +1790,73 @@
                 "SnapShot_text",
                 "Text",
                 "=",
-                "\"Screenshot saved at: \" + NewLine() + FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatch_export.png\""
+                "\"Saved to Desktop\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "SnapShot_text",
+                ""
               ]
             }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Screenshot::TakeScreenshot"
+              },
+              "parameters": [
+                "",
+                "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + ToString(Time(\"mday\")) + ToString(Time(\"hour\")) + ToString(Time(\"sec\")) + \".Patch.png\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Screenshot::TakeScreenshot"
+              },
+              "parameters": [
+                "",
+                "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + Name.Text::Value() + \".Patch.png\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CursorMovement::CursorIsMoving"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SnapShot_text"
           ]
         }
       ]
