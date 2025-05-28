@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.37687720367510913,
+    "zoomFactor": 0.41630252177335697,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -932,7 +932,7 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Use left-click to move knobs forwards, right-click to move backward, and double-click to reset. You can use this field to type instructions by clicking any typing.",
+        "placeholder": "Use left-click to move knobs forwards, right-click to move backward, double-click to reset, and CMD + S to save. You can use this field to type instructions by clicking any typing.",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "text area",
@@ -1793,6 +1793,63 @@
       "comment": "screenshot"
     },
     {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"LSystem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "Name",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Clipboard::WriteText"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PopUp::Confirm"
+          },
+          "parameters": [
+            "Name",
+            "\"Please name\"",
+            "\"Please Name\""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1814,37 +1871,18 @@
           ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "Name",
-                "Text",
-                "=",
-                "\"\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PopUp::Confirm"
-              },
-              "parameters": [
-                "Name",
-                "\"Please name\"",
-                "\"Please Name\""
-              ]
-            }
+          "type": {
+            "value": "AdvancedWindow::SetOpacity"
+          },
+          "parameters": [
+            ".90",
+            ""
           ]
-        },
+        }
+      ],
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1870,15 +1908,6 @@
                 "Text",
                 "=",
                 "Instuctions.Text::Value()"
-              ]
-            },
-            {
-              "type": {
-                "value": "AdvancedWindow::SetOpacity"
-              },
-              "parameters": [
-                ".90",
-                ""
               ]
             },
             {
