@@ -1240,7 +1240,15 @@
       "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        }
+      ],
       "content": {
         "initialValue": "",
         "placeholder": "Type the name of your patch here",
@@ -1793,7 +1801,6 @@
       "comment": "screenshot"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1829,22 +1836,13 @@
       "actions": [
         {
           "type": {
-            "value": "Clipboard::WriteText"
-          },
-          "parameters": [
-            "",
-            "\"\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PopUp::Confirm"
+            "value": "Flash::Flash::Flash"
           },
           "parameters": [
             "Name",
-            "\"Please name\"",
-            "\"Please Name\""
+            "Flash",
+            ".5",
+            ""
           ]
         }
       ]
@@ -1871,17 +1869,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AdvancedWindow::SetOpacity"
-          },
-          "parameters": [
-            ".90",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1945,17 +1933,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AdvancedWindow::SetOpacity"
-          },
-          "parameters": [
-            "1",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [
@@ -2045,6 +2023,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",
