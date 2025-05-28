@@ -19,8 +19,8 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "0.3.0",
-    "name": "The Crave Patch Project",
-    "description": "",
+    "name": "The Crave Patch Project - Nightly Build",
+    "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -80,9 +80,13 @@
     "authorIds": [
       "JsIpBwSPyjR9xZiLtNYmoUNMUGJ3"
     ],
-    "authorUsernames": [],
+    "authorUsernames": [
+      "connor-ed"
+    ],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [
       {
         "extension": "Firebase",
@@ -1657,6 +1661,46 @@
         "kind": "image",
         "metadata": "",
         "name": "Grind223.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SCR_LOGO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SCR_LOGO.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SCR_LOGO.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SCR_LOGO.png\"}",
+        "name": "SCR_LOGO",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SCR_LOGO2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SCR_LOGO2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SCR_LOGO3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SCR_LOGO3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SCR_LOGO4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SCR_LOGO4",
         "smoothed": true,
         "userAdded": false
       }
@@ -3585,6 +3629,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/share"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animationsystem"
     }
   ],
   "externalLayouts": [
