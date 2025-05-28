@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.4027225833326123,
+    "zoomFactor": 0.2987985363607061,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2000,11 +2000,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
-    "zoomFactor": 0.7817486425452204,
+    "snap": true,
+    "zoomFactor": 0.37687720367510913,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1814,21 +1814,52 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AdvancedWindow::SetOpacity"
-          },
-          "parameters": [
-            ".90",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Name",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopUp::Confirm"
+              },
+              "parameters": [
+                "Name",
+                "\"Please name\"",
+                "\"Please Name\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Name",
+                "Text",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -1839,6 +1870,15 @@
                 "Text",
                 "=",
                 "Instuctions.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AdvancedWindow::SetOpacity"
+              },
+              "parameters": [
+                ".90",
+                ""
               ]
             },
             {
