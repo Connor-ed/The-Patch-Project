@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4163025217733335,
+    "zoomFactor": 0.3411856023473462,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -71,6 +71,23 @@
       "x": 1776,
       "y": 936,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "348176fd-6713-412e-8d26-c18b8eb0e7bc",
+      "width": 144,
+      "x": 0,
+      "y": 936,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -196,6 +213,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SCR_LOGO",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SCR_LOGO2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 435,
+                        "y": 336
+                      },
+                      {
+                        "x": 1128,
+                        "y": 336
+                      },
+                      {
+                        "x": 1128,
+                        "y": 1224
+                      },
+                      {
+                        "x": 435,
+                        "y": 1224
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -206,6 +284,9 @@
       },
       {
         "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewSprite3"
       }
     ]
   },
@@ -273,7 +354,7 @@
           },
           "parameters": [
             "",
-            "\"Load\""
+            "\"Boot\""
           ]
         }
       ]

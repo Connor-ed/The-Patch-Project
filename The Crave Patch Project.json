@@ -18,9 +18,9 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "name": "The Crave Patch Project",
-    "description": "",
+    "description": "The Crave Patch Project",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -80,9 +80,13 @@
     "authorIds": [
       "JsIpBwSPyjR9xZiLtNYmoUNMUGJ3"
     ],
-    "authorUsernames": [],
+    "authorUsernames": [
+      "connor-ed"
+    ],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [
       {
         "extension": "Firebase",
@@ -121,16 +125,6 @@
         "metadata": "{\"localFilePath\":\"BCS_S3.png\",\"extension\":\".png\"}",
         "name": "BCS_S3.png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Simple Pluck - 1.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Simple Pluck - 1.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": false
       },
       {
@@ -234,14 +228,6 @@
         "kind": "image",
         "metadata": "",
         "name": "BCS_Top_layer2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/LoadingScreenBackground.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "LoadingScreenBackground",
         "smoothed": true,
         "userAdded": false
       },
@@ -590,65 +576,6 @@
         "userAdded": false
       },
       {
-        "file": "app icon.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "app icon.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Crave_patch_into.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "Crave_patch_into.mp4",
-        "userAdded": false
-      },
-      {
-        "file": "assets/Square White Slider Border2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Square White Slider Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
-          "name": "Square White Slider Border.png"
-        }
-      },
-      {
-        "file": "assets/Square White Slider Fill Bar2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Square White Slider Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
-          "name": "Square White Slider Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Square White Slider Thumb2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Square White Slider Thumb.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
-          "name": "Square White Slider Thumb.png"
-        }
-      },
-      {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "loading2.png",
         "kind": "image",
         "metadata": "",
@@ -665,42 +592,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "aagd.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "aagd.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "loading3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "loading3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Blank_knob_load.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank_knob_load.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Patchertest.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Patchertest.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -721,105 +616,11 @@
         "userAdded": false
       },
       {
-        "file": "E Keys2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "E Keys2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Ow - Ahh .wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Ow - Ahh .wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "Detailmode.png",
         "kind": "image",
         "metadata": "",
         "name": "Detailmode.png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Autoplay.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Autoplay.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "App_Icon_new.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "App_Icon_new.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "E_Keys_v02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "E_Keys_v02.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
-        "name": "NewSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
-        "name": "NewSprite4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "App_Icon_size_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "App_Icon_size_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "loading4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "loading4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "App_Icon_size_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "App_Icon_size_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "E Keys3.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "E Keys3.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": false
       },
       {
@@ -843,70 +644,6 @@
         "userAdded": false
       },
       {
-        "file": "15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "15.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "14.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "13.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "12.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite14.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -915,378 +652,10 @@
         "userAdded": false
       },
       {
-        "file": "16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "16.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "17.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "18.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "19.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "28.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "29.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "30.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "30.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "31.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "31.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "32.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "32.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "33.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "34.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "35.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "35.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "36.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "37.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "37.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "38.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "38.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "39.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "39.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "40.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "41.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "41.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "42.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "42.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "43.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "43.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "44.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "44.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "45.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "45.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "46.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "46.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "47.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "47.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "48.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "49.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "49.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "50.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "51.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "51.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "52.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "52.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "53.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "53.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "54.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "54.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "55.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "55.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "56.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "56.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "57.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "58.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "59.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "59.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "60.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "61.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "61.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "62.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "62.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "63.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "63.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "64.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "64.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "65.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "65.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "66.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "66.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "67.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "67.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Detailmode2.png",
         "kind": "image",
         "metadata": "",
         "name": "Detailmode2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "crave-test.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crave-test.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Gind-test.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gind-test.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1303,182 +672,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Grind.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "68.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "68.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "69.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "69.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "70.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "70.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "71.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "71.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "72.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "73.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "73.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "74.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "74.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "75.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "75.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "76.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "77.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "77.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "78.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "78.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "79.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "79.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "80.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "81.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "81.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "82.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "82.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "83.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "83.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "84.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "84.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "85.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "85.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "86.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "86.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "87.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "88.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "88.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1551,14 +744,6 @@
         "kind": "image",
         "metadata": "",
         "name": "97.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "98.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "98.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1645,18 +830,56 @@
         "userAdded": false
       },
       {
-        "file": "Grind222.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Grind222.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Grind223.png",
         "kind": "image",
         "metadata": "",
         "name": "Grind223.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SCR_LOGO2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SCR_LOGO2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Bold_Crave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bold_Crave.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "base_synth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "base_synth.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Base_Synth2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Base_Synth2.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -2197,7 +1420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BCS_Bottom2.png",
+                  "image": "Base_Synth2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2246,6 +1469,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Grind223.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bold_Crave.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3585,6 +2856,38 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/share"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animationsystem"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/uploaddownloadimagefile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/userdata"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashlayer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/discordrichpresence"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/chatbubble"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/textentryconsole"
     }
   ],
   "externalLayouts": [

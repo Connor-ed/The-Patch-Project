@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.1941505911274181,
+    "zoomFactor": 0.41630252177335697,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -436,23 +436,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 174,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Instuctions",
-      "persistentUuid": "27636d8f-5f88-4c82-ac39-156cd35208fd",
-      "width": 1152,
-      "x": 480,
-      "y": 114,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 55,
       "keepRatio": true,
       "layer": "",
@@ -606,31 +589,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "Screenshot",
-      "name": "SnapShot",
-      "persistentUuid": "be3e6ff7-4fa5-400e-9701-ca79f4572a7b",
-      "width": 1920,
-      "x": 0,
-      "y": 1080,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 57,
+      "height": 77,
       "keepRatio": true,
       "layer": "",
       "name": "SnapShot_text",
       "persistentUuid": "ff731b16-9560-472a-b4d4-84ddda18617e",
-      "width": 1749,
-      "x": 75,
-      "y": 978,
+      "width": 863,
+      "x": 952,
+      "y": 952,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -649,6 +615,89 @@
       "x": 0,
       "y": 0,
       "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Name",
+      "persistentUuid": "ad1617b1-3e61-4d87-bd62-22db970c954b",
+      "width": 577,
+      "x": 97,
+      "y": 937,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnapShot",
+      "persistentUuid": "4108dca9-ec50-4299-bd9a-edd9fd993f09",
+      "width": 0,
+      "x": -16,
+      "y": 1016,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnapShot",
+      "persistentUuid": "253f44a2-b2aa-4a7f-86f2-ec8ece11fecf",
+      "width": 0,
+      "x": 720,
+      "y": 1440,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 174,
+      "keepRatio": true,
+      "layer": "Screenshot",
+      "name": "Instuctions",
+      "persistentUuid": "125abc52-9065-4f7f-8cb5-2e09dbd978ce",
+      "width": 1152,
+      "x": 480,
+      "y": 114,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 173,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextToImg",
+      "persistentUuid": "a1bf4db3-8751-4f73-b432-ccd91c5d9952",
+      "width": 1150,
+      "x": 480,
+      "y": 115,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -883,7 +932,7 @@
       "behaviors": [],
       "content": {
         "initialValue": "",
-        "placeholder": "Use left-click to move knobs forwards, right-click to move backward, and double-click to reset. You can use this field to type instructions by clicking any typing.",
+        "placeholder": "Use left-click to move knobs forwards, right-click to move backward, double-click to reset, and CMD + S to save. You can use this field to type instructions by clicking any typing.",
         "fontResourceName": "",
         "fontSize": 20,
         "inputType": "text area",
@@ -1120,7 +1169,7 @@
         "text": "",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "bottom",
+        "verticalTextAlignment": "center",
         "characterSize": 20,
         "color": "0;0;0"
       }
@@ -1184,6 +1233,83 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Name",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        }
+      ],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Type the name of your patch here",
+        "fontResourceName": "",
+        "fontSize": 20,
+        "inputType": "text",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false,
+        "paddingX": 2,
+        "paddingY": 1,
+        "textAlign": "left",
+        "maxLength": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextToImg",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1206,6 +1332,12 @@
       },
       {
         "objectName": "Detail_overlay"
+      },
+      {
+        "objectName": "Name"
+      },
+      {
+        "objectName": "TextToImg"
       }
     ]
   },
@@ -1532,45 +1664,6 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Save "
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"s\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "RenderToSprite::RenderLayer"
-          },
-          "parameters": [
-            "",
-            "",
-            "SnapShot",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
       "comment": "Top Menu Animtion"
     },
     {
@@ -1716,40 +1809,131 @@
           },
           "parameters": [
             "",
+            "\"LSystem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
             "\"s\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "Name",
+            "Text",
+            "=",
+            "\"\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Screenshot::TakeScreenshot"
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "Name",
+            "Flash",
+            ".5",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
           },
           "parameters": [
             "",
-            "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatcher_export.png\""
+            "\"LSystem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
           ]
         }
       ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Name",
+                "Text",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "SnapShot_text",
+                "TextToImg",
                 "Text",
                 "=",
-                "\"Screenshot saved at: \" + NewLine() + FileSystem::DesktopPath() + FileSystem::PathDelimiter() + \"CravePatch_export.png\""
+                "Instuctions.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Screenshot::TakeScreenshot"
+              },
+              "parameters": [
+                "",
+                "FileSystem::DesktopPath() + FileSystem::PathDelimiter() + Name.Text::Value() + \".Patch.png\""
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"LSystem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
@@ -1839,6 +2023,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",
