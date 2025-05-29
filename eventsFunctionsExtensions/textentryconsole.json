@@ -1,0 +1,259 @@
+{
+  "author": "Arthur Pacaud (arthuro555)",
+  "category": "User interface",
+  "extensionNamespace": "",
+  "fullName": "Console (commands handler for Text Entry objects)",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNvbnNvbGUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAsMTlWN0g0VjE5SDIwTTIwLDNBMiwyIDAgMCwxIDIyLDVWMTlBMiwyIDAgMCwxIDIwLDIxSDRBMiwyIDAgMCwxIDIsMTlWNUMyLDMuODkgMi45LDMgNCwzSDIwTTEzLDE3VjE1SDE4VjE3SDEzTTkuNTgsMTNMNS41Nyw5SDguNEwxMS43LDEyLjNDMTIuMDksMTIuNjkgMTIuMDksMTMuMzMgMTEuNywxMy43Mkw4LjQyLDE3SDUuNTlMOS41OCwxM1oiIC8+PC9zdmc+",
+  "name": "TextEntryConsole",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/console.svg",
+  "shortDescription": "A console behavior that allows parsing simple commands inputed via a Text Entry object.",
+  "version": "1.0.1",
+  "description": [
+    "A behavior that makes a Text Entry behave like a console. Whenever Return is pressed, the Text Entry is cleared and the entered text parsed, and the first word is stored as the command name, and the rest as arguments. Each word is one argument, and you can get them with the expression `GetArg`. When a command is triggered, it triggers the condition bound to this command. Example:  ",
+    "If you have entered `hello foo bar` and Return, then the condition `Entered command \"hello\"` will trigger, `Object::Console.GetArg(0)` will return `\"foo\"`, and `Object::Console.GetArg(1)` will return `\"bar\"`."
+  ],
+  "origin": {
+    "identifier": "TextEntryConsole",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "command",
+    "console"
+  ],
+  "authorIds": [
+    "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "A behavior that will parse any command endered via a text entry.",
+      "fullName": "Text entry console",
+      "name": "TextEntryConsole",
+      "objectType": "TextEntryObject::TextEntry",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "StrLength(Object.String())",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Split command and arguments using JavaScript"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "/** @type {gdjs.TextEntryRuntimeObject} */",
+                    "const object = objects[0];",
+                    "const array = object.getString().replace(/\\n/gm, \"\").trim().split(/\\s+/);",
+                    "object.setString(\"\");",
+                    "",
+                    "object.getVariables()",
+                    "    .get(\"__Commands_\")",
+                    "    .getChild(\"Triggered\")",
+                    "    .getChild(array[0])",
+                    "    .setBoolean(true);",
+                    "",
+                    "object.getVariables()",
+                    "        .get(\"__Commands_\")",
+                    "        .getChild(\"Args\")",
+                    "        .getChild(array[0])",
+                    "        .fromJSObject(array.slice(1));",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TextEntryConsole::TextEntryConsole",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Triggers when a specific command has been entered.",
+          "fullName": "A command has been entered",
+          "functionType": "Condition",
+          "name": "OnCommand",
+          "sentence": "Command _PARAM2_ of console _PARAM0_ has been entered",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Commands_.Triggered[cmd]",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Commands_.Triggered[cmd]",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Commands_.CurrentCommand",
+                    "=",
+                    "cmd"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TextEntryConsole::TextEntryConsole",
+              "type": "behavior"
+            },
+            {
+              "description": "Command name",
+              "name": "cmd",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Get an argument from the last entered command.",
+          "fullName": "Get an argument",
+          "functionType": "StringExpression",
+          "name": "GetArg",
+          "sentence": "Get argument _PARAM2_ from last entered command of console _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "Object.VariableString(__Commands_.Args[Object.VariableString(__Commands_.CurrentCommand)][i])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TextEntryConsole::TextEntryConsole",
+              "type": "behavior"
+            },
+            {
+              "description": "Index of the argument",
+              "name": "i",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}

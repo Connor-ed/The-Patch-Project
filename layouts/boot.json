@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.454779576863533,
+    "zoomFactor": 0.30609306419486393,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1416,6 +1416,15 @@
       "actions": [
         {
           "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Load\""
+          ]
+        },
+        {
+          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
@@ -1465,34 +1474,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1571,11 +1552,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "HasAnyTouchOrMouseStarted"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            ""
           ]
         },
         {
@@ -1607,11 +1587,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "HasAnyTouchOrMouseStarted"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            ""
           ]
         },
         {
@@ -1688,11 +1667,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "HasAnyTouchOrMouseStarted"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            ""
           ]
         },
         {
@@ -1724,11 +1702,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "HasAnyTouchOrMouseStarted"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            ""
           ]
         },
         {
@@ -1805,11 +1782,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "HasAnyTouchOrMouseStarted"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            ""
           ]
         },
         {
@@ -1911,6 +1887,42 @@
           },
           "parameters": [
             "\"https://github.com/Connor-ed/The-Crave-Patch-Project/blob/main/CREDITS.md\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Home",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\"",
             ""
           ]
         }
@@ -2577,15 +2589,10 @@
             "Global_Base",
             "Animation",
             "=",
-            "1"
+            "2"
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
