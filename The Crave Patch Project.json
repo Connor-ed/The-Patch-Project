@@ -858,6 +858,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "Bold_Crave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bold_Crave.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "base_synth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "base_synth.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Base_Synth2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Base_Synth2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1396,7 +1420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BCS_Bottom2.png",
+                  "image": "Base_Synth2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1445,6 +1469,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Grind223.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bold_Crave.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
