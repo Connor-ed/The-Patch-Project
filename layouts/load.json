@@ -1173,6 +1173,44 @@
             "yes",
             "\"The Crave Patch Project\""
           ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "E Keys4.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh1.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Simple Pluck -2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -1188,19 +1226,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Loading_alert",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
