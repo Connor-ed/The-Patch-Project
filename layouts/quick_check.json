@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3411856023473462,
+    "zoomFactor": 0.4163025217733342,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -37,23 +37,6 @@
       "x": 0,
       "y": 0,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "00153d27-586b-4883-9552-97f5bb75ff37",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -114,7 +97,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "loading2.png",
+                  "image": "CPa_CFU.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -311,6 +294,42 @@
           "parameters": [
             "",
             "\"a\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "E Keys4.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Simple Pluck -2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh1.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Boom Kick.wav"
           ]
         }
       ]

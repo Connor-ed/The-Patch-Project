@@ -1173,6 +1173,53 @@
             "yes",
             "\"The Crave Patch Project\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "E Keys4.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Ow - Ahh1.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Simple Pluck -2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "Boom Kick.wav"
+          ]
         }
       ]
     },
@@ -1188,19 +1235,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Loading_alert",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -1456,7 +1491,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Patch Loading",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1486,7 +1520,6 @@
           "comment": "Blank"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1536,7 +1569,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "This returns a blank section. A current issue is that audio will overlap if two tracks are played at the same time."
+              "comment": "Audio is now fixed here\n"
             }
           ]
         },
@@ -1553,7 +1586,6 @@
           "comment": "E_Keys"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1813,6 +1845,101 @@
                   "parameters": [
                     "",
                     "Simple Pluck -2.wav",
+                    "10",
+                    "50",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Boom Kick\n"
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Searchbar",
+                "Text",
+                "=",
+                "\"Boom Kick\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Simple Pluck\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Boom Kick\nVCF CUTOFF >> KB CV\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Boom Kick.wav",
                     "10",
                     "50",
                     "25",
