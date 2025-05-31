@@ -60,7 +60,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "loading.png",
+      "backgroundImageResourceName": "CPa.png",
       "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -881,6 +881,32 @@
         "metadata": "",
         "name": "Base_Synth2.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CPa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CPa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CPa_CFU.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CPa_CFU.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Boom Kick.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boom Kick.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],

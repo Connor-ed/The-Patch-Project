@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.41630252177335697,
+    "zoomFactor": 0.3300560049166121,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -654,15 +654,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1,
       "keepRatio": true,
       "layer": "",
       "name": "SnapShot",
       "persistentUuid": "253f44a2-b2aa-4a7f-86f2-ec8ece11fecf",
-      "width": 0,
-      "x": 720,
-      "y": 1440,
+      "width": 1,
+      "x": 0,
+      "y": 1143,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -1352,7 +1353,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Beta Alert"
+      "comment": "Window Title\n"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
