@@ -9,7 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
-    "antialisingEnabledOnMobile": false,
+    "antialisingEnabledOnMobile": true,
     "folderProject": true,
     "orientation": "default",
     "packageName": "com.edgingtondesmet.CravePatchProject",
@@ -18,14 +18,14 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "name": "The Crave Patch Project",
     "description": "The Crave Patch Project",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.2.2",
-    "maxFPS": 60,
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.4.1",
+    "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
@@ -907,6 +907,22 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fade_Element.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fade_Element.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -2914,6 +2930,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/textentryconsole"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectpickingtools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
     }
   ],
   "externalLayouts": [

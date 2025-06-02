@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
+    "snap": true,
     "zoomFactor": 0.4163025217733545,
     "windowMask": false
   },
@@ -1554,7 +1554,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh | Simple Pluck |\n\""
+                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh | Simple Pluck | Boom Kick |\n\""
               ]
             }
           ],
@@ -1808,7 +1808,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Simple Pluck\n\nMIX CV >> MULTI | EXT AUDIO >> OSC PULSE\nEXT AUDIO >> OSC PULSE | VCF CUTOFF >> KB CV\nMIX 2 >> LFO TRI | VC MIX >> ENV\nMULTI >> VC MIX\n\""
+                "\"Simple Pluck\n\nMIX CV >> MULTI, EXT AUDIO >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
               ]
             }
           ],
@@ -1868,7 +1868,6 @@
           "comment": "Boom Kick\n"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
