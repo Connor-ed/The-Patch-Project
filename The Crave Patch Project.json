@@ -924,6 +924,14 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
