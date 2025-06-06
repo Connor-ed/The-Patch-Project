@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5250860067782617,
+    "zoomFactor": 0.5250860067782618,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -635,6 +635,159 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "1d42a8be-bba3-47c5-96ec-43635bee49b2",
+      "width": 384,
+      "x": 1440,
+      "y": 432,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "a0259734-8ee7-46cc-9e1e-e91ae3b8cef9",
+      "width": 384,
+      "x": 768,
+      "y": 432,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "4fd7b9f1-727e-48b5-8331-95e14dce519d",
+      "width": 384,
+      "x": 96,
+      "y": 432,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "968c86c0-561e-4acc-b49b-5b65ddbb8c8c",
+      "width": 384,
+      "x": 96,
+      "y": 936,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "67801900-7629-41f1-869b-f7aad93ccfe4",
+      "width": 384,
+      "x": 768,
+      "y": 936,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "5e3e7c0f-2e6a-4b22-a716-7066d032bb54",
+      "width": 384,
+      "x": 1440,
+      "y": 936,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "66d513bb-d53e-4b14-aa92-2fcd97978a5e",
+      "width": 384,
+      "x": 96,
+      "y": 1440,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "1a3d8283-2df0-4b4a-a381-777170999a08",
+      "width": 384,
+      "x": 768,
+      "y": 1440,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Demo_Text",
+      "persistentUuid": "0b2d4075-4ab3-468d-8f81-8e1184638537",
+      "width": 384,
+      "x": 1440,
+      "y": 1440,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -896,6 +1049,24 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Demo_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Info Text \n[b] This is a synth demo page",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -912,6 +1083,9 @@
       },
       {
         "objectName": "Simple_Pluck"
+      },
+      {
+        "objectName": "Demo_Text"
       },
       {
         "objectName": "NewSprite"

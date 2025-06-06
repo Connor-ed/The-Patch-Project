@@ -2583,13 +2583,12 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+            "value": "Scene"
           },
           "parameters": [
-            "Global_Base",
-            "Animation",
-            "=",
-            "2"
+            "",
+            "\"Synth Selector\"",
+            ""
           ]
         }
       ]
