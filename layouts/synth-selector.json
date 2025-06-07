@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5250860067782618,
+    "zoomFactor": 0.36458333333334253,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,40 +35,6 @@
       "persistentUuid": "a7b857c0-d602-4e9a-a74e-2e3031b1f147",
       "width": 384,
       "x": 1440,
-      "y": 216,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 216,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Base",
-      "persistentUuid": "7c0aa1f8-607a-440c-94f1-9837527ffd9b",
-      "width": 384,
-      "x": 96,
-      "y": 216,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 216,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Base",
-      "persistentUuid": "2e72d9ea-e420-466d-9222-beaf5a27e141",
-      "width": 384,
-      "x": 768,
       "y": 216,
       "zOrder": 2,
       "numberProperties": [],
@@ -134,23 +100,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Top_Lite",
-      "persistentUuid": "029a0c05-e954-4c3f-8997-51b834489ed1",
-      "width": 384,
-      "x": 96,
-      "y": 216,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 216,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Lite",
       "persistentUuid": "4b37be93-d948-416d-8320-8b08d7646d48",
       "width": 384,
       "x": 96,
@@ -189,23 +138,6 @@
       "width": 384,
       "x": 768,
       "y": 720,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 216,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Top_Lite",
-      "persistentUuid": "6a7644bb-21b8-47b3-af16-64ba02bc3283",
-      "width": 384,
-      "x": 768,
-      "y": 216,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -273,7 +205,7 @@
       "persistentUuid": "a9a6fa10-6c50-4994-8bff-a8b36318b6e8",
       "width": 1920,
       "x": 0,
-      "y": -360,
+      "y": -504,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,42 +222,8 @@
       "persistentUuid": "460cbe2e-2dd8-4c68-83b0-c351f0b15bc8",
       "width": 1920,
       "x": 0,
-      "y": 360,
+      "y": 504,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Simple_Pluck",
-      "persistentUuid": "085e29fe-f2f2-46fc-9695-fcb5567a87c5",
-      "width": 384,
-      "x": 96,
-      "y": 144,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Simple_Pluck",
-      "persistentUuid": "16237ffc-8717-47d9-a128-5329372e43f0",
-      "width": 384,
-      "x": 768,
-      "y": 144,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -640,47 +538,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 72,
+      "height": 144,
       "keepRatio": true,
       "layer": "",
       "name": "Demo_Text",
       "persistentUuid": "1d42a8be-bba3-47c5-96ec-43635bee49b2",
       "width": 384,
       "x": 1440,
-      "y": 432,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Demo_Text",
-      "persistentUuid": "a0259734-8ee7-46cc-9e1e-e91ae3b8cef9",
-      "width": 384,
-      "x": 768,
-      "y": 432,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Demo_Text",
-      "persistentUuid": "4fd7b9f1-727e-48b5-8331-95e14dce519d",
-      "width": 384,
-      "x": 96,
       "y": 432,
       "zOrder": 11,
       "numberProperties": [],
@@ -788,69 +652,247 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "E_Keys",
+      "persistentUuid": "3b9e4584-faea-4fa9-86f1-66c06aded0a9",
+      "width": 384,
+      "x": 96,
+      "y": 216,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "E_Keys_Text",
+      "persistentUuid": "7bfa465b-141f-4448-a902-e215cc81be8a",
+      "width": 384,
+      "x": 96,
+      "y": 216,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "E_Keys_about",
+      "persistentUuid": "1ef3dc8d-4316-4ea4-a2c5-6300f9fc4b75",
+      "width": 384,
+      "x": 96,
+      "y": 468,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Simple_Pluck2",
+      "persistentUuid": "a8177ecd-6735-4aee-a829-29ef6ede441b",
+      "width": 384,
+      "x": 768,
+      "y": 216,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Simple_Pluck_Text",
+      "persistentUuid": "aca43a17-7e5d-4703-95f3-f047b132bef0",
+      "width": 384,
+      "x": 768,
+      "y": 216,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Simple_Pluck_about",
+      "persistentUuid": "16a5bdd5-e2f8-41a0-99e8-2eff99ff7139",
+      "width": 480,
+      "x": 720,
+      "y": 468,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "0d4a5e3d-b996-446d-8877-51fec8832b31",
+      "width": 384,
+      "x": 1440,
+      "y": 144,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "70b16b3e-4828-4f89-a81a-b0001d1f2603",
+      "width": 384,
+      "x": 1440,
+      "y": 648,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "9855c646-3cc6-430a-aa01-029f52e89d39",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "823ac03e-710e-4f5a-8899-ad3ff88c1f2d",
+      "width": 384,
+      "x": 96,
+      "y": 648,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "2fa681c7-8a8a-4223-bd7b-77fb962510f3",
+      "width": 384,
+      "x": 96,
+      "y": 1152,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "15fdaf54-dd5f-4177-b3b8-db6ae08bea52",
+      "width": 384,
+      "x": 96,
+      "y": 1152,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "f875af21-adf2-4f50-b57a-deef0bfc779a",
+      "width": 384,
+      "x": 768,
+      "y": 1152,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank",
+      "persistentUuid": "cffae6b5-268e-42d9-b204-3ef1f5287994",
+      "width": 384,
+      "x": 1440,
+      "y": 1152,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Crave_Preview",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grind.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3207
-                      },
-                      {
-                        "x": 0,
-                        "y": 3207
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -1010,7 +1052,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Background.png",
+                  "image": "Background2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1067,28 +1109,346 @@
         "align": "center",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "E_Keys",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "107.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "E_Keys_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]E_Keys",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "E_Keys_about",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b] A simple electric keys sound. ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Simple_Pluck2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Simple_Pluck_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Simple Pluck",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Simple_Pluck_about",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b] A simple puck sound for the Behringer Crave",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Crave_Preview"
+        "folderName": "page",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Demo_Text"
+          },
+          {
+            "objectName": "Simple_Pluck"
+          },
+          {
+            "objectName": "blank"
+          },
+          {
+            "objectName": "NewSprite2"
+          }
+        ]
       },
       {
-        "objectName": "NewSprite2"
+        "folderName": "Simple Pluck",
+        "children": [
+          {
+            "objectName": "Simple_Pluck_Text"
+          },
+          {
+            "objectName": "Simple_Pluck_about"
+          },
+          {
+            "objectName": "Simple_Pluck2"
+          }
+        ]
       },
       {
-        "objectName": "blank"
-      },
-      {
-        "objectName": "Simple_Pluck"
-      },
-      {
-        "objectName": "Demo_Text"
-      },
-      {
-        "objectName": "NewSprite"
+        "folderName": "E_Keys",
+        "children": [
+          {
+            "objectName": "E_Keys"
+          },
+          {
+            "objectName": "E_Keys_Text"
+          },
+          {
+            "objectName": "E_Keys_about"
+          }
+        ]
       }
     ]
   },
@@ -1258,6 +1618,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Menu Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1334,7 +1695,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1500,6 +1860,246 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Sheet Icons",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "E_Keys"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "E_Keys",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "E_Keys",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "E_Keys",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "E_Keys",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "E_Keys",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Load\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Simple Pluck"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Simple_Pluck2",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Simple_Pluck2",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Simple_Pluck2",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Simple_Pluck2",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Simple_Pluck2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Load\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

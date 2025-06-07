@@ -932,6 +932,70 @@
         "name": "Background.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_bk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_bk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "107.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
