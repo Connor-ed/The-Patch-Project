@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.4163025217733545,
+    "zoomFactor": 0.6406912462476811,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -153,14 +153,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 30,
+      "height": 72,
       "keepRatio": true,
       "layer": "",
       "name": "Searchbar",
       "persistentUuid": "e4fcffc0-fb40-419f-83dc-97d44a0b9287",
-      "width": 599,
-      "x": 100,
-      "y": 938,
+      "width": 624,
+      "x": 96,
+      "y": 1152,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -1637,17 +1637,17 @@
           "comment": "E_Keys"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"E_Keys\""
+                "1"
               ]
             }
           ],
@@ -1728,9 +1728,104 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Simple Pluck"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Simple Pluck\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Simple Pluck\n\nMIX CV >> MULTI, EXT AUDIO >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Simple Pluck -2.wav",
+                    "10",
+                    "50",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Ow-Ahh"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1802,100 +1897,6 @@
                   "parameters": [
                     "",
                     "Ow - Ahh1.wav",
-                    "10",
-                    "50",
-                    "25",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 155,
-            "g": 155,
-            "r": 155,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Simple Pluck"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "Searchbar",
-                "Text",
-                "=",
-                "\"Simple Pluck\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Knob_overlay",
-                "Animation",
-                "=",
-                "\"Simple Pluck\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "INST",
-                "Text",
-                "=",
-                "\"Simple Pluck\n\nMIX CV >> MULTI, EXT AUDIO >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Global_Play",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Simple Pluck -2.wav",
                     "10",
                     "50",
                     "25",
