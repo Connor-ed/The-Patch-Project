@@ -1038,6 +1038,22 @@
         "name": "Boom_Kick.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2960,6 +2976,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quick_check"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.420110610600229,
+    "zoomFactor": 0.2796226521839472,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1149,6 +1149,48 @@
         "align": "center",
         "verticalTextAlignment": "center"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1229,6 +1271,9 @@
             "objectName": "E_Keys_about"
           }
         ]
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -1768,7 +1813,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasDoubleClicked"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
@@ -1929,7 +1974,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasDoubleClicked"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
@@ -2090,7 +2135,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasDoubleClicked"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
@@ -2251,7 +2296,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasDoubleClicked"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
