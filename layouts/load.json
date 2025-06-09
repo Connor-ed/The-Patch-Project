@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.6406912462476811,
+    "zoomFactor": 0.15392788923484055,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -298,6 +298,73 @@
       "x": 1687,
       "y": 189,
       "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "fade",
+      "persistentUuid": "5b203d69-4f13-45c7-8814-13ac587b602c",
+      "width": 2592,
+      "x": -1248,
+      "y": -432,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "59f3974a-0e33-4fff-90b7-cf36e5678e37",
+      "width": 1920,
+      "x": 0,
+      "y": -360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "d9581377-bb55-496b-815e-770c4a0a9ed7",
+      "width": 1920,
+      "x": 0,
+      "y": 360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "Background",
+      "persistentUuid": "d3d2f403-51bd-4023-ae65-751294c284f8",
+      "width": 0,
+      "x": -1392,
+      "y": -864,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1046,13 +1113,50 @@
           ]
         },
         {
-          "name": "",
+          "name": "Boom Kick",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boom_Kick.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1923,13 +2027,12 @@
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"Boom Kick\""
+                "4"
               ]
             }
           ],
@@ -1942,7 +2045,7 @@
                 "Knob_overlay",
                 "Animation",
                 "=",
-                "\"Simple Pluck\""
+                "\"Boom Kick\""
               ]
             },
             {
@@ -2181,6 +2284,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "bk",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

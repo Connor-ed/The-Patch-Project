@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.30609306419486393,
+    "snap": true,
+    "zoomFactor": 0.192402487586191,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -292,6 +292,73 @@
       "x": 115,
       "y": 125,
       "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "fade",
+      "persistentUuid": "cc652dc4-de04-4037-a8c6-b094ac410661",
+      "width": 2592,
+      "x": -1248,
+      "y": -432,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "13de70bf-93bc-4eba-8b93-21b11303b0ae",
+      "width": 1920,
+      "x": 0,
+      "y": -360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "7b25a8b7-1d2e-4156-a710-24404ae78d9f",
+      "width": 1920,
+      "x": 0,
+      "y": 360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "Background",
+      "persistentUuid": "4ae8ddd3-3fd8-4d98-a104-81ba46487ed3",
+      "width": 0,
+      "x": -1392,
+      "y": -864,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1492,11 +1559,12 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "DoubleClick::HasSimpleClicked"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "\"Left\"",
+            ""
           ]
         },
         {
@@ -2595,6 +2663,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "bk",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.29879853636069964,
+    "zoomFactor": 1.420110610600229,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -48,11 +48,11 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "Menu",
-      "name": "NewSprite2",
+      "name": "fade",
       "persistentUuid": "a9a6fa10-6c50-4994-8bff-a8b36318b6e8",
       "width": 1920,
       "x": 0,
-      "y": -504,
+      "y": -360,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,11 +65,11 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "Menu",
-      "name": "NewSprite2",
+      "name": "fade",
       "persistentUuid": "460cbe2e-2dd8-4c68-83b0-c351f0b15bc8",
       "width": 1920,
       "x": 0,
-      "y": 504,
+      "y": 360,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,7 +136,7 @@
       "name": "E_Keys",
       "persistentUuid": "3b9e4584-faea-4fa9-86f1-66c06aded0a9",
       "width": 384,
-      "x": 96,
+      "x": 144,
       "y": 216,
       "zOrder": 12,
       "numberProperties": [],
@@ -153,7 +153,7 @@
       "name": "E_Keys_Text",
       "persistentUuid": "7bfa465b-141f-4448-a902-e215cc81be8a",
       "width": 384,
-      "x": 96,
+      "x": 144,
       "y": 216,
       "zOrder": 13,
       "numberProperties": [],
@@ -170,7 +170,7 @@
       "name": "E_Keys_about",
       "persistentUuid": "1ef3dc8d-4316-4ea4-a2c5-6300f9fc4b75",
       "width": 384,
-      "x": 96,
+      "x": 144,
       "y": 468,
       "zOrder": 14,
       "numberProperties": [],
@@ -238,7 +238,7 @@
       "name": "Ow_Ahh",
       "persistentUuid": "ba2d07d7-a5b7-4844-8bb3-988639b69fb6",
       "width": 384,
-      "x": 1440,
+      "x": 1392,
       "y": 216,
       "zOrder": 19,
       "numberProperties": [],
@@ -255,7 +255,7 @@
       "name": "Ow_Ahh_Text",
       "persistentUuid": "3c2f0418-c67c-4386-8b9a-13bd25d1dfa4",
       "width": 384,
-      "x": 1440,
+      "x": 1392,
       "y": 216,
       "zOrder": 20,
       "numberProperties": [],
@@ -272,7 +272,7 @@
       "name": "Ow_Ahh_about",
       "persistentUuid": "5b9e34c1-99f4-4fba-9d42-e08b3dbb33bc",
       "width": 384,
-      "x": 1440,
+      "x": 1392,
       "y": 468,
       "zOrder": 21,
       "numberProperties": [],
@@ -286,7 +286,7 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "Under",
-      "name": "NewSprite",
+      "name": "Background",
       "persistentUuid": "055a4393-ef2a-40b5-91f0-3f96779fd6ad",
       "width": 1920,
       "x": 0,
@@ -302,9 +302,9 @@
       "depth": 1,
       "height": 1080,
       "keepRatio": true,
-      "layer": "Under",
-      "name": "NewSprite3",
-      "persistentUuid": "06050431-58d4-451a-8da0-d7db617e584d",
+      "layer": "Menu",
+      "name": "Overlay",
+      "persistentUuid": "66637aa9-e411-4d05-bc66-484240e10518",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -312,69 +312,93 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "Title_text",
+      "persistentUuid": "316ef18e-5c9a-46c8-927d-d32640db6ba9",
+      "width": 0,
+      "x": 768,
+      "y": -72,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Title_text",
+      "persistentUuid": "e63f0e2d-2236-4518-85a9-7f3375b4610f",
+      "width": 768,
+      "x": 144,
+      "y": 97,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick",
+      "persistentUuid": "fa3e9d79-621b-4978-9237-414ed289109e",
+      "width": 384,
+      "x": 144,
+      "y": 648,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "45543985-41fc-46be-b78a-4c6b75be4d93",
+      "width": 384,
+      "x": 144,
+      "y": 900,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "53c70592-2581-477a-964d-130e82942624",
+      "width": 384,
+      "x": 144,
+      "y": 648,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fade_Element.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 1230
-                      },
-                      {
-                        "x": 0,
-                        "y": 1230
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -453,66 +477,6 @@
         "align": "center",
         "verticalTextAlignment": "top"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Crave Patch Sheets.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3375
-                      },
-                      {
-                        "x": 0,
-                        "y": 3375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "",
@@ -967,7 +931,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "Overlay",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1023,6 +987,168 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Title_text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b][i][size=30] Crave Patch Sheets",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Boom_Kick",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "107.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Boom_Kick_text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Boom Kick",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Boom_Kick_About",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b] A simple low end kick sound. ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1032,19 +1158,19 @@
         "folderName": "page",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "Demo_Text"
           },
           {
-            "objectName": "Demo_Text"
+            "objectName": "Title_text"
+          },
+          {
+            "objectName": "Overlay"
           },
           {
             "objectName": "Simple_Pluck"
           },
           {
             "objectName": "blank"
-          },
-          {
-            "objectName": "NewSprite2"
           }
         ]
       },
@@ -1077,6 +1203,20 @@
         ]
       },
       {
+        "folderName": "Boom_kick",
+        "children": [
+          {
+            "objectName": "Boom_Kick_About"
+          },
+          {
+            "objectName": "Boom_Kick_text"
+          },
+          {
+            "objectName": "Boom_Kick"
+          }
+        ]
+      },
+      {
         "folderName": "E_Keys",
         "children": [
           {
@@ -1089,9 +1229,6 @@
             "objectName": "E_Keys_about"
           }
         ]
-      },
-      {
-        "objectName": "NewSprite3"
       }
     ]
   },
@@ -1297,6 +1434,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Menu Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1630,7 +1768,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasSimpleClicked"
+                    "value": "DoubleClick::HasDoubleClicked"
                   },
                   "parameters": [
                     "",
@@ -1791,7 +1929,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DoubleClick::HasSimpleClicked"
+                    "value": "DoubleClick::HasDoubleClicked"
                   },
                   "parameters": [
                     "",
@@ -1875,102 +2013,31 @@
               ]
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Ow-Ahh"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            "Ow_Ahh",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Ow_Ahh",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Ow_Ahh",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Ow_Ahh",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "events": [
+          "comment": "Ow-Ahh"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DoubleClick::HasSimpleClicked"
-              },
-              "parameters": [
-                "",
-                "\"Left\"",
-                ""
-              ]
-            },
-            {
-              "type": {
+                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
                 "Ow_Ahh",
-                "",
-                "",
+                "=",
+                "yes",
                 ""
               ]
             }
@@ -1978,21 +2045,13 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "",
-                "\"Load\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "PL01",
+                "Ow_Ahh",
+                "Animation",
                 "=",
-                "3"
+                "0"
               ]
             }
           ]
@@ -2000,16 +2059,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "DoubleClick::HasSimpleClicked"
-              },
-              "parameters": [
-                "",
-                "\"Right\"",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -2025,20 +2074,270 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "",
-                "Ow - Ahh2.wav",
-                "10",
-                "",
-                "50",
+                "Ow_Ahh",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasDoubleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Ow_Ahh",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Load\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasSimpleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Ow_Ahh",
+                    "=",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ow - Ahh2.wav",
+                    "10",
+                    "",
+                    "50",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Boom Kick"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Boom_Kick",
+                "=",
+                "yes",
                 ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Boom_Kick",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Boom_Kick",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Boom_Kick",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasDoubleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Boom_Kick",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Load\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasSimpleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Boom_Kick",
+                    "=",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Boom Kick.wav",
+                    "10",
+                    "",
+                    "50",
+                    ""
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [
