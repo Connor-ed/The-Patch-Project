@@ -1467,7 +1467,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1501,11 +1500,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 },
                 {
@@ -1637,7 +1637,6 @@
           "comment": "E_Keys"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1692,11 +1691,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -1731,7 +1731,6 @@
           "comment": "Simple Pluck"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1786,11 +1785,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -1825,18 +1825,16 @@
           "comment": "Ow-Ahh"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"Ow-Ahh\""
+                "3"
               ]
             }
           ],
@@ -1881,11 +1879,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -1975,11 +1974,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
