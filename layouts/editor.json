@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.3300560049166121,
+    "zoomFactor": 0.16448391304938526,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -698,6 +698,73 @@
       "width": 1150,
       "x": 480,
       "y": 115,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "fade",
+      "persistentUuid": "7caed79b-0d78-425d-8f24-73f716c34965",
+      "width": 2592,
+      "x": -1248,
+      "y": -432,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "063ce4fd-538c-418e-bed7-20425eff2fbe",
+      "width": 1920,
+      "x": 0,
+      "y": -360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "ecc5df3a-cfe4-4827-8ac5-b4cc70775ca0",
+      "width": 1920,
+      "x": 0,
+      "y": 360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "Background",
+      "persistentUuid": "76ecb9bc-2c9e-401d-9179-0472fde4dd06",
+      "width": 0,
+      "x": -1392,
+      "y": -864,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -1521,11 +1588,12 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "DoubleClick::HasSimpleClicked"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "\"Left\"",
+            ""
           ]
         },
         {
@@ -1557,11 +1625,12 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "DoubleClick::HasSimpleClicked"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "\"Left\"",
+            ""
           ]
         },
         {
@@ -1665,7 +1734,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Top Menu Animtion"
+      "comment": "Top Menu Animtion - fix broken button"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1935,9 +2004,59 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "bk",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

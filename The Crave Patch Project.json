@@ -9,7 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
-    "antialisingEnabledOnMobile": false,
+    "antialisingEnabledOnMobile": true,
     "folderProject": true,
     "orientation": "default",
     "packageName": "com.edgingtondesmet.CravePatchProject",
@@ -18,14 +18,14 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "name": "The Crave Patch Project",
     "description": "The Crave Patch Project",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.2.2",
-    "maxFPS": 60,
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.4.1",
+    "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
@@ -907,6 +907,208 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fade_Element.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fade_Element.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_bk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_bk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "107.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "grbackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grbackground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave Patch Sheets.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave Patch Sheets.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ow - Ahh2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ow - Ahh2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boom_Kick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boom_Kick.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave-BG2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave-BG2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crave-bk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crave-bk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crave-bk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crave-bk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_liquid glass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_liquid glass.png",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -2635,6 +2837,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Crave Patch Sheets.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fade",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fade_Element.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 1230
+                      },
+                      {
+                        "x": 0,
+                        "y": 1230
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2672,6 +2994,12 @@
       },
       {
         "objectName": "SnapShot"
+      },
+      {
+        "objectName": "Background"
+      },
+      {
+        "objectName": "fade"
       }
     ]
   },
@@ -2681,6 +3009,11 @@
       "name": "Patchloading_",
       "type": "string",
       "value": "E_Keys"
+    },
+    {
+      "name": "PL01",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2699,6 +3032,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quick_check"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2914,6 +3251,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/textentryconsole"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectpickingtools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cursortype"
     }
   ],
   "externalLayouts": [

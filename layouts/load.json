@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
-    "zoomFactor": 0.4163025217733545,
+    "snap": true,
+    "zoomFactor": 0.27050126039626926,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -153,14 +153,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 30,
+      "height": 72,
       "keepRatio": true,
       "layer": "",
       "name": "Searchbar",
       "persistentUuid": "e4fcffc0-fb40-419f-83dc-97d44a0b9287",
-      "width": 599,
-      "x": 100,
-      "y": 938,
+      "width": 624,
+      "x": 96,
+      "y": 1152,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -298,6 +298,73 @@
       "x": 1687,
       "y": 189,
       "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "fade",
+      "persistentUuid": "5b203d69-4f13-45c7-8814-13ac587b602c",
+      "width": 2592,
+      "x": -1248,
+      "y": -432,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "59f3974a-0e33-4fff-90b7-cf36e5678e37",
+      "width": 1920,
+      "x": 0,
+      "y": -360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "fade",
+      "persistentUuid": "d9581377-bb55-496b-815e-770c4a0a9ed7",
+      "width": 1920,
+      "x": 0,
+      "y": 360,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "bk",
+      "name": "Background",
+      "persistentUuid": "d3d2f403-51bd-4023-ae65-751294c284f8",
+      "width": 0,
+      "x": -1392,
+      "y": -864,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1046,13 +1113,50 @@
           ]
         },
         {
-          "name": "",
+          "name": "Boom Kick",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boom_Kick.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1242,7 +1346,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Menu Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1319,7 +1422,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1353,40 +1455,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Global_Play",
-                    "=",
-                    "yes",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Global_Top_Menu",
-                    "Animation",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 },
                 {
@@ -1408,7 +1482,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Boot\""
+                    "\"Synth Selector\""
                   ]
                 }
               ]
@@ -1416,7 +1490,87 @@
           ]
         },
         {
-          "folded": true,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Home",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Global_Top_Menu",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasDoubleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Home",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Synth Selector\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1450,11 +1604,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 },
                 {
@@ -1554,7 +1709,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh | Simple Pluck |\n\""
+                "\"Click the search bar below to look for patch sheets. These are case-sensitive and need to be typed as shown.\n\nSheets: | E_Keys | Ow-Ahh | Simple Pluck | Boom Kick |\n\""
               ]
             }
           ],
@@ -1590,13 +1745,12 @@
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"E_Keys\""
+                "1"
               ]
             }
           ],
@@ -1641,11 +1795,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -1677,6 +1832,100 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Simple Pluck"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Simple Pluck\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Simple Pluck\n\nMIX CV >> MULTI, EXT AUDIO >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DoubleClick::HasSimpleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\"",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Simple Pluck -2.wav",
+                    "10",
+                    "50",
+                    "25",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Ow-Ahh"
         },
         {
@@ -1684,13 +1933,12 @@
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"Ow-Ahh\""
+                "3"
               ]
             }
           ],
@@ -1735,11 +1983,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -1771,115 +2020,19 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Simple Pluck"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "Searchbar",
-                "Text",
-                "=",
-                "\"Simple Pluck\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Knob_overlay",
-                "Animation",
-                "=",
-                "\"Simple Pluck\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "INST",
-                "Text",
-                "=",
-                "\"Simple Pluck\n\nMIX CV >> MULTI | EXT AUDIO >> OSC PULSE\nEXT AUDIO >> OSC PULSE | VCF CUTOFF >> KB CV\nMIX 2 >> LFO TRI | VC MIX >> ENV\nMULTI >> VC MIX\n\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Global_Play",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Simple Pluck -2.wav",
-                    "10",
-                    "50",
-                    "25",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 155,
-            "g": 155,
-            "r": 155,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Boom Kick\n"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Searchbar",
-                "Text",
+                "PL01",
                 "=",
-                "\"Boom Kick\""
+                "4"
               ]
             }
           ],
@@ -1892,7 +2045,7 @@
                 "Knob_overlay",
                 "Animation",
                 "=",
-                "\"Simple Pluck\""
+                "\"Boom Kick\""
               ]
             },
             {
@@ -1903,7 +2056,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Boom Kick\nVCF CUTOFF >> KB CV\""
+                "\"Boom Kick\n\nVCF CUTOFF >> KB CV\""
               ]
             }
           ],
@@ -1924,11 +2077,12 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "DoubleClick::HasSimpleClicked"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
+                    "\"Left\"",
+                    ""
                   ]
                 }
               ],
@@ -2130,6 +2284,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "bk",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
