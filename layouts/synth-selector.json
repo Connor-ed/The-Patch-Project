@@ -948,7 +948,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "frame.png",
+                  "image": "crave-bk4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

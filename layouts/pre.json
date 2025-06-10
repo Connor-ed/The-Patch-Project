@@ -18,28 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.40272258333259414,
+    "zoomFactor": 0.3088741216342675,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "a57ef3c1-af52-48b2-92ec-25ea4b52742f",
-      "width": 0,
-      "x": 3168,
-      "y": -495,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,

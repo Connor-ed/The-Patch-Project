@@ -1054,6 +1054,62 @@
         "name": "Screenshot 2025-06-09 at 6.40.32 PM.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Crave-BG2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave-BG2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crave-bk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crave-bk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crave-bk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crave-bk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_liquid glass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_liquid glass.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

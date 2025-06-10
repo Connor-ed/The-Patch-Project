@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.15392788923484055,
+    "zoomFactor": 0.27050126039626926,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2056,7 +2056,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Boom Kick\nVCF CUTOFF >> KB CV\""
+                "\"Boom Kick\n\nVCF CUTOFF >> KB CV\""
               ]
             }
           ],
