@@ -3014,6 +3014,11 @@
       "name": "PL01",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "hasbeenused",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

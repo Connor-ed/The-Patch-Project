@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,18 +17,12 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.31641462335478704,
+    "snap": true,
+    "zoomFactor": 0.25932130653676705,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "hasbeenused",
-      "type": "number",
-      "value": 0
-    }
-  ],
+  "variables": [],
   "instances": [
     {
       "angle": 0,
@@ -399,6 +393,40 @@
       "x": 479,
       "y": 249,
       "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "welcome",
+      "name": "Whats_new_text",
+      "persistentUuid": "a2f369ea-758a-41a6-8d93-9cd2cdb2dbe4",
+      "width": 768,
+      "x": 576,
+      "y": 324,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "welcome",
+      "name": "updates",
+      "persistentUuid": "4fa4425b-ba8b-4854-8418-2a2168408e4e",
+      "width": 864,
+      "x": 528,
+      "y": 360,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1603,6 +1631,42 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Whats_new_text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b] [size=30]   What's new in version 0.5.1",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "updates",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b][size=25]- Fixed an issue that caused audio to play back lower than normal",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1660,6 +1724,12 @@
       },
       {
         "objectName": "Dissmiss"
+      },
+      {
+        "objectName": "Whats_new_text"
+      },
+      {
+        "objectName": "updates"
       }
     ]
   },
@@ -2870,7 +2940,6 @@
       "comment": "dissmiss"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2901,7 +2970,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2931,7 +2999,6 @@
       ],
       "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2964,23 +3031,12 @@
                 "=",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "FileSystem::SaveVariableToJSONFileSync"
-              },
-              "parameters": [
-                "hasbeenused",
-                "FileSystem::DocumentsPath()",
-                ""
-              ]
             }
           ]
         }
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3007,7 +3063,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3029,76 +3084,6 @@
           "parameters": [
             "",
             "\"welcome\""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "FileSystem::PathExists"
-          },
-          "parameters": [
-            "FileSystem::DocumentsPath()"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FileSystem::MakeDirectory"
-          },
-          "parameters": [
-            "FileSystem::DocumentsPath()",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FileSystem::PathExists"
-          },
-          "parameters": [
-            "FileSystem::DocumentsPath()"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FileSystem::SaveVariableToJSONFileSync"
-          },
-          "parameters": [
-            "hasbeenused",
-            "FileSystem::DocumentsPath()",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "FileSystem::LoadVariableFromJSONFileSync"
-          },
-          "parameters": [
-            "hasbeenused",
-            "FileSystem::DocumentsPath()",
-            "",
-            ""
           ]
         }
       ]
@@ -3195,7 +3180,7 @@
       "isLocked": false,
       "name": "welcome",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
