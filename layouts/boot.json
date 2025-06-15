@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.25932130653676705,
+    "snap": false,
+    "zoomFactor": 0.1131779338742321,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -300,23 +300,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Menu",
-      "name": "fade",
-      "persistentUuid": "cc652dc4-de04-4037-a8c6-b094ac410661",
-      "width": 2592,
-      "x": -1248,
-      "y": -432,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1080,
       "keepRatio": true,
       "layer": "bk",
@@ -356,8 +339,8 @@
       "name": "Background",
       "persistentUuid": "4ae8ddd3-3fd8-4d98-a104-81ba46487ed3",
       "width": 0,
-      "x": -1392,
-      "y": -864,
+      "x": -2016,
+      "y": -855,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,6 +410,89 @@
       "x": 528,
       "y": 360,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 936,
+      "keepRatio": true,
+      "layer": "Help",
+      "name": "box_help",
+      "persistentUuid": "08d352a7-2435-4ce9-9a52-a668cc206d71",
+      "width": 1728,
+      "x": 96,
+      "y": 72,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "Help",
+      "name": "bodypage",
+      "persistentUuid": "ea68efd3-4bed-4be3-a9ad-4ab88ed528df",
+      "width": 864,
+      "x": 528,
+      "y": 360,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "Help",
+      "name": "title",
+      "persistentUuid": "7782e704-dd49-4b89-ad08-93add883ecf3",
+      "width": 816,
+      "x": 576,
+      "y": 324,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Help",
+      "name": "Dissmiss2",
+      "persistentUuid": "c33d2084-6668-40ca-9454-49bf2f08cb38",
+      "width": 0,
+      "x": -288,
+      "y": 72,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Help",
+      "name": "Dissmiss2",
+      "persistentUuid": "7d0a43e9-9b76-42ed-856c-0a869912e718",
+      "width": 0,
+      "x": 499,
+      "y": 268,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1658,7 +1724,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b][size=25]- Fixed an issue that caused audio to play back lower than normal",
+        "text": "[b][size=25]\n- Audio now plays back at the correct level\n\n- Text now shows up in images saved from the editor\n\n- External backgrounds can now be loaded into the app (experimental)",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1667,6 +1733,192 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_help",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "title",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b] [size=30]   Help Center",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "bodypage",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b][size=25]\nfrequently asked questions\n\nQ.  Can I save patch sheets to the app?\nA. saving is not supported at this time.\n\nQ. How can I play a patch audio clip?\nA. You can hit the play button or right click on \nthe patch image.",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dissmiss2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1723,13 +1975,25 @@
         "objectName": "Welcome"
       },
       {
+        "objectName": "box_help"
+      },
+      {
         "objectName": "Dissmiss"
+      },
+      {
+        "objectName": "Dissmiss2"
       },
       {
         "objectName": "Whats_new_text"
       },
       {
+        "objectName": "title"
+      },
+      {
         "objectName": "updates"
+      },
+      {
+        "objectName": "bodypage"
       }
     ]
   },
@@ -1804,6 +2068,15 @@
             "Animation",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Help\""
           ]
         }
       ]
@@ -2793,12 +3066,11 @@
       "actions": [
         {
           "type": {
-            "value": "PopUp::Alert"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
-            "\"Not available in this version.\"",
-            ""
+            "\"Help\""
           ]
         }
       ]
@@ -2917,12 +3189,25 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "UploadDownloadImageFile::UploadImageFile"
           },
           "parameters": [
             "",
-            "\"Synth Selector\"",
+            "Global_Base",
+            "",
+            "",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\""
           ]
         }
       ]
@@ -2965,6 +3250,65 @@
             "Animation",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "box_help",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "box_help",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -3027,11 +3371,92 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "hasbeenused",
+                "Variable.hasbeenused",
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Variable[\"version number\"]",
+                "=",
+                "051"
+              ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Help\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SystemInfo::IsNativeDesktopApp"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"welcome\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Variable.hasbeenused",
+            "=",
+            "1"
           ]
         }
       ]
@@ -3044,7 +3469,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "hasbeenused",
+            "Variable.hasbeenused",
             "=",
             "0"
           ]
@@ -3070,7 +3495,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "hasbeenused",
+            "Variable.hasbeenused",
             "=",
             "1"
           ]
@@ -3087,6 +3512,32 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
@@ -3179,6 +3630,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "welcome",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Help",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
