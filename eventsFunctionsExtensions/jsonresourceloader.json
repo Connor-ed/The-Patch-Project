@@ -1,0 +1,164 @@
+{
+  "author": "",
+  "category": "General",
+  "extensionNamespace": "",
+  "fullName": "JSON Resource Loading",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZpbGUtY29kZS1vdXRsaW5lIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05LjU0IDE1LjY1TDExLjYzIDE3Ljc0TDEwLjM1IDE5TDcgMTUuNjVMMTAuMzUgMTIuM0wxMS42MyAxMy41Nkw5LjU0IDE1LjY1TTE3IDE1LjY1TDEzLjY1IDE5TDEyLjM4IDE3Ljc0TDE0LjQ3IDE1LjY1TDEyLjM4IDEzLjU2TDEzLjY1IDEyLjNMMTcgMTUuNjVaIiAvPjwvc3ZnPg==",
+  "name": "JSONResourceLoader",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/file-code-outline.svg",
+  "shortDescription": "Loads a JSON resource into a variable.",
+  "version": "1.0.0",
+  "description": [
+    "Loads a (static) JSON resource from your project files into a global, scene, or object variable.",
+    "",
+    "NEVER use this to load your game.json into a variable - this would increase your game size by a lot and make your whole project file available for anyone to open!"
+  ],
+  "origin": {
+    "identifier": "JSONResourceLoader",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "json",
+    "resource",
+    "load",
+    "open",
+    "file",
+    "data",
+    "static",
+    "file"
+  ],
+  "authorIds": [
+    "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Loads a JSON resource into a scene structure variable.",
+      "fullName": "Load a JSON resource in a scene variable",
+      "functionType": "Action",
+      "name": "LoadJSONToScene",
+      "sentence": "Load _PARAM1_ into scene variable _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext",
+            "    .getArgument(\"Variable\")",
+            "    .fromJSObject(",
+            "        runtimeScene",
+            "            .getGame()",
+            "            .getJsonManager()",
+            "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+            "    );",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The resource to load the JSON from",
+          "name": "Resource",
+          "type": "jsonResource"
+        },
+        {
+          "description": "The scene variable to load the JSON to",
+          "name": "Variable",
+          "type": "scenevar"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Loads a JSON resource into a global structure variable.",
+      "fullName": "Load a JSON resource in a global variable",
+      "functionType": "Action",
+      "name": "LoadJSONToGlobal",
+      "sentence": "Load _PARAM1_ into global variable _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext",
+            "    .getArgument(\"Variable\")",
+            "    .fromJSObject(",
+            "        runtimeScene",
+            "            .getGame()",
+            "            .getJsonManager()",
+            "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+            "    );",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The resource to load the JSON from",
+          "name": "Resource",
+          "type": "jsonResource"
+        },
+        {
+          "description": "The global variable to load the JSON to",
+          "name": "Variable",
+          "type": "globalvar"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Loads a JSON resource into an object structure variable.",
+      "fullName": "Load a JSON resource in an object variable",
+      "functionType": "Action",
+      "name": "LoadJSONToObject",
+      "sentence": "Load _PARAM1_ into object variable _PARAM3_ of object _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext",
+            "    .getArgument(\"Variable\")",
+            "    .fromJSObject(",
+            "        runtimeScene",
+            "            .getGame()",
+            "            .getJsonManager()",
+            "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+            "    );",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The resource to load the JSON from",
+          "name": "Resource",
+          "type": "jsonResource"
+        },
+        {
+          "description": "The object where to find the variable",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "The object variable to load the JSON to",
+          "name": "Variable",
+          "type": "objectvar"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

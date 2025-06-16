@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.27050126039626926,
+    "zoomFactor": 0.17576384491806257,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1814,7 +1814,7 @@
                     "E Keys4.wav",
                     "10",
                     "50",
-                    "25",
+                    "50",
                     ""
                   ]
                 }
@@ -1908,7 +1908,7 @@
                     "Simple Pluck -2.wav",
                     "10",
                     "50",
-                    "25",
+                    "50",
                     ""
                   ]
                 }
@@ -2002,7 +2002,7 @@
                     "Ow - Ahh1.wav",
                     "10",
                     "50",
-                    "25",
+                    "50",
                     ""
                   ]
                 }
@@ -2096,7 +2096,7 @@
                     "Boom Kick.wav",
                     "10",
                     "50",
-                    "25",
+                    "50",
                     ""
                   ]
                 }
@@ -2112,7 +2112,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Audio Playing alert",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2202,7 +2201,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Detail Mode",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

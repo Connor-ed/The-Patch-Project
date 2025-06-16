@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.4.1",
-    "name": "The Crave Patch Project",
-    "description": "The Crave Patch Project",
+    "version": "0.5.0",
+    "name": "The Crave Patch Project - Nightly Build",
+    "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.4.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.1",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -196,14 +196,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"BCS_K3.png\",\"extension\":\".png\"}",
         "name": "BCS_K3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "BCS_Bottom2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BCS_Bottom2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -568,22 +560,6 @@
         "userAdded": false
       },
       {
-        "file": "loading.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "loading.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "loading2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "loading2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "updater.png",
         "kind": "image",
         "metadata": "",
@@ -664,14 +640,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Grind.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Grind.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -846,32 +814,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Hit 1.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "Bold_Crave.png",
         "kind": "image",
         "metadata": "",
         "name": "Bold_Crave.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "base_synth.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "base_synth.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -926,46 +872,6 @@
         "userAdded": false
       },
       {
-        "file": "Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Background.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Crave_bk.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crave_bk.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Background2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Background2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "4.png",
         "kind": "image",
         "metadata": "",
@@ -998,26 +904,10 @@
         "userAdded": false
       },
       {
-        "file": "grbackground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "grbackground.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Crave Patch Sheets.png",
         "kind": "image",
         "metadata": "",
         "name": "Crave Patch Sheets.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "frame.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1056,22 +946,6 @@
         "userAdded": false
       },
       {
-        "file": "Crave-BG2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crave-BG2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "crave-bk3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crave-bk3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "crave-bk4.png",
         "kind": "image",
         "metadata": "",
@@ -1104,10 +978,50 @@
         "userAdded": false
       },
       {
-        "file": "Crave_liquid glass.png",
+        "file": "infocon_bright.png",
         "kind": "image",
         "metadata": "",
-        "name": "Crave_liquid glass.png",
+        "name": "infocon_bright.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_dark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_dark.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_bright2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_bright3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BlackOut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BlackOut.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dark.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dark",
         "smoothed": true,
         "userAdded": false
       }
@@ -3014,6 +2928,22 @@
       "name": "PL01",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Variable",
+      "type": "structure",
+      "children": [
+        {
+          "name": "hasbeenused",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "version number",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
@@ -3267,6 +3197,42 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/cursortype"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/slotsystem"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jsonresourceloader"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/edgescrollcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedetector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/hexagonalgrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
     }
   ],
   "externalLayouts": [
