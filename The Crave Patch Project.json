@@ -1016,6 +1016,14 @@
         "name": "BlackOut.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/dark.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dark",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

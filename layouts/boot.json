@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5203582091312802,
+    "zoomFactor": 3.934494323823928,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -270,27 +270,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Global_Blank_Knob",
-      "persistentUuid": "063575f6-89b1-4420-bd63-ddac6c6013c4",
-      "width": 136,
-      "x": 279,
-      "y": 126,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 48,
-      "height": 132,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Global_Blank_Knob",
       "persistentUuid": "227235fb-a2cc-4266-af98-aefdd082dbd6",
       "width": 136,
       "x": 115,
-      "y": 125,
+      "y": 126,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -508,7 +491,7 @@
       "persistentUuid": "218c4286-a85c-472f-baed-412d31d1b6c4",
       "width": 133,
       "x": 281,
-      "y": 125,
+      "y": 126,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1953,11 +1936,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "infocon_dark.png",
+                  "image": "dark",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1982,11 +1966,11 @@
                       },
                       {
                         "x": 347,
-                        "y": 350
+                        "y": 349
                       },
                       {
                         "x": 0,
-                        "y": 350
+                        "y": 349
                       }
                     ]
                   ]
@@ -2030,11 +2014,11 @@
                       },
                       {
                         "x": 347,
-                        "y": 350
+                        "y": 349
                       },
                       {
                         "x": 0,
-                        "y": 350
+                        "y": 349
                       }
                     ]
                   ]
@@ -3978,7 +3962,7 @@
       "isLocked": false,
       "name": "Help",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
