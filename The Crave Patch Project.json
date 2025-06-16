@@ -24,7 +24,7 @@
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.4.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.1",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -974,6 +974,46 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_bright.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_dark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_dark.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_bright2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_bright3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BlackOut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BlackOut.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3165,6 +3205,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/edgescrollcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedetector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/hexagonalgrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
     }
   ],
   "externalLayouts": [

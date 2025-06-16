@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1131779338742321,
+    "zoomFactor": 0.5203582091312802,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -435,7 +435,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 360,
+      "height": 419,
       "keepRatio": true,
       "layer": "Help",
       "name": "bodypage",
@@ -493,6 +493,23 @@
       "x": 499,
       "y": 268,
       "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 135,
+      "keepRatio": true,
+      "layer": "",
+      "name": "info",
+      "persistentUuid": "218c4286-a85c-472f-baed-412d31d1b6c4",
+      "width": 133,
+      "x": 281,
+      "y": 125,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1724,7 +1741,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b][size=25]\n- Audio now plays back at the correct level\n\n- Text now shows up in images saved from the editor\n\n- External backgrounds can now be loaded into the app (experimental)",
+        "text": "[b][size=25]\n- The boot screen now loads faster\n\n- Audio now plays back at the correct level\n\n- Text now shows up in images saved from the editor\n\n- The help button now functions as expected",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1868,7 +1885,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b][size=25]\nfrequently asked questions\n\nQ.  Can I save patch sheets to the app?\nA. saving is not supported at this time.\n\nQ. How can I play a patch audio clip?\nA. You can hit the play button or right click on \nthe patch image.",
+        "text": "[b][size=25]\nfrequently asked questions\n\nQ.  Can I save patch sheets to the app?\nA. saving is not supported at this time.\n\nQ. How can I play a patch audio clip?\nA. You can hit the play button or right click on the patch image.\n\nQ. Can I edit/contribute to the app?\nA. Yes. You can view the source code on our GitHub page.\n\n",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1919,6 +1936,156 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "info",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "dark",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_bright3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1994,6 +2161,12 @@
       },
       {
         "objectName": "bodypage"
+      },
+      {
+        "objectName": "info"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -2077,6 +2250,26 @@
           "parameters": [
             "",
             "\"Help\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "Whats_new_text",
+            "=",
+            "\"[b][size=30]What's new in version \""
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "Whats_new_text",
+            "+",
+            "GetPropertiesData::ReturnGameVersion()"
           ]
         }
       ]
@@ -2909,6 +3102,127 @@
         "textG": 0,
         "textR": 0
       },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "info",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "info",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "info",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "info",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "info",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Variable.hasbeenused",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
       "comment": "Top Menu Animtion"
     },
     {
@@ -3664,7 +3978,7 @@
       "isLocked": false,
       "name": "Help",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

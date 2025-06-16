@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3768772036751005,
+    "zoomFactor": 0.2448838363372638,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -392,6 +392,261 @@
       "width": 384,
       "x": 144,
       "y": 648,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackout",
+      "persistentUuid": "29ddbdca-0d7f-49e7-a15d-3fe96406f736",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackout",
+      "persistentUuid": "d67737b3-4c74-4b42-bed5-b6bb2c7aa2bb",
+      "width": 384,
+      "x": 1392,
+      "y": 648,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "efa4a2a5-4a8e-47a5-aa5d-7dfcc5a98cc7",
+      "width": 384,
+      "x": 768,
+      "y": 900,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "dd5f513f-d5ff-45cd-b98a-51f9bcdaec62",
+      "width": 384,
+      "x": 1392,
+      "y": 900,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "02448b8c-8ba7-48ec-b6bb-a139db4e666f",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "b7e991fc-ec5d-4aad-ae4b-48a774969d89",
+      "width": 384,
+      "x": 1392,
+      "y": 648,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackout",
+      "persistentUuid": "73f7c934-b081-4118-8c51-6ecb3e5326d5",
+      "width": 384,
+      "x": 768,
+      "y": 1080,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackout",
+      "persistentUuid": "1caab712-9dba-4b52-b2bf-e69eda46dbd1",
+      "width": 384,
+      "x": 1392,
+      "y": 1080,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "8a476744-4f84-4372-8a44-6b2056ef79a6",
+      "width": 384,
+      "x": 768,
+      "y": 1332,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "de4df2f3-1294-457f-a51d-06c07945b08a",
+      "width": 384,
+      "x": 1392,
+      "y": 1332,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "fe504a97-d6cf-4e10-a474-393bf56d848c",
+      "width": 384,
+      "x": 768,
+      "y": 1080,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "33c9cd17-afa8-4f76-a38e-24d54c0d5e37",
+      "width": 384,
+      "x": 1392,
+      "y": 1080,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackout",
+      "persistentUuid": "3a4af53b-bb57-4abc-86b1-42b66a0f50c9",
+      "width": 384,
+      "x": 144,
+      "y": 1080,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About",
+      "persistentUuid": "696de538-55a6-42c3-bc24-bcc665517b2b",
+      "width": 384,
+      "x": 144,
+      "y": 1332,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_text",
+      "persistentUuid": "b3350765-4662-4fb6-869e-10fc19d27735",
+      "width": 384,
+      "x": 144,
+      "y": 1080,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -1122,7 +1377,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Boom Kick",
+        "text": "\n[b]Coming Soon",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1140,7 +1395,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] A simple low end kick sound. ",
+        "text": "\n[b]Coming Soon\n[b]Coming Soon",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1185,6 +1440,66 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "blackout",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BlackOut.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1274,6 +1589,9 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "blackout"
       }
     ]
   },

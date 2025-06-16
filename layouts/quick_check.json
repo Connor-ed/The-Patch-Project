@@ -375,6 +375,51 @@
             "",
             "\"Boot\""
           ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Load\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Pre\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Synth Selector\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Save\""
+          ]
         }
       ]
     },
@@ -452,6 +497,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -473,6 +519,87 @@
             "\"a\"",
             ">=",
             "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Boot\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "UpdateChecker::UpdateAvailable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Boot\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Load\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Pre\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Synth Selector\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Save\""
           ]
         }
       ],
