@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "name": "The Crave Patch Project - Nightly Build",
     "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.1_v",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -1022,6 +1022,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "dark",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-06-16 at 12.00.48 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-06-16 at 12.00.48 PM.png",
         "smoothed": true,
         "userAdded": false
       }
