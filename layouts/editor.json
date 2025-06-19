@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.16448391304938526,
+    "zoomFactor": 0.5250860067782838,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -681,7 +681,7 @@
       "width": 1152,
       "x": 480,
       "y": 114,
-      "zOrder": 32,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -756,16 +756,33 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 6048,
       "keepRatio": true,
       "layer": "bk",
       "name": "Background",
       "persistentUuid": "76ecb9bc-2c9e-401d-9179-0472fde4dd06",
-      "width": 0,
+      "width": 8736,
       "x": -1392,
       "y": -864,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Screenshot",
+      "name": "snap_shot",
+      "persistentUuid": "c64d1387-dc5b-490d-9a12-1ee950370b8b",
+      "width": 0,
+      "x": 1824,
+      "y": 2232,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1378,6 +1395,48 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "snap_shot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "snap_shot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "snap_shot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1406,6 +1465,9 @@
       },
       {
         "objectName": "TextToImg"
+      },
+      {
+        "objectName": "snap_shot"
       }
     ]
   },
@@ -1954,6 +2016,14 @@
                 "!=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "SystemInfo::IsNativeDesktopApp"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1978,6 +2048,39 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SystemInfo::IsNativeDesktopApp"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopUp::Alert"
+              },
+              "parameters": [
+                "",
+                "\"downloading is not available in the web app\"",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
         }
       ]
     },
@@ -1995,7 +2098,7 @@
         },
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "KeyFromTextReleased"
           },
           "parameters": [
             "",

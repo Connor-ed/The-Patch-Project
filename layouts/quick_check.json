@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37687720367508876,
+    "zoomFactor": 0.5427920802473299,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -93,11 +93,47 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "CPa_CFU.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "loadingcrave2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

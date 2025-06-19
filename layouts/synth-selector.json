@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2448838363372638,
+    "zoomFactor": 0.5427920802473492,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -272,7 +272,7 @@
       "name": "Ow_Ahh_about",
       "persistentUuid": "5b9e34c1-99f4-4fba-9d42-e08b3dbb33bc",
       "width": 384,
-      "x": 1392,
+      "x": 1393,
       "y": 468,
       "zOrder": 21,
       "numberProperties": [],
@@ -648,6 +648,210 @@
       "x": 144,
       "y": 1080,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "2a156845-3e07-415f-9d01-ffa57c4a9d33",
+      "width": 384,
+      "x": 768,
+      "y": 900,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "88387fe2-4819-4b1e-b5e6-e138fefb59fa",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About2",
+      "persistentUuid": "a29c7a77-b663-4a4b-ad42-521dbf0cd110",
+      "width": 384,
+      "x": 144,
+      "y": 900,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "boom_kick_text2",
+      "persistentUuid": "165c7178-9f6d-4e9e-bb4d-4fbf81c96d1b",
+      "width": 384,
+      "x": 144,
+      "y": 648,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "a350aaa9-f62b-40ea-b381-14933f20197a",
+      "width": 384,
+      "x": 1392,
+      "y": 648,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "47052fc2-7fa5-4a27-996b-6da41ba52f68",
+      "width": 384,
+      "x": 1392,
+      "y": 900,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "6d3c09c4-9639-4368-9e87-085a57410810",
+      "width": 384,
+      "x": 1392,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "f8b38543-d596-48bb-b379-5644351f47df",
+      "width": 384,
+      "x": 1392,
+      "y": 1080,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "d76b7e35-1975-497e-90ef-c6637c33f6ef",
+      "width": 384,
+      "x": 768,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "d7f978db-f1ea-4c5c-96a3-d3b16f7e4f94",
+      "width": 384,
+      "x": 768,
+      "y": 1080,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "9c5c12a3-9e13-4be5-a56e-f5400197009a",
+      "width": 384,
+      "x": 144,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "3afd4e60-d012-4d7c-9a4c-a03eeb8df3e5",
+      "width": 384,
+      "x": 144,
+      "y": 1080,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1029,7 +1233,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] A simple puck sound for the Behringer Crave",
+        "text": "\n[b]Creator: Connor-ed\n[b] A basic synth pluck",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1173,7 +1377,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] Quite a strange one. Right?",
+        "text": "\n[b]Creator: Connor-ed\n[b] Ow Ahh Boo Do Do Do Do  ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1371,7 +1575,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Boom_Kick_text",
+      "name": "blank2",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1389,7 +1593,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Boom_Kick_About",
+      "name": "blank1",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1506,6 +1710,42 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Boom_Kick_About2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b]Kick it, it's not a painted rock...",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "boom_kick_text2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Boom Kick",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1563,10 +1803,16 @@
         "folderName": "Boom_kick",
         "children": [
           {
-            "objectName": "Boom_Kick_About"
+            "objectName": "blank1"
           },
           {
-            "objectName": "Boom_Kick_text"
+            "objectName": "Boom_Kick_About2"
+          },
+          {
+            "objectName": "blank2"
+          },
+          {
+            "objectName": "boom_kick_text2"
           },
           {
             "objectName": "Boom_Kick"
@@ -2208,7 +2454,7 @@
                     "E Keys4.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2369,7 +2615,7 @@
                     "Simple Pluck -2.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2530,7 +2776,7 @@
                     "Ow - Ahh2.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2691,7 +2937,7 @@
                     "Boom Kick.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
