@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "name": "The Crave Patch Project - Nightly Build",
     "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.2",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.3",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -88,6 +88,11 @@
       "keyboard"
     ],
     "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdIos",
+        "value": ""
+      },
       {
         "extension": "Firebase",
         "property": "FirebaseConfig",
@@ -1245,6 +1250,46 @@
         "kind": "image",
         "metadata": "",
         "name": "infocon_dark2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
         "smoothed": true,
         "userAdded": false
       }
@@ -3256,6 +3301,11 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "tracking",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3561,6 +3611,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/thnk"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rotate13"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/uuid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"
     }
   ],
   "externalLayouts": [

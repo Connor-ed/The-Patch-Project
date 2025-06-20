@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.5747931490002457,
+    "snap": false,
+    "zoomFactor": 0.34951491983082106,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -509,7 +509,7 @@
       "persistentUuid": "cccba71c-7267-41df-b78b-188793eea8eb",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": 33,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -526,7 +526,7 @@
       "persistentUuid": "9ab4442b-28ef-4f00-8fab-dc80f6fa7b94",
       "width": 246,
       "x": 320,
-      "y": 902,
+      "y": 935,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -543,7 +543,7 @@
       "persistentUuid": "b8227e59-f9dc-4287-9914-cf99da300ce6",
       "width": 248,
       "x": 1354,
-      "y": 903,
+      "y": 936,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -559,9 +559,26 @@
       "name": "disclamer",
       "persistentUuid": "252273ec-8297-477c-b983-01b0a794dcfd",
       "width": 768,
-      "x": 576,
-      "y": 896,
+      "x": 574,
+      "y": 932,
       "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "version_info",
+      "persistentUuid": "5289b7fc-abc3-4a22-9fb3-70ce86296bed",
+      "width": 1693,
+      "x": 14,
+      "y": 1056,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1826,7 +1843,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Fixed and updated name and detail info on the patch loading screen\n\n- The \"What's New\" popup no longer opens on boot\n\n- the \"What's New\" and \"Help Center\"popups can now be moved around \nthe screen\n\n- Updated the \"Help Center\"  to adress loading issues\n\n- Mobile devices can now access app.edgingtondesmet.com\n",
+        "text": "[b][size=25]\n- Added a new data collection consent pop-up \n\n- Arrow keys can now be used to move knobs in the editor\n\n- Fixed a bug that broke the file download error alert on \napp.edgingtondesmet.com\n\n- Added version details on the main menu screen",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2898,7 +2915,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "The Crave Patch Project may collect information such as general location, type of device, and time used. All data collected is kept anonymous and is only used to improve your experience. ",
+      "string": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
       "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
       "textAlignment": "center",
       "characterSize": 20,
@@ -2921,11 +2938,53 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "The Crave Patch Project may collect information such as general location, type of device, and time used. All data collected is kept anonymous and is only used to improve your experience. ",
+        "text": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
         "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
         "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "version_info",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 10,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 10,
         "color": "0;0;0"
       }
     }
@@ -3024,6 +3083,9 @@
       },
       {
         "objectName": "disclamer"
+      },
+      {
+        "objectName": "version_info"
       }
     ]
   },
@@ -3146,6 +3208,50 @@
             "Variable.hasbeenused",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "\"v\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "GetPropertiesData::ReturnGameVersion()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "\" - \""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "Language::Language()"
           ]
         }
       ]
@@ -4944,6 +5050,16 @@
           "parameters": [
             "disclamer"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tracking",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -4986,6 +5102,16 @@
           "parameters": [
             "disclamer"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tracking",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -4994,10 +5120,12 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "NumberVariable"
           },
           "parameters": [
-            ""
+            "tracking",
+            "=",
+            "1"
           ]
         }
       ],
@@ -5019,6 +5147,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -5178,7 +5311,7 @@
       "isLocked": false,
       "name": "Help",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
