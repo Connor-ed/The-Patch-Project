@@ -1292,6 +1292,38 @@
         "name": "NewSprite14",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Autoplay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Autoplay2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_bay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_bay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_Bay_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_Bay_2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3225,6 +3257,66 @@
           "width": 48
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "top_title",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Autoplay2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 372,
+                        "y": 289
+                      },
+                      {
+                        "x": 1254,
+                        "y": 289
+                      },
+                      {
+                        "x": 1254,
+                        "y": 386
+                      },
+                      {
+                        "x": 372,
+                        "y": 386
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3271,6 +3363,9 @@
       },
       {
         "objectName": "SquareWhiteSlider"
+      },
+      {
+        "objectName": "top_title"
       }
     ]
   },

@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
-    "zoomFactor": 0.5427920802473658,
+    "snap": true,
+    "zoomFactor": 0.28905162031351317,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -813,8 +813,8 @@
       "name": "OSC_FM",
       "persistentUuid": "fe3cff0e-cd89-4663-bcd4-9b3b84eb2f4f",
       "width": 0,
-      "x": 200,
-      "y": 792,
+      "x": 201,
+      "y": 795,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -830,7 +830,7 @@
       "persistentUuid": "00ba1e0f-fe6f-4d05-81ae-495ae01f5fee",
       "width": 0,
       "x": 89,
-      "y": 794,
+      "y": 795,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -849,6 +849,40 @@
       "x": 57,
       "y": 725,
       "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "top_title",
+      "persistentUuid": "ba65015a-ec0c-4c2e-b9f7-9a92e31f8e9b",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "top_title",
+      "persistentUuid": "380f8c7e-3be3-4b22-a25f-258c6cdac11f",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1524,7 +1558,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "patch4.png",
+                  "image": "patch_Bay_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2553,17 +2587,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"LShift\""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": []
     }
   ],
