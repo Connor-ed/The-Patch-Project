@@ -325,6 +325,45 @@
       "actions": [
         {
           "type": {
+            "value": "Firebase::EnablePerformance"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Firebase::RecordTracer"
+          },
+          "parameters": [
+            "\"recording\"",
+            "0",
+            "6000"
+          ]
+        },
+        {
+          "type": {
+            "value": "Firebase::AddTracer"
+          },
+          "parameters": [
+            "\"buttonsynth\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "ResetTimer"
           },
           "parameters": [

@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "name": "The Crave Patch Project - Nightly Build",
     "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
@@ -1323,6 +1323,52 @@
         "metadata": "",
         "name": "patch_Bay_2.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heavy bass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heavy bass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_Bay_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_Bay_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept bass.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "concept bass.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "concept bass2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "concept bass2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "conceptbass3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "conceptbass3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -3399,6 +3445,11 @@
     },
     {
       "name": "tracking",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "firebase",
       "type": "number",
       "value": 0
     }

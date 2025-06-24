@@ -18,11 +18,17 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.42646565834523287,
+    "zoomFactor": 0.386077855344143,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "signin",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -445,22 +451,6 @@
       "x": 576,
       "y": 324,
       "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Help",
-      "name": "Dissmiss2",
-      "persistentUuid": "c33d2084-6668-40ca-9454-49bf2f08cb38",
-      "width": 0,
-      "x": -288,
-      "y": 72,
-      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1843,7 +1833,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added a visual patch bay \n\n- fixed an bug that caused windows the freeze when repositioning them\n\n- ",
+        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed an bug that caused windows the freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1854,7 +1844,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "box_help",
       "type": "Sprite",
@@ -4863,11 +4853,11 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetLayerDefaultZOrder"
           },
           "parameters": [
-            "Welcome",
-            "=",
+            "",
+            "\"welcome\"",
             "0"
           ]
         }
@@ -4921,11 +4911,11 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetLayerDefaultZOrder"
           },
           "parameters": [
-            "box_help",
-            "=",
+            "",
+            "\"Help\"",
             "0"
           ]
         }
@@ -5057,18 +5047,12 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "AD"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "disclamer"
+            "tracking",
+            "=",
+            "1"
           ]
         },
         {
@@ -5076,7 +5060,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "tracking",
+            "firebase",
             "=",
             "1"
           ]
@@ -5132,6 +5116,16 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "firebase",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -5143,7 +5137,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "tracking",
+            "firebase",
             "=",
             "1"
           ]
@@ -5165,13 +5159,31 @@
           "parameters": [
             "AD"
           ]
+        },
+        {
+          "type": {
+            "value": "Firebase::AnonymousSignIn"
+          },
+          "parameters": [
+            "signin"
+          ]
+        },
+        {
+          "type": {
+            "value": "Firebase::AnalyticsEnable"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Firebase::AnalyticsLog"
+          },
+          "parameters": [
+            "\"time\"",
+            "ToString(Time(\"timestamp\"))"
+          ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -5296,7 +5308,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "welcome",
+      "name": "Help",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -5329,7 +5341,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Help",
+      "name": "welcome",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

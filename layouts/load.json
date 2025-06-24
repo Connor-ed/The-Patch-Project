@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.23689563725447807,
+    "zoomFactor": 0.27962265218395227,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -257,7 +257,7 @@
       "depth": 1,
       "height": 144,
       "keepRatio": true,
-      "layer": "",
+      "layer": "top",
       "name": "Loading_alert",
       "persistentUuid": "2f5ff7be-271d-49e9-955f-254055b9bb0d",
       "width": 144,
@@ -355,16 +355,34 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
       "keepRatio": true,
       "layer": "bk",
       "name": "Background",
       "persistentUuid": "d3d2f403-51bd-4023-ae65-751294c284f8",
-      "width": 0,
-      "x": -1392,
-      "y": -864,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "patchbay",
+      "name": "Patch_bay",
+      "persistentUuid": "27d49226-6ff8-4d01-85e6-f826d9d52f1e",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1159,6 +1177,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Concept Bass",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "heavy bass.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1221,6 +1287,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Patch_bay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "patch_Bay_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1252,6 +1378,9 @@
       },
       {
         "objectName": "Detail_overlay_autoplay"
+      },
+      {
+        "objectName": "Patch_bay"
       }
     ]
   },
@@ -1323,6 +1452,15 @@
           "parameters": [
             "",
             "Boom Kick.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "conceptbass3.wav"
           ]
         }
       ]
@@ -2103,6 +2241,100 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Concept Bass"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Concept Bass\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Concept Bass\n\nNo patch details given\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Global_Play",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DoubleClick::HasSimpleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\"",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "conceptbass3.wav",
+                    "10",
+                    "50",
+                    "100",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2341,6 +2573,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "patchbay",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
