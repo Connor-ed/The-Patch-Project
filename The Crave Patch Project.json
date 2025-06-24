@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.5.4",
+    "version": "0.6.0",
     "name": "The Crave Patch Project - Nightly Build",
     "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
@@ -96,7 +96,6 @@
       {
         "extension": "Firebase",
         "property": "FirebaseConfig",
-        "value": ""
       }
     ],
     "platforms": [

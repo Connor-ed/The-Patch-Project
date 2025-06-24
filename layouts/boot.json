@@ -1833,7 +1833,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed an bug that caused windows the freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
+        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed a bug that caused Windows to freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
