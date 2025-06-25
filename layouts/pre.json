@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4163025217733358,
+    "zoomFactor": 0.4163025217733362,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "c21b5948-83c3-4e32-8595-881602442000",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -54,6 +37,57 @@
       "x": 96,
       "y": 1008,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "3d4dc56f-2eaa-4a19-8dc5-ae9ff81528ec",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "be694123-bd62-443c-bd63-17ce44e39236",
+      "width": 1920,
+      "x": -624,
+      "y": -432,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Loading_alert",
+      "persistentUuid": "470db7f3-7cec-4dad-9e28-6c2b50c7db94",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -80,7 +114,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "CPa_CFU.png",
+                  "image": "loadingcrave.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -140,7 +174,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+                  "image": "Screenshot 2025-06-16 at 12.00.48 PM.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -160,16 +194,16 @@
                         "y": 0
                       },
                       {
-                        "x": 46,
+                        "x": 252,
                         "y": 0
                       },
                       {
-                        "x": 46,
-                        "y": 60
+                        "x": 252,
+                        "y": 270
                       },
                       {
                         "x": 0,
-                        "y": 60
+                        "y": 270
                       }
                     ]
                   ]
@@ -356,6 +390,26 @@
           "parameters": [
             "",
             "\"ABC\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Opacity"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]

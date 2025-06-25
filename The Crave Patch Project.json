@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.5.0",
+    "version": "0.5.4",
     "name": "The Crave Patch Project - Nightly Build",
     "description": "This is where all nightly builds are published for testing. ",
     "author": "The Crave Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.5.3",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -88,6 +88,11 @@
       "keyboard"
     ],
     "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdIos",
+        "value": ""
+      },
       {
         "extension": "Firebase",
         "property": "FirebaseConfig",
@@ -1023,6 +1028,347 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "dark",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-06-16 at 12.00.48 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-06-16 at 12.00.48 PM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sliderbar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sliderbar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "slide_knob.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slide_knob.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Square White Slider Border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Fill Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Thumb3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "file": "slider2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"slider2.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "slider2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "slide_knob2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slide_knob2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "slider3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slider3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "slider4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slider4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "knob3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "knob3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "knob48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "knob48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sliderightsize.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sliderightsize.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "109109.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "109109.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/snap_shot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "snap_shot",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loadingcrave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loadingcrave.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "loadingcrave2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loadingcrave2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AC.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AC",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotoSansKR-Bold.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Korean/2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "infocon_bright4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_bright4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "infocon_dark2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "infocon_dark2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Autoplay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Autoplay2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_bay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_bay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_Bay_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_Bay_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heavy bass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heavy bass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_Bay_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patch_Bay_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept bass.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "concept bass.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "concept bass2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "concept bass2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "conceptbass3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "conceptbass3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -2871,6 +3217,152 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6,
+        "ShowLabelAtChanges": false,
+        "StepSize": 10
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 41,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "sliderightsize.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 697
+        },
+        "FillBar": {
+          "bottomMargin": 2,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "slider2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 18,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 2,
+          "height": 48,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "109109.png",
+          "tiled": false,
+          "topMargin": 2,
+          "width": 48
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "top_title",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Autoplay2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 372,
+                        "y": 289
+                      },
+                      {
+                        "x": 1254,
+                        "y": 289
+                      },
+                      {
+                        "x": 1254,
+                        "y": 386
+                      },
+                      {
+                        "x": 372,
+                        "y": 386
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2914,6 +3406,12 @@
       },
       {
         "objectName": "fade"
+      },
+      {
+        "objectName": "SquareWhiteSlider"
+      },
+      {
+        "objectName": "top_title"
       }
     ]
   },
@@ -2944,6 +3442,16 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "tracking",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "firebase",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3233,6 +3741,42 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/websocketclient"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thnk_p2p"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thnk_geckosclient"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thnk"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rotate13"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/uuid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"
     }
   ],
   "externalLayouts": [

@@ -1,0 +1,370 @@
+{
+  "author": "Arthur Pacaud (arthuro555)",
+  "category": "Network",
+  "extensionNamespace": "",
+  "fullName": "WebSocket client",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCgkuc3Qye2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE2LDI2YzUuNSwwLDEwLTQuNSwxMC0xMGwzLDQiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNiw2QzEwLjUsNiw2LDEwLjUsNiwxNmwtMy00Ii8+DQo8cmVjdCB4PSI1IiB5PSIyMSIgY2xhc3M9InN0MCIgd2lkdGg9IjgiIGhlaWdodD0iNSIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNSwyOSAzLDI5IDUsMjYgMTMsMjYgIi8+DQo8cmVjdCB4PSIyMCIgeT0iMyIgY2xhc3M9InN0MCIgd2lkdGg9IjciIGhlaWdodD0iMTAiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyMCIgeTE9IjciIHgyPSIyNyIgeTI9IjciLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIyMyIgeTE9IjEwIiB4Mj0iMjUiIHkyPSIxMCIvPg0KPC9zdmc+DQo=",
+  "name": "WebSocketClient",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Communication/Communication_pc_server_sync_sharing.svg",
+  "shortDescription": "A WebSocket client for fast client-server networking.",
+  "version": "1.0.0",
+  "description": [
+    "This extension allows to use WebSocket based networking. ",
+    "You can use it to interact with a WebSocket based API, or a server for your multiplayer game.",
+    "",
+    "Features:",
+    " - Connection and disconnection from a server",
+    " - Receiving strings from the server",
+    " - Sending strings to the server",
+    " - Error handling",
+    " - Handling more than 1 event per frame",
+    "",
+    "Doesn't contain:",
+    " - Sending or receiving binary data",
+    " - A WebSocket server"
+  ],
+  "origin": {
+    "identifier": "WebSocketClient",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "web",
+    "socket",
+    "networking",
+    "multiplayer",
+    "server",
+    "client",
+    "connection"
+  ],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "",
+      "functionType": "Action",
+      "name": "onFirstSceneLoaded",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient = {",
+            "    /** The current connection to the WebSockets server. */",
+            "    connection: null,",
+            "    /** The last error that occurred. */",
+            "    lastError: \"\",",
+            "    /** A list of events triggered. */",
+            "    events: [],",
+            "};"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "fullName": "",
+      "functionType": "Action",
+      "name": "onScenePostEvents",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient.events.pop();",
+            "gdjs.evtTools.wsClient.lastError = \"\";",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Triggers if the client is currently connecting to the WebSocket server.",
+      "fullName": "Connecting to a server",
+      "functionType": "Condition",
+      "name": "IsConnecting",
+      "sentence": "Connecting to the server",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    gdjs.evtTools.wsClient.connection &&",
+            "    gdjs.evtTools.wsClient.connection.readyState === WebSocket.CONNECTING;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Triggers if the client is connected to a WebSocket server.",
+      "fullName": "Connected to a server",
+      "functionType": "Condition",
+      "name": "IsConnected",
+      "sentence": "Connected to the server",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    gdjs.evtTools.wsClient.connection &&",
+            "    gdjs.evtTools.wsClient.connection.readyState === WebSocket.OPEN;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Triggers if the connection to a WebSocket server was closed.",
+      "fullName": "Connection to a server was closed",
+      "functionType": "Condition",
+      "name": "IsClosed",
+      "sentence": "Connection to the server closed",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    gdjs.evtTools.wsClient.connection &&",
+            "    gdjs.evtTools.wsClient.connection.readyState === WebSocket.CLOSED;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Connects to a WebSocket server. ",
+      "fullName": "Connect to server",
+      "functionType": "Action",
+      "name": "Connect",
+      "sentence": "Connect to WebSocket server at _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient.connection = new WebSocket(eventsFunctionContext.getArgument(\"host\"));",
+            "",
+            "gdjs.evtTools.wsClient.connection.addEventListener(",
+            "    \"message\",",
+            "    ({ data }) => gdjs.evtTools.wsClient.events.unshift(data)",
+            ");",
+            "",
+            "gdjs.evtTools.wsClient.connection.addEventListener(",
+            "    \"error\",",
+            "    ({ message }) => (gdjs.evtTools.wsClient.lastError = message)",
+            ");",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The server address",
+          "name": "host",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Disconnects from the current WebSocket server.",
+      "fullName": "Disconnect from server",
+      "functionType": "Action",
+      "name": "Disconnect",
+      "sentence": "Disconnect from server (reason: _PARAM1_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient.connection",
+            "    && gdjs.evtTools.wsClient.connection.close(1000, eventsFunctionContext.getArgument(\"reason\"));",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The reason for disconnection",
+          "name": "reason",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Triggers when the server has sent the client some data.",
+      "fullName": "An event was received",
+      "functionType": "Condition",
+      "name": "EventReceived",
+      "sentence": "Data received from server",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue = gdjs.evtTools.wsClient.events.length !== 0;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the piece of data from the server that is currently being processed.",
+      "fullName": "Data from server",
+      "functionType": "StringExpression",
+      "name": "Data",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue =",
+            "    gdjs.evtTools.wsClient.events[gdjs.evtTools.wsClient.events.length - 1] || \"\";",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Dismisses an event after processing it to allow processing the next one without waiting for the next frame.",
+      "fullName": "Mark as processed",
+      "functionType": "Action",
+      "name": "FinalizeEvent",
+      "sentence": "Mark current event as completed",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient.events.pop();",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Sends a string to the server.",
+      "fullName": "Send data to the server",
+      "functionType": "Action",
+      "name": "Send",
+      "sentence": "Send _PARAM1_ to the server",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs.evtTools.wsClient.connection &&\r",
+            "    gdjs.evtTools.wsClient.connection.send(eventsFunctionContext.getArgument(\"data\"));\r",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The data to send to the server",
+          "name": "data",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Triggers when a WebSocket error has occurred.",
+      "fullName": "An error occurred",
+      "functionType": "Condition",
+      "name": "OnError",
+      "sentence": "WebSocket error has occurred",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue = !!gdjs.evtTools.wsClient.lastError;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Gets the last error that occurred.",
+      "fullName": "Get last error",
+      "functionType": "StringExpression",
+      "name": "LastError",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue = gdjs.evtTools.wsClient.lastError;",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

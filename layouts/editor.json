@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.16448391304938526,
+    "zoomFactor": 0.28905162031351317,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -681,7 +681,7 @@
       "width": 1152,
       "x": 480,
       "y": 114,
-      "zOrder": 32,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -756,16 +756,133 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1800,
       "keepRatio": true,
       "layer": "bk",
       "name": "Background",
       "persistentUuid": "76ecb9bc-2c9e-401d-9179-0472fde4dd06",
-      "width": 0,
-      "x": -1392,
-      "y": -864,
+      "width": 1920,
+      "x": 0,
+      "y": -360,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Screenshot",
+      "name": "snap_shot",
+      "persistentUuid": "c64d1387-dc5b-490d-9a12-1ee950370b8b",
+      "width": 0,
+      "x": 1824,
+      "y": 2232,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Patch",
+      "persistentUuid": "3f5276f0-bba4-4b87-9457-23fda473e413",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "OSC_FM",
+      "persistentUuid": "fe3cff0e-cd89-4663-bcd4-9b3b84eb2f4f",
+      "width": 0,
+      "x": 201,
+      "y": 795,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "OSC_CV",
+      "persistentUuid": "00ba1e0f-fe6f-4d05-81ae-495ae01f5fee",
+      "width": 0,
+      "x": 89,
+      "y": 795,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 301,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "NewShapePainter",
+      "persistentUuid": "5c02391b-b3c6-4233-9baa-0c965aac13c1",
+      "width": 1799,
+      "x": 57,
+      "y": 725,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "top_title",
+      "persistentUuid": "ba65015a-ec0c-4c2e-b9f7-9a92e31f8e9b",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "top_title",
+      "persistentUuid": "380f8c7e-3be3-4b22-a25f-258c6cdac11f",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1378,6 +1495,224 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "snap_shot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "snap_shot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "snap_shot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Patch",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "patch_Bay_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewShapePainter",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DrawPathfinding",
+          "type": "DrawPathfinding::DrawPathfinding",
+          "LoopIndex": 0,
+          "CorrectionX": 2.0247e-320,
+          "CorrectionY": 2.0247e-320
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": false,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 208,
+        "g": 2,
+        "b": 27
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSC_CV",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSC_FM",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1406,6 +1741,21 @@
       },
       {
         "objectName": "TextToImg"
+      },
+      {
+        "objectName": "snap_shot"
+      },
+      {
+        "objectName": "Patch"
+      },
+      {
+        "objectName": "NewShapePainter"
+      },
+      {
+        "objectName": "OSC_CV"
+      },
+      {
+        "objectName": "OSC_FM"
       }
     ]
   },
@@ -1500,6 +1850,43 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Knob",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Right\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "Knob",
+            "30",
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
@@ -1548,11 +1935,87 @@
         },
         {
           "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "Knob",
+            "-30",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Knob",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "DoubleClick::HasDoubleClicked"
           },
           "parameters": [
             "",
             "\"Left\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RotateTowardAngle"
+          },
+          "parameters": [
+            "Knob",
+            "0",
+            "0",
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Knob",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DoubleClick::HasDoubleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Right\"",
             ""
           ]
         }
@@ -1954,6 +2417,14 @@
                 "!=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "SystemInfo::IsNativeDesktopApp"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1978,32 +2449,45 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"LSystem\""
-          ]
         },
         {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"s\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SystemInfo::IsNativeDesktopApp"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Name",
+                "Flash",
+                ".5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetPlaceholder"
+              },
+              "parameters": [
+                "Name",
+                "=",
+                "\"Error, saving is not supported on the web\""
+              ]
+            }
           ]
         }
-      ],
-      "actions": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2016,6 +2500,90 @@
         "textR": 0
       },
       "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Global_Blank_Knob",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Name"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Patch",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewShapePainter",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+          },
+          "parameters": [
+            "Global_Blank_Knob",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Name",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Patch"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewShapePainter"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2133,12 +2701,49 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Patchbay",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DrawPathfinding",
+      "type": "DrawPathfinding::DrawPathfinding"
     },
     {
       "name": "Effect",

@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,12 +17,18 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 3.934494323823928,
+    "snap": true,
+    "zoomFactor": 0.386077855344143,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "signin",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -315,15 +321,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
       "keepRatio": true,
       "layer": "bk",
       "name": "Background",
       "persistentUuid": "4ae8ddd3-3fd8-4d98-a104-81ba46487ed3",
-      "width": 0,
-      "x": -2016,
-      "y": -855,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -418,7 +425,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 419,
+      "height": 432,
       "keepRatio": true,
       "layer": "Help",
       "name": "bodypage",
@@ -455,22 +462,6 @@
       "keepRatio": true,
       "layer": "Help",
       "name": "Dissmiss2",
-      "persistentUuid": "c33d2084-6668-40ca-9454-49bf2f08cb38",
-      "width": 0,
-      "x": -288,
-      "y": 72,
-      "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Help",
-      "name": "Dissmiss2",
       "persistentUuid": "7d0a43e9-9b76-42ed-856c-0a869912e718",
       "width": 0,
       "x": 499,
@@ -493,6 +484,91 @@
       "x": 281,
       "y": 126,
       "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 792,
+      "keepRatio": true,
+      "layer": "AD",
+      "name": "AD",
+      "persistentUuid": "cccba71c-7267-41df-b78b-188793eea8eb",
+      "width": 1728,
+      "x": 96,
+      "y": 288,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 101,
+      "keepRatio": true,
+      "layer": "AD",
+      "name": "AC",
+      "persistentUuid": "9ab4442b-28ef-4f00-8fab-dc80f6fa7b94",
+      "width": 221,
+      "x": 384,
+      "y": 949,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "keepRatio": true,
+      "layer": "AD",
+      "name": "DC",
+      "persistentUuid": "b8227e59-f9dc-4287-9914-cf99da300ce6",
+      "width": 223,
+      "x": 1315,
+      "y": 950,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "AD",
+      "name": "disclamer",
+      "persistentUuid": "252273ec-8297-477c-b983-01b0a794dcfd",
+      "width": 768,
+      "x": 576,
+      "y": 945,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "version_info",
+      "persistentUuid": "5289b7fc-abc3-4a22-9fb3-70ce86296bed",
+      "width": 1693,
+      "x": 14,
+      "y": 1056,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1556,7 +1632,19 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1664,7 +1752,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1704,7 +1799,14 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "content": {
         "text": "[b] [size=30]   What's new in version 0.5.1",
         "opacity": 255,
@@ -1722,9 +1824,16 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "content": {
-        "text": "[b][size=25]\n- The boot screen now loads faster\n\n- Audio now plays back at the correct level\n\n- Text now shows up in images saved from the editor\n\n- The help button now functions as expected",
+        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed an bug that caused windows the freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1735,14 +1844,26 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "box_help",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1848,7 +1969,14 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "content": {
         "text": "[b] [size=30]   Help Center",
         "opacity": 255,
@@ -1866,9 +1994,16 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "content": {
-        "text": "[b][size=25]\nfrequently asked questions\n\nQ.  Can I save patch sheets to the app?\nA. saving is not supported at this time.\n\nQ. How can I play a patch audio clip?\nA. You can hit the play button or right click on the patch image.\n\nQ. Can I edit/contribute to the app?\nA. Yes. You can view the source code on our GitHub page.\n\n",
+        "text": "[b][size=25]\nfrequently asked questions\n\n  Q. Why is it taking so long for items to load on the web?\n  A. The app is hosted on a shared server and other tasks may take \n      priority, Please allow time for the app to fully load.\n\n  Q. Can I save patch sheets to the app?\n  A. No. saving is not supported at this time.\n\n  Q. How can I play a patch audio clip?\n  A. You can hit the play button or right click on the patch image.\n\n  Q. Can I edit/contribute to the app?\n  A. Yes. You can view the source code on our GitHub page.\n\n",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1886,7 +2021,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1937,11 +2079,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 1,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dark",
+                  "image": "infocon_dark2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1966,11 +2108,371 @@
                       },
                       {
                         "x": 347,
-                        "y": 349
+                        "y": 350
                       },
                       {
                         "x": 0,
-                        "y": 349
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_bright4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_bright4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "infocon_dark2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 0
+                      },
+                      {
+                        "x": 347,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
                       }
                     ]
                   ]
@@ -2014,11 +2516,11 @@
                       },
                       {
                         "x": 347,
-                        "y": 349
+                        "y": 350
                       },
                       {
                         "x": 0,
-                        "y": 349
+                        "y": 350
                       }
                     ]
                   ]
@@ -2068,6 +2570,411 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "vol_slide",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "ShowLabelAtChanges": false,
+        "StepSize": 10
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "sliderbar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "slide_knob.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "AD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 992,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 3244
+                      },
+                      {
+                        "x": 992,
+                        "y": 3244
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": " (2)",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 992,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 3244
+                      },
+                      {
+                        "x": 992,
+                        "y": 3244
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 992,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 2548
+                      },
+                      {
+                        "x": 5008,
+                        "y": 3244
+                      },
+                      {
+                        "x": 992,
+                        "y": 3244
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "AC",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "AC",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "AC",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DC",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "disclamer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+      "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+      "textAlignment": "center",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+        "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "version_info",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 10,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 10,
         "color": "0;0;0"
       }
     }
@@ -2151,6 +3058,24 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "vol_slide"
+      },
+      {
+        "objectName": "AD"
+      },
+      {
+        "objectName": "AC"
+      },
+      {
+        "objectName": "DC"
+      },
+      {
+        "objectName": "disclamer"
+      },
+      {
+        "objectName": "version_info"
       }
     ]
   },
@@ -2238,6 +3163,15 @@
         },
         {
           "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"welcome\""
+          ]
+        },
+        {
+          "type": {
             "value": "BBText::SetBBText"
           },
           "parameters": [
@@ -2254,6 +3188,60 @@
             "Whats_new_text",
             "+",
             "GetPropertiesData::ReturnGameVersion()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Variable.hasbeenused",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "\"v\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "GetPropertiesData::ReturnGameVersion()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "\" - \""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "version_info",
+            "Text",
+            "+",
+            "Language::Language()"
           ]
         }
       ]
@@ -2725,6 +3713,7 @@
       "comment": "mob_kick"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2732,14 +3721,6 @@
             "value": "SystemInfo::IsMobile"
           },
           "parameters": []
-        },
-        {
-          "type": {
-            "value": "HasAnyTouchOrMouseStarted"
-          },
-          "parameters": [
-            ""
-          ]
         }
       ],
       "actions": [
@@ -2751,15 +3732,6 @@
             "\"http://www.connor.edgingtondesmet.com/patch-mobile\"",
             "\"Mobile devices are not supported at this time\"",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Boot\""
           ]
         }
       ]
@@ -3821,7 +4793,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
+      "comment": "windows/vol"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3835,7 +4807,383 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Whats_new_text",
+            "Sticker",
+            "Welcome",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "updates",
+            "Sticker",
+            "Welcome",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Dissmiss",
+            "Sticker",
+            "Welcome",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetLayerDefaultZOrder"
+          },
+          "parameters": [
+            "",
+            "\"welcome\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "bodypage",
+            "Sticker",
+            "box_help",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "title",
+            "Sticker",
+            "box_help",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Dissmiss2",
+            "Sticker",
+            "box_help",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetLayerDefaultZOrder"
+          },
+          "parameters": [
+            "",
+            "\"Help\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AC",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "AD",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AC",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "AD",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "DC",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "AD",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AC",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tracking",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "firebase",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "DC",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AD"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "disclamer"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tracking",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "firebase",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "firebase",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "disclamer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AD"
+          ]
+        },
+        {
+          "type": {
+            "value": "Firebase::AnonymousSignIn"
+          },
+          "parameters": [
+            "signin"
+          ]
+        },
+        {
+          "type": {
+            "value": "Firebase::AnalyticsEnable"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Firebase::AnalyticsLog"
+          },
+          "parameters": [
+            "\"time\"",
+            "ToString(Time(\"timestamp\"))"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -3927,7 +5275,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "welcome",
+      "name": "AD",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -3961,6 +5309,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Help",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "welcome",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2448838363372638,
+    "zoomFactor": 0.3645833333333486,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -272,7 +272,7 @@
       "name": "Ow_Ahh_about",
       "persistentUuid": "5b9e34c1-99f4-4fba-9d42-e08b3dbb33bc",
       "width": 384,
-      "x": 1392,
+      "x": 1393,
       "y": 468,
       "zOrder": 21,
       "numberProperties": [],
@@ -651,6 +651,227 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boom_Kick_About2",
+      "persistentUuid": "a29c7a77-b663-4a4b-ad42-521dbf0cd110",
+      "width": 384,
+      "x": 144,
+      "y": 900,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "boom_kick_text2",
+      "persistentUuid": "165c7178-9f6d-4e9e-bb4d-4fbf81c96d1b",
+      "width": 384,
+      "x": 144,
+      "y": 648,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "a350aaa9-f62b-40ea-b381-14933f20197a",
+      "width": 384,
+      "x": 1392,
+      "y": 648,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "47052fc2-7fa5-4a27-996b-6da41ba52f68",
+      "width": 384,
+      "x": 1392,
+      "y": 900,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "6d3c09c4-9639-4368-9e87-085a57410810",
+      "width": 384,
+      "x": 1392,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "f8b38543-d596-48bb-b379-5644351f47df",
+      "width": 384,
+      "x": 1392,
+      "y": 1080,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "d76b7e35-1975-497e-90ef-c6637c33f6ef",
+      "width": 384,
+      "x": 768,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "d7f978db-f1ea-4c5c-96a3-d3b16f7e4f94",
+      "width": 384,
+      "x": 768,
+      "y": 1080,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank1",
+      "persistentUuid": "9c5c12a3-9e13-4be5-a56e-f5400197009a",
+      "width": 384,
+      "x": 144,
+      "y": 1332,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blank2",
+      "persistentUuid": "3afd4e60-d012-4d7c-9a4c-a03eeb8df3e5",
+      "width": 384,
+      "x": 144,
+      "y": 1080,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 216,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Big_bass",
+      "persistentUuid": "2d8a69f8-caf5-4d05-ba0b-1bf680731a77",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Big_Bass_Text",
+      "persistentUuid": "0c0cfdd4-a426-4ce5-b4f4-a3e499b65671",
+      "width": 384,
+      "x": 768,
+      "y": 648,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Big_bass_about",
+      "persistentUuid": "7c344367-2051-49b4-ac22-b021da728d63",
+      "width": 384,
+      "x": 768,
+      "y": 900,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -885,7 +1106,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] A simple electric keys sound. ",
+        "text": "\n[b]Creator: Connor-ed\n[b] A simple electric keys sound",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1029,7 +1250,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] A simple puck sound for the Behringer Crave",
+        "text": "\n[b]Creator: Connor-ed\n[b] A basic synth pluck",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1173,7 +1394,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] Quite a strange one. Right?",
+        "text": "\n[b]Creator: Connor-ed\n[b] Ow Ahh Boo Do Do Do Do  ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -1371,7 +1592,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Boom_Kick_text",
+      "name": "blank2",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1389,7 +1610,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Boom_Kick_About",
+      "name": "blank1",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -1506,11 +1727,205 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Boom_Kick_About2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b]Kick it, Its not a football shaped rock",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "boom_kick_text2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Boom Kick",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Big_Bass_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Concept Bass",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "bottom"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Big_bass_about",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\n[b]Creator: Connor-ed\n[b] I have concepts of a bass",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Big_bass",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 335
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Big Bass",
+        "children": [
+          {
+            "objectName": "Big_bass"
+          },
+          {
+            "objectName": "Big_bass_about"
+          },
+          {
+            "objectName": "Big_Bass_Text"
+          }
+        ]
+      },
       {
         "folderName": "page",
         "children": [
@@ -1563,10 +1978,16 @@
         "folderName": "Boom_kick",
         "children": [
           {
-            "objectName": "Boom_Kick_About"
+            "objectName": "blank1"
           },
           {
-            "objectName": "Boom_Kick_text"
+            "objectName": "Boom_Kick_About2"
+          },
+          {
+            "objectName": "blank2"
+          },
+          {
+            "objectName": "boom_kick_text2"
           },
           {
             "objectName": "Boom_Kick"
@@ -1702,7 +2123,7 @@
           "parameters": [
             "",
             "+",
-            "10",
+            "50",
             "",
             "0"
           ]
@@ -1729,7 +2150,7 @@
           "parameters": [
             "",
             "-",
-            "10",
+            "50",
             "",
             "0"
           ]
@@ -1757,7 +2178,7 @@
           "parameters": [
             "",
             "+",
-            "10",
+            "50",
             "",
             "0"
           ]
@@ -1785,7 +2206,7 @@
           "parameters": [
             "",
             "-",
-            "10",
+            "50",
             "",
             "0"
           ]
@@ -2170,6 +2591,25 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::AnalyticsLog"
+                  },
+                  "parameters": [
+                    "\"synthlog_EKEYS\"",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::RecordTracer"
+                  },
+                  "parameters": [
+                    "\"buttonsynth\"",
+                    "0",
+                    "6000"
+                  ]
                 }
               ]
             },
@@ -2208,7 +2648,7 @@
                     "E Keys4.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2331,6 +2771,25 @@
                     "",
                     "\"Load\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::AnalyticsLog"
+                  },
+                  "parameters": [
+                    "\"synthlog_SIMPLEPLUCK\"",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::RecordTracer"
+                  },
+                  "parameters": [
+                    "\"buttonsynth\"",
+                    "0",
+                    "6000"
+                  ]
                 }
               ]
             },
@@ -2369,7 +2828,7 @@
                     "Simple Pluck -2.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2492,6 +2951,25 @@
                     "=",
                     "3"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::AnalyticsLog"
+                  },
+                  "parameters": [
+                    "\"synthlog_OWAHH\"",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::RecordTracer"
+                  },
+                  "parameters": [
+                    "\"buttonsynth\"",
+                    "0",
+                    "6000"
+                  ]
                 }
               ]
             },
@@ -2530,7 +3008,7 @@
                     "Ow - Ahh2.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2653,6 +3131,25 @@
                     "=",
                     "4"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::AnalyticsLog"
+                  },
+                  "parameters": [
+                    "\"BOOMKICK\"",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Firebase::RecordTracer"
+                  },
+                  "parameters": [
+                    "\"buttonsynth\"",
+                    "0",
+                    "6000"
+                  ]
                 }
               ]
             },
@@ -2691,7 +3188,7 @@
                     "Boom Kick.wav",
                     "10",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 }
@@ -2701,6 +3198,191 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Concept Bass"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Big_bass",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Big_bass",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Big_bass",
+            "=",
+            "yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Big_bass",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Big_bass",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Load\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Firebase::AnalyticsLog"
+              },
+              "parameters": [
+                "\"synthlog_CONCEPTBASS\"",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Firebase::RecordTracer"
+              },
+              "parameters": [
+                "\"buttonsynth\"",
+                "0",
+                "6000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Right\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Big_bass",
+                "=",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "conceptbass3.wav",
+                "10",
+                "",
+                "100",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
