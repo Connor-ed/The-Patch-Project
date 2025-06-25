@@ -331,20 +331,20 @@
         },
         {
           "type": {
-            "value": "Firebase::RecordTracer"
+            "value": "Firebase::AddTracer"
           },
           "parameters": [
-            "\"recording\"",
-            "0",
-            "6000"
+            "\"loadtime\""
           ]
         },
         {
           "type": {
-            "value": "Firebase::AddTracer"
+            "value": "Firebase::RecordTracer"
           },
           "parameters": [
-            "\"buttonsynth\""
+            "\"loadtime\"",
+            "0",
+            "60000"
           ]
         }
       ]

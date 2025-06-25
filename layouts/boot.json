@@ -27,6 +27,11 @@
       "name": "signin",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "testing",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -3243,6 +3248,14 @@
             "+",
             "Language::Language()"
           ]
+        },
+        {
+          "type": {
+            "value": "Firebase::SetRemoteConfigDefaultConfig"
+          },
+          "parameters": [
+            "testing"
+          ]
         }
       ]
     },
@@ -5184,6 +5197,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

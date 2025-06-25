@@ -18,11 +18,32 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.28905162031351317,
+    "zoomFactor": 0.662295566550688,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "oldx",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "oldy",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "newx",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "newy",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -840,14 +861,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 301,
+      "height": 360,
       "keepRatio": true,
       "layer": "Patchbay",
       "name": "NewShapePainter",
       "persistentUuid": "5c02391b-b3c6-4233-9baa-0c965aac13c1",
-      "width": 1799,
-      "x": 57,
-      "y": 725,
+      "width": 1824,
+      "x": 48,
+      "y": 720,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -2584,11 +2605,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

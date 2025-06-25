@@ -2591,25 +2591,6 @@
                     "=",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::AnalyticsLog"
-                  },
-                  "parameters": [
-                    "\"synthlog_EKEYS\"",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::RecordTracer"
-                  },
-                  "parameters": [
-                    "\"buttonsynth\"",
-                    "0",
-                    "6000"
-                  ]
                 }
               ]
             },
@@ -2770,25 +2751,6 @@
                   "parameters": [
                     "",
                     "\"Load\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::AnalyticsLog"
-                  },
-                  "parameters": [
-                    "\"synthlog_SIMPLEPLUCK\"",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::RecordTracer"
-                  },
-                  "parameters": [
-                    "\"buttonsynth\"",
-                    "0",
-                    "6000"
                   ]
                 }
               ]
@@ -2951,25 +2913,6 @@
                     "=",
                     "3"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::AnalyticsLog"
-                  },
-                  "parameters": [
-                    "\"synthlog_OWAHH\"",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::RecordTracer"
-                  },
-                  "parameters": [
-                    "\"buttonsynth\"",
-                    "0",
-                    "6000"
-                  ]
                 }
               ]
             },
@@ -3130,25 +3073,6 @@
                     "PL01",
                     "=",
                     "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::AnalyticsLog"
-                  },
-                  "parameters": [
-                    "\"BOOMKICK\"",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Firebase::RecordTracer"
-                  },
-                  "parameters": [
-                    "\"buttonsynth\"",
-                    "0",
-                    "6000"
                   ]
                 }
               ]
@@ -3313,25 +3237,6 @@
                 "PL01",
                 "=",
                 "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Firebase::AnalyticsLog"
-              },
-              "parameters": [
-                "\"synthlog_CONCEPTBASS\"",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Firebase::RecordTracer"
-              },
-              "parameters": [
-                "\"buttonsynth\"",
-                "0",
-                "6000"
               ]
             }
           ]
