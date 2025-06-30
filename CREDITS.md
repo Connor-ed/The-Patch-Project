@@ -1,5 +1,5 @@
 ### Project credits
-Lead Developer
-[Connor-ED](https://github.com/Connor-ed)
+Lead Developer/Designer: [Connor-ED](https://github.com/Connor-ed)
+
 
 
