@@ -12,16 +12,16 @@
     "antialisingEnabledOnMobile": true,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.edgingtondesmet.CravePatchProject",
+    "packageName": "com.edgingtondesmet.ThePatchProject",
     "pixelsRounding": true,
     "projectUuid": "8540cf9a-68a7-4e20-9abc-72f17553fa2f",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.6.0",
-    "name": "The Crave Patch Project - Nightly Build",
-    "description": "This is where all nightly builds are published for testing. ",
-    "author": "The Crave Patch Project",
+    "version": "0.7.0",
+    "name": "The Patch Project",
+    "description": "",
+    "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
     "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.6.0-2",
@@ -60,7 +60,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "CPa.png",
+      "backgroundImageResourceName": "164.png",
       "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -1843,6 +1843,38 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "MiniBrute",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "161.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "161.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "162.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "163.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "163.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "164.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "164.png",
         "smoothed": true,
         "userAdded": false
       }

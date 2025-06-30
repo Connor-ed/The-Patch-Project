@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.38958562738273056,
+    "zoomFactor": 0.599573838911111,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -87,6 +87,90 @@
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "162.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "161.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 0,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "",
           "useMultipleDirections": false,
@@ -370,42 +454,6 @@
             "",
             "\"a\""
           ]
-        },
-        {
-          "type": {
-            "value": "PreloadMusic"
-          },
-          "parameters": [
-            "",
-            "E Keys4.wav"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadMusic"
-          },
-          "parameters": [
-            "",
-            "Simple Pluck -2.wav"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadMusic"
-          },
-          "parameters": [
-            "",
-            "Ow - Ahh1.wav"
-          ]
-        },
-        {
-          "type": {
-            "value": "PreloadMusic"
-          },
-          "parameters": [
-            "",
-            "Boom Kick.wav"
-          ]
         }
       ]
     },
@@ -428,7 +476,7 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
           ]
         },
         {
@@ -449,51 +497,6 @@
           "parameters": [
             "",
             "\"Boot\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "",
-            "\"Editor\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "",
-            "\"Load\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "",
-            "\"Pre\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "",
-            "\"Synth Selector\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "",
-            "\"Save\""
           ]
         }
       ]

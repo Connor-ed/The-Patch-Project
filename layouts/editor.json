@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.29879853636071824,
+    "zoomFactor": 0.20746499616303302,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4941,7 +4941,7 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
           ]
         },
         {

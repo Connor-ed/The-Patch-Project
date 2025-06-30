@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25314140012987346,
+    "zoomFactor": 0.20746499616302275,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2168,7 +2168,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b][i][size=30] MiniBrute",
+        "text": "[b][i][size=30] Behringer Crave",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2760,7 +2760,7 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
           ]
         }
       ]
@@ -4170,7 +4170,7 @@
       "isLocked": false,
       "name": "Menu",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

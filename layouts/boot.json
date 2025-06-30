@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.219696386132838,
+    "zoomFactor": 0.6142111531023279,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -553,8 +553,8 @@
       "layer": "AD",
       "name": "disclamer",
       "persistentUuid": "252273ec-8297-477c-b983-01b0a794dcfd",
-      "width": 768,
-      "x": 576,
+      "width": 864,
+      "x": 528,
       "y": 945,
       "zOrder": 49,
       "numberProperties": [],
@@ -1838,7 +1838,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added a visual patchbay to the editor \n\n- Updated wording on the tracking alert to provide more transparency\n\n- removed unused audio files to decrease loading times \n\n",
+        "text": "[b][size=25]\n- Added a visual patchbay to the editor \n\n- Updated the branding across the app  \n\n- Updated wording on the privacy alert to provide more transparency  \n\n- Updated loading screens with a new design  \n\n- Removed unused files to decrease loading times\n\n\n\n",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2910,7 +2910,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "The Crave Patch Project would like to collect data using Google Analytics. This optional service records user data, including location and usage time.",
+      "string": "The Patch Project uses Google Analytics to collect anonymous usage data to improve the user experience.\nNo personal information is collected or shared. See Google’s Privacy Policy for details.",
       "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
       "textAlignment": "center",
       "characterSize": 15,
@@ -2933,7 +2933,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "The Crave Patch Project would like to collect data using Google Analytics. This optional service records user data, including location and usage time.",
+        "text": "The Patch Project uses Google Analytics to collect anonymous usage data to improve the user experience.\nNo personal information is collected or shared. See Google’s Privacy Policy for details.",
         "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
@@ -3124,7 +3124,7 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
           ]
         },
         {
