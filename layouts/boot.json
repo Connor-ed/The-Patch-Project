@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5560431891241151,
+    "zoomFactor": 0.219696386132838,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1838,7 +1838,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed a bug that caused Windows to freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
+        "text": "[b][size=25]\n- Added a visual patchbay to the editor \n\n- Updated wording on the tracking alert to provide more transparency\n\n- removed unused audio files to decrease loading times \n\n",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2910,7 +2910,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+      "string": "The Crave Patch Project would like to collect data using Google Analytics. This optional service records user data, including location and usage time.",
       "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
       "textAlignment": "center",
       "characterSize": 15,
@@ -2933,7 +2933,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+        "text": "The Crave Patch Project would like to collect data using Google Analytics. This optional service records user data, including location and usage time.",
         "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
@@ -5199,9 +5199,48 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "dev mode"
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SystemInfo::IsPreview"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "disclamer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AD"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
