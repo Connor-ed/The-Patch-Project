@@ -1,5 +1,6 @@
 # The Patch Project
-![tpp](https://github.com/user-attachments/assets/1fcb7475-67f5-4039-9623-0d5033fd2e98)
+![newtpp](https://github.com/user-attachments/assets/8a1c5fe7-738b-4a4a-9f89-2d48b626ce5b)
+
             
 The Patch Project originally started as The Crave Patch Project in early 2025. I had purchased a Behringer Crave and realized I couldn’t find any patch sheets that were easy to follow and use. I decided to start building this app to hold and preview patches I had made in the past, and chose to open source it so others could use it. I slowly realized that I wanted to support other synths I owned, so I changed the name and began laying the groundwork for a system of simple and intuitive visual patching.
 
