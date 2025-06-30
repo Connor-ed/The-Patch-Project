@@ -1,14 +1,22 @@
-# The Crave Patch Project
-![BCS1](https://github.com/user-attachments/assets/84c42c23-a036-4a91-9192-98d8e27103fa)
+# The Patch Project
+![tpp](https://github.com/user-attachments/assets/1fcb7475-67f5-4039-9623-0d5033fd2e98)
+            
+The Patch Project originally started as The Crave Patch Project in early 2025. I had purchased a Behringer Crave and realized I couldn’t find any patch sheets that were easy to follow and use. I decided to start building this app to hold and preview patches I had made in the past, and chose to open source it so others could use it. I slowly realized that I wanted to support other synths I owned, so I changed the name and began laying the groundwork for a system of simple and intuitive visual patching.
 
-I got the Behringer Crave a few months ago, and I was having a hard time finding patch sheets that were easy to understand. I decided to make this little Web App using [GDevelop5](https://github.com/4ian/GDevelop) to easily create simple sheets that can be replicated at a glance. This is still early in development, so a few basic features are still missing. If you make something you want to share, I provided a link below to upload screenshots of your creations. 
+## Supported Synths
+
+| Synth Name        | Manufacturer     | Status         | Notes                   |
+|-------------------|------------------|----------------|-------------------------|
+| Behringer Crave   | Behringer        | ✅ Supported    | Original synth supported |
+| MiniBrute SE      | Arturia          | 🔧 In Progress | Planned support          |
+
 
 ![BCS_DEMO](https://github.com/user-attachments/assets/0144d8d2-9043-4c6f-9425-7ff681362aa5)
-Test the stable version [Here](https://app.edgingtondesmet.com) (mobile devices are not supported)
+Test the stable version [Here](https://app.edgingtondesmet.com) (Phones are not currently supported)
 
 ![BCS_PROMO](https://github.com/user-attachments/assets/47ce02f8-b92a-4ee8-a10e-3f3ca5e6c144)
 
-Would you like to contribute to this project? All assets needed to start can be found in the project [source code](https://github.com/Connor-ed/The-Crave-Patch-Project.git). we use GDevlop to build this app and it can be downloaded [here](https://gdevelop.io) 
+Would you like to contribute to this project? All assets needed to start can be found in the project [source code](https://github.com/Connor-ed/The-Patch-Project.git). we use GDevlop to build this app and it can be downloaded [here](https://gdevelop.io) 
 
 We require everyone to adhere to the [Contributor Covenant Code of Conduct](https://github.com/Connor-ed/The-Crave-Patch-Project/blob/main/CODE_OF_CONDUCT.md) and we ask you to read this before you contribute.
 
@@ -18,4 +26,4 @@ We require everyone to adhere to the [Contributor Covenant Code of Conduct](http
 
 **disclaimer**
 
-All trademarks are the property of their respective owners. The "Crave Patch Sheets" Project has no affiliation with Behringer or MusicTribe.
+All trademarks are the property of their respective owners. "The Patch Project" has no affiliation with Behringer or MusicTribe.
