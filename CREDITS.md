@@ -1,5 +1,5 @@
 ### Project credits
-
+Lead Developer
 [Connor-ED](https://github.com/Connor-ed)
 
-Editor - Loading - Crave Art - Menu art
+
