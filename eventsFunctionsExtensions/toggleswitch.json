@@ -3621,117 +3621,78 @@
           "value": "10",
           "type": "Number",
           "label": "Radius of the thumb (px) Example: 10",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ThumbRadius"
         },
         {
           "value": "24;119;211",
           "type": "String",
           "label": "Active thumb color string. Example:  24;119;211",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ActiveThumbColor"
         },
         {
           "value": "255",
           "type": "Number",
           "label": "Opacity of the thumb. Example: 255",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ThumbOpacity"
         },
         {
           "value": "20",
           "type": "Number",
           "label": "Width of the track (pixels) Example: 20",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TrackWidth"
         },
         {
           "value": "14",
           "type": "Number",
           "label": "Height of the track (pixels) Example: 14",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TrackHeight"
         },
         {
           "value": "150;150;150",
           "type": "String",
           "label": "Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "InactiveTrackColor"
         },
         {
           "value": "255",
           "type": "Number",
           "label": "Opacity of the track that is RIGHT of the thumb.  Example: 255",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "InactiveTrackOpacity"
         },
         {
           "value": "",
           "type": "String",
           "label": "Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ActiveTrackColor"
         },
         {
           "value": "128",
           "type": "Number",
           "label": "Opacity of the track that is LEFT of the thumb.  Example: 128",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ActiveTrackOpacity"
         },
         {
           "value": "24",
           "type": "Number",
           "label": "Size of halo when the mouse hovers and clicks on the thumb. Example: 24",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HaloRadius"
         },
         {
           "value": "32",
           "type": "Number",
           "label": "Opacity of halo when the mouse hovers on the thumb. Example: 32",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HaloOpacityHover"
         },
         {
           "value": "64",
           "type": "Number",
           "label": "Opacity of the halo that appears when the toggle switch is pressed. Example: 64",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HaloOpacityPressed"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Number of pixels the thumb is from the left side of the track.",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ThumbOffset"
         },
@@ -3739,27 +3700,18 @@
           "value": "",
           "type": "Boolean",
           "label": "Checked",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Checked"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Disabled",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Disabled"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "State has been changed (used in ToggleChecked function)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ToggleChanged"
         },
@@ -3767,18 +3719,12 @@
           "value": "255;255;255",
           "type": "String",
           "label": "Inactive thumb color string. Example:  255;255;255",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "InactiveThumbColor"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Click or press has started on toggle switch",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsPressed"
         },
@@ -3786,36 +3732,24 @@
           "value": "4",
           "type": "Number",
           "label": "Offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ThumbShadowOffsetY"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ThumbShadowOffsetX"
         },
         {
           "value": "32",
           "type": "Number",
           "label": "Opacity of shadow on thumb. Example: 32",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ThumbShadowOpacity"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Need redraw",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NeedRedaw"
         },
@@ -3823,9 +3757,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Is hovered",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsHovered"
         },
@@ -3833,9 +3764,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Was hovered",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WasHovered"
         }

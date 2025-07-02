@@ -365,8 +365,6 @@
           "value": "",
           "type": "Choice",
           "label": "Display time in the format of:",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "12 - Hour",
             "24 - Hour"
@@ -1073,8 +1071,6 @@
           "value": "",
           "type": "Choice",
           "label": "Display date in the format of:",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Words",
             "Numbers"

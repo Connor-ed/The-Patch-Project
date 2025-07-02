@@ -2965,9 +2965,6 @@
           "type": "Number",
           "unit": "PixelAcceleration",
           "label": "Acceleration",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Acceleration"
         },
         {
@@ -2975,18 +2972,12 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Maximum speed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "SpeedMax"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Rotate object",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Rotate"
         },
         {
@@ -2994,9 +2985,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Rotation speed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationSpeed"
         },
         {
@@ -3004,18 +2992,12 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Angle offset",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "AngleOffset"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Is following a path",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "isOnPath"
         },
@@ -3023,9 +3005,6 @@
           "value": "",
           "type": "Number",
           "label": "Next node index",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NextNodeIndex"
         },
@@ -3033,9 +3012,6 @@
           "value": "",
           "type": "Number",
           "label": "Next node X",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NextNodeX"
         },
@@ -3043,9 +3019,6 @@
           "value": "",
           "type": "Number",
           "label": "Next node Y",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NextNodeY"
         },
@@ -3053,9 +3026,6 @@
           "value": "",
           "type": "Number",
           "label": "Speed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Speed"
         },
@@ -3063,9 +3033,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Is at a node",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsAtNode"
         },
@@ -3073,9 +3040,6 @@
           "value": "",
           "type": "Number",
           "label": "Next node angle",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NextNodeAngle"
         }

@@ -309,9 +309,6 @@
           "value": "0",
           "type": "Number",
           "label": "LoopIndex",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LoopIndex"
         },
@@ -319,9 +316,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CorrectionX"
         },
@@ -329,9 +323,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CorrectionY"
         }

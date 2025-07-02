@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 231,
+    "build": 233,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -24,7 +24,7 @@
     "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.6.0-2",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.7.0-fix-1",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -1303,7 +1303,7 @@
       {
         "file": "Autoplay2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Autoplay2.png\",\"extension\":\".png\"}",
         "name": "Autoplay2.png",
         "smoothed": true,
         "userAdded": false
@@ -1875,6 +1875,14 @@
         "kind": "image",
         "metadata": "",
         "name": "164.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dps.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dps.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3822,16 +3830,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Autoplay2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Autoplay2.png",
+                  "image": "dps.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3848,19 +3857,19 @@
                     [
                       {
                         "x": 372,
-                        "y": 289
+                        "y": 279
                       },
                       {
                         "x": 1254,
-                        "y": 289
+                        "y": 279
                       },
                       {
                         "x": 1254,
-                        "y": 386
+                        "y": 377
                       },
                       {
                         "x": 372,
-                        "y": 386
+                        "y": 377
                       }
                     ]
                   ]

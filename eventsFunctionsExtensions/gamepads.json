@@ -3028,8 +3028,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Platformer character behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
@@ -3039,43 +3037,33 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use directional pad",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseArrows"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use left stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseLeftStick"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Use right stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseRightStick"
         },
         {
           "value": "A or Cross",
           "type": "Choice",
           "label": "Jump button",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "A or Cross",
@@ -3214,8 +3202,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -3225,16 +3211,12 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "Left",
           "type": "Choice",
           "label": "Walk joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Left",
@@ -3246,7 +3228,6 @@
           "value": "A or Cross",
           "type": "Choice",
           "label": "Jump button",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "A or Cross",
@@ -3374,8 +3355,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -3385,16 +3364,12 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "Left",
           "type": "Choice",
           "label": "Walk joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Left",
@@ -3406,7 +3381,6 @@
           "value": "Right",
           "type": "Choice",
           "label": "Camera joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Left",
@@ -3418,7 +3392,6 @@
           "value": "A or Cross",
           "type": "Choice",
           "label": "Jump button",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "A or Cross",
@@ -4361,8 +4334,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -4372,17 +4343,12 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "Right",
           "type": "Choice",
           "label": "Camera joystick",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Left",
             "Right"
@@ -4394,27 +4360,21 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Maximum rotation speed",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationSpeedMax"
         },
         {
           "value": "360",
           "type": "Number",
           "label": "Rotation acceleration",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationAcceleration"
         },
         {
           "value": "720",
           "type": "Number",
           "label": "Rotation deceleration",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationDeceleration"
         },
         {
@@ -4422,27 +4382,21 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Maximum rotation speed",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationSpeedMax"
         },
         {
           "value": "240",
           "type": "Number",
           "label": "Rotation acceleration",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationAcceleration"
         },
         {
           "value": "480",
           "type": "Number",
           "label": "Rotation deceleration",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationDeceleration"
         },
         {
@@ -4450,9 +4404,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Minimum angle",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalAngleMin"
         },
         {
@@ -4460,9 +4412,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Maximum angle",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalAngleMax"
         },
         {
@@ -4470,9 +4420,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Z position offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "OffsetZ"
         },
         {
@@ -4480,9 +4428,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Current rotation speed Z",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentRotationSpeedZ"
         },
@@ -4491,9 +4436,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Current rotation speed Y",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentRotationSpeedY"
         }
@@ -4793,8 +4735,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics car",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCar3D"
           ],
@@ -4804,43 +4744,33 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use directional pad",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseArrows"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use left stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseLeftStick"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Use right stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseRightStick"
         },
         {
           "value": "B or Circle",
           "type": "Choice",
           "label": "Hand brake button",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "A or Cross",
@@ -5444,8 +5374,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Top-down movement behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
@@ -5455,43 +5383,33 @@
           "value": "1",
           "type": "Number",
           "label": "Gamepad identifier (1, 2, 3 or 4)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "GamepadIdentifier"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use directional pad",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseArrows"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Use left stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseLeftStick"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Use right stick",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "UseRightStick"
         },
         {
           "value": "Analog",
           "type": "Choice",
           "label": "Stick mode",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Analog",

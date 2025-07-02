@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 13880525,
     "gridAlpha": 1,
-    "snap": false,
-    "zoomFactor": 0.20746499616303302,
+    "snap": true,
+    "zoomFactor": 0.41630252177337246,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -629,23 +629,6 @@
       "x": 952,
       "y": 952,
       "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_overlay",
-      "persistentUuid": "53d711e6-7787-41ee-bb13-37a98a2fed15",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2047,7 +2030,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -2455,7 +2438,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -2503,7 +2486,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,

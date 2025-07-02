@@ -602,44 +602,30 @@
           "value": "w",
           "type": "KeyboardKey",
           "label": "Up key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "a",
           "type": "KeyboardKey",
           "label": "Left key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "d",
           "type": "KeyboardKey",
           "label": "Right key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Right"
         },
         {
           "value": "s",
           "type": "KeyboardKey",
           "label": "Down key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "",
           "type": "Behavior",
           "label": "",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
@@ -1281,53 +1267,36 @@
           "value": "",
           "type": "KeyboardKey",
           "label": "Up key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "",
           "type": "KeyboardKey",
           "label": "Left key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "",
           "type": "KeyboardKey",
           "label": "Down key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "",
           "type": "KeyboardKey",
           "label": "Right key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Right"
         },
         {
           "value": "",
           "type": "KeyboardKey",
           "label": "Jump key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Jump"
         },
         {
           "value": "",
           "type": "Behavior",
           "label": "",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.20746499616302275,
+    "zoomFactor": 0.4448515998886851,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2486,7 +2486,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\n[b]Creator: Connor-ed\n[b] I have concepts of a bass",
+        "text": "\n[b]Creator: Connor-ed\n[b] basic base bass",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2847,7 +2847,7 @@
           "parameters": [
             "",
             "+",
-            "50",
+            "40",
             "",
             "0"
           ]
@@ -2874,7 +2874,7 @@
           "parameters": [
             "",
             "-",
-            "50",
+            "40",
             "",
             "0"
           ]
@@ -2902,7 +2902,7 @@
           "parameters": [
             "",
             "+",
-            "50",
+            "40",
             "",
             "0"
           ]
@@ -2930,7 +2930,7 @@
           "parameters": [
             "",
             "-",
-            "50",
+            "40",
             "",
             "0"
           ]
@@ -4170,7 +4170,7 @@
       "isLocked": false,
       "name": "Menu",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

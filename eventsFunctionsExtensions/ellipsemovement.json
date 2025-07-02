@@ -1314,9 +1314,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Radius of the movement on X axis",
-          "description": "",
           "group": "Ellipse",
-          "extraInformation": [],
           "name": "RadiusX"
         },
         {
@@ -1324,9 +1322,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Radius of the movement on Y axis",
-          "description": "",
           "group": "Ellipse",
-          "extraInformation": [],
           "name": "RadiusY"
         },
         {
@@ -1334,18 +1330,14 @@
           "type": "Number",
           "unit": "Second",
           "label": "Loop duration",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "LoopDuration"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Turn left",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "InitialTurningLeft"
         },
         {
@@ -1353,18 +1345,14 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Initial direction",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "InitialDirectionAngle"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Rotate",
-          "description": "",
           "group": "Rotation",
-          "extraInformation": [],
           "name": "ShouldRotate"
         },
         {
@@ -1372,18 +1360,13 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation offset",
-          "description": "",
           "group": "Rotation",
-          "extraInformation": [],
           "name": "RotationOffset"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CenterX"
         },
@@ -1391,9 +1374,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CenterY"
         },
@@ -1401,9 +1381,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MovementAngle"
         },
@@ -1411,9 +1388,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OldX"
         },
@@ -1421,9 +1395,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OldY"
         }

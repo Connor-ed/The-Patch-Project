@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.599573838911111,
+    "zoomFactor": 0.4027225833325933,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -406,32 +406,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Firebase::EnablePerformance"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "Firebase::AddTracer"
-          },
-          "parameters": [
-            "\"loadtime\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Firebase::RecordTracer"
-          },
-          "parameters": [
-            "\"loadtime\"",
-            "0",
-            "60000"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

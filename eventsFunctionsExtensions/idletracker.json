@@ -319,9 +319,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LastX"
         },
@@ -329,9 +326,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LastY"
         },
@@ -339,9 +333,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsFarFromLastPosition"
         },
@@ -349,27 +340,18 @@
           "value": "1",
           "type": "Number",
           "label": "Time, in seconds, before considering the object as idle",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "DurationBeforeIdle"
         },
         {
           "value": "20",
           "type": "Number",
           "label": "Distance, in pixels, allowed for the object to travel and still be considered idle",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IdleDistanceTolerance"
         },
         {
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IdleTime"
         }

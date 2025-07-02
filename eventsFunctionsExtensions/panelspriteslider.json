@@ -480,36 +480,24 @@
           "value": "0",
           "type": "Number",
           "label": "Value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "CurrentValue"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Minimum value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "MinValue"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Maximum value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "MaxValue"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Step size",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "StepSize"
         }
       ],
@@ -1562,8 +1550,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1571,8 +1557,6 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Idle",
             "Hovered",
@@ -1587,9 +1571,6 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1597,9 +1578,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1607,9 +1585,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1617,9 +1592,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -3709,7 +3681,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar left margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3721,7 +3692,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar top margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3733,7 +3703,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar right margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3745,7 +3714,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar bottom margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3757,54 +3725,42 @@
           "value": "true",
           "type": "Boolean",
           "label": "Show the label when the value is changed",
-          "description": "",
           "group": "Label",
-          "extraInformation": [],
           "name": "ShowLabelAtChanges"
         },
         {
           "value": "8",
           "type": "Number",
           "label": "Label margin",
-          "description": "",
           "group": "Label",
-          "extraInformation": [],
           "name": "LabelMargin"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Minimum value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "MinValue"
         },
         {
           "value": "100",
           "type": "Number",
           "label": "Maximum value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "MaxValue"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Step size",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "StepSize"
         },
         {
           "value": "50",
           "type": "Number",
           "label": "Initial value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "InitialValue"
         },
         {
@@ -3812,8 +3768,6 @@
           "type": "Number",
           "label": "",
           "description": "It's used to detect a change at hot reload.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousInitialValue"
         },
@@ -3822,7 +3776,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
@@ -3834,7 +3787,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "FillBar"
           ],
@@ -3846,7 +3798,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Label"
           ],

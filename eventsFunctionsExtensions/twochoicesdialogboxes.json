@@ -1411,9 +1411,6 @@
           "value": "Default message. Continue?",
           "type": "String",
           "label": "Message",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TextMessage"
         },
         {
@@ -1422,8 +1419,6 @@
           "unit": "Dimensionless",
           "label": "Default highlighted button identifier",
           "description": "Default highlighted button identifier.",
-          "group": "",
-          "extraInformation": [],
           "deprecated": true,
           "name": "ActiveButtonById"
         },
@@ -1432,8 +1427,6 @@
           "type": "Boolean",
           "label": "Cancel with Escape key",
           "description": "Enable or disable the escape key to close the dialog.",
-          "group": "",
-          "extraInformation": [],
           "name": "EnableEscape"
         },
         {
@@ -1441,8 +1434,6 @@
           "type": "String",
           "label": "Label for the \"Yes\" button",
           "description": "This is the button with identifier 0.",
-          "group": "",
-          "extraInformation": [],
           "name": "LabelButtonID0"
         },
         {
@@ -1450,8 +1441,6 @@
           "type": "String",
           "label": "Label for the \"No\" button",
           "description": "This is the button with identifier 1.",
-          "group": "",
-          "extraInformation": [],
           "name": "LabelButtonID1"
         }
       ],

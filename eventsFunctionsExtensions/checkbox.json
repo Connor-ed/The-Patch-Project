@@ -2978,54 +2978,41 @@
           "value": "0",
           "type": "Boolean",
           "label": "Checked",
-          "description": "",
           "group": "Checkbox state",
-          "extraInformation": [],
           "name": "Checked"
         },
         {
           "value": "",
           "type": "Number",
           "label": "Halo size (hover). If blank, this is set to \"SideLength\".",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "HaloRadiusHover"
         },
         {
           "value": "64",
           "type": "Number",
           "label": "Halo opacity (hover)",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "HaloOpacityHover"
         },
         {
           "value": "128",
           "type": "Number",
           "label": "Halo opacity (pressed)",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "HaloOpacityClick"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Enable interactions",
-          "description": "",
           "group": "Checkbox state",
-          "extraInformation": [],
           "name": "Enabled"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsBeingPressed"
         },
@@ -3033,9 +3020,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NeedRedraw"
         },
@@ -3043,9 +3027,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsHovered"
         },
@@ -3053,9 +3034,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentHaloRadius"
         },
@@ -3063,9 +3041,6 @@
           "value": "0.3",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "HaloGrowSpeed"
         },
@@ -3073,9 +3048,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TargetHaloRadius"
         },
@@ -3083,9 +3055,6 @@
           "value": "",
           "type": "Boolean",
           "label": "State of the checkbox has changed. (Used in \"ToggleChecked\" function)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ToggleChanged"
         },
@@ -3093,54 +3062,42 @@
           "value": " 24;119;211",
           "type": "Color",
           "label": "Primary color of checkbox. (Example: 24;119;211) Fill color when box is checked.",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "PrimaryColor"
         },
         {
           "value": "255;255;255",
           "type": "Color",
           "label": "Secondary color of checkbox. (Example: 255;255;255) Color of checkmark when box is checked.",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "SecondaryColor"
         },
         {
           "value": "24",
           "type": "Number",
           "label": "Length of each side (px) Minimum: 10",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "SideLength"
         },
         {
           "value": "5",
           "type": "Number",
           "label": "Line width of checkmark (px) (Min: 1, Max: 1/4 * SideLength)",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "LineWidth"
         },
         {
           "value": "2",
           "type": "Number",
           "label": "Border thickness (px) This border is only visible when the checkbox is unchecked. ",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "BorderThickness"
         },
         {
           "value": "",
           "type": "Number",
           "label": "Halo size (pressed). If blank, this is set to \"HaloRadiusHover * 1.1\"",
-          "description": "",
           "group": "Checkbox appearance",
-          "extraInformation": [],
           "name": "HaloRadiusPressed"
         }
       ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6142111531023279,
+    "zoomFactor": 0.7249916191868992,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1838,7 +1838,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added a visual patchbay to the editor \n\n- Updated the branding across the app  \n\n- Updated wording on the privacy alert to provide more transparency  \n\n- Updated loading screens with a new design  \n\n- Removed unused files to decrease loading times\n\n\n\n",
+        "text": "[b][size=25]\n- Updated privacy permissions \n\n- Reduced the scroll speed of the synth loading page\n\n- Animations have been improved on the editor page\n\n- Updated resources in the editor and loading page",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -5184,6 +5184,12 @@
         {
           "type": {
             "value": "Firebase::AnalyticsEnable"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Firebase::EnablePerformance"
           },
           "parameters": []
         },
