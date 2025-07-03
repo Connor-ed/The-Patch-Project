@@ -910,7 +910,7 @@
       {
         "file": "Crave Patch Sheets.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Crave Patch Sheets.png\",\"extension\":\".png\"}",
         "name": "Crave Patch Sheets.png",
         "smoothed": true,
         "userAdded": false
@@ -2219,6 +2219,22 @@
         "kind": "image",
         "metadata": "",
         "name": "206.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "demo menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "demo menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "updated menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "updated menu.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3960,11 +3976,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Crave Patch Sheets",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {

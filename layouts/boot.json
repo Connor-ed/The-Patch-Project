@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6142111531023292,
+    "zoomFactor": 0.3613006782954884,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1697,7 +1697,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Welcome",
       "type": "Sprite",
@@ -1905,7 +1905,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the visual patchbay to all loadable sheets\n\n- Updated privacy permissions\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n",
+        "text": "[b][size=25]\n- Added the visual patchbay to all loadable sheets\n\n- Updated privacy permissions\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n\n- Credits are now shown in the app ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -5845,7 +5845,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "welcome",
+      "name": "Credits",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -5878,7 +5878,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Credits",
+      "name": "welcome",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
