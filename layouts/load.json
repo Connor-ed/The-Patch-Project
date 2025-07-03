@@ -10050,7 +10050,7 @@
       "isLocked": false,
       "name": "bk",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -10127,7 +10127,7 @@
       "isLocked": false,
       "name": "top",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

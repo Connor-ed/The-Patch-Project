@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.7249916191868992,
+    "snap": false,
+    "zoomFactor": 0.6142111531023292,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -574,6 +574,73 @@
       "x": 14,
       "y": 1056,
       "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 936,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_Box",
+      "persistentUuid": "634d9955-6882-4df1-992a-05fa580c4f61",
+      "width": 1728,
+      "x": 96,
+      "y": 72,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_text",
+      "persistentUuid": "12c21087-96f9-4376-b8ed-21fc5908e5f5",
+      "width": 431,
+      "x": 576,
+      "y": 324,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_Body_Text",
+      "persistentUuid": "ab0a3edf-fa85-494c-9575-06d12bf7ae31",
+      "width": 0,
+      "x": 528,
+      "y": 360,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Dissmiss3",
+      "persistentUuid": "e1b4e026-70ee-408d-9f6e-a949053f3d5d",
+      "width": 93,
+      "x": 482,
+      "y": 254,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2982,6 +3049,225 @@
         "characterSize": 10,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Credits_Box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dissmiss3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits_text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "text": "[b] [size=30]   Credits",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits_Body_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "text": "[b][size=25]\nConnor-ed: Lead Developer/Designer",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3038,6 +3324,9 @@
         "objectName": "Welcome"
       },
       {
+        "objectName": "Credits_Box"
+      },
+      {
         "objectName": "box_help"
       },
       {
@@ -3047,13 +3336,22 @@
         "objectName": "Dissmiss2"
       },
       {
+        "objectName": "Dissmiss3"
+      },
+      {
         "objectName": "Whats_new_text"
+      },
+      {
+        "objectName": "Credits_text"
       },
       {
         "objectName": "title"
       },
       {
         "objectName": "updates"
+      },
+      {
+        "objectName": "Credits_Body_Text"
       },
       {
         "objectName": "bodypage"
@@ -3255,6 +3553,15 @@
           },
           "parameters": [
             "testing"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
           ]
         }
       ]
@@ -3668,11 +3975,11 @@
       "actions": [
         {
           "type": {
-            "value": "LaunchFile"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "\"https://github.com/Connor-ed/The-Crave-Patch-Project/blob/main/CREDITS.md\"",
-            ""
+            "",
+            "\"Credits\""
           ]
         }
       ]
@@ -4165,12 +4472,11 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "0"
+            "",
+            "\"welcome\""
           ]
         }
       ],
@@ -4572,6 +4878,36 @@
       "conditions": [
         {
           "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Credits_Box",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
@@ -4589,6 +4925,35 @@
           },
           "parameters": [
             "box_help",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Credits_Box",
             "Animation",
             "=",
             "1"
@@ -4709,6 +5074,76 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"welcome\""
+          ]
+        }
+      ]
+    },
+    {
       "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -4740,58 +5175,6 @@
             "Variable.hasbeenused",
             "=",
             "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"welcome\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"welcome\""
           ]
         }
       ]
@@ -4929,6 +5312,64 @@
           "parameters": [
             "",
             "\"Help\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Credits_text",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Credits_Body_Text",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetLayerDefaultZOrder"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
             "0"
           ]
         }
@@ -5405,6 +5846,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "welcome",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Credits",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
