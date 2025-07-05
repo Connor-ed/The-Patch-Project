@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5379048597031639,
+    "zoomFactor": 0.537904859703164,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -396,7 +396,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 360,
+      "height": 433,
       "keepRatio": true,
       "layer": "welcome",
       "name": "updates",

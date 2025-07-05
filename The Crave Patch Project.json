@@ -2415,6 +2415,14 @@
         "name": "woodsides.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "electricpulse.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "electricpulse.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

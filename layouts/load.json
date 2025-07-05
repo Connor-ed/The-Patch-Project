@@ -1806,6 +1806,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "electric pulse",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "electricpulse.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7132,6 +7180,100 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "electric pulse"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "PL01",
+            "=",
+            "6"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Knob_overlay",
+            "Animation",
+            "=",
+            "\"electric pulse\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "INST",
+            "Text",
+            "=",
+            "\"Electric Pulse\n\nMIX CV >> MULT-1, EXT AUX >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Global_Play",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Electric Pulse2.wav",
+                "10",
+                "50",
+                "100",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
