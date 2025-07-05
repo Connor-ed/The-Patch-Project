@@ -3576,11 +3576,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "165",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {

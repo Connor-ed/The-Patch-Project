@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3613006782954884,
+    "zoomFactor": 0.5379048597031639,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1905,7 +1905,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the visual patchbay to all loadable sheets\n\n- Updated privacy permissions\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n\n- Credits are now shown in the app ",
+        "text": "[b][size=25]\n- Added the Electric Pulse patch\n\n- Redesigned the patch selector screen\n\n- Added the visual patchbay to all loadable sheets\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n\n- Credits are now shown in the app ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,

@@ -1649,7 +1649,7 @@
       {
         "file": "assets/Patch.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Patch.png\"}",
         "name": "Patch",
         "smoothed": true,
         "userAdded": false
@@ -1889,7 +1889,7 @@
       {
         "file": "165.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"165.png\",\"extension\":\".png\"}",
         "name": "165.png",
         "smoothed": true,
         "userAdded": false
@@ -1897,7 +1897,7 @@
       {
         "file": "166.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"166.png\",\"extension\":\".png\"}",
         "name": "166.png",
         "smoothed": true,
         "userAdded": false
@@ -1905,7 +1905,7 @@
       {
         "file": "167.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"167.png\",\"extension\":\".png\"}",
         "name": "167.png",
         "smoothed": true,
         "userAdded": false
@@ -1913,7 +1913,7 @@
       {
         "file": "168.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"168.png\",\"extension\":\".png\"}",
         "name": "168.png",
         "smoothed": true,
         "userAdded": false
@@ -1921,7 +1921,7 @@
       {
         "file": "169.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"169.png\",\"extension\":\".png\"}",
         "name": "169.png",
         "smoothed": true,
         "userAdded": false
@@ -1929,7 +1929,7 @@
       {
         "file": "170.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"170.png\",\"extension\":\".png\"}",
         "name": "170.png",
         "smoothed": true,
         "userAdded": false
@@ -1937,7 +1937,7 @@
       {
         "file": "171.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"171.png\",\"extension\":\".png\"}",
         "name": "171.png",
         "smoothed": true,
         "userAdded": false
@@ -1945,7 +1945,7 @@
       {
         "file": "172.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"172.png\",\"extension\":\".png\"}",
         "name": "172.png",
         "smoothed": true,
         "userAdded": false
@@ -1953,7 +1953,7 @@
       {
         "file": "173.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"173.png\",\"extension\":\".png\"}",
         "name": "173.png",
         "smoothed": true,
         "userAdded": false
@@ -1961,7 +1961,7 @@
       {
         "file": "174.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"174.png\",\"extension\":\".png\"}",
         "name": "174.png",
         "smoothed": true,
         "userAdded": false
@@ -1969,7 +1969,7 @@
       {
         "file": "175.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"175.png\",\"extension\":\".png\"}",
         "name": "175.png",
         "smoothed": true,
         "userAdded": false
@@ -1977,7 +1977,7 @@
       {
         "file": "176.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"176.png\",\"extension\":\".png\"}",
         "name": "176.png",
         "smoothed": true,
         "userAdded": false
@@ -1985,7 +1985,7 @@
       {
         "file": "177.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"177.png\",\"extension\":\".png\"}",
         "name": "177.png",
         "smoothed": true,
         "userAdded": false
@@ -1993,7 +1993,7 @@
       {
         "file": "178.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"178.png\",\"extension\":\".png\"}",
         "name": "178.png",
         "smoothed": true,
         "userAdded": false
@@ -2001,7 +2001,7 @@
       {
         "file": "179.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"179.png\",\"extension\":\".png\"}",
         "name": "179.png",
         "smoothed": true,
         "userAdded": false
@@ -2009,7 +2009,7 @@
       {
         "file": "180.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"180.png\",\"extension\":\".png\"}",
         "name": "180.png",
         "smoothed": true,
         "userAdded": false
@@ -2017,7 +2017,7 @@
       {
         "file": "181.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"181.png\",\"extension\":\".png\"}",
         "name": "181.png",
         "smoothed": true,
         "userAdded": false
@@ -2025,7 +2025,7 @@
       {
         "file": "182.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"182.png\",\"extension\":\".png\"}",
         "name": "182.png",
         "smoothed": true,
         "userAdded": false
@@ -2033,7 +2033,7 @@
       {
         "file": "183.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"183.png\",\"extension\":\".png\"}",
         "name": "183.png",
         "smoothed": true,
         "userAdded": false
@@ -2041,7 +2041,7 @@
       {
         "file": "184.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"184.png\",\"extension\":\".png\"}",
         "name": "184.png",
         "smoothed": true,
         "userAdded": false
@@ -2049,7 +2049,7 @@
       {
         "file": "185.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"185.png\",\"extension\":\".png\"}",
         "name": "185.png",
         "smoothed": true,
         "userAdded": false
@@ -2057,7 +2057,7 @@
       {
         "file": "186.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"186.png\",\"extension\":\".png\"}",
         "name": "186.png",
         "smoothed": true,
         "userAdded": false
@@ -2065,7 +2065,7 @@
       {
         "file": "187.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"187.png\",\"extension\":\".png\"}",
         "name": "187.png",
         "smoothed": true,
         "userAdded": false
@@ -2073,7 +2073,7 @@
       {
         "file": "188.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"188.png\",\"extension\":\".png\"}",
         "name": "188.png",
         "smoothed": true,
         "userAdded": false
@@ -2081,7 +2081,7 @@
       {
         "file": "189.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"189.png\",\"extension\":\".png\"}",
         "name": "189.png",
         "smoothed": true,
         "userAdded": false
@@ -2089,7 +2089,7 @@
       {
         "file": "190.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"190.png\",\"extension\":\".png\"}",
         "name": "190.png",
         "smoothed": true,
         "userAdded": false
@@ -2097,7 +2097,7 @@
       {
         "file": "191.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"191.png\",\"extension\":\".png\"}",
         "name": "191.png",
         "smoothed": true,
         "userAdded": false
@@ -2105,7 +2105,7 @@
       {
         "file": "192.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"192.png\",\"extension\":\".png\"}",
         "name": "192.png",
         "smoothed": true,
         "userAdded": false
@@ -2113,7 +2113,7 @@
       {
         "file": "193.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"193.png\",\"extension\":\".png\"}",
         "name": "193.png",
         "smoothed": true,
         "userAdded": false
@@ -2121,7 +2121,7 @@
       {
         "file": "194.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"194.png\",\"extension\":\".png\"}",
         "name": "194.png",
         "smoothed": true,
         "userAdded": false
@@ -2129,7 +2129,7 @@
       {
         "file": "195.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"195.png\",\"extension\":\".png\"}",
         "name": "195.png",
         "smoothed": true,
         "userAdded": false
@@ -2137,7 +2137,7 @@
       {
         "file": "196.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"196.png\",\"extension\":\".png\"}",
         "name": "196.png",
         "smoothed": true,
         "userAdded": false
@@ -2145,7 +2145,7 @@
       {
         "file": "197.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"197.png\",\"extension\":\".png\"}",
         "name": "197.png",
         "smoothed": true,
         "userAdded": false
@@ -2153,7 +2153,7 @@
       {
         "file": "198.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"198.png\",\"extension\":\".png\"}",
         "name": "198.png",
         "smoothed": true,
         "userAdded": false
@@ -2161,7 +2161,7 @@
       {
         "file": "199.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"199.png\",\"extension\":\".png\"}",
         "name": "199.png",
         "smoothed": true,
         "userAdded": false
@@ -2169,7 +2169,7 @@
       {
         "file": "200.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"200.png\",\"extension\":\".png\"}",
         "name": "200.png",
         "smoothed": true,
         "userAdded": false
@@ -2177,7 +2177,7 @@
       {
         "file": "201.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"201.png\",\"extension\":\".png\"}",
         "name": "201.png",
         "smoothed": true,
         "userAdded": false
@@ -2185,7 +2185,7 @@
       {
         "file": "202.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"202.png\",\"extension\":\".png\"}",
         "name": "202.png",
         "smoothed": true,
         "userAdded": false
@@ -2193,7 +2193,7 @@
       {
         "file": "203.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"203.png\",\"extension\":\".png\"}",
         "name": "203.png",
         "smoothed": true,
         "userAdded": false
@@ -2201,7 +2201,7 @@
       {
         "file": "204.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"204.png\",\"extension\":\".png\"}",
         "name": "204.png",
         "smoothed": true,
         "userAdded": false
@@ -2209,7 +2209,7 @@
       {
         "file": "205.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"205.png\",\"extension\":\".png\"}",
         "name": "205.png",
         "smoothed": true,
         "userAdded": false
@@ -2217,7 +2217,7 @@
       {
         "file": "206.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"206.png\",\"extension\":\".png\"}",
         "name": "206.png",
         "smoothed": true,
         "userAdded": false
@@ -2235,6 +2235,184 @@
         "kind": "image",
         "metadata": "",
         "name": "updated menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Background.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Background.png\"}",
+        "name": "Background",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "207.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "207.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "208.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "209.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "210.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "210.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "211.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "211.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "212.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "212.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "213.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "214.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "214.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "215.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "215.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "216.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "216.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "217.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "217.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "218.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "218.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "219.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "219.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "220.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "220.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "221.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "221.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "222.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "223.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "223.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "224.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "224.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Electric Pulse2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Electric Pulse2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "woodsides.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "woodsides.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3976,6 +4154,55 @@
       "behaviors": [],
       "animations": [
         {
+          "name": "Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Background",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Crave Patch Sheets",
           "useMultipleDirections": false,
           "directions": [
@@ -4006,16 +4233,16 @@
                         "y": 0
                       },
                       {
-                        "x": 6000,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 6000,
-                        "y": 3375
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 3375
+                        "y": 64
                       }
                     ]
                   ]
