@@ -6,10 +6,10 @@ The Patch Project originally started as The Crave Patch Project in early 2025. I
 
 ## Supported Synths
 
-| Synth Name        | Manufacturer     | Status         | Notes                   |
+| Synth Name        | Manufacturer     | Status         |  Patches                 |
 |-------------------|------------------|----------------|-------------------------|
-| Behringer Crave   | Behringer        | ✅ Supported    | Original synth supported |
-| MiniBrute SE      | Arturia          | 🔧 In Progress | Planned support          |
+|  Crave   | Behringer        | ✅ Supported    | 6   |
+| MiniBrute SE      | Arturia          | 🔧 In Progress | 0        |
 
 
 ![BCS_DEMO](https://github.com/user-attachments/assets/0144d8d2-9043-4c6f-9425-7ff681362aa5)
