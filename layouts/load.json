@@ -6335,6 +6335,18 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "circ"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6349,38 +6361,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineOpacity"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"117;21;30\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::LineV2"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "MIXCV.CenterX()",
-                    "MIXCV.CenterY()",
-                    "MULTI1O.CenterX()",
-                    "MULTI1O.CenterY()",
-                    "10"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PrimitiveDrawing::FillColor"
@@ -6431,38 +6411,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PrimitiveDrawing::OutlineOpacity"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"28;204;204\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::LineV2"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "EXTAUX.CenterX()",
-                    "EXTAUX.CenterY()",
-                    "OSCPULSEO.CenterX()",
-                    "OSCPULSEO.CenterY()",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PrimitiveDrawing::FillColor"
                   },
                   "parameters": [
@@ -6509,38 +6457,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineOpacity"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"91;204;28\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::LineV2"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "VCFCUTOFF.CenterX()",
-                    "VCFCUTOFF.CenterY()",
-                    "KBCVO.CenterX()",
-                    "KBCVO.CenterY()",
-                    "10"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PrimitiveDrawing::FillColor"
@@ -6591,38 +6507,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PrimitiveDrawing::OutlineOpacity"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"204;28;157\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::LineV2"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "MIX2.CenterX()",
-                    "MIX2.CenterY()",
-                    "LFOTRIO.CenterX()",
-                    "LFOTRIO.CenterY()",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PrimitiveDrawing::FillColor"
                   },
                   "parameters": [
@@ -6669,38 +6553,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineOpacity"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"235;255;15\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::LineV2"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "VCMIX.CenterX()",
-                    "VCMIX.CenterY()",
-                    "ENVO.CenterX()",
-                    "ENVO.CenterY()",
-                    "10"
-                  ]
-                },
                 {
                   "type": {
                     "value": "PrimitiveDrawing::FillColor"
@@ -6751,6 +6603,66 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PrimitiveDrawing::FillColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"135;190;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "MULTI.CenterX()",
+                    "MULTI.CenterY()",
+                    "18"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "VCMIXO.CenterX()",
+                    "VCMIXO.CenterY()",
+                    "18"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "line"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "PrimitiveDrawing::OutlineOpacity"
                   },
                   "parameters": [
@@ -6765,7 +6677,252 @@
                   },
                   "parameters": [
                     "NewShapePainter",
-                    "\"255;124;15\""
+                    "\"117;21;30\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::LineV2"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "MIXCV.CenterX()",
+                    "MIXCV.CenterY()",
+                    "MULTI1O.CenterX()",
+                    "MULTI1O.CenterY()",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineOpacity"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"28;204;204\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::LineV2"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "EXTAUX.CenterX()",
+                    "EXTAUX.CenterY()",
+                    "OSCPULSEO.CenterX()",
+                    "OSCPULSEO.CenterY()",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineOpacity"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"91;204;28\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::LineV2"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "VCFCUTOFF.CenterX()",
+                    "VCFCUTOFF.CenterY()",
+                    "KBCVO.CenterX()",
+                    "KBCVO.CenterY()",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineOpacity"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"204;28;157\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::LineV2"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "MIX2.CenterX()",
+                    "MIX2.CenterY()",
+                    "LFOTRIO.CenterX()",
+                    "LFOTRIO.CenterY()",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineOpacity"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"235;255;15\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::LineV2"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "VCMIX.CenterX()",
+                    "VCMIX.CenterY()",
+                    "ENVO.CenterX()",
+                    "ENVO.CenterY()",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineOpacity"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::OutlineColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"135;190;255\""
                   ]
                 },
                 {
@@ -6779,37 +6936,6 @@
                     "VCMIXO.CenterX()",
                     "VCMIXO.CenterY()",
                     "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"255;124;15\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "MULTI.CenterX()",
-                    "MULTI.CenterY()",
-                    "18"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "VCMIXO.CenterX()",
-                    "VCMIXO.CenterY()",
-                    "18"
                   ]
                 }
               ]
@@ -7019,6 +7145,54 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PrimitiveDrawing::FillColor"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "\"91;204;28\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "VCFCUTOFF.CenterX()",
+                    "VCFCUTOFF.CenterY()",
+                    "18"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "NewShapePainter",
+                    "KBCVO.CenterX()",
+                    "KBCVO.CenterY()",
+                    "18"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PL01",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "PrimitiveDrawing::OutlineOpacity"
                   },
                   "parameters": [
@@ -7047,37 +7221,6 @@
                     "KBCVO.CenterX()",
                     "KBCVO.CenterY()",
                     "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "\"91;204;28\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "VCFCUTOFF.CenterX()",
-                    "VCFCUTOFF.CenterY()",
-                    "18"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "NewShapePainter",
-                    "KBCVO.CenterX()",
-                    "KBCVO.CenterY()",
-                    "18"
                   ]
                 }
               ]
@@ -7267,8 +7410,614 @@
                 "Electric Pulse2.wav",
                 "10",
                 "50",
-                "100",
+                "20",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "circ"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"117;21;30\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MIXCV.CenterX()",
+                "MIXCV.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MULTI1O.CenterX()",
+                "MULTI1O.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"28;204;204\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "EXTAUX.CenterX()",
+                "EXTAUX.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "OSCPULSEO.CenterX()",
+                "OSCPULSEO.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"91;204;28\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "VCFCUTOFF.CenterX()",
+                "VCFCUTOFF.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "KBCVO.CenterX()",
+                "KBCVO.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"204;28;157\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MIX2.CenterX()",
+                "MIX2.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "LFOTRIO.CenterX()",
+                "LFOTRIO.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"235;255;15\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "VCMIX.CenterX()",
+                "VCMIX.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "ENVO.CenterX()",
+                "ENVO.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"135;190;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MULTI.CenterX()",
+                "MULTI.CenterY()",
+                "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "VCMIXO.CenterX()",
+                "VCMIXO.CenterY()",
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "line"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"117;21;30\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MIXCV.CenterX()",
+                "MIXCV.CenterY()",
+                "MULTI1O.CenterX()",
+                "MULTI1O.CenterY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"28;204;204\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "EXTAUX.CenterX()",
+                "EXTAUX.CenterY()",
+                "OSCPULSEO.CenterX()",
+                "OSCPULSEO.CenterY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"91;204;28\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "VCFCUTOFF.CenterX()",
+                "VCFCUTOFF.CenterY()",
+                "KBCVO.CenterX()",
+                "KBCVO.CenterY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"204;28;157\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MIX2.CenterX()",
+                "MIX2.CenterY()",
+                "LFOTRIO.CenterX()",
+                "LFOTRIO.CenterY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"235;255;15\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "VCMIX.CenterX()",
+                "VCMIX.CenterY()",
+                "ENVO.CenterX()",
+                "ENVO.CenterY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PL01",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineOpacity"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "\"135;190;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "MULTI.CenterX()",
+                "MULTI.CenterY()",
+                "VCMIXO.CenterX()",
+                "VCMIXO.CenterY()",
+                "10"
               ]
             }
           ]

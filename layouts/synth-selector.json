@@ -18,7 +18,7 @@
     "gridColor": 3486258,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.1591183884683944,
+    "zoomFactor": 0.781748642545224,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -154,7 +154,7 @@
       "persistentUuid": "3ef549b4-8b01-4102-9b15-85eced61a625",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": 72,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -171,7 +171,7 @@
       "persistentUuid": "47e24232-79d5-4a4c-8faf-2da9cc95cf16",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": 72,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -188,7 +188,7 @@
       "persistentUuid": "ca86f3c7-d9ba-4a56-8dae-8c1015c26a39",
       "width": 448,
       "x": 144,
-      "y": 121,
+      "y": 193,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -205,7 +205,7 @@
       "persistentUuid": "7c188a3c-b0d2-4657-b40d-f60f28e69952",
       "width": 446,
       "x": 737,
-      "y": 121,
+      "y": 193,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,7 +222,7 @@
       "persistentUuid": "6a052d9b-3d16-450a-8eaf-cccf4d35231f",
       "width": 448,
       "x": 1326,
-      "y": 121,
+      "y": 193,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,7 +239,7 @@
       "persistentUuid": "2364f831-91cf-4a1c-8fe8-75d066e6c54d",
       "width": 450,
       "x": 143,
-      "y": 602,
+      "y": 674,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -256,7 +256,7 @@
       "persistentUuid": "05987625-0802-4528-9f72-1813764ebfb4",
       "width": 447,
       "x": 736,
-      "y": 604,
+      "y": 676,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -273,7 +273,7 @@
       "persistentUuid": "d2a05aed-228b-43a1-93ec-91c9be9399d6",
       "width": 447,
       "x": 1328,
-      "y": 605,
+      "y": 677,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,7 +290,7 @@
       "persistentUuid": "99a50347-4e2c-4dd0-a240-b5947d0068ca",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": 72,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,6 +343,40 @@
       "x": 0,
       "y": 0,
       "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "Loading_alert",
+      "persistentUuid": "dbc5d6f9-e5d1-4777-afc8-13660af57fd0",
+      "width": 144,
+      "x": 1776,
+      "y": 936,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "base_Box",
+      "persistentUuid": "65764a23-ded0-440f-964f-4f08f88a8784",
+      "width": 1920,
+      "x": 0,
+      "y": 1080,
+      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1362,6 +1396,14 @@
             "3600",
             "200",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Loading_alert"
           ]
         }
       ]
@@ -2433,6 +2475,26 @@
             "50",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -2473,6 +2535,26 @@
             "",
             "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
           ]
         }
       ]
@@ -2515,6 +2597,26 @@
             "50",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
+          ]
         }
       ]
     },
@@ -2555,6 +2657,26 @@
             "",
             "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
           ]
         }
       ]
@@ -2597,6 +2719,26 @@
             "50",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
+          ]
         }
       ]
     },
@@ -2635,8 +2777,63 @@
             "Electric Pulse2.wav",
             "10",
             "",
-            "40",
+            "20",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SoundStopped"
+          },
+          "parameters": [
+            "",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Loading_alert"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "0"
           ]
         }
       ]
