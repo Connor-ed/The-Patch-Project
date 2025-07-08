@@ -4816,8 +4816,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Flippable capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "FlippableCapability::FlippableBehavior"
           ],
@@ -4827,9 +4825,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "Rotate object",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Rotation"
         },
         {
@@ -4837,36 +4832,24 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation offset",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationOffset"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Flip on X to go back",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "FlipXToGoBack"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Flip on Y to go back",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "FlipYToGoBack"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Speed scale",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "SpeedScale"
         },
@@ -4874,9 +4857,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathOriginX"
         },
@@ -4884,9 +4864,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathOriginY"
         },
@@ -4894,9 +4871,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Target"
         },
@@ -4904,9 +4878,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Origin"
         },
@@ -4914,9 +4885,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathName"
         },
@@ -4924,9 +4892,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Duration"
         },
@@ -4934,9 +4899,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Easing"
         },
@@ -4944,9 +4906,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingElementIndex"
         },
@@ -4954,9 +4913,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "X"
         },
@@ -4964,9 +4920,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Y"
         },
@@ -4974,9 +4927,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathAngle"
         },
@@ -4984,9 +4934,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathScale"
         },
@@ -4994,9 +4941,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "RepetitionCount"
         },
@@ -5004,9 +4948,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldGoBack"
         },
@@ -5014,9 +4955,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldLoop"
         },
@@ -5024,9 +4962,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "RepetitionDoneCount"
         },
@@ -5034,9 +4969,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsGoingBack"
         },
@@ -5044,9 +4976,6 @@
           "value": "0",
           "type": "Number",
           "label": "Pause duration before going back",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PauseDurationBeforeGoingBack"
         },
@@ -5054,9 +4983,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingPathOriginX"
         },
@@ -5064,9 +4990,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingPathOriginY"
         },
@@ -5074,9 +4997,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DebugLineStrokeWidth"
         },
@@ -5084,8 +5004,6 @@
           "value": "Top-Down",
           "type": "Choice",
           "label": "Viewpoint",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Top-Down",
             "Isometry 2:1 (26.565°)"
@@ -7689,9 +7607,7 @@
           "value": "true",
           "type": "Boolean",
           "label": "Rotate object",
-          "description": "",
           "group": "Rotation",
-          "extraInformation": [],
           "name": "Rotation"
         },
         {
@@ -7699,18 +7615,13 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation offset",
-          "description": "",
           "group": "Rotation",
-          "extraInformation": [],
           "name": "RotationOffset"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Speed"
         },
@@ -7718,9 +7629,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathOriginX"
         },
@@ -7728,9 +7636,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathOriginY"
         },
@@ -7738,9 +7643,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathName"
         },
@@ -7748,9 +7650,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TargetedSpeed"
         },
@@ -7758,9 +7657,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Acceleration"
         },
@@ -7768,9 +7664,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingElementIndex"
         },
@@ -7778,9 +7671,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "X"
         },
@@ -7788,9 +7678,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Y"
         },
@@ -7798,9 +7685,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathAngle"
         },
@@ -7808,9 +7692,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PathScale"
         },
@@ -7818,9 +7699,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "RepetitionCount"
         },
@@ -7828,9 +7706,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldLoop"
         },
@@ -7838,9 +7713,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingPathOriginX"
         },
@@ -7848,9 +7720,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawingPathOriginY"
         },
@@ -7858,9 +7727,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DebugLineStrokeWidth"
         },
@@ -7868,9 +7734,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousSpeed"
         },
@@ -7878,9 +7741,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentLength"
         },
@@ -7888,9 +7748,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsLookingBack"
         },
@@ -7898,8 +7755,6 @@
           "value": "Top-Down",
           "type": "Choice",
           "label": "Viewpoint",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Top-Down",
             "Isometry 2:1 (26.565°)"

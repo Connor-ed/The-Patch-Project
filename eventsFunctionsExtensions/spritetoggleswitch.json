@@ -678,8 +678,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Button finite state machine",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "SpriteToggleSwitch::ButtonFSM"
           ],
@@ -689,27 +687,18 @@
           "value": "false",
           "type": "Boolean",
           "label": "Is checked",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsChecked"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "PreviousIsChecked"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WasChecked"
         }
@@ -1802,8 +1791,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1811,8 +1798,6 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Idle",
             "Hovered",
@@ -1827,9 +1812,6 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1837,9 +1819,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1847,9 +1826,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1857,9 +1833,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -3035,9 +3008,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "Is checked",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsChecked"
         },
         {
@@ -3045,8 +3015,6 @@
           "type": "Boolean",
           "label": "",
           "description": "It's used to detect a change at hot reload.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousIsChecked"
         }

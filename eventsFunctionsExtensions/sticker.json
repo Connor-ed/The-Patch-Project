@@ -626,18 +626,12 @@
           "value": "",
           "type": "Boolean",
           "label": "Only follow the position",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "OnlyFollowPosition"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Destroy when the object it's stuck on is destroyed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsDestroyedWithParent"
         }
       ],

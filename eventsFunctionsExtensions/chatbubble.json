@@ -624,18 +624,14 @@
           "value": "155;155;155",
           "type": "Color",
           "label": "Name Tag Background Color (if you only call draw with name tag)",
-          "description": "",
           "group": "Name Tag Properties",
-          "extraInformation": [],
           "name": "NameTagBackgroundColor"
         },
         {
           "value": "",
           "type": "Color",
           "label": "",
-          "description": "",
           "group": "Chat Bubble Properties",
-          "extraInformation": [],
           "hidden": true,
           "name": "DefaultColor"
         },
@@ -643,9 +639,7 @@
           "value": "",
           "type": "Color",
           "label": "",
-          "description": "",
           "group": "Chat Bubble Properties",
-          "extraInformation": [],
           "hidden": true,
           "name": "DefaultOutlineColor"
         },
@@ -653,9 +647,7 @@
           "value": "",
           "type": "Number",
           "label": "Draw Chat Width",
-          "description": "",
           "group": "Chat Bubble Properties",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawChatWidth"
         },
@@ -663,9 +655,7 @@
           "value": "",
           "type": "Number",
           "label": "Draw Chat Height",
-          "description": "",
           "group": "Chat Bubble Properties",
-          "extraInformation": [],
           "hidden": true,
           "name": "DrawChatHeight"
         }

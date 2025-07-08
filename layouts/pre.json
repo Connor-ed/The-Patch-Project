@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4163025217733362,
+    "zoomFactor": 0.26167741169921704,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -114,7 +114,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "loadingcrave.png",
+                  "image": "163.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -369,7 +369,16 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
           ]
         },
         {

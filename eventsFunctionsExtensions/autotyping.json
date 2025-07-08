@@ -974,8 +974,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Text capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TextContainerCapability::TextContainerBehavior"
           ],
@@ -986,18 +984,12 @@
           "type": "Number",
           "unit": "Second",
           "label": "Time between characters",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Interval"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Detect if a new text character was just displayed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CharacterJustAdded"
         },
@@ -1005,9 +997,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "FullText"
         },
@@ -1015,9 +1004,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TypedText"
         }

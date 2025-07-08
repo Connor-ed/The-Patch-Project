@@ -1062,18 +1062,12 @@
           "value": "true",
           "type": "Boolean",
           "label": "Horizontal wrapping",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HorizontalWrapping"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Vertical wrapping",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "VerticalWrapping"
         },
         {
@@ -1081,9 +1075,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Top border of wrapped area (Y)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderTop"
         },
         {
@@ -1091,9 +1082,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Left border of wrapped area (X)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderLeft"
         },
         {
@@ -1102,8 +1090,6 @@
           "unit": "Pixel",
           "label": "Right border of wrapped area (X)",
           "description": "If blank, the value will be the scene width.",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderRight"
         },
         {
@@ -1112,8 +1098,6 @@
           "unit": "Pixel",
           "label": "Bottom border of wrapped area (Y)",
           "description": "If blank, the value will be scene height.",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderBottom"
         },
         {
@@ -1121,9 +1105,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Number of pixels past the center where the object teleports and appears",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TriggerOffset"
         }
       ],
@@ -2368,8 +2349,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Physics Behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics2::Physics2Behavior"
           ],
@@ -2379,18 +2358,12 @@
           "value": "true",
           "type": "Boolean",
           "label": "Horizontal wrapping",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HorizontalWrapping"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Vertical wrapping",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "VerticalWrapping"
         },
         {
@@ -2398,9 +2371,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Top border of wrapped area (Y)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderTop"
         },
         {
@@ -2408,9 +2378,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Left border of wrapped area (X)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderLeft"
         },
         {
@@ -2419,8 +2386,6 @@
           "unit": "Pixel",
           "label": "Right border of wrapped area (X)",
           "description": "If blank, the value will be the scene width.",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderRight"
         },
         {
@@ -2429,8 +2394,6 @@
           "unit": "Pixel",
           "label": "Bottom border of wrapped area (Y)",
           "description": "If blank, the value will be scene height.",
-          "group": "",
-          "extraInformation": [],
           "name": "BorderBottom"
         },
         {
@@ -2438,18 +2401,12 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Number of pixels past the center where the object teleports and appears",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TriggerOffset"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Angular Velocity",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "AngularVelocity"
         },
@@ -2457,9 +2414,6 @@
           "value": "0",
           "type": "Number",
           "label": "Linear Velocity X",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LinearVelocityX"
         },
@@ -2467,9 +2421,6 @@
           "value": "0",
           "type": "Number",
           "label": "Linear Velocity Y",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LinearVelocityY"
         }

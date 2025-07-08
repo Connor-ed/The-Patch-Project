@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.386077855344143,
+    "zoomFactor": 1.079368345070641,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,6 +27,11 @@
       "name": "signin",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "testing",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -391,7 +396,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 432,
+      "height": 433,
       "keepRatio": true,
       "layer": "welcome",
       "name": "updates",
@@ -565,10 +570,78 @@
       "layer": "",
       "name": "version_info",
       "persistentUuid": "5289b7fc-abc3-4a22-9fb3-70ce86296bed",
-      "width": 1693,
-      "x": 14,
+      "width": 96,
+      "x": -144,
       "y": 1056,
       "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 936,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_Box",
+      "persistentUuid": "634d9955-6882-4df1-992a-05fa580c4f61",
+      "width": 1728,
+      "x": 96,
+      "y": 72,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_text",
+      "persistentUuid": "12c21087-96f9-4376-b8ed-21fc5908e5f5",
+      "width": 431,
+      "x": 576,
+      "y": 324,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Credits_Body_Text",
+      "persistentUuid": "ab0a3edf-fa85-494c-9575-06d12bf7ae31",
+      "width": 864,
+      "x": 528,
+      "y": 360,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "Credits",
+      "name": "Dissmiss3",
+      "persistentUuid": "e1b4e026-70ee-408d-9f6e-a949053f3d5d",
+      "width": 93,
+      "x": 482,
+      "y": 254,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1625,7 +1698,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Welcome",
       "type": "Sprite",
@@ -1833,7 +1906,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the \"Concept Bass\" patch sheet\n\n- Fixed an bug that caused windows the freeze when repositioning them\n\n- Improved the scrolling speed of the synth selection page\n\n- Changed the size of the data collection alert ",
+        "text": "[b][size=25]\n- Added the Electric Pulse patch\n\n- Redesigned the patch selector screen\n\n- Added the visual patchbay to all loadable sheets\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n\n- Credits are now shown in the app ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2003,7 +2076,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\nfrequently asked questions\n\n  Q. Why is it taking so long for items to load on the web?\n  A. The app is hosted on a shared server and other tasks may take \n      priority, Please allow time for the app to fully load.\n\n  Q. Can I save patch sheets to the app?\n  A. No. saving is not supported at this time.\n\n  Q. How can I play a patch audio clip?\n  A. You can hit the play button or right click on the patch image.\n\n  Q. Can I edit/contribute to the app?\n  A. Yes. You can view the source code on our GitHub page.\n\n",
+        "text": "[b][size=20]\nGeneral Info\n\nDetail Button\nToggles visibility of knob and switch functions on the synth interface.\n\nPatch Bay Button\nOpens or closes the patch bay popup.\n\t•\tIn Editor Mode, you can select an input and output point to draw a “cable” between them.\n\t•\tPressing Return while hovering over the switch will clear all connections.\n\t•\tIn Loading Mode, patches are premade and no connections are needed. Hovering the cursor and holding return will temporarily hide patch points until released.\n\nPatch Selector\n\t•\tClicking a patch opens the loading page to view its details and patch bay layout.\n\t•\tRight-clicking a patch plays a preview of the selected sound.",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -2905,7 +2978,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+      "string": "We use Google Analytics to improve The Patch Project. It’s anonymous, so no personal info is collected or shared.",
       "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
       "textAlignment": "center",
       "characterSize": 15,
@@ -2928,7 +3001,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "The Crave Patch Project would like to collect data, such as general location, device type, and usage time. This data is anonymous and used to improve the app. ",
+        "text": "We use Google Analytics to improve The Patch Project. It’s anonymous, so no personal info is collected or shared.",
         "font": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
@@ -2976,6 +3049,225 @@
         "verticalTextAlignment": "top",
         "characterSize": 10,
         "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Credits_Box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1341,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 658
+                      },
+                      {
+                        "x": 4629,
+                        "y": 2688
+                      },
+                      {
+                        "x": 1341,
+                        "y": 2688
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dissmiss3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits_text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "text": "[b] [size=30]   Credits",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits_Body_Text",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "text": "[b][size=25]\nConnor-ed: Developer/Designer\n\n\n\n\n\n\n\n\n\n\n\n\n     CC0 1.0 Universal",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "verticalTextAlignment": "top"
       }
     }
   ],
@@ -3033,6 +3325,9 @@
         "objectName": "Welcome"
       },
       {
+        "objectName": "Credits_Box"
+      },
+      {
         "objectName": "box_help"
       },
       {
@@ -3042,13 +3337,22 @@
         "objectName": "Dissmiss2"
       },
       {
+        "objectName": "Dissmiss3"
+      },
+      {
         "objectName": "Whats_new_text"
+      },
+      {
+        "objectName": "Credits_text"
       },
       {
         "objectName": "title"
       },
       {
         "objectName": "updates"
+      },
+      {
+        "objectName": "Credits_Body_Text"
       },
       {
         "objectName": "bodypage"
@@ -3119,7 +3423,7 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
           ]
         },
         {
@@ -3242,6 +3546,23 @@
             "Text",
             "+",
             "Language::Language()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Firebase::SetRemoteConfigDefaultConfig"
+          },
+          "parameters": [
+            "testing"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
           ]
         }
       ]
@@ -3655,11 +3976,11 @@
       "actions": [
         {
           "type": {
-            "value": "LaunchFile"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "\"https://github.com/Connor-ed/The-Crave-Patch-Project/blob/main/CREDITS.md\"",
-            ""
+            "",
+            "\"Credits\""
           ]
         }
       ]
@@ -4152,12 +4473,11 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "0"
+            "",
+            "\"welcome\""
           ]
         }
       ],
@@ -4559,6 +4879,36 @@
       "conditions": [
         {
           "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Credits_Box",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
@@ -4576,6 +4926,35 @@
           },
           "parameters": [
             "box_help",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Credits_Box",
             "Animation",
             "=",
             "1"
@@ -4696,6 +5075,76 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Dissmiss",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"welcome\""
+          ]
+        }
+      ]
+    },
+    {
       "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -4727,58 +5176,6 @@
             "Variable.hasbeenused",
             "=",
             "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"welcome\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"welcome\""
           ]
         }
       ]
@@ -4916,6 +5313,64 @@
           "parameters": [
             "",
             "\"Help\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Credits_text",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Credits_Body_Text",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Dissmiss3",
+            "Sticker",
+            "Credits_Box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetLayerDefaultZOrder"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
             "0"
           ]
         }
@@ -5176,11 +5631,61 @@
         },
         {
           "type": {
+            "value": "Firebase::EnablePerformance"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
             "value": "Firebase::AnalyticsLog"
           },
           "parameters": [
             "\"time\"",
             "ToString(Time(\"timestamp\"))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "dev mode"
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SystemInfo::IsPreview"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "disclamer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AD"
           ]
         }
       ]
@@ -5309,6 +5814,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Help",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Credits",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

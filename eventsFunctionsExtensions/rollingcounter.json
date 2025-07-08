@@ -261,8 +261,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Text capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TextContainerCapability::TextContainerBehavior"
           ],
@@ -272,18 +270,12 @@
           "value": "Score: ",
           "type": "String",
           "label": "Prefix",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Prefix"
         },
         {
           "value": "",
           "type": "String",
           "label": "Suffix",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Suffix"
         },
         {
@@ -291,9 +283,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "Animation duration",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Duration"
         },
         {
@@ -301,18 +290,12 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Increment",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Increment"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CounterValue"
         },
@@ -320,9 +303,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DisplayedValue"
         },
@@ -330,9 +310,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Speed"
         }

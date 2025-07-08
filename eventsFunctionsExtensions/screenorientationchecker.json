@@ -932,9 +932,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsShown"
         },
@@ -943,8 +940,6 @@
           "type": "Boolean",
           "label": "Force show the screen",
           "description": "Use this to test the screen in your game",
-          "group": "",
-          "extraInformation": [],
           "name": "IsForceShown"
         },
         {
@@ -952,9 +947,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Padding",
-          "description": "",
           "group": "Appearance",
-          "extraInformation": [],
           "name": "Padding"
         },
         {
@@ -964,16 +957,13 @@
           "label": "Corner radius",
           "description": "Corner radius for the background",
           "group": "Appearance",
-          "extraInformation": [],
           "name": "CornerRadius"
         },
         {
           "value": "0;0;0",
           "type": "Color",
           "label": "Background color",
-          "description": "",
           "group": "Appearance",
-          "extraInformation": [],
           "name": "BackgroundColor"
         }
       ],

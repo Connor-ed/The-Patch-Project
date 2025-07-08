@@ -18,11 +18,42 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.28905162031351317,
+    "zoomFactor": 0.8635277700824797,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "oldx",
+      "type": "number",
+      "value": 123
+    },
+    {
+      "name": "oldy",
+      "type": "number",
+      "value": 456
+    },
+    {
+      "name": "newx",
+      "type": "number",
+      "value": 11313
+    },
+    {
+      "name": "newy",
+      "type": "number",
+      "value": 133123
+    },
+    {
+      "name": "OSC_CV_X",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "OSC_CV_Y",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -606,23 +637,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Detail_overlay",
-      "persistentUuid": "53d711e6-7787-41ee-bb13-37a98a2fed15",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 30,
       "keepRatio": true,
       "layer": "",
@@ -632,39 +646,6 @@
       "x": 97,
       "y": 937,
       "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SnapShot",
-      "persistentUuid": "4108dca9-ec50-4299-bd9a-edd9fd993f09",
-      "width": 0,
-      "x": -16,
-      "y": 1016,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SnapShot",
-      "persistentUuid": "253f44a2-b2aa-4a7f-86f2-ec8ece11fecf",
-      "width": 1,
-      "x": 0,
-      "y": 1143,
-      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -791,30 +772,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Patch",
-      "persistentUuid": "3f5276f0-bba4-4b87-9457-23fda473e413",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 52,
       "keepRatio": true,
       "layer": "Patchbay",
-      "name": "OSC_FM",
+      "name": "OSCFM",
       "persistentUuid": "fe3cff0e-cd89-4663-bcd4-9b3b84eb2f4f",
-      "width": 0,
-      "x": 201,
-      "y": 795,
+      "width": 52,
+      "x": 214,
+      "y": 794,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -822,15 +787,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
       "keepRatio": true,
       "layer": "Patchbay",
-      "name": "OSC_CV",
+      "name": "OSCCV",
       "persistentUuid": "00ba1e0f-fe6f-4d05-81ae-495ae01f5fee",
-      "width": 0,
-      "x": 89,
-      "y": 795,
+      "width": 52,
+      "x": 104,
+      "y": 794,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -840,14 +806,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 301,
+      "height": 72,
       "keepRatio": true,
       "layer": "Patchbay",
       "name": "NewShapePainter",
       "persistentUuid": "5c02391b-b3c6-4233-9baa-0c965aac13c1",
-      "width": 1799,
-      "x": 57,
-      "y": 725,
+      "width": 48,
+      "x": 1872,
+      "y": 1008,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -861,7 +827,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "top_title",
-      "persistentUuid": "ba65015a-ec0c-4c2e-b9f7-9a92e31f8e9b",
+      "persistentUuid": "a642917e-9357-449d-ad94-069f99dcc05c",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -874,15 +840,525 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "OSCMOD",
+      "persistentUuid": "038d3786-872a-46bc-a7fa-42a625372010",
+      "width": 51,
+      "x": 326,
+      "y": 793,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCFCUTOFF",
+      "persistentUuid": "4cb6992b-a435-49ae-999b-2b1abc69d0cb",
+      "width": 52,
+      "x": 436,
+      "y": 794,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCSRES",
+      "persistentUuid": "5790fc99-e367-4604-911c-ec5d9ff66782",
+      "width": 52,
+      "x": 547,
+      "y": 794,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MIX1",
+      "persistentUuid": "0f100d46-cbca-41fa-b30e-c878e48f9f82",
+      "width": 52,
+      "x": 658,
+      "y": 794,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MIX2",
+      "persistentUuid": "a1b12747-8da3-4854-98f3-04a17779b338",
+      "width": 52,
+      "x": 769,
+      "y": 794,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCMIX",
+      "persistentUuid": "e16a3a32-87e2-4717-97ad-2f1971062bea",
+      "width": 52,
+      "x": 880,
+      "y": 792,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MULTI",
+      "persistentUuid": "1830d99f-29fa-4750-aa26-881d1bf7b9b4",
+      "width": 52,
+      "x": 990,
+      "y": 794,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "LFORATE",
+      "persistentUuid": "152844b7-68e4-487b-935c-286162f4cee3",
+      "width": 52,
+      "x": 991,
+      "y": 918,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCACV",
+      "persistentUuid": "ce8b562d-2284-437e-894f-0ec05bceb4f5",
+      "width": 52,
+      "x": 880,
+      "y": 918,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "ENVGATE",
+      "persistentUuid": "d06656b2-d8ef-4371-b43d-74baf4beb2b9",
+      "width": 53,
+      "x": 769,
+      "y": 918,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "HOLD",
+      "persistentUuid": "55c27996-5f39-47e9-855e-73cc28a4db21",
+      "width": 52,
+      "x": 658,
+      "y": 918,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "RESET",
+      "persistentUuid": "2500a3b4-18e7-4d68-909b-7f3a9df8da4b",
+      "width": 52,
+      "x": 547,
+      "y": 918,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "PLAYSTOP",
+      "persistentUuid": "cdbb40ea-f4be-4c8c-86c9-70e13163f7e1",
+      "width": 51,
+      "x": 436,
+      "y": 918,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "TEMPO",
+      "persistentUuid": "3bf6a8b1-bd6a-4ec7-a08e-07713948ac01",
+      "width": 51,
+      "x": 325,
+      "y": 918,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "EXTAUX",
+      "persistentUuid": "1acd8a39-3679-43eb-bf1a-b27e76dd9fb3",
+      "width": 51,
+      "x": 214,
+      "y": 917,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MIXCV",
+      "persistentUuid": "6528f29a-2e7d-49ff-9d56-c830ada442be",
+      "width": 50,
+      "x": 105,
+      "y": 918,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MULTI1O",
+      "persistentUuid": "581ac2a8-df53-436a-adfd-52182052141a",
+      "width": 51,
+      "x": 1102,
+      "y": 794,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "MULTI2O",
+      "persistentUuid": "c6fec00f-0f58-4466-8186-235abea72d8a",
+      "width": 51,
+      "x": 1213,
+      "y": 794,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "OSCPULSEO",
+      "persistentUuid": "e97a9e96-dc6f-4811-a1ea-7e44e170c5ed",
+      "width": 52,
+      "x": 1323,
+      "y": 794,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "OSCSAWO",
+      "persistentUuid": "a60c07cf-295c-457a-96bb-1ca928b8e61d",
+      "width": 52,
+      "x": 1434,
+      "y": 794,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "ENVO",
+      "persistentUuid": "ca7fbecf-aa4d-434d-a792-884d1b1c8123",
+      "width": 52,
+      "x": 1545,
+      "y": 794,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "NOISEO",
+      "persistentUuid": "f237d684-de37-48c1-af7a-5c5c099b1836",
+      "width": 53,
+      "x": 1656,
+      "y": 794,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCALINEO",
+      "persistentUuid": "f3725112-40a7-404a-b956-01baae0a1b7f",
+      "width": 52,
+      "x": 1767,
+      "y": 794,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "LFOTRIO",
+      "persistentUuid": "924681aa-e80d-461d-94db-74a0ecfa1247",
+      "width": 53,
+      "x": 1101,
+      "y": 918,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "LFOSQUO",
+      "persistentUuid": "580f8b51-c6d4-4323-8d72-50f94893faa0",
+      "width": 52,
+      "x": 1213,
+      "y": 918,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCMIXO",
+      "persistentUuid": "915ac365-4f2e-4f60-be62-a20e16cedc4c",
+      "width": 55,
+      "x": 1322,
+      "y": 918,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "ASSIGNO",
+      "persistentUuid": "a99aa854-c598-44ce-8477-26c5c702f051",
+      "width": 53,
+      "x": 1434,
+      "y": 919,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "KBCVO",
+      "persistentUuid": "8ebb8bf7-a0ec-46e4-97d9-54c80a7cff05",
+      "width": 51,
+      "x": 1545,
+      "y": 918,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "GATEO",
+      "persistentUuid": "c0d6e78f-39d1-4726-9442-cb575596b88f",
+      "width": 52,
+      "x": 1656,
+      "y": 917,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "Patchbay",
+      "name": "VCFO",
+      "persistentUuid": "f1a5ab29-b7a4-498e-990d-8c7a47f0aede",
+      "width": 52,
+      "x": 1767,
+      "y": 918,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
       "height": 1080,
       "keepRatio": true,
-      "layer": "",
-      "name": "top_title",
-      "persistentUuid": "380f8c7e-3be3-4b22-a25f-258c6cdac11f",
+      "layer": "Patchbay",
+      "name": "Patch",
+      "persistentUuid": "94efea6b-8aee-424a-bf24-6753bd4507a7",
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 43,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1539,6 +2015,1818 @@
       ]
     },
     {
+      "assetStoreId": "",
+      "name": "NewShapePainter",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DrawPathfinding",
+          "type": "DrawPathfinding::DrawPathfinding",
+          "LoopIndex": 0,
+          "CorrectionX": 2.0247e-320,
+          "CorrectionY": 2.0247e-320
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": false,
+      "antialiasing": "high",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSCCV",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSCFM",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSCMOD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCFCUTOFF",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCSRES",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MIX1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MIX2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCMIX",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MULTI",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LFORATE",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCACV",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ENVGATE",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HOLD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "RESET",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PLAYSTOP",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TEMPO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "EXTAUX",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MIXCV",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "testtext",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ytext",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MULTI1O",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MULTI2O",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSCPULSEO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OSCSAWO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ENVO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NOISEO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCALINEO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LFOTRIO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LFOSQUO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCMIXO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ASSIGNO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "KBCVO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GATEO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VCFO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Patch",
@@ -1554,11 +3842,767 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "patch_Bay_2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "165.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "166.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "167.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "168.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "169.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "170.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "171.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "172.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "173.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "174.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "175.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "176.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "177.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "178.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "179.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "180.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "181.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "181.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "182.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "183.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "183.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "184.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1595,63 +4639,18 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewShapePainter",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
+        },
         {
-          "name": "DrawPathfinding",
-          "type": "DrawPathfinding::DrawPathfinding",
-          "LoopIndex": 0,
-          "CorrectionX": 2.0247e-320,
-          "CorrectionY": 2.0247e-320
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "absoluteCoordinates": true,
-      "clearBetweenFrames": false,
-      "antialiasing": "none",
-      "fillColor": {
-        "r": 255,
-        "g": 0,
-        "b": 0
-      },
-      "outlineColor": {
-        "r": 208,
-        "g": 2,
-        "b": 27
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "OSC_CV",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite14",
+                  "image": "patch-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1664,36 +4663,43 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "OSC_FM",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+        },
         {
-          "name": "NewSprite",
+          "name": "Patch",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite14",
+                  "image": "206.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1706,7 +4712,818 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "205.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "204.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "203.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "202.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "201.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "200.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "199.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "198.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "197.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "196.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "195.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "194.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "193.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "192.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "191.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "190.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "189.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "188.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "187.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "186.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "185.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Patch",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 168
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3207
+                      },
+                      {
+                        "x": 0,
+                        "y": 3207
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1746,16 +5563,112 @@
         "objectName": "snap_shot"
       },
       {
-        "objectName": "Patch"
-      },
-      {
         "objectName": "NewShapePainter"
       },
       {
-        "objectName": "OSC_CV"
+        "objectName": "testtext"
       },
       {
-        "objectName": "OSC_FM"
+        "objectName": "ytext"
+      },
+      {
+        "objectName": "OSCCV"
+      },
+      {
+        "objectName": "OSCFM"
+      },
+      {
+        "objectName": "OSCMOD"
+      },
+      {
+        "objectName": "VCFCUTOFF"
+      },
+      {
+        "objectName": "VCSRES"
+      },
+      {
+        "objectName": "MIX1"
+      },
+      {
+        "objectName": "MIX2"
+      },
+      {
+        "objectName": "VCMIX"
+      },
+      {
+        "objectName": "MULTI"
+      },
+      {
+        "objectName": "LFORATE"
+      },
+      {
+        "objectName": "VCACV"
+      },
+      {
+        "objectName": "ENVGATE"
+      },
+      {
+        "objectName": "HOLD"
+      },
+      {
+        "objectName": "RESET"
+      },
+      {
+        "objectName": "PLAYSTOP"
+      },
+      {
+        "objectName": "TEMPO"
+      },
+      {
+        "objectName": "EXTAUX"
+      },
+      {
+        "objectName": "MIXCV"
+      },
+      {
+        "objectName": "MULTI1O"
+      },
+      {
+        "objectName": "MULTI2O"
+      },
+      {
+        "objectName": "OSCPULSEO"
+      },
+      {
+        "objectName": "OSCSAWO"
+      },
+      {
+        "objectName": "ENVO"
+      },
+      {
+        "objectName": "NOISEO"
+      },
+      {
+        "objectName": "VCALINEO"
+      },
+      {
+        "objectName": "LFOTRIO"
+      },
+      {
+        "objectName": "LFOSQUO"
+      },
+      {
+        "objectName": "VCMIXO"
+      },
+      {
+        "objectName": "ASSIGNO"
+      },
+      {
+        "objectName": "KBCVO"
+      },
+      {
+        "objectName": "GATEO"
+      },
+      {
+        "objectName": "VCFO"
+      },
+      {
+        "objectName": "Patch"
       }
     ]
   },
@@ -1791,7 +5704,26 @@
           },
           "parameters": [
             "yes",
-            "\"The Crave Patch Project\""
+            "\"The Patch Project\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Patch"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Patch",
+            "Animation",
+            "=",
+            "3"
           ]
         }
       ]
@@ -2517,6 +6449,17 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Patch",
+            "Animation",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -2531,7 +6474,23 @@
             "Patch",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Patch",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Montre"
@@ -2539,6 +6498,41 @@
           "parameters": [
             "NewShapePainter",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Global_Blank_Knob",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Return\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Drawer::ClearShapes"
+          },
+          "parameters": [
+            "NewShapePainter"
           ]
         }
       ]
@@ -2560,13 +6554,50 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "Name",
-            ""
+            "Patch",
+            "Animation",
+            "=",
+            "2"
           ]
         },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewShapePainter"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "Patch",
+            "Animation",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Patch",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Cache"
@@ -2582,13 +6613,2567 @@
           "parameters": [
             "NewShapePainter"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Name",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Patch Point in"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OSCCV",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "OSCCV.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "OSCCV.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ytext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OSCFM",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "OSCFM.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "OSCFM.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OSCMOD",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "OSCMOD.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "OSCMOD.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCFCUTOFF",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "VCFCUTOFF.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "VCFCUTOFF.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCSRES",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "VCSRES.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "VCSRES.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MIX1",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "MIX1.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "MIX1.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MIX2",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "MIX2.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "MIX2.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCMIX",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "VCMIX.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "VCMIX.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MULTI",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "MULTI.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "MULTI.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "LFORATE",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "LFORATE.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "LFORATE.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCACV",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "VCACV.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "VCACV.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "ENVGATE",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "ENVGATE.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "ENVGATE.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "HOLD",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "HOLD.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "HOLD.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "RESET",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "RESET.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "RESET.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "PLAYSTOP",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "PLAYSTOP.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "PLAYSTOP.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "TEMPO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "TEMPO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "TEMPO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "EXTAUX",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldx",
+            "oldx",
+            "EXTAUX.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "oldy",
+            "oldy",
+            "EXTAUX.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MIXCV",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "oldx",
+            "MIXCV.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "oldy",
+            "MIXCV.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "=",
+            "ToString(ExtendedVariables::Variable(oldx))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "testtext",
+            "Text",
+            "+",
+            "ToString(ExtendedVariables::Variable(oldy))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Patch Point out"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MULTI1O",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "MULTI1O.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "MULTI1O.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"208;2;27\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "MULTI1O.CenterX()",
+            "MULTI1O.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"208;2;27\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "MULTI1O.CenterX()",
+            "MULTI1O.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "MULTI2O",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "MULTI2O.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "MULTI2O.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"245;166;35\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "MULTI2O.CenterX()",
+            "MULTI2O.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"245;166;35\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "MULTI2O.CenterX()",
+            "MULTI2O.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OSCPULSEO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "OSCPULSEO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "OSCPULSEO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"52;62;64\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "OSCPULSEO.CenterX()",
+            "OSCPULSEO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"52;62;64\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "OSCPULSEO.CenterX()",
+            "OSCPULSEO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OSCSAWO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "OSCSAWO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "OSCSAWO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"146;43;62\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "OSCSAWO.CenterX()",
+            "OSCSAWO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"146;43;62\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "OSCSAWO.CenterX()",
+            "OSCSAWO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "ENVO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "ENVO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "ENVO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"244;70;17\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "ENVO.CenterX()",
+            "ENVO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"244;70;17\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ENVO.CenterX()",
+            "ENVO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "NOISEO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "NOISEO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "NOISEO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"30;36;96\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "NOISEO.CenterX()",
+            "NOISEO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"30;36;96\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "NOISEO.CenterX()",
+            "NOISEO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCALINEO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "VCALINEO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "VCALINEO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"189;16;224\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "VCALINEO.CenterX()",
+            "VCALINEO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"189;16;224\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "VCALINEO.CenterX()",
+            "VCALINEO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "LFOTRIO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "LFOTRIO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "LFOTRIO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"61;100;45\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "LFOTRIO.CenterX()",
+            "LFOTRIO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"61;100;45\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "LFOTRIO.CenterX()",
+            "LFOTRIO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "LFOSQUO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "LFOSQUO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "LFOSQUO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"96;110;140\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "LFOSQUO.CenterX()",
+            "LFOSQUO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"96;110;140\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "LFOSQUO.CenterX()",
+            "LFOSQUO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCMIXO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "VCMIXO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "VCMIXO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"80;227;194\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "VCMIXO.CenterX()",
+            "VCMIXO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"80;227;194\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "VCMIXO.CenterX()",
+            "VCMIXO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "ASSIGNO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "ASSIGNO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "ASSIGNO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"143;139;102\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "ASSIGNO.CenterX()",
+            "ASSIGNO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"143;139;102\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ASSIGNO.CenterX()",
+            "ASSIGNO.CenterY()",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "KBCVO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "KBCVO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "KBCVO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"117;21;30\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "KBCVO.CenterX()",
+            "KBCVO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"117;21;30\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "KBCVO.CenterX()",
+            "KBCVO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "GATEO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "GATEO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "GATEO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"0;187;45\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "GATEO.CenterX()",
+            "GATEO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"0;187;45\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "GATEO.CenterX()",
+            "GATEO.CenterY()",
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "VCFO",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newx",
+            "newx",
+            "VCFO.CenterX()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ExtendedVariables::ModifySceneVariable"
+          },
+          "parameters": [
+            "newy",
+            "newy",
+            "VCFO.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"222;76;138\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "VCFO.CenterX()",
+            "VCFO.CenterY()",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillColor"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "\"222;76;138\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "ExtendedVariables::Variable(oldx)",
+            "ExtendedVariables::Variable(oldy)",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::Circle"
+          },
+          "parameters": [
+            "NewShapePainter",
+            "VCFO.CenterX()",
+            "VCFO.CenterY()",
+            "18"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2740,6 +9325,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "DrawPathfinding",
