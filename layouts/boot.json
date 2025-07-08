@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2508621519677865,
+    "zoomFactor": 1.079368345070641,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -570,8 +570,8 @@
       "layer": "",
       "name": "version_info",
       "persistentUuid": "5289b7fc-abc3-4a22-9fb3-70ce86296bed",
-      "width": 1693,
-      "x": 14,
+      "width": 96,
+      "x": -144,
       "y": 1056,
       "zOrder": 50,
       "numberProperties": [],
@@ -614,13 +614,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 432,
       "keepRatio": true,
       "layer": "Credits",
       "name": "Credits_Body_Text",
       "persistentUuid": "ab0a3edf-fa85-494c-9575-06d12bf7ae31",
-      "width": 0,
+      "width": 864,
       "x": 528,
       "y": 360,
       "zOrder": 53,
@@ -2075,7 +2076,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\nfrequently asked questions\n\n  Q. Why is it taking so long for items to load on the web?\n  A. The app is hosted on a shared server and other tasks may take \n      priority, Please allow time for the app to fully load.\n\n  Q. Can I save patch sheets to the app?\n  A. No. saving is not supported at this time.\n\n  Q. How can I play a patch audio clip?\n  A. You can hit the play button or right click on the patch image.\n\n  Q. Can I edit/contribute to the app?\n  A. Yes. You can view the source code on our GitHub page.\n\n",
+        "text": "[b][size=20]\nGeneral Info\n\nDetail Button\nToggles visibility of knob and switch functions on the synth interface.\n\nPatch Bay Button\nOpens or closes the patch bay popup.\n\t•\tIn Editor Mode, you can select an input and output point to draw a “cable” between them.\n\t•\tPressing Return while hovering over the switch will clear all connections.\n\t•\tIn Loading Mode, patches are premade and no connections are needed. Hovering the cursor and holding return will temporarily hide patch points until released.\n\nPatch Selector\n\t•\tClicking a patch opens the loading page to view its details and patch bay layout.\n\t•\tRight-clicking a patch plays a preview of the selected sound.",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -3259,7 +3260,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\nConnor-ed: Lead Developer/Designer",
+        "text": "[b][size=25]\nConnor-ed: Developer/Designer\n\n\n\n\n\n\n\n\n\n\n\n\n     CC0 1.0 Universal",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,

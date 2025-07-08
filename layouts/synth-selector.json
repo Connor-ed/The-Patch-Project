@@ -1,13 +1,13 @@
 {
-  "b": 22,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Synth_32Selector",
   "name": "Synth Selector",
-  "r": 23,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 22,
+  "v": 255,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 3486258,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.781748642545224,
+    "zoomFactor": 0.28905162031350956,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -377,6 +377,23 @@
       "x": 0,
       "y": 1080,
       "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1656,
+      "keepRatio": true,
+      "layer": "Under",
+      "name": "Background",
+      "persistentUuid": "335980f1-8210-44de-ba91-dd9a69428871",
+      "width": 1920,
+      "x": 0,
+      "y": -288,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1554,7 +1571,7 @@
               "parameters": [
                 "Global_Top_Menu",
                 "Opacity",
-                "+",
+                "-",
                 "5"
               ]
             }
@@ -1648,10 +1665,66 @@
               "parameters": [
                 "Global_Top_Menu",
                 "Opacity",
-                "+",
+                "-",
                 "5"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsMouseWheelScrollingDown"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsMouseWheelScrollingUp"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Up\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Down\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Global_Top_Menu",
+            "Opacity",
+            "+",
+            "5"
           ]
         }
       ]
@@ -2837,6 +2910,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
     }
   ],
   "layers": [

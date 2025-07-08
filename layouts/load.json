@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.36458333333335763,
+    "zoomFactor": 0.3300560049166145,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3633,43 +3633,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "165.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 168
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3207
-                      },
-                      {
-                        "x": 0,
-                        "y": 3207
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "166.png",
                   "points": [],
                   "originPoint": {
@@ -3686,26 +3650,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "167.png",
                   "points": [],
                   "originPoint": {
@@ -3722,26 +3686,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "168.png",
                   "points": [],
                   "originPoint": {
@@ -3758,26 +3722,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "169.png",
                   "points": [],
                   "originPoint": {
@@ -3794,26 +3758,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "170.png",
                   "points": [],
                   "originPoint": {
@@ -3830,26 +3794,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "171.png",
                   "points": [],
                   "originPoint": {
@@ -3866,26 +3830,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "172.png",
                   "points": [],
                   "originPoint": {
@@ -3902,26 +3866,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "173.png",
                   "points": [],
                   "originPoint": {
@@ -3938,26 +3902,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "174.png",
                   "points": [],
                   "originPoint": {
@@ -3974,26 +3938,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "175.png",
                   "points": [],
                   "originPoint": {
@@ -4010,26 +3974,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "176.png",
                   "points": [],
                   "originPoint": {
@@ -4046,26 +4010,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "177.png",
                   "points": [],
                   "originPoint": {
@@ -4082,26 +4046,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "178.png",
                   "points": [],
                   "originPoint": {
@@ -4118,26 +4082,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "179.png",
                   "points": [],
                   "originPoint": {
@@ -4154,26 +4118,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "180.png",
                   "points": [],
                   "originPoint": {
@@ -4190,26 +4154,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "181.png",
                   "points": [],
                   "originPoint": {
@@ -4226,26 +4190,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "181.png",
                   "points": [],
                   "originPoint": {
@@ -4262,26 +4226,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "182.png",
                   "points": [],
                   "originPoint": {
@@ -4298,26 +4262,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "183.png",
                   "points": [],
                   "originPoint": {
@@ -4334,26 +4298,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "183.png",
                   "points": [],
                   "originPoint": {
@@ -4370,26 +4334,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "184.png",
                   "points": [],
                   "originPoint": {
@@ -4406,20 +4370,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
@@ -4437,7 +4401,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "patch-bg.png",
                   "points": [],
                   "originPoint": {
@@ -4454,20 +4418,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
@@ -4486,7 +4450,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "206.png",
                   "points": [],
                   "originPoint": {
@@ -4503,26 +4467,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "205.png",
                   "points": [],
                   "originPoint": {
@@ -4539,26 +4503,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "204.png",
                   "points": [],
                   "originPoint": {
@@ -4575,26 +4539,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "203.png",
                   "points": [],
                   "originPoint": {
@@ -4611,26 +4575,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "202.png",
                   "points": [],
                   "originPoint": {
@@ -4647,26 +4611,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "201.png",
                   "points": [],
                   "originPoint": {
@@ -4683,26 +4647,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "200.png",
                   "points": [],
                   "originPoint": {
@@ -4719,26 +4683,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "199.png",
                   "points": [],
                   "originPoint": {
@@ -4755,26 +4719,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "198.png",
                   "points": [],
                   "originPoint": {
@@ -4791,26 +4755,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "197.png",
                   "points": [],
                   "originPoint": {
@@ -4827,26 +4791,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "196.png",
                   "points": [],
                   "originPoint": {
@@ -4863,26 +4827,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "195.png",
                   "points": [],
                   "originPoint": {
@@ -4899,26 +4863,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "194.png",
                   "points": [],
                   "originPoint": {
@@ -4935,26 +4899,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "193.png",
                   "points": [],
                   "originPoint": {
@@ -4971,26 +4935,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "192.png",
                   "points": [],
                   "originPoint": {
@@ -5007,26 +4971,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "191.png",
                   "points": [],
                   "originPoint": {
@@ -5043,26 +5007,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "190.png",
                   "points": [],
                   "originPoint": {
@@ -5079,26 +5043,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "189.png",
                   "points": [],
                   "originPoint": {
@@ -5115,26 +5079,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "188.png",
                   "points": [],
                   "originPoint": {
@@ -5151,26 +5115,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "187.png",
                   "points": [],
                   "originPoint": {
@@ -5187,26 +5151,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "186.png",
                   "points": [],
                   "originPoint": {
@@ -5223,26 +5187,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "185.png",
                   "points": [],
                   "originPoint": {
@@ -5259,26 +5223,26 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Patch",
                   "points": [],
                   "originPoint": {
@@ -5295,20 +5259,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 168
+                        "x": 5910,
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 168
+                        "y": 3338
                       },
                       {
                         "x": 6000,
-                        "y": 3207
+                        "y": 3375
                       },
                       {
-                        "x": 0,
-                        "y": 3207
+                        "x": 5910,
+                        "y": 3375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Patch",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5910,
+                        "y": 3338
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3338
+                      },
+                      {
+                        "x": 6000,
+                        "y": 3375
+                      },
+                      {
+                        "x": 5910,
+                        "y": 3375
                       }
                     ]
                   ]
@@ -6288,7 +6288,7 @@
                 "INST",
                 "Text",
                 "=",
-                "\"Simple Pluck\n\nMIX CV >> MULTI, EXT AUDIO >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
+                "\"Simple Pluck\n\nMIX CV >> MULT-1, EXT AUX >> OSC PULSE, VCF CUTOFF >> KB CV, MIX 2 >> LFO TRI, VC MIX >> ENV, MULTI >> VC MIX\n\""
               ]
             }
           ],
@@ -6668,7 +6668,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -6717,7 +6717,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -6766,7 +6766,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -6815,7 +6815,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -6864,7 +6864,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -6913,7 +6913,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -7198,7 +7198,7 @@
                   "parameters": [
                     "NewShapePainter",
                     "=",
-                    "80"
+                    "150"
                   ]
                 },
                 {
@@ -7750,7 +7750,7 @@
               "parameters": [
                 "NewShapePainter",
                 "=",
-                "80"
+                "150"
               ]
             },
             {
@@ -7799,7 +7799,7 @@
               "parameters": [
                 "NewShapePainter",
                 "=",
-                "80"
+                "150"
               ]
             },
             {
@@ -7848,7 +7848,7 @@
               "parameters": [
                 "NewShapePainter",
                 "=",
-                "80"
+                "150"
               ]
             },
             {
@@ -7897,7 +7897,7 @@
               "parameters": [
                 "NewShapePainter",
                 "=",
-                "80"
+                "150"
               ]
             },
             {
@@ -7946,7 +7946,7 @@
               "parameters": [
                 "NewShapePainter",
                 "=",
-                "80"
+                "150"
               ]
             },
             {

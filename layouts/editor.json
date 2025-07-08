@@ -18,7 +18,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.2890516203135203,
+    "zoomFactor": 0.8635277700824797,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -6600,15 +6600,6 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Name",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -6621,6 +6612,15 @@
           },
           "parameters": [
             "NewShapePainter"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Name",
+            ""
           ]
         }
       ]
