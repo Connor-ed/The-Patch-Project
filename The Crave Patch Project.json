@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 233,
+    "build": 236,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "0.7.0",
+    "version": "1.0.1",
     "name": "The Patch Project",
     "description": "",
     "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v0.7.0-fix-1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.0.0",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -2423,6 +2423,22 @@
         "name": "electricpulse.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Background2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Background2.png\"}",
+        "name": "Background2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "prof.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prof.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4211,7 +4227,7 @@
           ]
         },
         {
-          "name": "Crave Patch Sheets",
+          "name": "1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4221,7 +4237,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Crave Patch Sheets.png",
+                  "image": "Background2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4901,6 +4917,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/valuesofmultipleobjects"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/emojis"
     }
   ],
   "externalLayouts": [

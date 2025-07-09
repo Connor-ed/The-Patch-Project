@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.079368345070641,
+    "zoomFactor": 0.8008333653214057,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1906,7 +1906,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\n- Added the Electric Pulse patch\n\n- Redesigned the patch selector screen\n\n- Added the visual patchbay to all loadable sheets\n\n- Reduced scroll speed on the synth loading page\n\n- Improved animations for the patchbay\n\n- Updated resources on both the editor and loading pages\n\n- Credits are now shown in the app ",
+        "text": "[b][size=25]\n- Decreased RAM usage\n\n- Improved audio loading times\n\n- Improved the patch bay animation",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -3260,7 +3260,7 @@
         }
       ],
       "content": {
-        "text": "[b][size=25]\nConnor-ed: Developer/Designer\n\n\n\n\n\n\n\n\n\n\n\n\n     CC0 1.0 Universal",
+        "text": "[b][size=25]\nConnor-ed: Developer/Designer\n\n\n\n\n\n\n\n\n\n\n\n\n    [b][size=15]Patch. Play. Repeat. — CC0 1.0 Universal[/size][/b]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -3496,16 +3496,6 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -3546,14 +3536,6 @@
             "Text",
             "+",
             "Language::Language()"
-          ]
-        },
-        {
-          "type": {
-            "value": "Firebase::SetRemoteConfigDefaultConfig"
-          },
-          "parameters": [
-            "testing"
           ]
         },
         {
@@ -3891,6 +3873,14 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SystemInfo::IsNativeDesktopApp"
+          },
+          "parameters": [
+            ""
+          ]
         }
       ],
       "actions": [
@@ -3899,6 +3889,50 @@
             "value": "Quit"
           },
           "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Exit",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SystemInfo::IsNativeDesktopApp"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "URLTools::Redirect"
+          },
+          "parameters": [
+            "",
+            "\"https://connor.edgingtondesmet.com\"",
             ""
           ]
         }
@@ -4783,21 +4817,12 @@
           },
           "parameters": [
             "",
-            "Global_Base",
+            "Background",
             "",
             "",
             "",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Boot\""
           ]
         }
       ]
@@ -5569,7 +5594,7 @@
           "parameters": [
             "tracking",
             "=",
-            "1"
+            "0"
           ]
         },
         {

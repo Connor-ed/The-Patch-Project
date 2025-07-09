@@ -3630,7 +3630,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.03,
+              "timeBetweenFrames": 0.02,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -4447,7 +4447,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.03,
+              "timeBetweenFrames": 0.02,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -5172,114 +5172,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "186.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5910,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3375
-                      },
-                      {
-                        "x": 5910,
-                        "y": 3375
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "185.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5910,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3375
-                      },
-                      {
-                        "x": 5910,
-                        "y": 3375
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Patch",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5910,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3338
-                      },
-                      {
-                        "x": 6000,
-                        "y": 3375
-                      },
-                      {
-                        "x": 5910,
-                        "y": 3375
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Patch",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
