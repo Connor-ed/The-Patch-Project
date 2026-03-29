@@ -4276,7 +4276,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -4366,7 +4366,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Patch"
@@ -4442,7 +4442,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -5653,7 +5653,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6402,7 +6402,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Patch",
@@ -6436,7 +6436,7 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "NewShapePainter",
@@ -6450,7 +6450,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Blank_Knob",
@@ -6508,7 +6508,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "NewShapePainter"
@@ -6552,7 +6552,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Patch"
@@ -6560,7 +6560,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "NewShapePainter"
