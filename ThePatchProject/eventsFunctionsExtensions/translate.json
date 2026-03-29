@@ -1,0 +1,1714 @@
+{
+  "author": "",
+  "category": "User interface",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Translate",
+  "gdevelopVersion": "",
+  "helpPath": "https://avram.itch.io/translate-gdevelop-extension",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXRyYW5zbGF0ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMi44NywxNS4wN0wxMC4zMywxMi41NkwxMC4zNiwxMi41M0MxMi4xLDEwLjU5IDEzLjM0LDguMzYgMTQuMDcsNkgxN1Y0SDEwVjJIOFY0SDFWNkgxMi4xN0MxMS41LDcuOTIgMTAuNDQsOS43NSA5LDExLjM1QzguMDcsMTAuMzIgNy4zLDkuMTkgNi42OSw4SDQuNjlDNS40Miw5LjYzIDYuNDIsMTEuMTcgNy42NywxMi41NkwyLjU4LDE3LjU4TDQsMTlMOSwxNEwxMi4xMSwxNy4xMUwxMi44NywxNS4wN00xOC41LDEwSDE2LjVMMTIsMjJIMTRMMTUuMTIsMTlIMTkuODdMMjEsMjJIMjNMMTguNSwxME0xNS44OCwxN0wxNy41LDEyLjY3TDE5LjEyLDE3SDE1Ljg4WiIgLz48L3N2Zz4=",
+  "name": "Translate",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/1536c3b10256d197efbb22af58df70cfccdb9c4a592afd6a32bbfc6975eb4c35_translate.svg",
+  "shortDescription": "Translate your games with external JSON language files",
+  "version": "1.0",
+  "description": [
+    "# Translate extension",
+    "",
+    "This extension allows you to easily manage translations of your game within external JSON files, separating translation functionality from your game logic with pre-built functions and behaviors.",
+    "",
+    "## Features",
+    "",
+    "The extension can load language based on the player's preferred system/browser language, and also fall back to default language if no translations exist for any of user's preferred languages.",
+    "",
+    "The extension supports different locales for the same language, for example you can have different translations for US English (en-US) and British English (en-GB) and even a default fallback (en) for any other variant of English which you don't directly support. If user's preffered language is \"en-US\", that translation set will be loaded. If it's \"en-GB\" - that one will be loaded. And if their preferred language is for example \"en-NZ\", the extension will fail to load \"en-NZ\" translations so it will fall back to default \"en\".",
+    "",
+    "If user's system/browser has multiple languages listed as preferred, the extension will try to load each of them, trying the locale, then language without locale for each language, finally loading default locale if none of the preferred ones are found. For example, if user's preferred locales are: \"sr-RS,en-US\" - it will try to load languages in this order:",
+    "1. sr-RS",
+    "2. sr",
+    "3. en-US",
+    "4. en",
+    "5. default (fall back that your provide)",
+    "",
+    "Translations are loaded in a global variable, so they are available in all of your scenes. However, if you want to track which language is currently selected/loaded, you'll have to track that yourself. This extension only provides translation functionality, nothing more than that (everything else is up to you).",
+    "",
+    "## Translation files",
+    "",
+    "Translation files should be stored in your project folder root as `[locale].json` (en-US.json) or `[language].json` (en.json). The translation file structure is a simple key/value map of translation keys (which are often source phrases in English) and translation values (translated phrases in the target language). An example German translation (`de-DE.json` or just `de.json`) would be:",
+    "",
+    "```",
+    "{",
+    "  \"Choose your language:\": \"Wählen Sie Ihre Sprache:\",",
+    "  \"My name is {1}, {0} {1}.\": \"Mein Name ist {1}, {0} {1}.\",",
+    "  \"Chosen: {0}\": \"Ausgewählt: {0}\",",
+    "  \"English\": \"Englisch\",",
+    "  \"Serbian\": \"Serbisch\",",
+    "  \"German\": \"Deutsch\",",
+    "  \"French\": \"Französisch\",",
+    "  \"Italian\": \"Italienisch\",",
+    "  \"Chinese\": \"Chinesisch\",",
+    "  \"Russian\": \"Russisch\",",
+    "  \"Greek\": \"Griechisch\",",
+    "  \"Play\": \"Spielen\",",
+    "  \"Go back\": \"Zurück\"",
+    "}",
+    "```",
+    "",
+    "⚠️ Your translation files must be loaded to your game Resources as well in order for them to be exported with your game when you export a game build. Use the option \"Scan in the project folder for...\" > \"Json\" in your game Resources tab after you've created your translation file.",
+    "",
+    "## Extension Actions",
+    "",
+    "- `Load translations for preferred language` - Load translations from user's preferred system/browser language, with an option to fall back to default language.",
+    "- `Load translations for language` - Load translations for a language you specify. The translation must exist so don't let users enter this value, let them select it!",
+    "- `Load translations from resource` - Load translations from a resource JSON file. This is beginner friendly action and can be used if you have like only 2-3 languages.",
+    "- `Set translations repository URL` - Set remote URL from which language files should be loaded. Experimental.",
+    "",
+    "## Extension Expressions",
+    "",
+    "- `Translate::text(String key)` - Returns translation for a provided key.",
+    "- `Translate::translate(String key, String parameters)` - Returns translation for a provided key and replaces placeholders in the resulting string with provided parameters. More info below.",
+    "- `Translate::getPreferredLanguages()` - Returns a comma separated list of user's browser/system preferred languages.",
+    "- `Translate::getPreferredLanguage()` - Returns the first entry from the list of user's browser/system preferred languages.",
+    "",
+    "### Parameters",
+    "",
+    "This extension supports parameters in translations, which means you can have a key (default text) like this: \"Hello {0}!\". Then if you call `Translate::translate(\"Hello {0}\", PlayerAuthentication::Username())` it will translate the string and replace `{0}` in the resulting (translated) text with authenticated user's user name. So if the player is logged in as \"John Wick\", in English it will show as \"Hello John Wick!\", but in your German translation you can have \"Hallo {0}!\" so it will show as \"Hallo John Wick!\".",
+    "",
+    "You can have multiple parameters. For example you can have a key like this: `Are you {0}? I'm {1}.`. If you call `Translate::translate(\"Are you {0}? I'm {1}.\", \"Jim,Peter\")` for English it will result in \"Are you Jim? I'm Peter.\" If your German translation is `Bist du {0}? Ich bin {1}.`, the resulting translation will be \"Bist du Jim? Ich bin Peter.\" Now, let's say in Serbian language you never ask for one's name before telling your own (not true, but imagine). I can set my Serbian translation to be `Ja sam {1}. Da li si ti {0}?` resulting in \"Ja sam Peter. Da li si ti Jim?\" - This way you can change the order of parameters in the translation, as often you need to change the order of the words in a sentence to keep the spirit (or satisfy grammar rules) of the language.",
+    "",
+    "## Behaviors",
+    "",
+    "Use built-in behaviors to easily and automatically translate objects like:",
+    "- Text",
+    "- Text Input (value* and placeholder)",
+    "- BB Text",
+    "- Bitmap Text",
+    "- Panel Button",
+    "",
+    "When an appropriate behavior is added to an object, it will store its initial value (set in object's properties), save it internally and use it as a key for translations. Each behavior provides two actions:",
+    "- `Translate OBJECT_TYPE with parameters` - it will call `Translate::translate()` using object text value as a translation key and provided parameters as parameters to be replaced.",
+    "- `Translate OBJECT_TYPE object` - it will call `Translate::text()` below the hood and use object text value as a translation key.",
+    "",
+    "### Text Input Objects *",
+    "",
+    "With Text Input  objects, values will be translated only as long as they are the same as their initial value (what is entered in object properties editor in GDevelop). This is because players can change the value of the input and we don't want to change what they entered. Since Text Input value changes when it's translated, it means you can translate it only once.  Keep this in mind and avoid having Text Inputs (with translatable value) on the language selection screen.",
+    "",
+    "Placeholders, on the other side, will also be translated, and can be translated multiple times, same like other (Text) objects' values."
+  ],
+  "tags": [
+    "ui",
+    "gui",
+    "translate",
+    "translation",
+    "localization",
+    "language"
+  ],
+  "authorIds": [
+    "1mr0GDQIt2dmrfi5P2OIqu6lIyA2"
+  ],
+  "dependencies": [],
+  "globalVariables": [
+    {
+      "name": "translations",
+      "type": "structure",
+      "children": []
+    },
+    {
+      "name": "translationsPath",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Set translations repository URL",
+      "fullName": "Set translations repository URL",
+      "functionType": "Action",
+      "name": "setRemoteUrl",
+      "sentence": "Set translations repository to _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let path = eventsFunctionContext.getArgument(\"baseUrl\");",
+            "",
+            "if (path != \"\" && !path.endsWith(\"/\")) {",
+            "    path += \"/\";",
+            "}",
+            "",
+            "runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translationsPath\").setString(path);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Remote repository URL (e.g. \"https://yourwebsite.com/game/translations\")",
+          "name": "baseUrl",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Replace placeholders with parameters",
+      "fullName": "sprintf",
+      "functionType": "StringExpression",
+      "name": "sprintf",
+      "private": true,
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let string = eventsFunctionContext.getArgument(\"string\");",
+            "let parameters = eventsFunctionContext.getArgument(\"parameters\");",
+            "let replaceArr = [];",
+            "",
+            "if (parameters !== \"\") {",
+            "    replaceArr = parameters.split(',');",
+            "}",
+            "",
+            "for (let i=0;i<replaceArr.length;i++) {",
+            "    let replace = replaceArr[i];",
+            "    string = string.split('{'+i+'}').join(replace);",
+            "}",
+            "",
+            "eventsFunctionContext.returnValue = string;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "String with placeholders",
+          "name": "string",
+          "type": "string"
+        },
+        {
+          "description": "Comma separated list of parameters",
+          "name": "parameters",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Translate text with parameters",
+      "fullName": "Translate text with parameters",
+      "functionType": "StringExpression",
+      "name": "translate",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let key = eventsFunctionContext.getArgument(\"key\");",
+            "let parameters = eventsFunctionContext.getArgument(\"parameters\").trim();",
+            "let translations = runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translations\").getAllChildren();",
+            "let replaceArr = [];",
+            "",
+            "if (parameters !== \"\") {",
+            "    replaceArr = parameters.split(\",\");",
+            "}",
+            "",
+            "for (let line in translations) {",
+            "    if (line !== key) {",
+            "        continue;",
+            "    }",
+            "",
+            "    let translation = translations[line];",
+            "    let string = translation.getValue();",
+            "",
+            "    if (string != '') {",
+            "        for (let i=0;i<replaceArr.length;i++) {",
+            "            let replace = replaceArr[i];",
+            "            string = string.split('{'+i+'}').join(replace);",
+            "        }",
+            "        eventsFunctionContext.returnValue = string;",
+            "        return;",
+            "    }",
+            "}",
+            "",
+            "",
+            "eventsFunctionContext.returnValue = key;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Key",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "description": "Comma separated list of replacers (e.g. \"Name,age\")",
+          "name": "parameters",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Translate text",
+      "fullName": "Translate text",
+      "functionType": "StringExpression",
+      "name": "text",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnString"
+              },
+              "parameters": [
+                "Translate::translate(key, \"\")"
+              ]
+            }
+          ]
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Key",
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Load translations from resource",
+      "fullName": "Load translations from resource",
+      "functionType": "Action",
+      "name": "loadTranslationsResource",
+      "sentence": "Load translations from resource _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let jsonFilePath = eventsFunctionContext.getArgument('language_file');",
+            "",
+            "function loadLanguageFile(filePath) {",
+            "    var xhr = new XMLHttpRequest();",
+            "    xhr.open('GET', filePath, false);  // false = synchronous",
+            "    xhr.send();",
+            "    ",
+            "    if (xhr.status === 200) {",
+            "        return (xhr.responseText);",
+            "    } else {",
+            "        throw new Error('HTTP error: ' + xhr.status + ' ' + filePath);",
+            "    }",
+            "}",
+            "",
+            "try {",
+            "    let jsonContent = loadLanguageFile(jsonFilePath);",
+            "    if (jsonContent) {",
+            "        runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translations\").fromJSON(jsonContent);",
+            "    } else {",
+            "        console.error(\"Could not load \" + jsonFilePath);",
+            "    }",
+            "} catch (error) {",
+            "    console.error(\"Error: \", error);",
+            "}"
+          ],
+          "parameterObjects": "variable",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "JSON file",
+          "name": "language_file",
+          "type": "jsonResource"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Load translations for language",
+      "fullName": "Load translations for language",
+      "functionType": "Action",
+      "name": "loadTranslationsLang",
+      "sentence": "Load translations for language _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let language = eventsFunctionContext.getArgument('language');",
+            "",
+            "function loadLanguageFile(filePath) {",
+            "    let xhr = new XMLHttpRequest();",
+            "    let basePath = runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translationsPath\").getAsString();",
+            "    if (basePath === \"0\") {",
+            "        basePath = \"\";",
+            "    }",
+            "",
+            "    xhr.open('GET', basePath+filePath, false);  // false = synchronous",
+            "    xhr.send();",
+            "    ",
+            "    if (xhr.status === 200) {",
+            "        runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translations\").fromJSON(xhr.responseText);",
+            "        return true;",
+            "    } else {",
+            "        throw new Error('HTTP error: ' + xhr.status + ' ' + basePath+filePath);",
+            "    }",
+            "}",
+            "",
+            "try {",
+            "    loadLanguageFile(language+\".json\");",
+            "} catch (error) {",
+            "    try {",
+            "        language = language[0] + language[1];",
+            "        loadLanguageFile(language+\".json\");",
+            "    } catch (error) {       ",
+            "        console.error(\"Error: \"+error);",
+            "    }",
+            "}",
+            "    "
+          ],
+          "parameterObjects": "variable",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Language ISO code (sr-RS or sr)",
+          "name": "language",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Load translations for system/browser preferred language",
+      "fullName": "Load translations for preferred language",
+      "functionType": "Action",
+      "name": "loadTranslations",
+      "sentence": "Load translations for preferred language (fallback: _PARAM1_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function loadLanguageFile(filePath) {",
+            "    let xhr = new XMLHttpRequest();",
+            "    let basePath = runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translationsPath\").getAsString();",
+            "    if (basePath === \"0\") {",
+            "        basePath = \"\";",
+            "    }",
+            "",
+            "    xhr.open('GET', basePath+filePath+\".json\", false);  // false = synchronous",
+            "    try {",
+            "        xhr.send();",
+            "    } catch (error) {",
+            "        return false;",
+            "    }",
+            "    ",
+            "    ",
+            "    if (xhr.status === 200) {",
+            "        runtimeScene.getGame().getVariablesForExtension(\"Translate\").get(\"translations\").fromJSON(xhr.responseText);",
+            "        return true;",
+            "    } else {",
+            "        return false;",
+            "    }",
+            "}",
+            "",
+            "let languages = navigator.languages || ['en'];",
+            "let fallback = eventsFunctionContext.getArgument(\"fallback\");",
+            "let loaded = false;",
+            "",
+            "for (let i=0; i<languages.length; i++) {",
+            "    let tryLanguage = languages[i];",
+            "    if (!loaded) {",
+            "        loaded = loadLanguageFile(tryLanguage);",
+            "        if (!loaded && tryLanguage.length > 2) {",
+            "            tryLanguage = tryLanguage[0] + tryLanguage[1];",
+            "            loaded = loadLanguageFile(tryLanguage);",
+            "        }",
+            "    } else {",
+            "        continue;",
+            "    }",
+            "}",
+            "",
+            "if (!loaded) {",
+            "    loadLanguageFile(fallback);",
+            "}",
+            "    "
+          ],
+          "parameterObjects": "variable",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Fallback language ISO code (file name without \".json\")",
+          "name": "fallback",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Get system/browser preferred language",
+      "fullName": "Get system/browser language",
+      "functionType": "StringExpression",
+      "name": "getPreferredLanguage",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = navigator.language || \"en-US\";",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Get a comma separated list of system/browser preferred language",
+      "fullName": "Get system/browser languages",
+      "functionType": "StringExpression",
+      "name": "getPreferredLanguages",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = navigator.languages ? navigator.languages.join(',') : \"en-US\";",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "setRemoteUrl"
+      },
+      {
+        "functionName": "sprintf"
+      },
+      {
+        "functionName": "translate"
+      },
+      {
+        "functionName": "text"
+      },
+      {
+        "functionName": "loadTranslationsResource"
+      },
+      {
+        "functionName": "loadTranslationsLang"
+      },
+      {
+        "functionName": "loadTranslations"
+      },
+      {
+        "functionName": "getPreferredLanguage"
+      },
+      {
+        "functionName": "getPreferredLanguages"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [
+    {
+      "description": "Add this behavior to Text objects to easily translate them.",
+      "fullName": "TranslatableText",
+      "name": "TranslatableText",
+      "objectType": "TextObject::Text",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialText",
+                    "=",
+                    "Object.Text::Value()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextObject::Text",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Text object with parameters",
+          "fullName": "Translate Text object with parameters",
+          "functionType": "Action",
+          "name": "translateParams",
+          "sentence": "Translate Text object _PARAM0_ with parameters _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialValue",
+                        "=",
+                        "Object.VariableString(initialText)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "trans",
+                        "=",
+                        "Translate::sprintf(translations[initialValue], replace)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "trans",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "trans"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "trans",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialValue",
+                      "type": "string",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextObject::Text",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableText",
+              "type": "behavior"
+            },
+            {
+              "description": "Comma separated list of replacers",
+              "name": "replace",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Text object",
+          "fullName": "Translate Text object",
+          "functionType": "Action",
+          "name": "translate",
+          "sentence": "Translate Text object _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Translate::TranslatableText::translateParams"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextObject::Text",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "translateParams"
+          },
+          {
+            "functionName": "translate"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Add this behavior to TextInput objects to easily translate them.",
+      "fullName": "TranslatableTextInput",
+      "name": "TranslatableTextInput",
+      "objectType": "TextInput::TextInputObject",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialText",
+                    "=",
+                    "Object.Text::Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialPlaceholder",
+                    "=",
+                    "Object.Placeholder()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextInput::TextInputObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableTextInput",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Text Input object with parameters",
+          "fullName": "Translate Text Input object with parameters",
+          "functionType": "Action",
+          "name": "translateParams",
+          "sentence": "Translate Text Input object _PARAM0_ with parameters _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialValue",
+                        "=",
+                        "Object.VariableString(initialText)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialPlaceholder",
+                        "=",
+                        "Object.VariableString(initialPlaceholder)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "trans",
+                        "=",
+                        "Translate::sprintf(translations[initialValue], replace)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "transPlaceholder",
+                        "=",
+                        "Translate::sprintf(translations[initialPlaceholder], replace)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "trans",
+                            "!=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::Value"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "initialValue"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "trans"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "transPlaceholder",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextInput::TextInputObject::SetPlaceholder"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "transPlaceholder"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "trans",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialValue",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "transPlaceholder",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialPlaceholder",
+                      "type": "string",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextInput::TextInputObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableTextInput",
+              "type": "behavior"
+            },
+            {
+              "description": "Comma separated list of replacers",
+              "name": "replace",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate text input object",
+          "fullName": "Translate text input object",
+          "functionType": "Action",
+          "name": "translate",
+          "sentence": "Translate text input object _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Translate::TranslatableTextInput::translateParams"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextInput::TextInputObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableTextInput",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "translateParams"
+          },
+          {
+            "functionName": "translate"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Add this behavior to BBText objects to easily translate them.",
+      "fullName": "TranslatableBBText",
+      "name": "TranslatableBBText",
+      "objectType": "BBText::BBText",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialText",
+                    "=",
+                    "Object.GetBBText()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BBText::BBText",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBBText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate BB text object with parameters",
+          "fullName": "Translate BB text object with parameters",
+          "functionType": "Action",
+          "name": "translateParams",
+          "sentence": "Translate BB text object _PARAM0_ with parameters _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialValue",
+                        "=",
+                        "Object.VariableString(initialText)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "trans",
+                        "=",
+                        "Translate::sprintf(translations[initialValue], replace)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "trans",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "trans"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "trans",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialValue",
+                      "type": "string",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BBText::BBText",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBBText",
+              "type": "behavior"
+            },
+            {
+              "description": "Comma separated list of replacers",
+              "name": "replace",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate BB text object",
+          "fullName": "Translate BB text object",
+          "functionType": "Action",
+          "name": "translate",
+          "sentence": "Translate BB text object _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Translate::TranslatableBBText::translateParams"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BBText::BBText",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBBText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "translateParams"
+          },
+          {
+            "functionName": "translate"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Add this behavior to BitmapText objects to easily translate them.",
+      "fullName": "TranslatableBitmapText",
+      "name": "TranslatableBitmapText",
+      "objectType": "BitmapText::BitmapTextObject",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialText",
+                    "=",
+                    "Object.Text()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BitmapText::BitmapTextObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBitmapText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Bitmap text object with parameters",
+          "fullName": "Translate Bitmap text object with parameters",
+          "functionType": "Action",
+          "name": "translateParams",
+          "sentence": "Translate Bitmap text object _PARAM0_ with parameters _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialValue",
+                        "=",
+                        "Object.VariableString(initialText)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "trans",
+                        "=",
+                        "Translate::sprintf(translations[initialValue], replace)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "trans",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "trans"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "trans",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialValue",
+                      "type": "string",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BitmapText::BitmapTextObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBitmapText",
+              "type": "behavior"
+            },
+            {
+              "description": "Comma separated list of replacers",
+              "name": "replace",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Bitmap text object",
+          "fullName": "Translate Bitmap text object",
+          "functionType": "Action",
+          "name": "translate",
+          "sentence": "Translate Bitmap text object _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Translate::TranslatableBitmapText::translateParams"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BitmapText::BitmapTextObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableBitmapText",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "translateParams"
+          },
+          {
+            "functionName": "translate"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Add this behavior to Button (panel sprite) objects to easily translate them.",
+      "fullName": "TranslatableButton",
+      "name": "TranslatableButton",
+      "objectType": "PanelSpriteButton::PanelSpriteButton",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Object",
+                    "initialText",
+                    "=",
+                    "Object.LabelText()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "PanelSpriteButton::PanelSpriteButton",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableButton",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Panel button object with parameters",
+          "fullName": "Translate Panel button object with parameters",
+          "functionType": "Action",
+          "name": "translateParams",
+          "sentence": "Translate Panel button _PARAM0_ with parameters _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "initialValue",
+                        "=",
+                        "Object.VariableString(initialText)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "trans",
+                        "=",
+                        "Translate::sprintf(translations[initialValue], replace)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "trans",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "trans",
+                            "trans"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "trans",
+                      "type": "string",
+                      "value": "0"
+                    },
+                    {
+                      "name": "initialValue",
+                      "type": "string",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "PanelSpriteButton::PanelSpriteButton",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableButton",
+              "type": "behavior"
+            },
+            {
+              "description": "Comma separated list of replacers",
+              "name": "replace",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Translate Panel button object",
+          "fullName": "Translate Panel button object",
+          "functionType": "Action",
+          "name": "translate",
+          "sentence": "Translate Panel button object _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Translate::TranslatableButton::translateParams"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "\"\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "PanelSpriteButton::PanelSpriteButton",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Translate::TranslatableButton",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "translateParams"
+          },
+          {
+            "functionName": "translate"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    }
+  ],
+  "eventsBasedObjects": []
+}

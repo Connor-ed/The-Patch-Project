@@ -1,0 +1,5 @@
+preferences:
+  autosaveOnPreview: true
+  showDeprecatedInstructionWarning: true
+  themeName: "GDevelop default"
+  eventsSheetZoomLevel: 10
