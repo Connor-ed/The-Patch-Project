@@ -3663,7 +3663,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -3823,7 +3823,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss"
@@ -3831,7 +3831,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss2"
@@ -3839,7 +3839,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss3"
@@ -3847,7 +3847,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "updates"
@@ -3855,7 +3855,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Credits_Body_Text"
@@ -3863,7 +3863,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "bodypage"
@@ -3913,7 +3913,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Editor",
@@ -3977,7 +3977,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -4012,7 +4012,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -4092,7 +4092,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Editor",
@@ -4127,7 +4127,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Editor",
@@ -4207,7 +4207,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Exit",
@@ -4249,7 +4249,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Exit",
@@ -4294,7 +4294,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Share",
@@ -4340,7 +4340,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Credits",
@@ -4362,7 +4362,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Dissmiss3",
@@ -4371,7 +4371,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Credits_Body_Text",
@@ -4393,7 +4393,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -4469,7 +4469,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -4566,7 +4566,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Editor",
@@ -4595,7 +4595,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Editor",
@@ -4624,7 +4624,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -4653,7 +4653,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Share",
@@ -4682,7 +4682,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Credits",
@@ -4711,7 +4711,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Help",
@@ -4740,7 +4740,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Exit",
@@ -4782,7 +4782,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "info",
@@ -4811,7 +4811,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "info",
@@ -4855,7 +4855,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "info",
@@ -5056,7 +5056,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Help",
@@ -5091,135 +5091,6 @@
           },
           "parameters": [
             "bodypage",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "HasAnyTouchOrMouseStarted"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Load",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PopUp::Alert"
-          },
-          "parameters": [
-            "",
-            "\"Not available in this version.\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "HasAnyTouchOrMouseStarted"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Share",
-            "=",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PopUp::Alert"
-          },
-          "parameters": [
-            "",
-            "\"Not available in this version.\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Hidden"
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoubleClick::HasDoubleClicked"
-          },
-          "parameters": [
-            "",
-            "\"Left\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Tri_Blank_",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "UploadDownloadImageFile::UploadImageFile"
-          },
-          "parameters": [
-            "",
-            "Background",
-            "",
-            "",
-            "",
-            "",
             ""
           ]
         }
@@ -6574,1585 +6445,6 @@
           },
           "parameters": [
             "AD"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "screen reader"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoubleClick::HasDoubleClicked"
-          },
-          "parameters": [
-            "",
-            "\"Left\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Tri_Blank_",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Welcome to development preview. Screen Reader enabled\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "devpre",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "screenreader",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "devpre",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Global_Base",
-                "Animation",
-                "=",
-                "3"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"s\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoubleKeyPress::DoubleKeyPress"
-          },
-          "parameters": [
-            "",
-            "s",
-            "1",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Screen Reader enabled\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Play",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Play\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Editor",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Editor\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Global_Home",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Home\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Tri_Blank_",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"development preview\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Editor",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Editor\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Share",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Share\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Load",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Load\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Credits",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Credits\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Help",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Help\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Exit",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Exit\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Dismiss\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Dismiss\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss2"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Dismiss\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Dissmiss3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "Dissmiss3"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "info",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Info\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "AC",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Accept Analytics\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "DC",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Decline Analytics\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "disclamer",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"We use Google Analytics to improve The Patch Project. It’s anonymous, so no personal info is collected or shared.\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "updates",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "updates"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"no patch notes\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "updates",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "updates"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Credits_Body_Text",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Credits_Body_Text"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"Connor Edgington-Desmet: Developer and Designer\"\n",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Credits_Body_Text",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "Credits_Body_Text"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bodypage",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "bodypage"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::Speak"
-          },
-          "parameters": [
-            "",
-            "\"General Info\n\nDetail Button\nToggles visibility of knob and switch functions on the synth interface.\n\nPatch Bay Button\nOpens or closes the patch bay popup.\n\t•\tIn Editor Mode, you can select an input and output point to draw a “cable” between them.\n\t•\tPressing Return while hovering over the switch will clear all connections.\n\t•\tIn Loading Mode, patches are premade and no connections are needed. Hovering the cursor and holding return will temporarily hide patch points until released.\n\nPatch Selector\n\t•\tClicking a patch opens the loading page to view its details and patch bay layout.\n\t•\tRight-clicking a patch plays a preview of the selected sound.\"",
-            "\"Agnes\"",
-            "100",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bodypage",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "bodypage"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K1TVJTF9C8PGD77445Q8E91X",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextToSpeech::StopSpeaking"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsMouseInsideCanvas"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "8e81a76047768995a44adc02f218ad61645e571cda9259403c7bc4558762a326_MetalV2_Run_13.wav",
-            "",
-            "30",
-            ""
           ]
         }
       ]

@@ -5446,7 +5446,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
