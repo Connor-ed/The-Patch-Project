@@ -4877,7 +4877,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Dissmiss",
@@ -4886,7 +4886,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "updates",
@@ -4920,7 +4920,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -4949,7 +4949,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -4978,7 +4978,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -5007,7 +5007,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Editor",
@@ -5078,7 +5078,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Dissmiss2",
@@ -5087,7 +5087,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "bodypage",
@@ -5114,7 +5114,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss",
@@ -5144,7 +5144,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss2",
@@ -5174,7 +5174,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss3",
@@ -5203,7 +5203,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss2",
@@ -5232,7 +5232,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss3",
@@ -5261,7 +5261,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss",
@@ -5298,7 +5298,7 @@
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Dissmiss",
@@ -5346,7 +5346,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss2",
@@ -5368,7 +5368,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss2"
@@ -5376,7 +5376,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "bodypage"
@@ -5397,7 +5397,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss3",
@@ -5419,7 +5419,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss3"
@@ -5427,7 +5427,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Credits_Body_Text"
@@ -5448,7 +5448,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dissmiss",
@@ -5470,7 +5470,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Dissmiss"
@@ -5478,46 +5478,10 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "updates"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SystemInfo::IsNativeDesktopApp"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"welcome\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Variable.hasbeenused",
-            "=",
-            "1"
           ]
         }
       ]
@@ -5539,7 +5503,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -5549,7 +5513,7 @@
       "actions": [
         {
           "type": {
-            "value": "ModGlobalVolume"
+            "value": "SetGlobalVolume"
           },
           "parameters": [
             "",
@@ -5607,7 +5571,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -5665,7 +5629,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -5735,7 +5699,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -5745,7 +5709,7 @@
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Welcome",
@@ -5755,7 +5719,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "box_help",
@@ -5765,7 +5729,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Box",
@@ -5775,7 +5739,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss",
@@ -5785,7 +5749,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss2",
@@ -5795,7 +5759,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss3",
@@ -5805,7 +5769,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Whats_new_text",
@@ -5815,7 +5779,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "updates",
@@ -5825,7 +5789,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "bodypage",
@@ -5835,7 +5799,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "title",
@@ -5845,7 +5809,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_text",
@@ -5855,7 +5819,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Body_Text",
@@ -5865,7 +5829,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_text",
@@ -5875,7 +5839,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Body_Text",
@@ -5890,7 +5854,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Welcome",
@@ -5911,7 +5875,7 @@
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Welcome",
@@ -5921,7 +5885,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss",
@@ -5931,7 +5895,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "updates",
@@ -5941,7 +5905,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Whats_new_text",
@@ -5951,7 +5915,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "box_help",
@@ -5961,7 +5925,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Box",
@@ -5976,7 +5940,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "box_help",
@@ -5997,7 +5961,7 @@
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "box_help",
@@ -6007,7 +5971,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss2",
@@ -6017,7 +5981,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "title",
@@ -6027,7 +5991,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "bodypage",
@@ -6037,7 +6001,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Welcome",
@@ -6047,7 +6011,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Box",
@@ -6062,7 +6026,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Credits_Box",
@@ -6083,7 +6047,7 @@
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Box",
@@ -6093,7 +6057,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Dissmiss3",
@@ -6103,7 +6067,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_text",
@@ -6113,7 +6077,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Credits_Body_Text",
@@ -6123,7 +6087,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "Welcome",
@@ -6133,7 +6097,7 @@
         },
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetZOrder"
           },
           "parameters": [
             "box_help",
@@ -6149,7 +6113,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "AC",
@@ -6178,7 +6142,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "AC",
@@ -6207,7 +6171,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "DC",
@@ -6244,7 +6208,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "AC",
@@ -6290,7 +6254,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "DC",
@@ -6303,7 +6267,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "AD"
@@ -6311,7 +6275,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "disclamer"
@@ -6356,7 +6320,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "disclamer"
@@ -6364,7 +6328,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "AD"
@@ -6389,7 +6353,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "disclamer"
@@ -6397,51 +6361,7 @@
         },
         {
           "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AD"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "dev mode"
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SystemInfo::IsPreview"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "disclamer"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "AD"
