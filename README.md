@@ -162,7 +162,7 @@ The-Patch-Project/
 
 ## Releases
 
-The latest stable release is **v1.1.1** (March 2026). See all releases on the [Releases page](https://github.com/Connor-ed/The-Patch-Project/releases).
+The latest stable release is **v1.2.0** (March 2026). See all releases on the [Releases page](https://github.com/Connor-ed/The-Patch-Project/releases).
 
 ---
 
