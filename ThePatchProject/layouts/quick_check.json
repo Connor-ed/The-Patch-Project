@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3768772036750907,
+    "zoomFactor": 0.2531414001298645,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -740,6 +740,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -811,7 +812,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
