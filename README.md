@@ -1,7 +1,5 @@
 # The Patch Project
 
-![The Patch Project Banner](https://private-user-images.githubusercontent.com/197329221/460767289-8a1c5fe7-738b-4a4a-9f89-2d48b626ce5b.png)
-
 > A free, open-source visual patch library for analog synthesizers — browse, preview, and recreate patches you love.
 
 🌐 **Live App:** [app.edgingtondesmet.com](https://app.edgingtondesmet.com) *(Desktop only — phone support coming soon)*
@@ -157,12 +155,6 @@ The-Patch-Project/
     ├── layouts/              # One layout (scene) per synth + main menu
     └── *.png                 # Numbered patch point images for CV routing visuals
 ```
-
----
-
-## Releases
-
-The latest stable release is **v1.2.0** (March 2026). See all releases on the [Releases page](https://github.com/Connor-ed/The-Patch-Project/releases).
 
 ---
 
