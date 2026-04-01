@@ -1957,7 +1957,7 @@
         }
       ],
       "content": {
-        "text": "[i][size=24]\n- Revamped the Patch Bay\n\n- Patch Settings now save to the web.\n\n- Bug fixes and improvements.",
+        "text": "[i][size=24]\n- Bug fixes and improvements.",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
