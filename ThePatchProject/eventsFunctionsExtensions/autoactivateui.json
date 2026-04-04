@@ -1,0 +1,547 @@
+{
+  "author": "",
+  "category": "User interface",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Auto Active UI",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNhcmQtb2ZmLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOS4yIDZMNy4yIDRIMjBDMjEuMTEgNCAyMiA0Ljg5IDIyIDZWMThDMjIgMTguMjQgMjEuOTYgMTguNDcgMjEuODggMTguNjhMMjAgMTYuOFY2SDkuMk0yMi4xMSAyMS40NkwyMC44NCAyMi43M0wxOC4xMSAyMEg0QzIuOSAyMCAyIDE5LjExIDIgMThWNkMyIDUuNDIgMi4yNSA0LjkgMi42NSA0LjU0TDEuMTEgM0wyLjM5IDEuNzNMNi42NiA2TDE4LjY1IDE4SDE4LjY2TDIwLjU3IDE5LjkxTDIwLjU2IDE5LjkxTDIyLjExIDIxLjQ2TTE2LjExIDE4TDQuMTEgNkg0VjE4SDE2LjExWiIgLz48L3N2Zz4=",
+  "name": "AutoActivateUI",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/1475943ef78ff0dadf733b21cf46630fd2f0f724668e3a30d17e45799c8d72fd_card-off-outline.svg",
+  "shortDescription": "Automatically enables or disables 2D UI objects like buttons and sliders based on their visibility.",
+  "version": "1.1.0",
+  "description": [
+    "This extension provides a set of behaviors for 2D UI objects to automatically manage their interactive state based on actual visibility on screen.",
+    "When a 2D UI object isn't being rendered (based on the Pixi renderer's 'worldVisible' property), its corresponding behavior will deactivate interactions, preventing accidental clicks or inputs. The interactions are automatically re-activated when the object is visible again.",
+    "",
+    "This extension also provides the \"Is actually visible on screen\" condition, which can be used separately in your events.",
+    "",
+    "**Included Behaviors:**",
+    "Auto activate button (panel sprite)",
+    "Auto activate toggle switch",
+    "Auto activate slider",
+    "Auto activate button states behavior",
+    "",
+    "**Included Conditions:**",
+    "Is actually visible on screen"
+  ],
+  "tags": [
+    "ui",
+    "interface",
+    "visibility",
+    "interaction",
+    "automatic",
+    "button",
+    "slider",
+    "toggle"
+  ],
+  "authorIds": [
+    "zZ9yI6twumVyDYIudFPzHAotOeA2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "For 2D objects, check if the object is truly rendered on screen. This verifies the renderer's 'worldVisible' property, which also accounts for parent or layer visibility.",
+      "fullName": "Is actually visible on screen",
+      "functionType": "Condition",
+      "name": "IsActuallyVisibleOnScreen",
+      "sentence": "_PARAM1_ is actually visible on screen",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const object = objects[0];",
+            "const pixiObject = object.getRendererObject();",
+            "if (!object) {",
+            "    eventsFunctionContext.returnValue = false;",
+            "} else if (!pixiObject) {",
+            "    eventsFunctionContext.returnValue = false;",
+            "} else {",
+            "    eventsFunctionContext.returnValue = pixiObject.worldVisible;",
+            "}"
+          ],
+          "parameterObjects": "Object",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "Object",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "IsActuallyVisibleOnScreen"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [
+    {
+      "description": "Automatically activates or deactivates the button's interaction based on its actual visibility on screen. The interaction is deactivated when the button isn't being rendered and activated when it is.",
+      "fullName": "Auto activate button (panel sprite)",
+      "name": "AutoActivate_Button",
+      "objectType": "PanelSpriteButton::PanelSpriteButton",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "PanelSpriteButton::PanelSpriteButton",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AutoActivateUI::AutoActivate_Button",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Automatically activates or deactivates the toggle switch's interaction based on its actual visibility on screen. The interaction is deactivated when the toggle switch isn't being rendered and activated when it is.",
+      "fullName": "Auto activate toggle switch",
+      "name": "AutoActivate_ToggleSwitch",
+      "objectType": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "SpriteToggleSwitch::SpriteToggleSwitch",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AutoActivateUI::AutoActivate_ToggleSwitch",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Automatically activates or deactivates the slider's interaction based on its actual visibility on screen. The interaction is deactivated when the slider isn't being rendered and activated when it is.",
+      "fullName": "Auto activate slider",
+      "name": "AutoActivate_Slider",
+      "objectType": "PanelSpriteSlider::PanelSpriteSlider",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "Object",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AutoActivateUI::AutoActivate_Slider",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    },
+    {
+      "description": "Automatically activates or deactivates the \"ButtonFSM\" behavior based on the object's actual visibility on screen. The \"ButtonFSM\" behavior is deactivated when the object isn't being rendered and activated when it is.",
+      "fullName": "Auto activate button states behavior",
+      "name": "AutoActivate_ButtonFSM",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Object",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoActivateUI::IsActuallyVisibleOnScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Object",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AutoActivateUI::AutoActivate_ButtonFSM",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "",
+          "extraInformation": [
+            "ButtonStates::ButtonFSM"
+          ],
+          "choices": [],
+          "name": "ButtonFSM"
+        }
+      ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ButtonFSM"
+          }
+        ]
+      }
+    }
+  ],
+  "eventsBasedObjects": []
+}
