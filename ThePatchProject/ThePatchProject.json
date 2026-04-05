@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 262,
+    "build": 264,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.2.1",
-    "name": "The Patch Project v",
+    "name": "The Patch Project",
     "description": "",
     "author": "The Patch Project",
     "windowWidth": 1920,
@@ -86,7 +86,6 @@
     "categories": [],
     "playableDevices": [
       "keyboard",
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [
