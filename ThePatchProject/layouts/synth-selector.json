@@ -1782,7 +1782,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -1812,7 +1812,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Loading_alert"
@@ -2531,7 +2531,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -2560,7 +2560,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -2589,7 +2589,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Simple_Pluck",
@@ -2618,7 +2618,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Ow_Ahh",
@@ -2647,7 +2647,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Boom_Kick",
@@ -2676,7 +2676,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Concept_Bass",
@@ -2705,7 +2705,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Electric_Pulse",
@@ -2735,7 +2735,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -2764,7 +2764,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -2806,7 +2806,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -2835,7 +2835,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -2864,7 +2864,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dial",
@@ -2893,7 +2893,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "E_Keys",
@@ -2934,7 +2934,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "E_Keys",
@@ -2982,7 +2982,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Simple_Pluck",
@@ -3030,7 +3030,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Ow_Ahh",
@@ -3078,7 +3078,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Boom_Kick",
@@ -3126,7 +3126,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Concept_Bass",
@@ -3174,7 +3174,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Electric_Pulse",
@@ -3222,7 +3222,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -3270,7 +3270,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -3318,7 +3318,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dial",
@@ -3378,7 +3378,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Load",
@@ -3401,7 +3401,7 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3444,7 +3444,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Simple_Pluck",
@@ -3467,7 +3467,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3491,7 +3491,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3523,7 +3523,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Ow_Ahh",
@@ -3546,7 +3546,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3554,7 +3554,7 @@
             "10",
             "",
             "50",
-            "1"
+            ""
           ]
         },
         {
@@ -3570,7 +3570,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3602,7 +3602,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Boom_Kick",
@@ -3625,7 +3625,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3649,7 +3649,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3681,7 +3681,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Concept_Bass",
@@ -3704,7 +3704,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3728,7 +3728,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3760,7 +3760,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Electric_Pulse",
@@ -3783,7 +3783,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3807,7 +3807,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3839,7 +3839,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "bit_synth",
@@ -3862,7 +3862,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3886,7 +3886,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -3918,7 +3918,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Dial",
@@ -3941,7 +3941,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -3965,7 +3965,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Loading_alert",
@@ -4008,7 +4008,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Loading_alert"
@@ -4054,7 +4054,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4077,7 +4077,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4105,7 +4105,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4128,7 +4128,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4156,7 +4156,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4179,7 +4179,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4207,7 +4207,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4230,7 +4230,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4258,7 +4258,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4281,7 +4281,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4309,7 +4309,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4332,7 +4332,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4360,7 +4360,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4383,7 +4383,7 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicOnChannel"
           },
           "parameters": [
             "",
@@ -4391,7 +4391,7 @@
             "10",
             "",
             "50",
-            "1"
+            ""
           ]
         }
       ]
@@ -4411,7 +4411,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -4431,21 +4431,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "",
-            "10",
-            "",
-            "50",
-            "1"
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [

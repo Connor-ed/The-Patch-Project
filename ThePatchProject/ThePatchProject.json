@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 262,
+    "build": 264,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,13 +18,13 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.2.1",
-    "name": "The Patch Project v",
+    "version": "1.2.2",
+    "name": "The Patch Project",
     "description": "",
     "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.2.0",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.2.1",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -86,7 +86,6 @@
     "categories": [],
     "playableDevices": [
       "keyboard",
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [
@@ -8985,14 +8984,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/synth-selector"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/save"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/browser"
     }
   ],
   "externalEvents": [],
@@ -9404,6 +9395,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flexbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/audiofromurl"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autoactivateui"
     }
   ],
   "externalLayouts": [

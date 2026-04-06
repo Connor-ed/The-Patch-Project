@@ -21,7 +21,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.36458333333337195,
+    "zoomFactor": 0.17003036489030726,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -4729,7 +4729,7 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SceneJustBegins"
           },
           "parameters": [
             ""
@@ -4748,7 +4748,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Patch"
@@ -4807,7 +4807,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -4835,7 +4835,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -4881,7 +4881,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -4909,7 +4909,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -4946,7 +4946,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -4985,7 +4985,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Knob",
@@ -5046,7 +5046,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Editor",
@@ -5092,7 +5092,7 @@
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -5208,7 +5208,7 @@
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -5237,7 +5237,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Home",
@@ -5266,7 +5266,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Play",
@@ -5295,7 +5295,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Editor",
@@ -6058,7 +6058,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Name"
@@ -6066,7 +6066,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Patch",
@@ -6101,7 +6101,7 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "NewShapePainter",
@@ -6115,7 +6115,7 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Global_Blank_Knob",
@@ -6173,7 +6173,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "NewShapePainter"
@@ -6218,7 +6218,7 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "Patch"
@@ -6226,7 +6226,7 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Hide"
           },
           "parameters": [
             "NewShapePainter"
@@ -6234,7 +6234,7 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "Show"
           },
           "parameters": [
             "Name",

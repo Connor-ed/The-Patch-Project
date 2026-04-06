@@ -1,0 +1,598 @@
+{
+  "author": "",
+  "category": "Audio",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Audio From URL",
+  "gdevelopVersion": "",
+  "helpPath": "https://zotus.ru/audiofromurl",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW11c2ljLW5vdGUtc2l4dGVlbnRoLWRvdHRlZCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOCAxOC41QTEuNSAxLjUgMCAxIDEgMTYuNSAxN0ExLjUgMS41IDAgMCAxIDE4IDE4LjVNMTggN1YzSDEyVjEzLjU1QTQgNCAwIDEgMCAxNCAxN1YxMUgxOFY4SDE0VjdaIiAvPjwvc3ZnPg==",
+  "name": "AudioFromURL",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/6e661f5a0ce955e38e9bb2fc6bb9e15f6ad92f898155c48e89249c978312f630_music-note-sixteenth-dotted.svg",
+  "shortDescription": "🎵 Audio From URL is an extension for GDevelop 5 that allows you to play music and sounds directly from the internet via a link. Just specify the URL of the audio file to play it!",
+  "version": "1.6.0",
+  "description": [
+    "🔊 AudioFromURL - play music by URL in GDevelop 5",
+    "This extension adds to GDevelop 5 the ability to download and play audio files directly from the internet, without having to upload them to the project manually.",
+    "",
+    "🌟 Main features:",
+    "✅ Play audio by link (MP3, OGG, WAV, etc.).",
+    "✅ Volume, looping and playback control",
+    "✅ Dynamic track change (you can change URL on the fly)",
+    "✅ Supports pause, stop and status check",
+    "",
+    "🛠 Where can I use it?",
+    "",
+    "Online radio in games",
+    "",
+    "Dynamic music downloads (e.g. from the cloud)",
+    "",
+    "Play custom tracks",
+    "",
+    "Streaming audio projects",
+    "",
+    "⚙️ Technical features:",
+    "",
+    "Works via HTML5 Audio API",
+    "",
+    "Supports CORS (but requires proper headers on the server)",
+    "",
+    "Optimized for web export",
+    "",
+    "📌 Example Usage:",
+    "",
+    "Add an object with AudioFromURL behavior.",
+    "",
+    "Set the URL (https://example.com/music.mp3).",
+    "",
+    "Start playback - and enjoy!",
+    "",
+    "Perfect for developers who want to use external audio resources without the hassle! 🚀"
+  ],
+  "tags": [
+    "audio",
+    "url",
+    "music",
+    "sound"
+  ],
+  "authorIds": [
+    "v5KAwe6HFmRdTg9dI5163IXVjm82"
+  ],
+  "dependencies": [],
+  "globalVariables": [
+    {
+      "name": "Playing",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "If the sound is playing",
+      "functionType": "Condition",
+      "name": "SoundPlaying",
+      "sentence": "If the sound is playing",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (window._gdBackgroundMusic) {",
+            "    eventsFunctionContext.returnValue = !window._gdBackgroundMusic.paused && !window._gdBackgroundMusic.ended;",
+            "} else {",
+            "    eventsFunctionContext.returnValue = false;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Get Sound Duration",
+      "functionType": "Action",
+      "name": "GetSoundDuration",
+      "sentence": "Get the duration of the sound at URL _PARAM2_ and pass it to variable _PARAM1_ (in sec.)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"URL\");",
+            "const audio = new Audio(url);",
+            "audio.addEventListener('loadedmetadata', () => {",
+            "    runtimeScene.getVariables().get(eventsFunctionContext.getArgument(\"Variable1\"))",
+            "        .setString(audio.duration ? `${Math.round(audio.duration)}` : \"no data!\");",
+            "});",
+            "audio.addEventListener('error', () => {",
+            "    runtimeScene.getVariables().get(\"TrackError\")",
+            "        .setString(\"error of load data\");",
+            "});",
+            "",
+            "audio.load();"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Variable to which you want to load the sound duration (in sec.)",
+          "name": "Variable1",
+          "type": "string"
+        },
+        {
+          "description": "URL (to .mp3)",
+          "name": "URL",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Play the sound with this action.",
+      "fullName": "Play sound from URL",
+      "functionType": "Action",
+      "name": "PlaySoundFromURL",
+      "sentence": "Play sound at URL _PARAM1_ (Loop: _PARAM2_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const musicUrl = eventsFunctionContext.getArgument(\"URL\");",
+            "const shouldLoop = eventsFunctionContext.getArgument(\"Loop\"); // true/false",
+            "",
+            "const audio = new Audio(musicUrl);",
+            "audio.volume = 0.5;",
+            "audio.loop = shouldLoop; // Устанавливаем параметр зацикливания",
+            "",
+            "audio.play().catch(e => {",
+            "    console.log(\"Playback is blocked by the browser\");",
+            "});",
+            "",
+            "window._gdBackgroundMusic = audio;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "URL (to .mp3)",
+          "name": "URL",
+          "type": "string"
+        },
+        {
+          "description": "Loop:",
+          "name": "Loop",
+          "type": "trueorfalse"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Get the volume value",
+      "functionType": "Action",
+      "name": "VolumeGetValue",
+      "sentence": "Get the volume value and pass it to variable _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "// Получаем объект переменной (не строку!)",
+            "const volumeVariable = eventsFunctionContext.getArgument(\"VolumeVariable\");",
+            "",
+            "if (window._gdBackgroundMusic) {",
+            "    // Получаем текущую громкость (0.0-1.0) и конвертируем в проценты (0-100)",
+            "    const currentVolumePercent = Math.round(window._gdBackgroundMusic.volume * 100);",
+            "    ",
+            "    // Сохраняем значение в переменную GDevelop",
+            "    volumeVariable.setNumber(currentVolumePercent);",
+            "} else {",
+            "    // Если музыка не играет, сохраняем 0",
+            "    volumeVariable.setNumber(0);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Variable",
+          "name": "VolumeVariable",
+          "type": "variable"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Rewind the sound",
+      "functionType": "Action",
+      "name": "RewindSound",
+      "sentence": "Rewind the sound by: _PARAM2_ _PARAM1_ seconds",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const seekOperator = eventsFunctionContext.getArgument(\"Operator\"); // \"+\", \"-\", \"=\"",
+            "const seekValue = eventsFunctionContext.getArgument(\"TimeInSeconds\"); ",
+            "if (window._gdBackgroundMusic) {",
+            "    let newTime;",
+            "    const currentTime = window._gdBackgroundMusic.currentTime;",
+            "    switch (seekOperator) {",
+            "        case \"+\":",
+            "            newTime = currentTime + seekValue;",
+            "            break;",
+            "        case \"-\":",
+            "            newTime = currentTime - seekValue; ",
+            "            break;",
+            "        case \"=\":",
+            "        default:",
+            "            newTime = seekValue;",
+            "            break;",
+            "    }",
+            "    newTime = Math.max(0, newTime);",
+            "    if (window._gdBackgroundMusic.duration && !isNaN(window._gdBackgroundMusic.duration)) {",
+            "        newTime = Math.min(window._gdBackgroundMusic.duration, newTime);",
+            "    }",
+            "    window._gdBackgroundMusic.currentTime = newTime;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "In seconds (Example: 1:00 - 60)",
+          "name": "TimeInSeconds",
+          "type": "expression"
+        },
+        {
+          "description": "Modificator's sign",
+          "name": "Operator",
+          "supplementaryInformation": "[\"-\",\"+\",\"=\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Stop all triggered sounds with this action.",
+      "fullName": "Stop sound",
+      "functionType": "Action",
+      "name": "StopSound",
+      "sentence": "Stop all sounds",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (window._gdBackgroundMusic) {",
+            "    window._gdBackgroundMusic.pause();",
+            "    window._gdBackgroundMusic.currentTime = 0;",
+            "}",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Pause/resume sound",
+      "functionType": "Action",
+      "name": "PauseSound",
+      "sentence": "Pause/resume sound",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (window._gdBackgroundMusic) {",
+            "    if (window._gdBackgroundMusic.paused) {",
+            "        window._gdBackgroundMusic.play(); /* Replay */",
+            "    } else {",
+            "        window._gdBackgroundMusic.pause(); /* Pause */",
+            "    }",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Mute sound when the tab is minimized",
+      "functionType": "Action",
+      "name": "TurnOffSound",
+      "sentence": "Mute sound when the tab is minimized",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "window._gdAudioPauseOnHide = true;",
+            "document.addEventListener('visibilitychange', () => {",
+            "    if (!window._gdBackgroundMusic) return;   ",
+            "    if (document.hidden && window._gdAudioPauseOnHide) {",
+            "        window._gdBackgroundMusic._pausedTime = window._gdBackgroundMusic.currentTime;",
+            "        window._gdBackgroundMusic.pause();",
+            "    } else if (window._gdBackgroundMusic._pausedTime !== undefined) {",
+            "        window._gdBackgroundMusic.currentTime = window._gdBackgroundMusic._pausedTime;",
+            "        window._gdBackgroundMusic.play().catch(e => console.log(\"play blocked by your browser\"));",
+            "    }",
+            "});"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "fullName": "Change the sound volume",
+      "functionType": "Action",
+      "name": "VolumeSound",
+      "sentence": "Change the sound volume value: _PARAM1_ _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const volumeOperator = eventsFunctionContext.getArgument(\"Operator\"); // \"+\", \"-\", \"=\"",
+            "const volumeValue = eventsFunctionContext.getArgument(\"Value\"); ",
+            "",
+            "if (window._gdBackgroundMusic) {",
+            "    let currentVolume = window._gdBackgroundMusic.volume * 100;",
+            "    let newVolume;",
+            "    switch (volumeOperator) {",
+            "        case \"+\":",
+            "            newVolume = currentVolume + volumeValue;",
+            "            break;",
+            "        case \"-\":",
+            "            newVolume = currentVolume - volumeValue;",
+            "            break;",
+            "        case \"=\":",
+            "        default:",
+            "            newVolume = volumeValue;",
+            "            break;",
+            "    }",
+            "    const clampedVolume = Math.min(100, Math.max(0, newVolume)) / 100;",
+            "    window._gdBackgroundMusic.volume = clampedVolume;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "Operator",
+          "supplementaryInformation": "[\"-\",\"+\",\"=\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Set the volume (example: 1-100)",
+          "name": "Value",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Smoothly lower the volume of the sound with this action.",
+      "fullName": "Smoothly fading volume change",
+      "functionType": "Action",
+      "name": "FadeChangeVolume",
+      "sentence": "Smoothly switch the volume to _PARAM3__PARAM1_ with a delay of _PARAM2_ ms",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const volumeOperator = eventsFunctionContext.getArgument(\"Operator\"); // \"+\", \"-\", \"=\"",
+            "const targetVolumePercent = eventsFunctionContext.getArgument(\"TargetVolume\");",
+            "const fadeDuration = eventsFunctionContext.getArgument(\"DurationMs\");",
+            "",
+            "if (window._gdBackgroundMusic) {",
+            "    let targetVolume;",
+            "    const currentVolumePercent = window._gdBackgroundMusic.volume * 100;",
+            "    ",
+            "    switch (volumeOperator) {",
+            "        case \"+\":",
+            "            targetVolume = currentVolumePercent + targetVolumePercent;",
+            "            break;",
+            "        case \"-\":",
+            "            targetVolume = currentVolumePercent - targetVolumePercent;",
+            "            break;",
+            "        case \"=\":",
+            "        default:",
+            "            targetVolume = targetVolumePercent;",
+            "            break;",
+            "    }",
+            "    ",
+            "    const clampedTargetVolume = Math.min(100, Math.max(0, targetVolume)) / 100;",
+            "    const initialVolume = window._gdBackgroundMusic.volume;",
+            "    const startTime = Date.now();",
+            "    ",
+            "    const fadeInterval = setInterval(() => {",
+            "        const elapsed = Date.now() - startTime;",
+            "        const progress = Math.min(elapsed / fadeDuration, 1);",
+            "        window._gdBackgroundMusic.volume = initialVolume + (clampedTargetVolume - initialVolume) * progress;",
+            "        ",
+            "        if (progress >= 1) clearInterval(fadeInterval);",
+            "    }, 16); /* ~60 FPS */",
+            "",
+            "    window._gdBackgroundMusic._fadeInterval = fadeInterval;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Set the volume (example: 1-100)",
+          "name": "TargetVolume",
+          "type": "expression"
+        },
+        {
+          "description": "Write a delay (example: 1000 ms - 1 second)",
+          "name": "DurationMs",
+          "type": "expression"
+        },
+        {
+          "description": "Modificator's sign",
+          "name": "Operator",
+          "supplementaryInformation": "[\"-\",\"+\",\"=\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Smoothly switch the sound to new URL with smoothness",
+      "fullName": "Smoothly switch the sound",
+      "functionType": "Action",
+      "name": "SmoothSoundChange",
+      "sentence": "Smoothly switch the sound to _PARAM1_ with _PARAM2_ ms smoothness",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const newMusicUrl = eventsFunctionContext.getArgument(\"NewMusicURL\");",
+            "const fadeDuration = eventsFunctionContext.getArgument(\"DurationMs\") || 1000;",
+            "",
+            "if (window._gdBackgroundMusic) {",
+            "    const oldAudio = window._gdBackgroundMusic;",
+            "    const initialVolume = oldAudio.volume;",
+            "    const startTime = Date.now();",
+            "",
+            "    const newAudio = new Audio(newMusicUrl);",
+            "    newAudio.volume = 0;",
+            "    newAudio.loop = true;",
+            "",
+            "    newAudio.play().catch(e => {",
+            "        console.log(\"Автовоспроизведение заблокировано браузером\");",
+            "    });",
+            "",
+            "    const fadeInterval = setInterval(() => {",
+            "        const elapsed = Date.now() - startTime;",
+            "        const progress = Math.min(elapsed / fadeDuration, 1);",
+            "        ",
+            "",
+            "        oldAudio.volume = initialVolume * (1 - progress);",
+            "        newAudio.volume = progress;",
+            "",
+            "        if (progress >= 1) {",
+            "            clearInterval(fadeInterval);",
+            "            oldAudio.pause();",
+            "            oldAudio.currentTime = 0;",
+            "            window._gdBackgroundMusic = newAudio;",
+            "        }",
+            "    }, 16);",
+            "} else {",
+            "    const audio = new Audio(newMusicUrl);",
+            "    audio.volume = 1;",
+            "    audio.loop = true;",
+            "    audio.play().catch(e => {",
+            "        console.log(\"play blocked by your browser\");",
+            "    });",
+            "    window._gdBackgroundMusic = audio;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "URL (to .mp3)",
+          "name": "NewMusicURL",
+          "type": "string"
+        },
+        {
+          "description": "Write a delay (example: 1000 ms - 1 second)",
+          "name": "DurationMs",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "SoundPlaying"
+      },
+      {
+        "functionName": "GetSoundDuration"
+      },
+      {
+        "functionName": "PlaySoundFromURL"
+      },
+      {
+        "functionName": "VolumeGetValue"
+      },
+      {
+        "functionName": "RewindSound"
+      },
+      {
+        "functionName": "StopSound"
+      },
+      {
+        "functionName": "PauseSound"
+      },
+      {
+        "functionName": "TurnOffSound"
+      },
+      {
+        "functionName": "VolumeSound"
+      },
+      {
+        "functionName": "FadeChangeVolume"
+      },
+      {
+        "functionName": "SmoothSoundChange"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
