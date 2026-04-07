@@ -574,8 +574,11 @@
     {
       "description": "Add this behavior to Text objects to easily translate them.",
       "fullName": "TranslatableText",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TranslatableText",
       "objectType": "TextObject::Text",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -786,8 +789,11 @@
     {
       "description": "Add this behavior to TextInput objects to easily translate them.",
       "fullName": "TranslatableTextInput",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TranslatableTextInput",
       "objectType": "TextInput::TextInputObject",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1077,8 +1083,11 @@
     {
       "description": "Add this behavior to BBText objects to easily translate them.",
       "fullName": "TranslatableBBText",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TranslatableBBText",
       "objectType": "BBText::BBText",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1288,8 +1297,11 @@
     {
       "description": "Add this behavior to BitmapText objects to easily translate them.",
       "fullName": "TranslatableBitmapText",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TranslatableBitmapText",
       "objectType": "BitmapText::BitmapTextObject",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1500,8 +1512,11 @@
     {
       "description": "Add this behavior to Button (panel sprite) objects to easily translate them.",
       "fullName": "TranslatableButton",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TranslatableButton",
       "objectType": "PanelSpriteButton::PanelSpriteButton",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

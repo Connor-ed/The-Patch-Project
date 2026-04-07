@@ -56,8 +56,11 @@
     {
       "description": "Move objects on ellipses or smoothly back and forth in one direction.",
       "fullName": "Ellipse movement",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "EllipseMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

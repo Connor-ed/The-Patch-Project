@@ -124,8 +124,11 @@
     {
       "description": "Modify a text object to display the time.",
       "fullName": "Time",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Time",
       "objectType": "TextObject::Text",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -410,8 +413,11 @@
     {
       "description": "Modify a text object to display the date.",
       "fullName": "Date",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Date",
       "objectType": "TextObject::Text",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1137,8 +1143,11 @@
     {
       "description": "Modify a text object to display the year.",
       "fullName": "Year",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Year",
       "objectType": "TextObject::Text",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

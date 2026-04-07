@@ -41,8 +41,11 @@
     {
       "description": "Force the object to stay visible on the screen by setting back its 2D position inside the viewport of the camera.",
       "fullName": "Stay on Screen",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "StayOnScreen",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

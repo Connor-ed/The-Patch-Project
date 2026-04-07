@@ -75,8 +75,11 @@
     {
       "description": "Represent a value on a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Slider",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -600,8 +603,11 @@
     {
       "description": "The finite state machine used internally by the button object.",
       "fullName": "Button finite state machine",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -1792,9 +1798,12 @@
       "defaultName": "Slider",
       "description": "Let users select a numerical value by dragging a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "isInnerAreaFollowingParentSize": true,
       "isUsingLegacyInstancesRenderer": false,
       "name": "PanelSpriteSlider",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "",

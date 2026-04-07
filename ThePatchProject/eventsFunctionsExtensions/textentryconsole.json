@@ -37,8 +37,11 @@
     {
       "description": "A behavior that will parse any command endered via a text entry.",
       "fullName": "Text entry console",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TextEntryConsole",
       "objectType": "TextEntryObject::TextEntry",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

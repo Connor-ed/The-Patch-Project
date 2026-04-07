@@ -2710,8 +2710,11 @@
     {
       "description": "Move objects on curved paths in a given duration and tween easing function.",
       "fullName": "Movement on a curve (duration-based)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TweenPathMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5311,8 +5314,11 @@
     {
       "description": "Move objects on curved paths at a given speed.",
       "fullName": "Movement on a curve (speed-based)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "SpeedPathMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

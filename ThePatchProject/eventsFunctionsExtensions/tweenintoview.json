@@ -42,8 +42,11 @@
     {
       "description": "Tween objects into position from off screen.",
       "fullName": "Tween into view",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TweenIntoView",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

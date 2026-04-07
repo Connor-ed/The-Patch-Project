@@ -35,8 +35,11 @@
     {
       "description": "Smoothly changes a counter value in a text object.",
       "fullName": "Rolling counter",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RollingCounter",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

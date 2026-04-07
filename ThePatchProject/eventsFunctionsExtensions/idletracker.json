@@ -42,8 +42,11 @@
     {
       "description": "Check if an object has not moved (with some tolerance, 20 pixels by default) for a certain duration (1 second by default).",
       "fullName": "Idle tracker",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "IdleTracker",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

@@ -50,8 +50,11 @@
     {
       "description": "Checkbox that can be toggled by a left-click or touch.",
       "fullName": "Checkbox",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Checkbox",
       "objectType": "PrimitiveDrawing::Drawer",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

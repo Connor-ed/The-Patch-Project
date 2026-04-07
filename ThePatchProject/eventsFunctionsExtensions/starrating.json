@@ -35,8 +35,11 @@
     {
       "description": "A rating system indicated by stars using the shape painter.",
       "fullName": "Star Rating",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "StarRating",
       "objectType": "PrimitiveDrawing::Drawer",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

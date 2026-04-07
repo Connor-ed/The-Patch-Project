@@ -1087,8 +1087,11 @@
     {
       "description": "Animate any sprite with this extension.",
       "fullName": "Animation Behavior",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AnimationBehavior",
       "objectType": "Sprite",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "description": "edit the object (\"Origin\" point) to control how the animation goes.",

@@ -43,8 +43,11 @@
     {
       "description": "Teleport the object when leaving one side of the screen so that it immediately reappears on the opposite side, maintaining speed and trajectory.",
       "fullName": "Screen Wrap",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ScreenWrap",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -1195,8 +1198,11 @@
     {
       "description": "Teleport the object when leaving one side of the screen so that it immediately reappears on the opposite side, maintaining speed and trajectory.",
       "fullName": "Screen Wrap (physics objects)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ScreenWrapPhysics",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

@@ -1290,8 +1290,11 @@
     {
       "description": "The object will move from one object instance to another according to how they are linked to one another to reach a targeted object.",
       "fullName": "Link path finding",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "LinkPathFinding",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

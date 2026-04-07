@@ -49,8 +49,11 @@
     {
       "description": "Shake objects with translation and rotation.",
       "fullName": "Shake object (position, angle)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ShakeObject_PositionAngle",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "description": "Shake an object, using one or more ways to shake (position, angle). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters. ",
@@ -2056,8 +2059,11 @@
     {
       "description": "Shake objects with translation, rotation and scale.",
       "fullName": "Shake object (position, angle, scale)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ShakeObject_PositionAngleScale",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "description": "Shake an object, using one or more ways to shake (position, angle, scale). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters.",
