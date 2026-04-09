@@ -38,8 +38,11 @@
     {
       "description": "Turn any object into a mouse cursor.",
       "fullName": "Cursor",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "cursor",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

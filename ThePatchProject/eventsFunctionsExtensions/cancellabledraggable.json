@@ -37,8 +37,11 @@
     {
       "description": "Allow to cancel the drag of an object and make it smoothly return to its original position (with a tween).",
       "fullName": "Cancellable Draggable object",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "CancellableDraggable",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

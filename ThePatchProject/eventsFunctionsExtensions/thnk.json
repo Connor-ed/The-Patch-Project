@@ -672,8 +672,11 @@
     {
       "description": "Makes the THNK framework automatically synchronize instances of an object across clients. To be used for objects like moving terrain, player objects, etc: objects that will display the same for every user.\nNot to be used on objects unique to a single user, like an inventory menu. Prefer to send over variables the contents of the inventory and display it with non-synchronized objects.",
       "fullName": "Synchronize object",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "SynchronizedObject",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

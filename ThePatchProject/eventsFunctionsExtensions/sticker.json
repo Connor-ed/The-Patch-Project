@@ -380,8 +380,11 @@
     {
       "description": "Stick the object to another. Use the action to stick the object, or unstick it later.",
       "fullName": "Sticker",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Sticker",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

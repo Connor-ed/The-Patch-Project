@@ -49,10 +49,13 @@
       "defaultName": "",
       "description": "A dialog box showing two options.",
       "fullName": "Two choices dialog box ",
+      "helpPath": "",
+      "iconUrl": "",
       "isInnerAreaFollowingParentSize": true,
       "isTextContainer": true,
       "isUsingLegacyInstancesRenderer": false,
       "name": "TwoChoicesDialogBox",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",

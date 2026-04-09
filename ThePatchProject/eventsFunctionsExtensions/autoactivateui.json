@@ -90,8 +90,11 @@
     {
       "description": "Automatically activates or deactivates the button's interaction based on its actual visibility on screen. The interaction is deactivated when the button isn't being rendered and activated when it is.",
       "fullName": "Auto activate button (panel sprite)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoActivate_Button",
       "objectType": "PanelSpriteButton::PanelSpriteButton",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -200,8 +203,11 @@
     {
       "description": "Automatically activates or deactivates the toggle switch's interaction based on its actual visibility on screen. The interaction is deactivated when the toggle switch isn't being rendered and activated when it is.",
       "fullName": "Auto activate toggle switch",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoActivate_ToggleSwitch",
       "objectType": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -310,8 +316,11 @@
     {
       "description": "Automatically activates or deactivates the slider's interaction based on its actual visibility on screen. The interaction is deactivated when the slider isn't being rendered and activated when it is.",
       "fullName": "Auto activate slider",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoActivate_Slider",
       "objectType": "PanelSpriteSlider::PanelSpriteSlider",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -420,8 +429,11 @@
     {
       "description": "Automatically activates or deactivates the \"ButtonFSM\" behavior based on the object's actual visibility on screen. The \"ButtonFSM\" behavior is deactivated when the object isn't being rendered and activated when it is.",
       "fullName": "Auto activate button states behavior",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoActivate_ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

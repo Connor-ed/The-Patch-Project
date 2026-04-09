@@ -836,8 +836,11 @@
     {
       "description": "Control camera rotations with a mouse.",
       "fullName": "First person camera mouse mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FirstPersonPointerMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

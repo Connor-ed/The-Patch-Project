@@ -51,8 +51,11 @@
     {
       "description": "Drag a physics object with the mouse (or touch).",
       "fullName": "Draggable (for physics objects)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "DraggablePhysics",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

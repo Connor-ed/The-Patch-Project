@@ -408,8 +408,11 @@
     {
       "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
       "fullName": "Flash visibility (blink)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Flash",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -985,8 +988,11 @@
     {
       "description": "Make an object flash a color tint for a period of time.",
       "fullName": "Flash color tint",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashColor",
       "objectType": "Sprite",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1607,8 +1613,11 @@
     {
       "description": "Flash opacity smoothly (fade) in a repeating loop.",
       "fullName": "Flash opacity smothly (fade)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashOpacity",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2318,8 +2327,11 @@
     {
       "description": "Make the object flash an effect for a period of time.",
       "fullName": "Flash effect",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashEffect",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

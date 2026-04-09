@@ -203,8 +203,11 @@
     {
       "description": "Change the cursor appearence when the object is hovered (on Windows, macOS or Linux).",
       "fullName": "Custom cursor when hovered",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "CursorHover",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

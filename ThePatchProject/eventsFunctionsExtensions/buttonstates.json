@@ -49,8 +49,11 @@
     {
       "description": "Use objects as buttons.",
       "fullName": "Button states",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1253,8 +1256,11 @@
     {
       "description": "Enable effects on buttons based on their state.",
       "fullName": "Button object effects",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonObjectEffects",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1855,8 +1861,11 @@
     {
       "description": "Change the animation of buttons according to their state.",
       "fullName": "Button animation",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonAnimationName",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2366,8 +2375,11 @@
     {
       "description": "Smoothly change an effect on buttons according to their state.",
       "fullName": "Button object effect tween",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonObjectEffectTween",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -4416,8 +4428,11 @@
     {
       "description": "Smoothly resize buttons according to their state.",
       "fullName": "Button scale tween",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonScaleTween",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5844,8 +5859,11 @@
     {
       "description": "Smoothly change the color tint of buttons according to their state.",
       "fullName": "Button color tint tween",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonColorTintTween",
       "objectType": "Sprite",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

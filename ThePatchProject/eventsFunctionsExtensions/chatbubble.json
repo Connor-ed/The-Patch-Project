@@ -49,8 +49,11 @@
     {
       "description": "Draws a chat bubble into a text object.",
       "fullName": "Chat Bubble Behavior",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ChatBubble",
       "objectType": "PrimitiveDrawing::Drawer",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

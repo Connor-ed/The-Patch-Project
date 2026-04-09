@@ -81,9 +81,12 @@
       "defaultName": "VolumeSettings",
       "description": "Collapsible volume setting menu.",
       "fullName": "Volume settings",
+      "helpPath": "",
+      "iconUrl": "",
       "isInnerAreaFollowingParentSize": true,
       "isUsingLegacyInstancesRenderer": false,
       "name": "CollapsibleVolumeControl",
+      "previewIconUrl": "",
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,

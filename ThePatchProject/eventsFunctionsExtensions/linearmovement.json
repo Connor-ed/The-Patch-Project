@@ -40,8 +40,11 @@
     {
       "description": "Move objects on a straight line.",
       "fullName": "Linear movement",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "LinearMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -301,8 +304,11 @@
     {
       "description": "Move objects ahead according to their angle.",
       "fullName": "Linear movement by angle",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "LinearMovementByAngle",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

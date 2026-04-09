@@ -51,8 +51,11 @@
     {
       "description": "Use a shape-painter object to draw a toggle switch that users can click or touch.",
       "fullName": "Toggle switch",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ToggleSwitch",
       "objectType": "PrimitiveDrawing::Drawer",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

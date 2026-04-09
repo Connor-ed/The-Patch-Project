@@ -49,8 +49,11 @@
     {
       "description": "Reveal a text one letter after the other.",
       "fullName": "Auto typing text",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoTyping",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

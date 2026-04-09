@@ -48,8 +48,11 @@
     {
       "description": "Smoothly scroll to follow an object.",
       "fullName": "Smooth Camera",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "SmoothCamera",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -5118,8 +5121,11 @@
     {
       "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
       "fullName": "Smooth platformer camera",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "SmoothPlatformerCamera",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

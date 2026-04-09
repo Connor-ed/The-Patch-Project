@@ -45,8 +45,11 @@
     {
       "description": "A container for flex items.",
       "fullName": "Flex container",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlexContainer",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -592,8 +595,11 @@
     {
       "description": "An item in a flex container.",
       "fullName": "Flex Item",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlexItem",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

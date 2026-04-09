@@ -328,8 +328,11 @@
     {
       "description": "Allows to repeat an object timer every X seconds.",
       "fullName": "Repeat every X seconds",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RepeatTimer",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

@@ -1150,8 +1150,11 @@
     {
       "description": "Draw selection (SelectionTools).",
       "fullName": "Selection painter",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "SelectionPainter",
       "objectType": "PrimitiveDrawing::Drawer",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

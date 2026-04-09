@@ -74,8 +74,11 @@
     {
       "description": "Remap keyboard controls of the top-down movement.",
       "fullName": "Top-down keyboard remapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RemapForTopdown",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -675,8 +678,11 @@
     {
       "description": "Remap keyboard controls of the platformer character movement.",
       "fullName": "Platformer keyboard mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RemapForPlatformer",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
