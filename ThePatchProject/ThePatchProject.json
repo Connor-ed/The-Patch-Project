@@ -6634,6 +6634,30 @@
         "name": "assets/woodsides.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "MINI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MINI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_Mini_Pic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_Mini_Pic.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Crave_Mini_Pic2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crave_Mini_Pic2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8984,6 +9008,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/synth-selector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/outdated_icons_repair_test"
     }
   ],
   "externalEvents": [],
