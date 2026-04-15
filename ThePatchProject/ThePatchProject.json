@@ -6746,6 +6746,30 @@
         "name": "14.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "minibrute_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "minibrute_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "minibrute-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "minibrute-background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Minibrutese_background_size.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Minibrutese_background_size.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
