@@ -24,7 +24,7 @@
     "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.2.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.2.4",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -9096,6 +9096,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/synth-selector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minibrutese"
     }
   ],
   "externalEvents": [],
