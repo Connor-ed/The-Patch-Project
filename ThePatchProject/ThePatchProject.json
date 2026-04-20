@@ -6770,6 +6770,22 @@
         "name": "Minibrutese_background_size.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Minibrute_knob.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Minibrute_knob.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Minibrute_knob_notch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Minibrute_knob_notch.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
