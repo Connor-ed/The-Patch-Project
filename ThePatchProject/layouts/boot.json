@@ -1957,7 +1957,7 @@
         }
       ],
       "content": {
-        "text": "[i][size=24]\n- Replaced outdated icons in the patch selector.\n\n- Bug fixes and improvements.",
+        "text": "[i][size=24]\n- Added the Popping Boba patch for the Crave.",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
