@@ -10,7 +10,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -20,8 +20,8 @@
     "gridOffsetZ": 0,
     "gridColor": 3486258,
     "gridAlpha": 1,
-    "snap": true,
-    "zoomFactor": 0.13480471535735603,
+    "snap": false,
+    "zoomFactor": 0.6197916666667137,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -439,6 +439,23 @@
       "x": 1854,
       "y": -1110,
       "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 181,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Popping_Boba",
+      "persistentUuid": "9127fdae-33fc-4ad7-9d45-bc1f67d6a747",
+      "width": 376,
+      "x": 176,
+      "y": 1744,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1525,7 +1542,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "11.png",
+                  "image": "15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1550,47 +1567,11 @@
                       },
                       {
                         "x": 5479,
-                        "y": 1419
+                        "y": 2931
                       },
                       {
                         "x": 519,
-                        "y": 1419
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 519,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 1419
-                      },
-                      {
-                        "x": 519,
-                        "y": 1419
+                        "y": 2931
                       }
                     ]
                   ]
@@ -1609,7 +1590,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "12.png",
+                  "image": "16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1634,47 +1615,11 @@
                       },
                       {
                         "x": 5479,
-                        "y": 1419
+                        "y": 2931
                       },
                       {
                         "x": 519,
-                        "y": 1419
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 519,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 1419
-                      },
-                      {
-                        "x": 519,
-                        "y": 1419
+                        "y": 2931
                       }
                     ]
                   ]
@@ -1693,7 +1638,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "13.png",
+                  "image": "17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1718,47 +1663,11 @@
                       },
                       {
                         "x": 5479,
-                        "y": 1419
+                        "y": 2931
                       },
                       {
                         "x": 519,
-                        "y": 1419
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "13.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 519,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 472
-                      },
-                      {
-                        "x": 5479,
-                        "y": 1419
-                      },
-                      {
-                        "x": 519,
-                        "y": 1419
+                        "y": 2931
                       }
                     ]
                   ]
@@ -1777,7 +1686,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "14.png",
+                  "image": "18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1802,18 +1711,30 @@
                       },
                       {
                         "x": 5479,
-                        "y": 1419
+                        "y": 2931
                       },
                       {
                         "x": 519,
-                        "y": 1419
+                        "y": 2931
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "14.png",
+                  "image": "19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1838,11 +1759,11 @@
                       },
                       {
                         "x": 5479,
-                        "y": 1419
+                        "y": 2931
                       },
                       {
                         "x": 519,
-                        "y": 1419
+                        "y": 2931
                       }
                     ]
                   ]
@@ -2073,6 +1994,48 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Popping_Boba",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Popping_Boba",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Popping_Boba",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2134,6 +2097,9 @@
       },
       {
         "objectName": "Viewing_Space_Up"
+      },
+      {
+        "objectName": "Popping_Boba"
       }
     ]
   },
@@ -3121,35 +3087,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "bit_synth",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Icon_overlay_2",
-            "Animation",
-            "=",
-            "\"2\""
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -3274,6 +3211,35 @@
             "Animation",
             "=",
             "\"4\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Popping_Boba",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Icon_overlay_2",
+            "Animation",
+            "=",
+            "\"5\""
           ]
         }
       ]
@@ -3708,6 +3674,54 @@
             "PL01",
             "=",
             "9"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Load\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Popping_Boba",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DoubleClick::HasSimpleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Left\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PL01",
+            "=",
+            "10"
           ]
         },
         {
@@ -4358,6 +4372,85 @@
       "conditions": [
         {
           "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Popping_Boba",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DoubleClick::HasSimpleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Right\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "Poping Boba Sounds.wav",
+            "10",
+            "",
+            "20",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Loading_alert",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Loading_alert",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "playback",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "SoundStopped"
           },
           "parameters": [
@@ -4792,7 +4885,72 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "",
+            "10",
+            "",
+            "50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "playback",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Global_Play",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DoubleClick::HasSimpleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Left\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "Poping Boba Sounds.wav",
+            "10",
+            "",
+            "50",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

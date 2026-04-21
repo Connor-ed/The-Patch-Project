@@ -2934,7 +2934,7 @@
       {
         "file": "dilanew.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"dilanew.png\",\"extension\":\".png\"}",
         "name": "dilanew.png",
         "smoothed": true,
         "userAdded": false
@@ -6744,6 +6744,88 @@
         "kind": "image",
         "metadata": "",
         "name": "14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "patch_1776287534350.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"patch_1776287534350.png\",\"extension\":\".png\"}",
+        "name": "patch_1776287534350.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Poping Boba Sounds.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Poping Boba Sounds.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Popping_Boba.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Popping_Boba",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Popping Boba.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Popping Boba",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Copy of Popping Boba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Popping Boba.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "19.png",
         "smoothed": true,
         "userAdded": false
       }
