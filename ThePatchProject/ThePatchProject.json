@@ -9178,6 +9178,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/synth-selector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/synth-selecting-page"
     }
   ],
   "externalEvents": [],
