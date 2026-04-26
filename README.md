@@ -36,7 +36,7 @@ The app is fully open source under the CC0-1.0 license. Anyone can use it, fork 
 
 | Synth | Manufacturer | Status | Patches Available |
 |---|---|---|---|
-| Crave | Behringer | ✅ Supported | 8 |
+| Crave | Behringer | ✅ Supported | 9 |
 | MiniBrute SE | Arturia | 🔧 In Progress | 0 |
 
 > Want to see your synth supported? See [How to Add a New Synth](#how-to-add-a-new-synth) below or [open a Discussion](https://github.com/Connor-ed/The-Patch-Project/discussions).
