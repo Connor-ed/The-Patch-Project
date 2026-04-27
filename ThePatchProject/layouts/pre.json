@@ -412,7 +412,16 @@
             "",
             "\"ABC\"",
             ">=",
-            "5"
+            ".5"
+          ]
+        },
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
+            "",
+            "\"Editor\""
           ]
         }
       ],
@@ -429,246 +438,26 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01K1TVNNWH266VZTJQEW44ASKA",
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "KeyFromTextPressed"
           },
           "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "screenreader",
-            "true",
-            ""
+            "",
+            "\"Return\""
           ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Global_Play",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Play\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Global_Editor",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Editor\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Global_Home",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Home\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Global_Blank_Knob",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Blank Knob\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "AutoPlay",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Auto Play\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SquareWhiteSlider",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::Speak"
-              },
-              "parameters": [
-                "",
-                "\"Slider\"",
-                "\"\"",
-                "100",
-                "100",
-                "100",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextToSpeech::StopSpeaking"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Synth Selector\""
           ]
         }
       ]

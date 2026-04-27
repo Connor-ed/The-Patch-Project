@@ -21,7 +21,7 @@
     "gridColor": 3486258,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.6197916666667137,
+    "zoomFactor": 0.22169247275006848,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2592,7 +2592,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Menu Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2758,7 +2757,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Boot\""
+                    "\"Menu\""
                   ]
                 }
               ]
