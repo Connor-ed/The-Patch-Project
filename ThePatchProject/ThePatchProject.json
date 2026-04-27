@@ -6892,6 +6892,46 @@
         "name": "NewSprite23",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "30.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "about background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "about background.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
