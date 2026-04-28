@@ -993,7 +993,22 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const pb = globalThis.PatchBay;",
+                "if (!pb) return;",
+                "pb.connections = [];",
+                "pb.pending = null;",
+                "if (pb.canvas) pb.canvas.style.display = \"none\";"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
         }
       ],
       "parameters": []
