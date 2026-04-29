@@ -1009,6 +1009,11 @@
               "eventsSheetExpanded": false
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -1231,7 +1236,7 @@
               },
               "parameters": [
                 "",
-                "\"Synth Selector\"",
+                "\"Pre\"",
                 ""
               ]
             }
