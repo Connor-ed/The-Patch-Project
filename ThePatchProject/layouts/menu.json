@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2291680161074889,
+    "zoomFactor": 0.341185602347347,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -991,6 +991,12 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
@@ -998,27 +1004,25 @@
             {
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": [
-                "const cleanPatchBay = () => {",
-                "    const pb = globalThis.PatchBay;",
-                "    if (!pb) return;",
+                "// 1. Get the reference",
+                "const pb = globalThis.PatchBay;",
                 "",
-                "    // Clear the data so there is nothing to draw",
-                "    pb.connections = [];",
-                "    pb.pending = null;",
+                "if (pb) {",
+                "    console.log(\"[PatchBay] Nuking system for Menu scene...\");",
                 "",
-                "    // Instead of hiding the canvas, we try to make it invisible ",
-                "    // or transparent if it's a separate layer.",
-                "    if (pb.canvas) {",
-                "        pb.canvas.style.opacity = \"0\"; ",
-                "        pb.canvas.style.pointerEvents = \"none\"; // Prevents clicking on invisible points",
+                "    // 2. Physically remove the canvas from the browser window",
+                "    if (pb.canvas && pb.canvas.parentNode) {",
+                "        pb.canvas.parentNode.removeChild(pb.canvas);",
                 "    }",
-                "};",
                 "",
-                "// Run immediately",
-                "cleanPatchBay();",
+                "    // 3. Completely wipe the global object",
+                "    // This is the most important part. By setting this to null, ",
+                "    // your Redraw script's \"if (!pb || !pb.ctx) return;\" line ",
+                "    // will trigger and STOP the loop instantly.",
+                "    globalThis.PatchBay = null;",
                 "",
-                "// Run on resize",
-                "window.addEventListener('resize', cleanPatchBay);",
+                "    console.log(\"[PatchBay] System fully destroyed ✓\");",
+                "}",
                 ""
               ],
               "parameterObjects": "",

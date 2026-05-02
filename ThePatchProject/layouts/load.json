@@ -6752,7 +6752,7 @@
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
             "// PATCHBAY — one-time setup",
-            "if (typeof globalThis.PatchBay !== \"undefined\") return;",
+            "if (globalThis.PatchBay && globalThis.PatchBay.canvas) return;",
             "",
             "globalThis.PatchBay = {",
             "",
