@@ -6932,6 +6932,38 @@
         "name": "about background.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "31.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "34.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -7079,13 +7111,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "24.png",
+                  "image": "31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7101,20 +7133,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1472,
+                        "x": 1481,
                         "y": 120
                       },
                       {
-                        "x": 4528,
+                        "x": 4518,
                         "y": 120
                       },
                       {
-                        "x": 4528,
-                        "y": 337
+                        "x": 4518,
+                        "y": 313
                       },
                       {
-                        "x": 1472,
-                        "y": 337
+                        "x": 1481,
+                        "y": 313
                       }
                     ]
                   ]
@@ -7133,7 +7165,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "25.png",
+                  "image": "32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7149,20 +7181,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1472,
+                        "x": 1481,
                         "y": 120
                       },
                       {
-                        "x": 4528,
+                        "x": 4518,
                         "y": 120
                       },
                       {
-                        "x": 4528,
-                        "y": 337
+                        "x": 4518,
+                        "y": 313
                       },
                       {
-                        "x": 1472,
-                        "y": 337
+                        "x": 1481,
+                        "y": 313
                       }
                     ]
                   ]
@@ -7181,7 +7213,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "26.png",
+                  "image": "33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7197,20 +7229,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1472,
+                        "x": 1481,
                         "y": 120
                       },
                       {
-                        "x": 4528,
+                        "x": 4518,
                         "y": 120
                       },
                       {
-                        "x": 4528,
-                        "y": 337
+                        "x": 4518,
+                        "y": 313
                       },
                       {
-                        "x": 1472,
-                        "y": 337
+                        "x": 1481,
+                        "y": 313
                       }
                     ]
                   ]
@@ -7229,7 +7261,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "27.png",
+                  "image": "34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7245,20 +7277,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1472,
+                        "x": 1481,
                         "y": 120
                       },
                       {
-                        "x": 4528,
+                        "x": 4518,
                         "y": 120
                       },
                       {
-                        "x": 4528,
-                        "y": 337
+                        "x": 4518,
+                        "y": 313
                       },
                       {
-                        "x": 1472,
-                        "y": 337
+                        "x": 1481,
+                        "y": 313
                       }
                     ]
                   ]
@@ -8878,67 +8910,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "fade",
-      "persistentUuid": "f7fe7ffc-5c68-4585-ae61-e84ef8f30931",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fade_Element.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 0
-                      },
-                      {
-                        "x": 6000,
-                        "y": 1230
-                      },
-                      {
-                        "x": 0,
-                        "y": 1230
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
       "name": "SquareWhiteSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
@@ -9029,6 +9000,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "top_title",
+      "persistentUuid": "548a22a0-0bf8-4e61-88eb-fa0d65de03a3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9185,9 +9157,6 @@
       },
       {
         "objectName": "Background"
-      },
-      {
-        "objectName": "fade"
       },
       {
         "objectName": "SquareWhiteSlider"
