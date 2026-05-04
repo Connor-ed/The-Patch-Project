@@ -9,7 +9,7 @@
   "title": "The Patch Project",
   "v": 249,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 48,
     "gridHeight": 72,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.1816906597848631,
+    "snap": false,
+    "zoomFactor": 0.619791666666671,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -146,22 +146,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "Menu_Slide_Back",
-      "persistentUuid": "d8e449f6-beb1-4964-ab79-2b7445c7c713",
-      "width": 0,
-      "x": 1920,
-      "y": 0,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 864,
@@ -173,22 +157,6 @@
       "x": 1918,
       "y": 111,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "frame",
-      "persistentUuid": "c2647a7a-1343-4117-b4b3-c7c00e8c51c6",
-      "width": 0,
-      "x": 1920,
-      "y": 0,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -211,16 +179,34 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 800,
       "keepRatio": true,
       "layer": "background",
       "name": "NewBBText",
       "persistentUuid": "2f0930a6-79ee-4b49-9a9d-395f7ea4e6b4",
-      "width": 0,
-      "x": 2112,
+      "width": 1387,
+      "x": 2651,
       "y": 144,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 866,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Back_Box",
+      "persistentUuid": "ab8238e3-378f-4d7f-b5f4-55c2be7f37f8",
+      "width": 517,
+      "x": 1975,
+      "y": 105,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -658,115 +644,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Menu_Slide_Back",
-      "persistentUuid": "4e35d253-37b1-4dfe-9e21-69f45bd1cf92",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "29.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 108
-                      },
-                      {
-                        "x": 55,
-                        "y": 108
-                      },
-                      {
-                        "x": 55,
-                        "y": 972
-                      },
-                      {
-                        "x": 0,
-                        "y": 972
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "30.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 108
-                      },
-                      {
-                        "x": 55,
-                        "y": 108
-                      },
-                      {
-                        "x": 55,
-                        "y": 972
-                      },
-                      {
-                        "x": 0,
-                        "y": 972
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Back_Box",
       "persistentUuid": "bc66a0d3-f842-4b71-bd8d-67ed76488bd4",
       "type": "Sprite",
@@ -821,47 +698,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "frame",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "frame.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "About_Background",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -879,7 +715,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "about background.png",
+                  "image": "36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -895,19 +731,67 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 162,
+                        "x": 58,
                         "y": 108
                       },
                       {
-                        "x": 1811,
+                        "x": 1862,
                         "y": 108
                       },
                       {
-                        "x": 1811,
+                        "x": 1862,
                         "y": 972
                       },
                       {
-                        "x": 162,
+                        "x": 58,
+                        "y": 972
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "37.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 58,
+                        "y": 108
+                      },
+                      {
+                        "x": 1862,
+                        "y": 108
+                      },
+                      {
+                        "x": 1862,
+                        "y": 972
+                      },
+                      {
+                        "x": 58,
                         "y": 972
                       }
                     ]
@@ -958,13 +842,7 @@
         "objectName": "About_Box"
       },
       {
-        "objectName": "Menu_Slide_Back"
-      },
-      {
         "objectName": "Back_Box"
-      },
-      {
-        "objectName": "frame"
       },
       {
         "objectName": "About_Background"
@@ -1191,7 +1069,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "Menu_Slide_Back",
+                "About_Background",
                 "Animation",
                 "=",
                 "0"
@@ -1220,7 +1098,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "Menu_Slide_Back",
+                "About_Background",
                 "Animation",
                 "=",
                 "1"
