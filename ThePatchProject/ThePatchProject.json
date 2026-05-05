@@ -6996,6 +6996,22 @@
         "name": "Minibrute_Sides.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "39.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
