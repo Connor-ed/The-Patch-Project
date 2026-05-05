@@ -1652,6 +1652,16 @@
             "\"Left\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "L_E",
+            "=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -1662,6 +1672,54 @@
           "parameters": [
             "",
             "\"PS_Crave\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Crave",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DoubleClick::HasSimpleClicked"
+          },
+          "parameters": [
+            "",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "L_E",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Editor\"",
             ""
           ]
         }

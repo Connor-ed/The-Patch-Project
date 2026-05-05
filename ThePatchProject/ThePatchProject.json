@@ -9279,6 +9279,11 @@
       "name": "SB01",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "L_E",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
