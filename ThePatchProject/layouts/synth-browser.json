@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Synth_32Selector",
-  "name": "Synth Selector",
+  "mangledName": "Synth_32Browser",
+  "name": "Synth Browser",
   "r": 255,
   "resourcesUnloading": "at-scene-exit",
   "standardSortMethod": true,

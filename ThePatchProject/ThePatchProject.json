@@ -9275,11 +9275,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/synth-selector"
+      "referenceTo": "/layouts/ps_crave"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/synth-selecting-page"
+      "referenceTo": "/layouts/synth-browser"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
