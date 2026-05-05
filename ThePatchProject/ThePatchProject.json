@@ -6988,6 +6988,14 @@
         "name": "37.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Minibrute_Sides.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Minibrute_Sides.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -9250,6 +9258,11 @@
       "name": "Browser_Status",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "SB01",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -9276,6 +9289,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ps_crave"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ps_minibrute"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
