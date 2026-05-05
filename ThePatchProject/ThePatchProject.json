@@ -110,7 +110,7 @@
   "resources": {
     "resources": [
       {
-        "file": "BCS_K.png",
+        "file": "assets/BCS_K.png",
         "kind": "image",
         "metadata": "",
         "name": "BCS_K.png",
@@ -118,7 +118,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_S2.png",
+        "file": "assets/BCS_S2.png",
         "kind": "image",
         "metadata": "",
         "name": "BCS_S2.png",
@@ -126,7 +126,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_S3.png",
+        "file": "assets/BCS_S3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"BCS_S3.png\",\"extension\":\".png\"}",
         "name": "BCS_S3.png",
@@ -190,7 +190,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_K2.png",
+        "file": "assets/BCS_K2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"BCS_K2.png\",\"extension\":\".png\"}",
         "name": "BCS_K2.png",
@@ -198,7 +198,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_K3.png",
+        "file": "assets/BCS_K3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"BCS_K3.png\",\"extension\":\".png\"}",
         "name": "BCS_K3.png",
@@ -214,7 +214,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_TOP_LITE2.png",
+        "file": "assets/BCS_TOP_LITE2.png",
         "kind": "image",
         "metadata": "",
         "name": "BCS_TOP_LITE2.png",
@@ -222,7 +222,7 @@
         "userAdded": false
       },
       {
-        "file": "BCS_Top_layer2.png",
+        "file": "assets/BCS_Top_layer2.png",
         "kind": "image",
         "metadata": "",
         "name": "BCS_Top_layer2.png",
@@ -454,7 +454,7 @@
         "userAdded": false
       },
       {
-        "file": "Blank.png",
+        "file": "assets/Blank.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank.png",
@@ -462,7 +462,7 @@
         "userAdded": false
       },
       {
-        "file": "Credits.png",
+        "file": "assets/Credits.png",
         "kind": "image",
         "metadata": "",
         "name": "Credits.png",
@@ -470,7 +470,7 @@
         "userAdded": false
       },
       {
-        "file": "Editor.png",
+        "file": "assets/Editor.png",
         "kind": "image",
         "metadata": "",
         "name": "Editor.png",
@@ -478,7 +478,7 @@
         "userAdded": false
       },
       {
-        "file": "Exit.png",
+        "file": "assets/Exit.png",
         "kind": "image",
         "metadata": "",
         "name": "Exit.png",
@@ -486,7 +486,7 @@
         "userAdded": false
       },
       {
-        "file": "Help.png",
+        "file": "assets/Help.png",
         "kind": "image",
         "metadata": "",
         "name": "Help.png",
@@ -494,7 +494,7 @@
         "userAdded": false
       },
       {
-        "file": "Load.png",
+        "file": "assets/Load.png",
         "kind": "image",
         "metadata": "",
         "name": "Load.png",
@@ -502,7 +502,7 @@
         "userAdded": false
       },
       {
-        "file": "Share.png",
+        "file": "assets/Share.png",
         "kind": "image",
         "metadata": "",
         "name": "Share.png",
@@ -518,7 +518,7 @@
         "userAdded": false
       },
       {
-        "file": "24.png",
+        "file": "assets/24.png",
         "kind": "image",
         "metadata": "",
         "name": "24.png",
@@ -526,7 +526,7 @@
         "userAdded": false
       },
       {
-        "file": "25.png",
+        "file": "assets/25.png",
         "kind": "image",
         "metadata": "",
         "name": "25.png",
@@ -534,7 +534,7 @@
         "userAdded": false
       },
       {
-        "file": "26.png",
+        "file": "assets/26.png",
         "kind": "image",
         "metadata": "",
         "name": "26.png",
@@ -542,7 +542,7 @@
         "userAdded": false
       },
       {
-        "file": "27.png",
+        "file": "assets/27.png",
         "kind": "image",
         "metadata": "",
         "name": "27.png",
@@ -566,7 +566,7 @@
         "userAdded": false
       },
       {
-        "file": "updater.png",
+        "file": "assets/updater.png",
         "kind": "image",
         "metadata": "",
         "name": "updater.png",
@@ -574,7 +574,7 @@
         "userAdded": false
       },
       {
-        "file": "Blank_knob_load.png",
+        "file": "assets/Blank_knob_load.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank_knob_load.png",
@@ -582,7 +582,7 @@
         "userAdded": false
       },
       {
-        "file": "E_Keys_v01.png",
+        "file": "assets/E_Keys_v01.png",
         "kind": "image",
         "metadata": "",
         "name": "E_Keys_v01.png",
@@ -590,7 +590,7 @@
         "userAdded": false
       },
       {
-        "file": "Ow_Ahh_v01.png",
+        "file": "assets/Ow_Ahh_v01.png",
         "kind": "image",
         "metadata": "",
         "name": "Ow_Ahh_v01.png",
@@ -598,7 +598,7 @@
         "userAdded": false
       },
       {
-        "file": "Detailmode.png",
+        "file": "assets/Detailmode.png",
         "kind": "image",
         "metadata": "",
         "name": "Detailmode.png",
@@ -606,7 +606,7 @@
         "userAdded": false
       },
       {
-        "file": "E Keys4.wav",
+        "file": "assets/audio/E Keys4.wav",
         "kind": "audio",
         "metadata": "",
         "name": "E Keys4.wav",
@@ -616,7 +616,7 @@
         "userAdded": false
       },
       {
-        "file": "Ow - Ahh1.wav",
+        "file": "assets/audio/Ow - Ahh1.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Ow - Ahh1.wav",
@@ -634,7 +634,7 @@
         "userAdded": false
       },
       {
-        "file": "Detailmode2.png",
+        "file": "assets/Detailmode2.png",
         "kind": "image",
         "metadata": "",
         "name": "Detailmode2.png",
@@ -650,7 +650,7 @@
         "userAdded": false
       },
       {
-        "file": "89.png",
+        "file": "assets/89.png",
         "kind": "image",
         "metadata": "",
         "name": "89.png",
@@ -658,7 +658,7 @@
         "userAdded": false
       },
       {
-        "file": "90.png",
+        "file": "assets/90.png",
         "kind": "image",
         "metadata": "",
         "name": "90.png",
@@ -666,7 +666,7 @@
         "userAdded": false
       },
       {
-        "file": "91.png",
+        "file": "assets/91.png",
         "kind": "image",
         "metadata": "",
         "name": "91.png",
@@ -674,7 +674,7 @@
         "userAdded": false
       },
       {
-        "file": "92.png",
+        "file": "assets/92.png",
         "kind": "image",
         "metadata": "",
         "name": "92.png",
@@ -682,7 +682,7 @@
         "userAdded": false
       },
       {
-        "file": "93.png",
+        "file": "assets/93.png",
         "kind": "image",
         "metadata": "",
         "name": "93.png",
@@ -690,7 +690,7 @@
         "userAdded": false
       },
       {
-        "file": "94.png",
+        "file": "assets/94.png",
         "kind": "image",
         "metadata": "",
         "name": "94.png",
@@ -698,7 +698,7 @@
         "userAdded": false
       },
       {
-        "file": "95.png",
+        "file": "assets/95.png",
         "kind": "image",
         "metadata": "",
         "name": "95.png",
@@ -706,7 +706,7 @@
         "userAdded": false
       },
       {
-        "file": "96.png",
+        "file": "assets/96.png",
         "kind": "image",
         "metadata": "",
         "name": "96.png",
@@ -714,7 +714,7 @@
         "userAdded": false
       },
       {
-        "file": "97.png",
+        "file": "assets/97.png",
         "kind": "image",
         "metadata": "",
         "name": "97.png",
@@ -722,7 +722,7 @@
         "userAdded": false
       },
       {
-        "file": "99.png",
+        "file": "assets/99.png",
         "kind": "image",
         "metadata": "",
         "name": "99.png",
@@ -730,7 +730,7 @@
         "userAdded": false
       },
       {
-        "file": "100.png",
+        "file": "assets/100.png",
         "kind": "image",
         "metadata": "",
         "name": "100.png",
@@ -738,7 +738,7 @@
         "userAdded": false
       },
       {
-        "file": "101.png",
+        "file": "assets/101.png",
         "kind": "image",
         "metadata": "",
         "name": "101.png",
@@ -746,7 +746,7 @@
         "userAdded": false
       },
       {
-        "file": "102.png",
+        "file": "assets/102.png",
         "kind": "image",
         "metadata": "",
         "name": "102.png",
@@ -754,7 +754,7 @@
         "userAdded": false
       },
       {
-        "file": "103.png",
+        "file": "assets/103.png",
         "kind": "image",
         "metadata": "",
         "name": "103.png",
@@ -762,7 +762,7 @@
         "userAdded": false
       },
       {
-        "file": "104.png",
+        "file": "assets/104.png",
         "kind": "image",
         "metadata": "",
         "name": "104.png",
@@ -770,7 +770,7 @@
         "userAdded": false
       },
       {
-        "file": "105.png",
+        "file": "assets/105.png",
         "kind": "image",
         "metadata": "",
         "name": "105.png",
@@ -778,7 +778,7 @@
         "userAdded": false
       },
       {
-        "file": "106.png",
+        "file": "assets/106.png",
         "kind": "image",
         "metadata": "",
         "name": "106.png",
@@ -786,7 +786,7 @@
         "userAdded": false
       },
       {
-        "file": "E_Keys.png",
+        "file": "assets/E_Keys.png",
         "kind": "image",
         "metadata": "",
         "name": "E_Keys.png",
@@ -794,7 +794,7 @@
         "userAdded": false
       },
       {
-        "file": "Simple Pluck -2.wav",
+        "file": "assets/audio/Simple Pluck -2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Simple Pluck -2.wav",
@@ -804,7 +804,7 @@
         "userAdded": false
       },
       {
-        "file": "Grind223.png",
+        "file": "assets/Grind223.png",
         "kind": "image",
         "metadata": "",
         "name": "Grind223.png",
@@ -820,7 +820,7 @@
         "userAdded": false
       },
       {
-        "file": "Bold_Crave.png",
+        "file": "assets/Bold_Crave.png",
         "kind": "image",
         "metadata": "",
         "name": "Bold_Crave.png",
@@ -828,7 +828,7 @@
         "userAdded": false
       },
       {
-        "file": "Base_Synth2.png",
+        "file": "assets/Base_Synth2.png",
         "kind": "image",
         "metadata": "",
         "name": "Base_Synth2.png",
@@ -836,7 +836,7 @@
         "userAdded": false
       },
       {
-        "file": "CPa.png",
+        "file": "assets/CPa.png",
         "kind": "image",
         "metadata": "",
         "name": "CPa.png",
@@ -844,7 +844,7 @@
         "userAdded": false
       },
       {
-        "file": "CPa_CFU.png",
+        "file": "assets/CPa_CFU.png",
         "kind": "image",
         "metadata": "",
         "name": "CPa_CFU.png",
@@ -852,7 +852,7 @@
         "userAdded": false
       },
       {
-        "file": "Boom Kick.wav",
+        "file": "assets/audio/Boom Kick.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Boom Kick.wav",
@@ -862,7 +862,7 @@
         "userAdded": false
       },
       {
-        "file": "Fade_Element.png",
+        "file": "assets/Fade_Element.png",
         "kind": "image",
         "metadata": "",
         "name": "Fade_Element.png",
@@ -878,7 +878,7 @@
         "userAdded": false
       },
       {
-        "file": "4.png",
+        "file": "assets/4.png",
         "kind": "image",
         "metadata": "",
         "name": "4.png",
@@ -886,7 +886,7 @@
         "userAdded": false
       },
       {
-        "file": "5.png",
+        "file": "assets/5.png",
         "kind": "image",
         "metadata": "",
         "name": "5.png",
@@ -894,7 +894,7 @@
         "userAdded": false
       },
       {
-        "file": "6.png",
+        "file": "assets/6.png",
         "kind": "image",
         "metadata": "",
         "name": "6.png",
@@ -902,7 +902,7 @@
         "userAdded": false
       },
       {
-        "file": "107.png",
+        "file": "assets/107.png",
         "kind": "image",
         "metadata": "",
         "name": "107.png",
@@ -910,7 +910,7 @@
         "userAdded": false
       },
       {
-        "file": "Crave Patch Sheets.png",
+        "file": "assets/Crave Patch Sheets.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Crave Patch Sheets.png\",\"extension\":\".png\"}",
         "name": "Crave Patch Sheets.png",
@@ -918,7 +918,7 @@
         "userAdded": false
       },
       {
-        "file": "Ow - Ahh2.wav",
+        "file": "assets/audio/Ow - Ahh2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Ow - Ahh2.wav",
@@ -928,7 +928,7 @@
         "userAdded": false
       },
       {
-        "file": "Boom_Kick.png",
+        "file": "assets/Boom_Kick.png",
         "kind": "image",
         "metadata": "",
         "name": "Boom_Kick.png",
@@ -944,7 +944,7 @@
         "userAdded": false
       },
       {
-        "file": "Screenshot 2025-06-09 at 6.40.32 PM.png",
+        "file": "assets/Screenshot 2025-06-09 at 6.40.32 PM.png",
         "kind": "image",
         "metadata": "",
         "name": "Screenshot 2025-06-09 at 6.40.32 PM.png",
@@ -952,7 +952,7 @@
         "userAdded": false
       },
       {
-        "file": "crave-bk4.png",
+        "file": "assets/crave-bk4.png",
         "kind": "image",
         "metadata": "",
         "name": "crave-bk4.png",
@@ -960,7 +960,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer.png",
@@ -968,7 +968,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2).png",
@@ -984,7 +984,7 @@
         "userAdded": false
       },
       {
-        "file": "infocon_bright.png",
+        "file": "assets/infocon_bright.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_bright.png",
@@ -992,7 +992,7 @@
         "userAdded": false
       },
       {
-        "file": "infocon_dark.png",
+        "file": "assets/infocon_dark.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_dark.png",
@@ -1000,7 +1000,7 @@
         "userAdded": false
       },
       {
-        "file": "infocon_bright2.png",
+        "file": "assets/infocon_bright2.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_bright2.png",
@@ -1008,7 +1008,7 @@
         "userAdded": false
       },
       {
-        "file": "infocon_bright3.png",
+        "file": "assets/infocon_bright3.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_bright3.png",
@@ -1016,7 +1016,7 @@
         "userAdded": false
       },
       {
-        "file": "BlackOut.png",
+        "file": "assets/BlackOut.png",
         "kind": "image",
         "metadata": "",
         "name": "BlackOut.png",
@@ -1032,7 +1032,7 @@
         "userAdded": false
       },
       {
-        "file": "Screenshot 2025-06-16 at 12.00.48 PM.png",
+        "file": "assets/Screenshot 2025-06-16 at 12.00.48 PM.png",
         "kind": "image",
         "metadata": "",
         "name": "Screenshot 2025-06-16 at 12.00.48 PM.png",
@@ -1040,7 +1040,7 @@
         "userAdded": false
       },
       {
-        "file": "sliderbar.png",
+        "file": "assets/sliderbar.png",
         "kind": "image",
         "metadata": "",
         "name": "sliderbar.png",
@@ -1048,7 +1048,7 @@
         "userAdded": false
       },
       {
-        "file": "slide_knob.png",
+        "file": "assets/slide_knob.png",
         "kind": "image",
         "metadata": "",
         "name": "slide_knob.png",
@@ -1092,7 +1092,7 @@
         }
       },
       {
-        "file": "slider2.png",
+        "file": "assets/slider2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"slider2.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "slider2.png",
@@ -1100,7 +1100,7 @@
         "userAdded": false
       },
       {
-        "file": "slide_knob2.png",
+        "file": "assets/slide_knob2.png",
         "kind": "image",
         "metadata": "",
         "name": "slide_knob2.png",
@@ -1108,7 +1108,7 @@
         "userAdded": false
       },
       {
-        "file": "slider3.png",
+        "file": "assets/slider3.png",
         "kind": "image",
         "metadata": "",
         "name": "slider3.png",
@@ -1116,7 +1116,7 @@
         "userAdded": false
       },
       {
-        "file": "slider4.png",
+        "file": "assets/slider4.png",
         "kind": "image",
         "metadata": "",
         "name": "slider4.png",
@@ -1124,7 +1124,7 @@
         "userAdded": false
       },
       {
-        "file": "knob3.png",
+        "file": "assets/knob3.png",
         "kind": "image",
         "metadata": "",
         "name": "knob3.png",
@@ -1132,7 +1132,7 @@
         "userAdded": false
       },
       {
-        "file": "knob48.png",
+        "file": "assets/knob48.png",
         "kind": "image",
         "metadata": "",
         "name": "knob48.png",
@@ -1140,7 +1140,7 @@
         "userAdded": false
       },
       {
-        "file": "sliderightsize.png",
+        "file": "assets/sliderightsize.png",
         "kind": "image",
         "metadata": "",
         "name": "sliderightsize.png",
@@ -1148,7 +1148,7 @@
         "userAdded": false
       },
       {
-        "file": "109109.png",
+        "file": "assets/109109.png",
         "kind": "image",
         "metadata": "",
         "name": "109109.png",
@@ -1164,7 +1164,7 @@
         "userAdded": false
       },
       {
-        "file": "loadingcrave.png",
+        "file": "assets/loadingcrave.png",
         "kind": "image",
         "metadata": "",
         "name": "loadingcrave.png",
@@ -1172,7 +1172,7 @@
         "userAdded": false
       },
       {
-        "file": "loadingcrave2.png",
+        "file": "assets/loadingcrave2.png",
         "kind": "image",
         "metadata": "",
         "name": "loadingcrave2.png",
@@ -1180,7 +1180,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer2.png",
@@ -1188,7 +1188,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3).png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3).png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3).png",
@@ -1196,7 +1196,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)2.png",
@@ -1204,7 +1204,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)2.png",
@@ -1239,7 +1239,7 @@
         }
       },
       {
-        "file": "infocon_bright4.png",
+        "file": "assets/infocon_bright4.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_bright4.png",
@@ -1247,7 +1247,7 @@
         "userAdded": false
       },
       {
-        "file": "infocon_dark2.png",
+        "file": "assets/infocon_dark2.png",
         "kind": "image",
         "metadata": "",
         "name": "infocon_dark2.png",
@@ -1255,7 +1255,7 @@
         "userAdded": false
       },
       {
-        "file": "patch.png",
+        "file": "assets/patch.png",
         "kind": "image",
         "metadata": "",
         "name": "patch.png",
@@ -1263,7 +1263,7 @@
         "userAdded": false
       },
       {
-        "file": "patch2.png",
+        "file": "assets/patch2.png",
         "kind": "image",
         "metadata": "",
         "name": "patch2.png",
@@ -1271,7 +1271,7 @@
         "userAdded": false
       },
       {
-        "file": "patch3.png",
+        "file": "assets/patch3.png",
         "kind": "image",
         "metadata": "",
         "name": "patch3.png",
@@ -1279,7 +1279,7 @@
         "userAdded": false
       },
       {
-        "file": "patch4.png",
+        "file": "assets/patch4.png",
         "kind": "image",
         "metadata": "",
         "name": "patch4.png",
@@ -1295,7 +1295,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer3.png",
@@ -1303,7 +1303,7 @@
         "userAdded": false
       },
       {
-        "file": "Autoplay2.png",
+        "file": "assets/Autoplay2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Autoplay2.png\",\"extension\":\".png\"}",
         "name": "Autoplay2.png",
@@ -1311,7 +1311,7 @@
         "userAdded": false
       },
       {
-        "file": "patch_bay.png",
+        "file": "assets/patch_bay.png",
         "kind": "image",
         "metadata": "",
         "name": "patch_bay.png",
@@ -1319,7 +1319,7 @@
         "userAdded": false
       },
       {
-        "file": "patch_Bay_2.png",
+        "file": "assets/patch_Bay_2.png",
         "kind": "image",
         "metadata": "",
         "name": "patch_Bay_2.png",
@@ -1327,7 +1327,7 @@
         "userAdded": false
       },
       {
-        "file": "heavy bass.png",
+        "file": "assets/heavy bass.png",
         "kind": "image",
         "metadata": "",
         "name": "heavy bass.png",
@@ -1335,7 +1335,7 @@
         "userAdded": false
       },
       {
-        "file": "patch_Bay_3.png",
+        "file": "assets/patch_Bay_3.png",
         "kind": "image",
         "metadata": "",
         "name": "patch_Bay_3.png",
@@ -1343,7 +1343,7 @@
         "userAdded": false
       },
       {
-        "file": "conceptbass3.wav",
+        "file": "assets/audio/conceptbass3.wav",
         "kind": "audio",
         "metadata": "",
         "name": "conceptbass3.wav",
@@ -1369,7 +1369,7 @@
         "userAdded": false
       },
       {
-        "file": "patch-bg.png",
+        "file": "assets/patch-bg.png",
         "kind": "image",
         "metadata": "",
         "name": "patch-bg.png",
@@ -1377,7 +1377,7 @@
         "userAdded": false
       },
       {
-        "file": "108.png",
+        "file": "assets/108.png",
         "kind": "image",
         "metadata": "",
         "name": "108.png",
@@ -1385,7 +1385,7 @@
         "userAdded": false
       },
       {
-        "file": "109.png",
+        "file": "assets/109.png",
         "kind": "image",
         "metadata": "",
         "name": "109.png",
@@ -1393,7 +1393,7 @@
         "userAdded": false
       },
       {
-        "file": "110.png",
+        "file": "assets/110.png",
         "kind": "image",
         "metadata": "",
         "name": "110.png",
@@ -1401,7 +1401,7 @@
         "userAdded": false
       },
       {
-        "file": "111.png",
+        "file": "assets/111.png",
         "kind": "image",
         "metadata": "",
         "name": "111.png",
@@ -1409,7 +1409,7 @@
         "userAdded": false
       },
       {
-        "file": "112.png",
+        "file": "assets/112.png",
         "kind": "image",
         "metadata": "",
         "name": "112.png",
@@ -1417,7 +1417,7 @@
         "userAdded": false
       },
       {
-        "file": "113.png",
+        "file": "assets/113.png",
         "kind": "image",
         "metadata": "",
         "name": "113.png",
@@ -1425,7 +1425,7 @@
         "userAdded": false
       },
       {
-        "file": "114.png",
+        "file": "assets/114.png",
         "kind": "image",
         "metadata": "",
         "name": "114.png",
@@ -1433,7 +1433,7 @@
         "userAdded": false
       },
       {
-        "file": "115.png",
+        "file": "assets/115.png",
         "kind": "image",
         "metadata": "",
         "name": "115.png",
@@ -1441,7 +1441,7 @@
         "userAdded": false
       },
       {
-        "file": "116.png",
+        "file": "assets/116.png",
         "kind": "image",
         "metadata": "",
         "name": "116.png",
@@ -1449,7 +1449,7 @@
         "userAdded": false
       },
       {
-        "file": "117.png",
+        "file": "assets/117.png",
         "kind": "image",
         "metadata": "",
         "name": "117.png",
@@ -1457,7 +1457,7 @@
         "userAdded": false
       },
       {
-        "file": "118.png",
+        "file": "assets/118.png",
         "kind": "image",
         "metadata": "",
         "name": "118.png",
@@ -1465,7 +1465,7 @@
         "userAdded": false
       },
       {
-        "file": "119.png",
+        "file": "assets/119.png",
         "kind": "image",
         "metadata": "",
         "name": "119.png",
@@ -1473,7 +1473,7 @@
         "userAdded": false
       },
       {
-        "file": "120.png",
+        "file": "assets/120.png",
         "kind": "image",
         "metadata": "",
         "name": "120.png",
@@ -1481,7 +1481,7 @@
         "userAdded": false
       },
       {
-        "file": "121.png",
+        "file": "assets/121.png",
         "kind": "image",
         "metadata": "",
         "name": "121.png",
@@ -1489,7 +1489,7 @@
         "userAdded": false
       },
       {
-        "file": "122.png",
+        "file": "assets/122.png",
         "kind": "image",
         "metadata": "",
         "name": "122.png",
@@ -1497,7 +1497,7 @@
         "userAdded": false
       },
       {
-        "file": "123.png",
+        "file": "assets/123.png",
         "kind": "image",
         "metadata": "",
         "name": "123.png",
@@ -1505,7 +1505,7 @@
         "userAdded": false
       },
       {
-        "file": "124.png",
+        "file": "assets/124.png",
         "kind": "image",
         "metadata": "",
         "name": "124.png",
@@ -1513,7 +1513,7 @@
         "userAdded": false
       },
       {
-        "file": "125.png",
+        "file": "assets/125.png",
         "kind": "image",
         "metadata": "",
         "name": "125.png",
@@ -1521,7 +1521,7 @@
         "userAdded": false
       },
       {
-        "file": "126.png",
+        "file": "assets/126.png",
         "kind": "image",
         "metadata": "",
         "name": "126.png",
@@ -1529,7 +1529,7 @@
         "userAdded": false
       },
       {
-        "file": "127.png",
+        "file": "assets/127.png",
         "kind": "image",
         "metadata": "",
         "name": "127.png",
@@ -1537,7 +1537,7 @@
         "userAdded": false
       },
       {
-        "file": "128.png",
+        "file": "assets/128.png",
         "kind": "image",
         "metadata": "",
         "name": "128.png",
@@ -1545,7 +1545,7 @@
         "userAdded": false
       },
       {
-        "file": "129.png",
+        "file": "assets/129.png",
         "kind": "image",
         "metadata": "",
         "name": "129.png",
@@ -1553,7 +1553,7 @@
         "userAdded": false
       },
       {
-        "file": "130.png",
+        "file": "assets/130.png",
         "kind": "image",
         "metadata": "",
         "name": "130.png",
@@ -1561,7 +1561,7 @@
         "userAdded": false
       },
       {
-        "file": "131.png",
+        "file": "assets/131.png",
         "kind": "image",
         "metadata": "",
         "name": "131.png",
@@ -1569,7 +1569,7 @@
         "userAdded": false
       },
       {
-        "file": "132.png",
+        "file": "assets/132.png",
         "kind": "image",
         "metadata": "",
         "name": "132.png",
@@ -1577,7 +1577,7 @@
         "userAdded": false
       },
       {
-        "file": "133.png",
+        "file": "assets/133.png",
         "kind": "image",
         "metadata": "",
         "name": "133.png",
@@ -1585,7 +1585,7 @@
         "userAdded": false
       },
       {
-        "file": "134.png",
+        "file": "assets/134.png",
         "kind": "image",
         "metadata": "",
         "name": "134.png",
@@ -1593,7 +1593,7 @@
         "userAdded": false
       },
       {
-        "file": "135.png",
+        "file": "assets/135.png",
         "kind": "image",
         "metadata": "",
         "name": "135.png",
@@ -1601,7 +1601,7 @@
         "userAdded": false
       },
       {
-        "file": "136.png",
+        "file": "assets/136.png",
         "kind": "image",
         "metadata": "",
         "name": "136.png",
@@ -1609,7 +1609,7 @@
         "userAdded": false
       },
       {
-        "file": "137.png",
+        "file": "assets/137.png",
         "kind": "image",
         "metadata": "",
         "name": "137.png",
@@ -1617,7 +1617,7 @@
         "userAdded": false
       },
       {
-        "file": "138.png",
+        "file": "assets/138.png",
         "kind": "image",
         "metadata": "",
         "name": "138.png",
@@ -1625,7 +1625,7 @@
         "userAdded": false
       },
       {
-        "file": "patch_Bay_4.png",
+        "file": "assets/patch_Bay_4.png",
         "kind": "image",
         "metadata": "",
         "name": "patch_Bay_4.png",
@@ -1633,7 +1633,7 @@
         "userAdded": false
       },
       {
-        "file": "patchnew.png",
+        "file": "assets/patchnew.png",
         "kind": "image",
         "metadata": "",
         "name": "patchnew.png",
@@ -1641,7 +1641,7 @@
         "userAdded": false
       },
       {
-        "file": "patchnew2.png",
+        "file": "assets/patchnew2.png",
         "kind": "image",
         "metadata": "",
         "name": "patchnew2.png",
@@ -1657,7 +1657,7 @@
         "userAdded": false
       },
       {
-        "file": "139.png",
+        "file": "assets/139.png",
         "kind": "image",
         "metadata": "",
         "name": "139.png",
@@ -1665,7 +1665,7 @@
         "userAdded": false
       },
       {
-        "file": "140.png",
+        "file": "assets/140.png",
         "kind": "image",
         "metadata": "",
         "name": "140.png",
@@ -1673,7 +1673,7 @@
         "userAdded": false
       },
       {
-        "file": "141.png",
+        "file": "assets/141.png",
         "kind": "image",
         "metadata": "",
         "name": "141.png",
@@ -1681,7 +1681,7 @@
         "userAdded": false
       },
       {
-        "file": "142.png",
+        "file": "assets/142.png",
         "kind": "image",
         "metadata": "",
         "name": "142.png",
@@ -1689,7 +1689,7 @@
         "userAdded": false
       },
       {
-        "file": "143.png",
+        "file": "assets/143.png",
         "kind": "image",
         "metadata": "",
         "name": "143.png",
@@ -1697,7 +1697,7 @@
         "userAdded": false
       },
       {
-        "file": "144.png",
+        "file": "assets/144.png",
         "kind": "image",
         "metadata": "",
         "name": "144.png",
@@ -1705,7 +1705,7 @@
         "userAdded": false
       },
       {
-        "file": "145.png",
+        "file": "assets/145.png",
         "kind": "image",
         "metadata": "",
         "name": "145.png",
@@ -1713,7 +1713,7 @@
         "userAdded": false
       },
       {
-        "file": "146.png",
+        "file": "assets/146.png",
         "kind": "image",
         "metadata": "",
         "name": "146.png",
@@ -1721,7 +1721,7 @@
         "userAdded": false
       },
       {
-        "file": "147.png",
+        "file": "assets/147.png",
         "kind": "image",
         "metadata": "",
         "name": "147.png",
@@ -1729,7 +1729,7 @@
         "userAdded": false
       },
       {
-        "file": "148.png",
+        "file": "assets/148.png",
         "kind": "image",
         "metadata": "",
         "name": "148.png",
@@ -1737,7 +1737,7 @@
         "userAdded": false
       },
       {
-        "file": "149.png",
+        "file": "assets/149.png",
         "kind": "image",
         "metadata": "",
         "name": "149.png",
@@ -1745,7 +1745,7 @@
         "userAdded": false
       },
       {
-        "file": "150.png",
+        "file": "assets/150.png",
         "kind": "image",
         "metadata": "",
         "name": "150.png",
@@ -1753,7 +1753,7 @@
         "userAdded": false
       },
       {
-        "file": "151.png",
+        "file": "assets/151.png",
         "kind": "image",
         "metadata": "",
         "name": "151.png",
@@ -1761,7 +1761,7 @@
         "userAdded": false
       },
       {
-        "file": "152.png",
+        "file": "assets/152.png",
         "kind": "image",
         "metadata": "",
         "name": "152.png",
@@ -1769,7 +1769,7 @@
         "userAdded": false
       },
       {
-        "file": "153.png",
+        "file": "assets/153.png",
         "kind": "image",
         "metadata": "",
         "name": "153.png",
@@ -1777,7 +1777,7 @@
         "userAdded": false
       },
       {
-        "file": "154.png",
+        "file": "assets/154.png",
         "kind": "image",
         "metadata": "",
         "name": "154.png",
@@ -1785,7 +1785,7 @@
         "userAdded": false
       },
       {
-        "file": "155.png",
+        "file": "assets/155.png",
         "kind": "image",
         "metadata": "",
         "name": "155.png",
@@ -1793,7 +1793,7 @@
         "userAdded": false
       },
       {
-        "file": "156.png",
+        "file": "assets/156.png",
         "kind": "image",
         "metadata": "",
         "name": "156.png",
@@ -1801,7 +1801,7 @@
         "userAdded": false
       },
       {
-        "file": "157.png",
+        "file": "assets/157.png",
         "kind": "image",
         "metadata": "",
         "name": "157.png",
@@ -1809,7 +1809,7 @@
         "userAdded": false
       },
       {
-        "file": "158.png",
+        "file": "assets/158.png",
         "kind": "image",
         "metadata": "",
         "name": "158.png",
@@ -1817,7 +1817,7 @@
         "userAdded": false
       },
       {
-        "file": "159.png",
+        "file": "assets/159.png",
         "kind": "image",
         "metadata": "",
         "name": "159.png",
@@ -1825,7 +1825,7 @@
         "userAdded": false
       },
       {
-        "file": "160.png",
+        "file": "assets/160.png",
         "kind": "image",
         "metadata": "",
         "name": "160.png",
@@ -1849,7 +1849,7 @@
         "userAdded": false
       },
       {
-        "file": "161.png",
+        "file": "assets/161.png",
         "kind": "image",
         "metadata": "",
         "name": "161.png",
@@ -1857,7 +1857,7 @@
         "userAdded": false
       },
       {
-        "file": "162.png",
+        "file": "assets/162.png",
         "kind": "image",
         "metadata": "",
         "name": "162.png",
@@ -1865,7 +1865,7 @@
         "userAdded": false
       },
       {
-        "file": "163.png",
+        "file": "assets/163.png",
         "kind": "image",
         "metadata": "",
         "name": "163.png",
@@ -1873,7 +1873,7 @@
         "userAdded": false
       },
       {
-        "file": "164.png",
+        "file": "assets/164.png",
         "kind": "image",
         "metadata": "",
         "name": "164.png",
@@ -1881,7 +1881,7 @@
         "userAdded": false
       },
       {
-        "file": "dps.png",
+        "file": "assets/dps.png",
         "kind": "image",
         "metadata": "",
         "name": "dps.png",
@@ -1889,7 +1889,7 @@
         "userAdded": false
       },
       {
-        "file": "165.png",
+        "file": "assets/165.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"165.png\",\"extension\":\".png\"}",
         "name": "165.png",
@@ -1897,7 +1897,7 @@
         "userAdded": false
       },
       {
-        "file": "166.png",
+        "file": "assets/166.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"166.png\",\"extension\":\".png\"}",
         "name": "166.png",
@@ -1905,7 +1905,7 @@
         "userAdded": false
       },
       {
-        "file": "167.png",
+        "file": "assets/167.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"167.png\",\"extension\":\".png\"}",
         "name": "167.png",
@@ -1913,7 +1913,7 @@
         "userAdded": false
       },
       {
-        "file": "168.png",
+        "file": "assets/168.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"168.png\",\"extension\":\".png\"}",
         "name": "168.png",
@@ -1921,7 +1921,7 @@
         "userAdded": false
       },
       {
-        "file": "169.png",
+        "file": "assets/169.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"169.png\",\"extension\":\".png\"}",
         "name": "169.png",
@@ -1929,7 +1929,7 @@
         "userAdded": false
       },
       {
-        "file": "170.png",
+        "file": "assets/170.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"170.png\",\"extension\":\".png\"}",
         "name": "170.png",
@@ -1937,7 +1937,7 @@
         "userAdded": false
       },
       {
-        "file": "171.png",
+        "file": "assets/171.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"171.png\",\"extension\":\".png\"}",
         "name": "171.png",
@@ -1945,7 +1945,7 @@
         "userAdded": false
       },
       {
-        "file": "172.png",
+        "file": "assets/172.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"172.png\",\"extension\":\".png\"}",
         "name": "172.png",
@@ -1953,7 +1953,7 @@
         "userAdded": false
       },
       {
-        "file": "173.png",
+        "file": "assets/173.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"173.png\",\"extension\":\".png\"}",
         "name": "173.png",
@@ -1961,7 +1961,7 @@
         "userAdded": false
       },
       {
-        "file": "174.png",
+        "file": "assets/174.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"174.png\",\"extension\":\".png\"}",
         "name": "174.png",
@@ -1969,7 +1969,7 @@
         "userAdded": false
       },
       {
-        "file": "175.png",
+        "file": "assets/175.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"175.png\",\"extension\":\".png\"}",
         "name": "175.png",
@@ -1977,7 +1977,7 @@
         "userAdded": false
       },
       {
-        "file": "176.png",
+        "file": "assets/176.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"176.png\",\"extension\":\".png\"}",
         "name": "176.png",
@@ -1985,7 +1985,7 @@
         "userAdded": false
       },
       {
-        "file": "177.png",
+        "file": "assets/177.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"177.png\",\"extension\":\".png\"}",
         "name": "177.png",
@@ -1993,7 +1993,7 @@
         "userAdded": false
       },
       {
-        "file": "178.png",
+        "file": "assets/178.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"178.png\",\"extension\":\".png\"}",
         "name": "178.png",
@@ -2001,7 +2001,7 @@
         "userAdded": false
       },
       {
-        "file": "179.png",
+        "file": "assets/179.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"179.png\",\"extension\":\".png\"}",
         "name": "179.png",
@@ -2009,7 +2009,7 @@
         "userAdded": false
       },
       {
-        "file": "180.png",
+        "file": "assets/180.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"180.png\",\"extension\":\".png\"}",
         "name": "180.png",
@@ -2017,7 +2017,7 @@
         "userAdded": false
       },
       {
-        "file": "181.png",
+        "file": "assets/181.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"181.png\",\"extension\":\".png\"}",
         "name": "181.png",
@@ -2025,7 +2025,7 @@
         "userAdded": false
       },
       {
-        "file": "182.png",
+        "file": "assets/182.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"182.png\",\"extension\":\".png\"}",
         "name": "182.png",
@@ -2033,7 +2033,7 @@
         "userAdded": false
       },
       {
-        "file": "183.png",
+        "file": "assets/183.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"183.png\",\"extension\":\".png\"}",
         "name": "183.png",
@@ -2041,7 +2041,7 @@
         "userAdded": false
       },
       {
-        "file": "184.png",
+        "file": "assets/184.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"184.png\",\"extension\":\".png\"}",
         "name": "184.png",
@@ -2049,7 +2049,7 @@
         "userAdded": false
       },
       {
-        "file": "185.png",
+        "file": "assets/185.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"185.png\",\"extension\":\".png\"}",
         "name": "185.png",
@@ -2057,7 +2057,7 @@
         "userAdded": false
       },
       {
-        "file": "186.png",
+        "file": "assets/186.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"186.png\",\"extension\":\".png\"}",
         "name": "186.png",
@@ -2065,7 +2065,7 @@
         "userAdded": false
       },
       {
-        "file": "187.png",
+        "file": "assets/187.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"187.png\",\"extension\":\".png\"}",
         "name": "187.png",
@@ -2073,7 +2073,7 @@
         "userAdded": false
       },
       {
-        "file": "188.png",
+        "file": "assets/188.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"188.png\",\"extension\":\".png\"}",
         "name": "188.png",
@@ -2081,7 +2081,7 @@
         "userAdded": false
       },
       {
-        "file": "189.png",
+        "file": "assets/189.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"189.png\",\"extension\":\".png\"}",
         "name": "189.png",
@@ -2089,7 +2089,7 @@
         "userAdded": false
       },
       {
-        "file": "190.png",
+        "file": "assets/190.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"190.png\",\"extension\":\".png\"}",
         "name": "190.png",
@@ -2097,7 +2097,7 @@
         "userAdded": false
       },
       {
-        "file": "191.png",
+        "file": "assets/191.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"191.png\",\"extension\":\".png\"}",
         "name": "191.png",
@@ -2105,7 +2105,7 @@
         "userAdded": false
       },
       {
-        "file": "192.png",
+        "file": "assets/192.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"192.png\",\"extension\":\".png\"}",
         "name": "192.png",
@@ -2113,7 +2113,7 @@
         "userAdded": false
       },
       {
-        "file": "193.png",
+        "file": "assets/193.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"193.png\",\"extension\":\".png\"}",
         "name": "193.png",
@@ -2121,7 +2121,7 @@
         "userAdded": false
       },
       {
-        "file": "194.png",
+        "file": "assets/194.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"194.png\",\"extension\":\".png\"}",
         "name": "194.png",
@@ -2129,7 +2129,7 @@
         "userAdded": false
       },
       {
-        "file": "195.png",
+        "file": "assets/195.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"195.png\",\"extension\":\".png\"}",
         "name": "195.png",
@@ -2137,7 +2137,7 @@
         "userAdded": false
       },
       {
-        "file": "196.png",
+        "file": "assets/196.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"196.png\",\"extension\":\".png\"}",
         "name": "196.png",
@@ -2145,7 +2145,7 @@
         "userAdded": false
       },
       {
-        "file": "197.png",
+        "file": "assets/197.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"197.png\",\"extension\":\".png\"}",
         "name": "197.png",
@@ -2153,7 +2153,7 @@
         "userAdded": false
       },
       {
-        "file": "198.png",
+        "file": "assets/198.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"198.png\",\"extension\":\".png\"}",
         "name": "198.png",
@@ -2161,7 +2161,7 @@
         "userAdded": false
       },
       {
-        "file": "199.png",
+        "file": "assets/199.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"199.png\",\"extension\":\".png\"}",
         "name": "199.png",
@@ -2169,7 +2169,7 @@
         "userAdded": false
       },
       {
-        "file": "200.png",
+        "file": "assets/200.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"200.png\",\"extension\":\".png\"}",
         "name": "200.png",
@@ -2177,7 +2177,7 @@
         "userAdded": false
       },
       {
-        "file": "201.png",
+        "file": "assets/201.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"201.png\",\"extension\":\".png\"}",
         "name": "201.png",
@@ -2185,7 +2185,7 @@
         "userAdded": false
       },
       {
-        "file": "202.png",
+        "file": "assets/202.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"202.png\",\"extension\":\".png\"}",
         "name": "202.png",
@@ -2193,7 +2193,7 @@
         "userAdded": false
       },
       {
-        "file": "203.png",
+        "file": "assets/203.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"203.png\",\"extension\":\".png\"}",
         "name": "203.png",
@@ -2201,7 +2201,7 @@
         "userAdded": false
       },
       {
-        "file": "204.png",
+        "file": "assets/204.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"204.png\",\"extension\":\".png\"}",
         "name": "204.png",
@@ -2209,7 +2209,7 @@
         "userAdded": false
       },
       {
-        "file": "205.png",
+        "file": "assets/205.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"205.png\",\"extension\":\".png\"}",
         "name": "205.png",
@@ -2217,7 +2217,7 @@
         "userAdded": false
       },
       {
-        "file": "206.png",
+        "file": "assets/206.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"206.png\",\"extension\":\".png\"}",
         "name": "206.png",
@@ -2225,7 +2225,7 @@
         "userAdded": false
       },
       {
-        "file": "demo menu.png",
+        "file": "assets/demo menu.png",
         "kind": "image",
         "metadata": "",
         "name": "demo menu.png",
@@ -2233,7 +2233,7 @@
         "userAdded": false
       },
       {
-        "file": "updated menu.png",
+        "file": "assets/updated menu.png",
         "kind": "image",
         "metadata": "",
         "name": "updated menu.png",
@@ -2249,7 +2249,7 @@
         "userAdded": false
       },
       {
-        "file": "207.png",
+        "file": "assets/207.png",
         "kind": "image",
         "metadata": "",
         "name": "207.png",
@@ -2257,7 +2257,7 @@
         "userAdded": false
       },
       {
-        "file": "208.png",
+        "file": "assets/208.png",
         "kind": "image",
         "metadata": "",
         "name": "208.png",
@@ -2265,7 +2265,7 @@
         "userAdded": false
       },
       {
-        "file": "209.png",
+        "file": "assets/209.png",
         "kind": "image",
         "metadata": "",
         "name": "209.png",
@@ -2273,7 +2273,7 @@
         "userAdded": false
       },
       {
-        "file": "210.png",
+        "file": "assets/210.png",
         "kind": "image",
         "metadata": "",
         "name": "210.png",
@@ -2281,7 +2281,7 @@
         "userAdded": false
       },
       {
-        "file": "211.png",
+        "file": "assets/211.png",
         "kind": "image",
         "metadata": "",
         "name": "211.png",
@@ -2289,7 +2289,7 @@
         "userAdded": false
       },
       {
-        "file": "212.png",
+        "file": "assets/212.png",
         "kind": "image",
         "metadata": "",
         "name": "212.png",
@@ -2297,7 +2297,7 @@
         "userAdded": false
       },
       {
-        "file": "213.png",
+        "file": "assets/213.png",
         "kind": "image",
         "metadata": "",
         "name": "213.png",
@@ -2305,7 +2305,7 @@
         "userAdded": false
       },
       {
-        "file": "214.png",
+        "file": "assets/214.png",
         "kind": "image",
         "metadata": "",
         "name": "214.png",
@@ -2313,7 +2313,7 @@
         "userAdded": false
       },
       {
-        "file": "215.png",
+        "file": "assets/215.png",
         "kind": "image",
         "metadata": "",
         "name": "215.png",
@@ -2321,7 +2321,7 @@
         "userAdded": false
       },
       {
-        "file": "216.png",
+        "file": "assets/216.png",
         "kind": "image",
         "metadata": "",
         "name": "216.png",
@@ -2329,7 +2329,7 @@
         "userAdded": false
       },
       {
-        "file": "217.png",
+        "file": "assets/217.png",
         "kind": "image",
         "metadata": "",
         "name": "217.png",
@@ -2337,7 +2337,7 @@
         "userAdded": false
       },
       {
-        "file": "218.png",
+        "file": "assets/218.png",
         "kind": "image",
         "metadata": "",
         "name": "218.png",
@@ -2345,7 +2345,7 @@
         "userAdded": false
       },
       {
-        "file": "219.png",
+        "file": "assets/219.png",
         "kind": "image",
         "metadata": "",
         "name": "219.png",
@@ -2353,7 +2353,7 @@
         "userAdded": false
       },
       {
-        "file": "220.png",
+        "file": "assets/220.png",
         "kind": "image",
         "metadata": "",
         "name": "220.png",
@@ -2361,7 +2361,7 @@
         "userAdded": false
       },
       {
-        "file": "221.png",
+        "file": "assets/221.png",
         "kind": "image",
         "metadata": "",
         "name": "221.png",
@@ -2369,7 +2369,7 @@
         "userAdded": false
       },
       {
-        "file": "222.png",
+        "file": "assets/222.png",
         "kind": "image",
         "metadata": "",
         "name": "222.png",
@@ -2377,7 +2377,7 @@
         "userAdded": false
       },
       {
-        "file": "223.png",
+        "file": "assets/223.png",
         "kind": "image",
         "metadata": "",
         "name": "223.png",
@@ -2393,7 +2393,7 @@
         "userAdded": false
       },
       {
-        "file": "224.png",
+        "file": "assets/224.png",
         "kind": "image",
         "metadata": "",
         "name": "224.png",
@@ -2401,7 +2401,7 @@
         "userAdded": false
       },
       {
-        "file": "Electric Pulse2.wav",
+        "file": "assets/audio/Electric Pulse2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Electric Pulse2.wav",
@@ -2411,7 +2411,7 @@
         "userAdded": false
       },
       {
-        "file": "woodsides.png",
+        "file": "assets/woodsides.png",
         "kind": "image",
         "metadata": "",
         "name": "woodsides.png",
@@ -2419,7 +2419,7 @@
         "userAdded": false
       },
       {
-        "file": "electricpulse.png",
+        "file": "assets/electricpulse.png",
         "kind": "image",
         "metadata": "",
         "name": "electricpulse.png",
@@ -2435,7 +2435,7 @@
         "userAdded": false
       },
       {
-        "file": "prof.png",
+        "file": "assets/prof.png",
         "kind": "image",
         "metadata": "",
         "name": "prof.png",
@@ -2443,7 +2443,7 @@
         "userAdded": false
       },
       {
-        "file": "225.png",
+        "file": "assets/225.png",
         "kind": "image",
         "metadata": "",
         "name": "225.png",
@@ -2451,7 +2451,7 @@
         "userAdded": false
       },
       {
-        "file": "226.png",
+        "file": "assets/226.png",
         "kind": "image",
         "metadata": "",
         "name": "226.png",
@@ -2459,7 +2459,7 @@
         "userAdded": false
       },
       {
-        "file": "227.png",
+        "file": "assets/227.png",
         "kind": "image",
         "metadata": "",
         "name": "227.png",
@@ -2467,7 +2467,7 @@
         "userAdded": false
       },
       {
-        "file": "228.png",
+        "file": "assets/228.png",
         "kind": "image",
         "metadata": "",
         "name": "228.png",
@@ -2475,7 +2475,7 @@
         "userAdded": false
       },
       {
-        "file": "229.png",
+        "file": "assets/229.png",
         "kind": "image",
         "metadata": "",
         "name": "229.png",
@@ -2483,7 +2483,7 @@
         "userAdded": false
       },
       {
-        "file": "230.png",
+        "file": "assets/230.png",
         "kind": "image",
         "metadata": "",
         "name": "230.png",
@@ -2491,7 +2491,7 @@
         "userAdded": false
       },
       {
-        "file": "231.png",
+        "file": "assets/231.png",
         "kind": "image",
         "metadata": "",
         "name": "231.png",
@@ -2499,7 +2499,7 @@
         "userAdded": false
       },
       {
-        "file": "232.png",
+        "file": "assets/232.png",
         "kind": "image",
         "metadata": "",
         "name": "232.png",
@@ -2507,7 +2507,7 @@
         "userAdded": false
       },
       {
-        "file": "BG_new.png",
+        "file": "assets/BG_new.png",
         "kind": "image",
         "metadata": "",
         "name": "BG_new.png",
@@ -2515,7 +2515,7 @@
         "userAdded": false
       },
       {
-        "file": "bgnew.png",
+        "file": "assets/bgnew.png",
         "kind": "image",
         "metadata": "",
         "name": "bgnew.png",
@@ -2523,7 +2523,7 @@
         "userAdded": false
       },
       {
-        "file": "233.png",
+        "file": "assets/233.png",
         "kind": "image",
         "metadata": "",
         "name": "233.png",
@@ -2531,7 +2531,7 @@
         "userAdded": false
       },
       {
-        "file": "234.png",
+        "file": "assets/234.png",
         "kind": "image",
         "metadata": "",
         "name": "234.png",
@@ -2539,7 +2539,7 @@
         "userAdded": false
       },
       {
-        "file": "235.png",
+        "file": "assets/235.png",
         "kind": "image",
         "metadata": "",
         "name": "235.png",
@@ -2547,7 +2547,7 @@
         "userAdded": false
       },
       {
-        "file": "236.png",
+        "file": "assets/236.png",
         "kind": "image",
         "metadata": "",
         "name": "236.png",
@@ -2555,7 +2555,7 @@
         "userAdded": false
       },
       {
-        "file": "bg_shadow.png",
+        "file": "assets/bg_shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "bg_shadow.png",
@@ -2563,7 +2563,7 @@
         "userAdded": false
       },
       {
-        "file": "nointernet.png",
+        "file": "assets/nointernet.png",
         "kind": "image",
         "metadata": "",
         "name": "nointernet.png",
@@ -2571,7 +2571,7 @@
         "userAdded": false
       },
       {
-        "file": "237.png",
+        "file": "assets/237.png",
         "kind": "image",
         "metadata": "",
         "name": "237.png",
@@ -2579,7 +2579,7 @@
         "userAdded": false
       },
       {
-        "file": "238.png",
+        "file": "assets/238.png",
         "kind": "image",
         "metadata": "",
         "name": "238.png",
@@ -2587,7 +2587,7 @@
         "userAdded": false
       },
       {
-        "file": "Woah Synth.wav",
+        "file": "assets/audio/Woah Synth.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Woah Synth.wav",
@@ -2597,7 +2597,7 @@
         "userAdded": false
       },
       {
-        "file": "INDEV.png",
+        "file": "assets/INDEV.png",
         "kind": "image",
         "metadata": "",
         "name": "INDEV.png",
@@ -2619,7 +2619,7 @@
         }
       },
       {
-        "file": "color-map-original-template.png",
+        "file": "assets/color-map-original-template.png",
         "kind": "image",
         "metadata": "",
         "name": "color-map-original-template.png",
@@ -2627,7 +2627,7 @@
         "userAdded": false
       },
       {
-        "file": "indevnewer.png",
+        "file": "assets/indevnewer.png",
         "kind": "image",
         "metadata": "",
         "name": "indevnewer.png",
@@ -2635,7 +2635,7 @@
         "userAdded": false
       },
       {
-        "file": "indevupdated.png",
+        "file": "assets/indevupdated.png",
         "kind": "image",
         "metadata": "",
         "name": "indevupdated.png",
@@ -2682,7 +2682,7 @@
         "userAdded": false
       },
       {
-        "file": "Concept Bass_updated.png",
+        "file": "assets/Concept Bass_updated.png",
         "kind": "image",
         "metadata": "",
         "name": "Concept Bass_updated.png",
@@ -2690,7 +2690,7 @@
         "userAdded": false
       },
       {
-        "file": "Concept Bass_updated2.png",
+        "file": "assets/Concept Bass_updated2.png",
         "kind": "image",
         "metadata": "",
         "name": "Concept Bass_updated2.png",
@@ -2698,7 +2698,7 @@
         "userAdded": false
       },
       {
-        "file": "Global_top_updated.png",
+        "file": "assets/Global_top_updated.png",
         "kind": "image",
         "metadata": "",
         "name": "Global_top_updated.png",
@@ -2706,7 +2706,7 @@
         "userAdded": false
       },
       {
-        "file": "239.png",
+        "file": "assets/239.png",
         "kind": "image",
         "metadata": "",
         "name": "239.png",
@@ -2714,7 +2714,7 @@
         "userAdded": false
       },
       {
-        "file": "240.png",
+        "file": "assets/240.png",
         "kind": "image",
         "metadata": "",
         "name": "240.png",
@@ -2722,7 +2722,7 @@
         "userAdded": false
       },
       {
-        "file": "detail updated.png",
+        "file": "assets/detail updated.png",
         "kind": "image",
         "metadata": "",
         "name": "detail updated.png",
@@ -2730,7 +2730,7 @@
         "userAdded": false
       },
       {
-        "file": "detail updated2.png",
+        "file": "assets/detail updated2.png",
         "kind": "image",
         "metadata": "",
         "name": "detail updated2.png",
@@ -2738,7 +2738,7 @@
         "userAdded": false
       },
       {
-        "file": "bitsynthpatch.png",
+        "file": "assets/bitsynthpatch.png",
         "kind": "image",
         "metadata": "",
         "name": "bitsynthpatch.png",
@@ -2746,7 +2746,7 @@
         "userAdded": false
       },
       {
-        "file": "Bitsynth.wav",
+        "file": "assets/audio/Bitsynth.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Bitsynth.wav",
@@ -2756,7 +2756,7 @@
         "userAdded": false
       },
       {
-        "file": "241.png",
+        "file": "assets/241.png",
         "kind": "image",
         "metadata": "",
         "name": "241.png",
@@ -2764,7 +2764,7 @@
         "userAdded": false
       },
       {
-        "file": "242.png",
+        "file": "assets/242.png",
         "kind": "image",
         "metadata": "",
         "name": "242.png",
@@ -2772,7 +2772,7 @@
         "userAdded": false
       },
       {
-        "file": "bitsynthpatch2.png",
+        "file": "assets/bitsynthpatch2.png",
         "kind": "image",
         "metadata": "",
         "name": "bitsynthpatch2.png",
@@ -2780,7 +2780,7 @@
         "userAdded": false
       },
       {
-        "file": "bitsynthpatch3.png",
+        "file": "assets/bitsynthpatch3.png",
         "kind": "image",
         "metadata": "",
         "name": "bitsynthpatch3.png",
@@ -2788,7 +2788,7 @@
         "userAdded": false
       },
       {
-        "file": "elecyricpuylse.png",
+        "file": "assets/elecyricpuylse.png",
         "kind": "image",
         "metadata": "",
         "name": "elecyricpuylse.png",
@@ -2796,7 +2796,7 @@
         "userAdded": false
       },
       {
-        "file": "new.png",
+        "file": "assets/new.png",
         "kind": "image",
         "metadata": "",
         "name": "new.png",
@@ -2804,7 +2804,7 @@
         "userAdded": false
       },
       {
-        "file": "246.png",
+        "file": "assets/246.png",
         "kind": "image",
         "metadata": "",
         "name": "246.png",
@@ -2812,7 +2812,7 @@
         "userAdded": false
       },
       {
-        "file": "247.png",
+        "file": "assets/247.png",
         "kind": "image",
         "metadata": "",
         "name": "247.png",
@@ -2820,7 +2820,7 @@
         "userAdded": false
       },
       {
-        "file": "248.png",
+        "file": "assets/248.png",
         "kind": "image",
         "metadata": "",
         "name": "248.png",
@@ -2828,7 +2828,7 @@
         "userAdded": false
       },
       {
-        "file": "249.png",
+        "file": "assets/249.png",
         "kind": "image",
         "metadata": "",
         "name": "249.png",
@@ -2836,7 +2836,7 @@
         "userAdded": false
       },
       {
-        "file": "250.png",
+        "file": "assets/250.png",
         "kind": "image",
         "metadata": "",
         "name": "250.png",
@@ -2844,7 +2844,7 @@
         "userAdded": false
       },
       {
-        "file": "251.png",
+        "file": "assets/251.png",
         "kind": "image",
         "metadata": "",
         "name": "251.png",
@@ -2852,7 +2852,7 @@
         "userAdded": false
       },
       {
-        "file": "252.png",
+        "file": "assets/252.png",
         "kind": "image",
         "metadata": "",
         "name": "252.png",
@@ -2868,7 +2868,7 @@
         "userAdded": false
       },
       {
-        "file": "253.png",
+        "file": "assets/253.png",
         "kind": "image",
         "metadata": "",
         "name": "253.png",
@@ -2876,7 +2876,7 @@
         "userAdded": false
       },
       {
-        "file": "254.png",
+        "file": "assets/254.png",
         "kind": "image",
         "metadata": "",
         "name": "254.png",
@@ -2884,7 +2884,7 @@
         "userAdded": false
       },
       {
-        "file": "255.png",
+        "file": "assets/255.png",
         "kind": "image",
         "metadata": "",
         "name": "255.png",
@@ -2892,7 +2892,7 @@
         "userAdded": false
       },
       {
-        "file": "256.png",
+        "file": "assets/256.png",
         "kind": "image",
         "metadata": "",
         "name": "256.png",
@@ -2916,7 +2916,7 @@
         "userAdded": false
       },
       {
-        "file": "Dial2.png",
+        "file": "assets/Dial2.png",
         "kind": "image",
         "metadata": "",
         "name": "Dial2.png",
@@ -2924,7 +2924,7 @@
         "userAdded": false
       },
       {
-        "file": "Dial3.png",
+        "file": "assets/Dial3.png",
         "kind": "image",
         "metadata": "",
         "name": "Dial3.png",
@@ -2932,7 +2932,7 @@
         "userAdded": false
       },
       {
-        "file": "dilanew.png",
+        "file": "assets/dilanew.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"dilanew.png\",\"extension\":\".png\"}",
         "name": "dilanew.png",
@@ -2964,7 +2964,7 @@
         "userAdded": false
       },
       {
-        "file": "booth.png",
+        "file": "assets/booth.png",
         "kind": "image",
         "metadata": "",
         "name": "booth.png",
@@ -2980,7 +2980,7 @@
         "userAdded": false
       },
       {
-        "file": "dilanew2.png",
+        "file": "assets/dilanew2.png",
         "kind": "image",
         "metadata": "",
         "name": "dilanew2.png",
@@ -2996,7 +2996,7 @@
         "userAdded": false
       },
       {
-        "file": "Browser_Card.png",
+        "file": "assets/Browser_Card.png",
         "kind": "image",
         "metadata": "",
         "name": "Browser_Card.png",
@@ -3004,7 +3004,7 @@
         "userAdded": false
       },
       {
-        "file": "Browser_Card2.png",
+        "file": "assets/Browser_Card2.png",
         "kind": "image",
         "metadata": "",
         "name": "Browser_Card2.png",
@@ -3012,7 +3012,7 @@
         "userAdded": false
       },
       {
-        "file": "Browser_Card3.png",
+        "file": "assets/Browser_Card3.png",
         "kind": "image",
         "metadata": "",
         "name": "Browser_Card3.png",
@@ -3028,7 +3028,7 @@
         "userAdded": false
       },
       {
-        "file": "Browser_Header.png",
+        "file": "assets/Browser_Header.png",
         "kind": "image",
         "metadata": "",
         "name": "Browser_Header.png",
@@ -3036,7 +3036,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer4.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer4.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer4.png",
@@ -3044,7 +3044,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)3.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)3.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (2)3.png",
@@ -3052,7 +3052,7 @@
         "userAdded": false
       },
       {
-        "file": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)3.png",
+        "file": "assets/Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)3.png",
         "kind": "image",
         "metadata": "",
         "name": "Behringer Grind Semi-modular Hybrid Multi-engine Synthesizer (3)3.png",
@@ -3076,7 +3076,7 @@
         "userAdded": false
       },
       {
-        "file": "Background_Icon.png",
+        "file": "assets/Background_Icon.png",
         "kind": "image",
         "metadata": "",
         "name": "Background_Icon.png",
@@ -3084,7 +3084,7 @@
         "userAdded": false
       },
       {
-        "file": "Icon.png",
+        "file": "assets/Icon.png",
         "kind": "image",
         "metadata": "",
         "name": "Icon.png",
@@ -3092,7 +3092,7 @@
         "userAdded": false
       },
       {
-        "file": "Browser_Card4.png",
+        "file": "assets/Browser_Card4.png",
         "kind": "image",
         "metadata": "",
         "name": "Browser_Card4.png",
@@ -3100,7 +3100,7 @@
         "userAdded": false
       },
       {
-        "file": "thumb2.png",
+        "file": "assets/thumb2.png",
         "kind": "image",
         "metadata": "",
         "name": "thumb2.png",
@@ -3108,7 +3108,7 @@
         "userAdded": false
       },
       {
-        "file": "thumb3.png",
+        "file": "assets/thumb3.png",
         "kind": "image",
         "metadata": "",
         "name": "thumb3.png",
@@ -3116,7 +3116,7 @@
         "userAdded": false
       },
       {
-        "file": "fixing.png",
+        "file": "assets/fixing.png",
         "kind": "image",
         "metadata": "",
         "name": "fixing.png",
@@ -6636,7 +6636,7 @@
         "userAdded": false
       },
       {
-        "file": "MINI.png",
+        "file": "assets/MINI.png",
         "kind": "image",
         "metadata": "",
         "name": "MINI.png",
@@ -6644,7 +6644,7 @@
         "userAdded": false
       },
       {
-        "file": "Crave_Mini_Pic.png",
+        "file": "assets/Crave_Mini_Pic.png",
         "kind": "image",
         "metadata": "",
         "name": "Crave_Mini_Pic.png",
@@ -6652,7 +6652,7 @@
         "userAdded": false
       },
       {
-        "file": "Crave_Mini_Pic2.png",
+        "file": "assets/Crave_Mini_Pic2.png",
         "kind": "image",
         "metadata": "",
         "name": "Crave_Mini_Pic2.png",
@@ -6660,7 +6660,7 @@
         "userAdded": false
       },
       {
-        "file": "1.png",
+        "file": "assets/1.png",
         "kind": "image",
         "metadata": "",
         "name": "1.png",
@@ -6668,7 +6668,7 @@
         "userAdded": false
       },
       {
-        "file": "2.png",
+        "file": "assets/2.png",
         "kind": "image",
         "metadata": "",
         "name": "2.png",
@@ -6676,7 +6676,7 @@
         "userAdded": false
       },
       {
-        "file": "3.png",
+        "file": "assets/3.png",
         "kind": "image",
         "metadata": "",
         "name": "3.png",
@@ -6684,7 +6684,7 @@
         "userAdded": false
       },
       {
-        "file": "7.png",
+        "file": "assets/7.png",
         "kind": "image",
         "metadata": "",
         "name": "7.png",
@@ -6692,7 +6692,7 @@
         "userAdded": false
       },
       {
-        "file": "8.png",
+        "file": "assets/8.png",
         "kind": "image",
         "metadata": "",
         "name": "8.png",
@@ -6700,7 +6700,7 @@
         "userAdded": false
       },
       {
-        "file": "9.png",
+        "file": "assets/9.png",
         "kind": "image",
         "metadata": "",
         "name": "9.png",
@@ -6708,7 +6708,7 @@
         "userAdded": false
       },
       {
-        "file": "10.png",
+        "file": "assets/10.png",
         "kind": "image",
         "metadata": "",
         "name": "10.png",
@@ -6716,7 +6716,7 @@
         "userAdded": false
       },
       {
-        "file": "11.png",
+        "file": "assets/11.png",
         "kind": "image",
         "metadata": "",
         "name": "11.png",
@@ -6724,7 +6724,7 @@
         "userAdded": false
       },
       {
-        "file": "12.png",
+        "file": "assets/12.png",
         "kind": "image",
         "metadata": "",
         "name": "12.png",
@@ -6732,7 +6732,7 @@
         "userAdded": false
       },
       {
-        "file": "13.png",
+        "file": "assets/13.png",
         "kind": "image",
         "metadata": "",
         "name": "13.png",
@@ -6740,7 +6740,7 @@
         "userAdded": false
       },
       {
-        "file": "14.png",
+        "file": "assets/14.png",
         "kind": "image",
         "metadata": "",
         "name": "14.png",
@@ -6748,7 +6748,7 @@
         "userAdded": false
       },
       {
-        "file": "patch_1776287534350.png",
+        "file": "assets/patch_1776287534350.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"patch_1776287534350.png\",\"extension\":\".png\"}",
         "name": "patch_1776287534350.png",
@@ -6756,7 +6756,7 @@
         "userAdded": false
       },
       {
-        "file": "Poping Boba Sounds.wav",
+        "file": "assets/audio/Poping Boba Sounds.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Poping Boba Sounds.wav",
@@ -6782,7 +6782,7 @@
         "userAdded": false
       },
       {
-        "file": "Copy of Popping Boba.png",
+        "file": "assets/Copy of Popping Boba.png",
         "kind": "image",
         "metadata": "",
         "name": "Copy of Popping Boba.png",
@@ -6790,7 +6790,7 @@
         "userAdded": false
       },
       {
-        "file": "15.png",
+        "file": "assets/15.png",
         "kind": "image",
         "metadata": "",
         "name": "15.png",
@@ -6798,7 +6798,7 @@
         "userAdded": false
       },
       {
-        "file": "16.png",
+        "file": "assets/16.png",
         "kind": "image",
         "metadata": "",
         "name": "16.png",
@@ -6806,7 +6806,7 @@
         "userAdded": false
       },
       {
-        "file": "17.png",
+        "file": "assets/17.png",
         "kind": "image",
         "metadata": "",
         "name": "17.png",
@@ -6814,7 +6814,7 @@
         "userAdded": false
       },
       {
-        "file": "18.png",
+        "file": "assets/18.png",
         "kind": "image",
         "metadata": "",
         "name": "18.png",
@@ -6822,7 +6822,7 @@
         "userAdded": false
       },
       {
-        "file": "19.png",
+        "file": "assets/19.png",
         "kind": "image",
         "metadata": "",
         "name": "19.png",
@@ -6830,7 +6830,7 @@
         "userAdded": false
       },
       {
-        "file": "20.png",
+        "file": "assets/20.png",
         "kind": "image",
         "metadata": "",
         "name": "20.png",
@@ -6838,7 +6838,7 @@
         "userAdded": false
       },
       {
-        "file": "21.png",
+        "file": "assets/21.png",
         "kind": "image",
         "metadata": "",
         "name": "21.png",
@@ -6846,7 +6846,7 @@
         "userAdded": false
       },
       {
-        "file": "22.png",
+        "file": "assets/22.png",
         "kind": "image",
         "metadata": "",
         "name": "22.png",
@@ -6854,7 +6854,7 @@
         "userAdded": false
       },
       {
-        "file": "23.png",
+        "file": "assets/23.png",
         "kind": "image",
         "metadata": "",
         "name": "23.png",
@@ -6862,7 +6862,7 @@
         "userAdded": false
       },
       {
-        "file": "28.png",
+        "file": "assets/28.png",
         "kind": "image",
         "metadata": "",
         "name": "28.png",
@@ -6894,7 +6894,7 @@
         "userAdded": false
       },
       {
-        "file": "29.png",
+        "file": "assets/29.png",
         "kind": "image",
         "metadata": "",
         "name": "29.png",
@@ -6902,7 +6902,7 @@
         "userAdded": false
       },
       {
-        "file": "30.png",
+        "file": "assets/30.png",
         "kind": "image",
         "metadata": "",
         "name": "30.png",
@@ -6918,7 +6918,7 @@
         "userAdded": false
       },
       {
-        "file": "frame.png",
+        "file": "assets/frame.png",
         "kind": "image",
         "metadata": "",
         "name": "frame.png",
@@ -6926,7 +6926,7 @@
         "userAdded": false
       },
       {
-        "file": "about background.png",
+        "file": "assets/about background.png",
         "kind": "image",
         "metadata": "",
         "name": "about background.png",
@@ -6934,7 +6934,7 @@
         "userAdded": false
       },
       {
-        "file": "31.png",
+        "file": "assets/31.png",
         "kind": "image",
         "metadata": "",
         "name": "31.png",
@@ -6942,7 +6942,7 @@
         "userAdded": false
       },
       {
-        "file": "32.png",
+        "file": "assets/32.png",
         "kind": "image",
         "metadata": "",
         "name": "32.png",
@@ -6950,7 +6950,7 @@
         "userAdded": false
       },
       {
-        "file": "33.png",
+        "file": "assets/33.png",
         "kind": "image",
         "metadata": "",
         "name": "33.png",
@@ -6958,7 +6958,7 @@
         "userAdded": false
       },
       {
-        "file": "34.png",
+        "file": "assets/34.png",
         "kind": "image",
         "metadata": "",
         "name": "34.png",
@@ -6966,7 +6966,7 @@
         "userAdded": false
       },
       {
-        "file": "35.png",
+        "file": "assets/35.png",
         "kind": "image",
         "metadata": "",
         "name": "35.png",
@@ -6974,7 +6974,7 @@
         "userAdded": false
       },
       {
-        "file": "36.png",
+        "file": "assets/36.png",
         "kind": "image",
         "metadata": "",
         "name": "36.png",
@@ -6982,10 +6982,34 @@
         "userAdded": false
       },
       {
-        "file": "37.png",
+        "file": "assets/37.png",
         "kind": "image",
         "metadata": "",
         "name": "37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Minibrute_Sides.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Minibrute_Sides.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "39.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -9250,24 +9274,26 @@
       "name": "Browser_Status",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "SB01",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "L_E",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/boot"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/editor"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quick_check"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -9275,15 +9301,27 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/synth-selector"
+      "referenceTo": "/layouts/load"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/synth-selecting-page"
+      "referenceTo": "/layouts/editor"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/menu"
+      "referenceTo": "/layouts/ps_crave"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ps_minibrute"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/synth-browser"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/boot"
     }
   ],
   "externalEvents": [],

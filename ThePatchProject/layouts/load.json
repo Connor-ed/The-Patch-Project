@@ -4630,7 +4630,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Synth Selector\""
+                    "\"PS_Crave\""
                   ]
                 }
               ]
@@ -4710,7 +4710,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Synth Selector\"",
+                    "\"PS_Crave\"",
                     ""
                   ]
                 }
@@ -4779,7 +4779,17 @@
                   },
                   "parameters": [
                     "",
-                    "\"Editor\""
+                    "\"Synth Browser\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "L_E",
+                    "=",
+                    "2"
                   ]
                 }
               ]

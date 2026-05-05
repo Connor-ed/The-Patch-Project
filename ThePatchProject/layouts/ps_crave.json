@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Synth_32Selector",
-  "name": "Synth Selector",
+  "mangledName": "PS_95Crave",
+  "name": "PS_Crave",
   "r": 255,
   "resourcesUnloading": "at-scene-exit",
   "standardSortMethod": true,
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu\""
+                    "\"Synth Browser\""
                   ]
                 }
               ]
@@ -2787,11 +2787,21 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "L_E",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "\"Editor\""
+                    "\"Synth Browser\""
                   ]
                 }
               ]

@@ -26,7 +26,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1142,6 +1148,16 @@
                 "\"Pre\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "L_E",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -1166,8 +1182,18 @@
               },
               "parameters": [
                 "",
-                "\"Editor\"",
+                "\"Pre\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "L_E",
+                "=",
+                "2"
               ]
             }
           ]
