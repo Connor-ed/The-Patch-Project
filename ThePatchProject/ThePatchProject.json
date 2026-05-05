@@ -9289,11 +9289,15 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/boot"
+      "referenceTo": "/layouts/quick_check"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/editor"
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -9301,11 +9305,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/quick_check"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/pre"
+      "referenceTo": "/layouts/editor"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -9321,7 +9321,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/menu"
+      "referenceTo": "/layouts/boot"
     }
   ],
   "externalEvents": [],

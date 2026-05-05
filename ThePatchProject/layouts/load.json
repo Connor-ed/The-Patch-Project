@@ -4779,7 +4779,17 @@
                   },
                   "parameters": [
                     "",
-                    "\"Editor\""
+                    "\"Synth Browser\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "L_E",
+                    "=",
+                    "2"
                   ]
                 }
               ]

@@ -5017,11 +5017,21 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "L_E",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
             "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Editor\""
+            "\"Synth Browser\""
           ]
         }
       ]
