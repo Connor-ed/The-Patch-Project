@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Editor",
-  "name": "Editor",
+  "mangledName": "Crave_95Edit",
+  "name": "Crave_Edit",
   "r": 255,
   "resourcesUnloading": "at-scene-exit",
   "standardSortMethod": true,

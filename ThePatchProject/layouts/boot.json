@@ -3896,7 +3896,7 @@
           },
           "parameters": [
             "",
-            "\"Editor\""
+            "\"Crave_Edit\""
           ]
         }
       ]
@@ -4075,7 +4075,7 @@
           },
           "parameters": [
             "",
-            "\"Editor\""
+            "\"Crave_Edit\""
           ]
         }
       ]
@@ -4108,7 +4108,7 @@
           },
           "parameters": [
             "",
-            "\"Editor\"",
+            "\"Crave_Edit\"",
             "<",
             "100"
           ]
@@ -4449,7 +4449,7 @@
           },
           "parameters": [
             "",
-            "\"Editor\""
+            "\"Crave_Edit\""
           ]
         },
         {
