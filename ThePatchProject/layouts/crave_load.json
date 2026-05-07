@@ -62,6 +62,16 @@
       "name": "img_2",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Upload",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "IsFileReady",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -4836,6 +4846,15 @@
             },
             {
               "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -4881,6 +4900,26 @@
                 "=",
                 "255"
               ]
+            },
+            {
+              "type": {
+                "value": "TPP_UP_DOWN::OpenFilePicker"
+              },
+              "parameters": [
+                "",
+                "Upload",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsFileReady",
+                "False",
+                ""
+              ]
             }
           ],
           "events": [
@@ -4919,15 +4958,20 @@
                 ">=",
                 "2"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsFileReady",
+                "False",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4940,23 +4984,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "Loaded_Input",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Knob_overlay"
-                  ]
-                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -4976,6 +5003,23 @@
                     "VariableFirstString(img_1)",
                     "\"info\"",
                     "\"1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Knob_overlay"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Loaded_Input",
+                    ""
                   ]
                 }
               ]
@@ -5021,6 +5065,37 @@
               },
               "parameters": [
                 "Loading_alert"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsFileReady",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TPP_UP_DOWN::UploadBase64ToSprite"
+              },
+              "parameters": [
+                "",
+                "Loaded_Input",
+                "Upload",
+                "yes",
+                "",
+                "",
+                ""
               ]
             }
           ]
