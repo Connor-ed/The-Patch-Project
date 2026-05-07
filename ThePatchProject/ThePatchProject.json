@@ -3730,7 +3730,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/load"
+      "referenceTo": "/layouts/crave_load"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minibrute_load"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Load",
-  "name": "Load",
+  "mangledName": "Crave_95Load",
+  "name": "Crave_Load",
   "r": 255,
   "resourcesUnloading": "at-scene-exit",
   "standardSortMethod": true,
