@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 268,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1439,6 +1439,14 @@
         "kind": "image",
         "metadata": "",
         "name": "39.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knob_overlay.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Knob_overlay",
         "smoothed": true,
         "userAdded": false
       }

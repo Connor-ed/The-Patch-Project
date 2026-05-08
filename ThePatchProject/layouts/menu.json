@@ -864,7 +864,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -913,6 +912,13 @@
                 "}",
                 ""
               ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "gdjs._uploadKeyListenerScene = null;",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
