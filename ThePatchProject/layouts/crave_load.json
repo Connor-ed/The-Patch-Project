@@ -62,6 +62,11 @@
       "name": "img_2",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "base64",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -1980,6 +1985,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Copy of Popping Boba.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 430,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 1238
+                      },
+                      {
+                        "x": 5539,
+                        "y": 2607
+                      },
+                      {
+                        "x": 430,
+                        "y": 2607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Knob_overlay",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knob_overlay",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4270,6 +4324,58 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (!gdjs._uploadKeyListener) {",
+            "  const inp = document.createElement(\"input\");",
+            "  inp.type = \"file\";",
+            "  inp.accept = \"image/*\";",
+            "  inp.style.cssText = \"position:fixed;top:-9999px;left:-9999px;opacity:0;pointer-events:none;\";",
+            "  document.body.appendChild(inp);",
+            "  gdjs._ExtensionFileInput = inp;",
+            "",
+            "  inp.addEventListener(\"change\", function() {",
+            "    if (!this.files || !this.files.length) return;",
+            "    const reader = new FileReader();",
+            "    reader.onload = function(e) {",
+            "      gdjs._pendingUploadBase64 = e.target.result;",
+            "      console.log(\"[Upload] base64 ready, length:\", e.target.result.length);",
+            "    };",
+            "    reader.readAsDataURL(this.files[0]);",
+            "    this.value = \"\";",
+            "  });",
+            "",
+            "  gdjs._uploadKeyListener = function(e) {",
+            "    if (e.key === \"Enter\") {",
+            "      console.log(\"[Upload] Enter pressed, clicking input\");",
+            "      inp.click();",
+            "    }",
+            "  };",
+            "  window.addEventListener(\"keydown\", gdjs._uploadKeyListener);",
+            "  console.log(\"[Upload] keydown listener registered\");",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ]
+    },
+    {
       "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -4901,16 +5007,6 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PL01",
-                "=",
-                "-1"
-              ]
-            },
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -4927,11 +5023,32 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Knob_overlay",
+                "Animation",
+                "=",
+                "\"Blank\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::Once"
@@ -4947,14 +5064,6 @@
                   "parameters": [
                     "Loaded_Input",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Knob_overlay"
                   ]
                 },
                 {
@@ -4981,6 +5090,44 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (gdjs._pendingUploadBase64) {",
+            "  const base64 = gdjs._pendingUploadBase64;",
+            "  gdjs._pendingUploadBase64 = null;",
+            "",
+            "  const gdjsObject = objects[0];",
+            "  const rendererObject = gdjsObject.getRendererObject();",
+            "  const currentBaseTexture = rendererObject.texture.baseTexture;",
+            "",
+            "  const img = new Image();",
+            "  img.onload = function() {",
+            "    currentBaseTexture.resource.source = img;",
+            "    currentBaseTexture.resource.update();",
+            "    currentBaseTexture.update();",
+            "",
+            "    const imgW = img.naturalWidth;",
+            "    const imgH = img.naturalHeight;",
+            "    const scale = Math.min(1920 / imgW, 1080 / imgH);",
+            "    const newW = imgW * scale;",
+            "    const newH = imgH * scale;",
+            "    gdjsObject.setWidth(newW);",
+            "    gdjsObject.setHeight(newH);",
+            "    gdjsObject.setX((1920 - newW) / 2);",
+            "    gdjsObject.setY((1080 - newH) / 2);",
+            "",
+            "    console.log(\"[Upload] done, scaled to\", newW, \"x\", newH);",
+            "  };",
+            "  img.src = base64;",
+            "",
+            "  runtimeScene.getVariables().get(\"PL01\").setNumber(-2);",
+            "}"
+          ],
+          "parameterObjects": "Knob_overlay",
+          "useStrict": true,
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7081,11 +7228,6 @@
       "parameterObjects": "",
       "useStrict": true,
       "eventsSheetExpanded": true
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
