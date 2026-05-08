@@ -4340,34 +4340,37 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "if (!gdjs._uploadKeyListener) {",
-            "  const inp = document.createElement(\"input\");",
-            "  inp.type = \"file\";",
-            "  inp.accept = \"image/*\";",
-            "  inp.style.cssText = \"position:fixed;top:-9999px;left:-9999px;opacity:0;pointer-events:none;\";",
-            "  document.body.appendChild(inp);",
-            "  gdjs._ExtensionFileInput = inp;",
+            "if (gdjs._uploadKeyListener) {",
+            "  window.removeEventListener(\"keydown\", gdjs._uploadKeyListener);",
+            "}",
+            "if (gdjs._ExtensionFileInput) {",
+            "  gdjs._ExtensionFileInput.remove();",
+            "}",
             "",
-            "  inp.addEventListener(\"change\", function() {",
-            "    if (!this.files || !this.files.length) return;",
-            "    const reader = new FileReader();",
-            "    reader.onload = function(e) {",
-            "      gdjs._pendingUploadBase64 = e.target.result;",
-            "      console.log(\"[Upload] base64 ready, length:\", e.target.result.length);",
-            "    };",
-            "    reader.readAsDataURL(this.files[0]);",
-            "    this.value = \"\";",
-            "  });",
+            "const inp = document.createElement(\"input\");",
+            "inp.type = \"file\";",
+            "inp.accept = \"image/*\";",
+            "inp.style.cssText = \"position:fixed;top:-9999px;left:-9999px;opacity:0;pointer-events:none;\";",
+            "document.body.appendChild(inp);",
+            "gdjs._ExtensionFileInput = inp;",
             "",
-            "  gdjs._uploadKeyListener = function(e) {",
-            "    if (e.key === \"Enter\") {",
-            "      console.log(\"[Upload] Enter pressed, clicking input\");",
-            "      inp.click();",
-            "    }",
+            "inp.addEventListener(\"change\", function() {",
+            "  if (!this.files || !this.files.length) return;",
+            "  const reader = new FileReader();",
+            "  reader.onload = function(e) {",
+            "    gdjs._pendingUploadBase64 = e.target.result;",
             "  };",
-            "  window.addEventListener(\"keydown\", gdjs._uploadKeyListener);",
-            "  console.log(\"[Upload] keydown listener registered\");",
-            "}"
+            "  reader.readAsDataURL(this.files[0]);",
+            "  this.value = \"\";",
+            "});",
+            "",
+            "gdjs._uploadKeyListenerScene = runtimeScene;",
+            "gdjs._uploadKeyListener = function(e) {",
+            "  if (e.key === \"Enter\" && gdjs._uploadKeyListenerScene === runtimeScene) {",
+            "    inp.click();",
+            "  }",
+            "};",
+            "window.addEventListener(\"keydown\", gdjs._uploadKeyListener);"
           ],
           "parameterObjects": "",
           "useStrict": true,
@@ -5040,15 +5043,6 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::Once"
@@ -6841,6 +6835,7 @@
       "comment": "loading v2"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6964,6 +6959,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7084,6 +7080,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
