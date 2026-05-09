@@ -902,6 +902,34 @@
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "// 1. Get the reference",
+            "const pb = globalThis.PatchBay;",
+            "",
+            "if (pb) {",
+            "    console.log(\"[PatchBay] Nuking system for Menu scene...\");",
+            "",
+            "    // 2. Physically remove the canvas from the browser window",
+            "    if (pb.canvas && pb.canvas.parentNode) {",
+            "        pb.canvas.parentNode.removeChild(pb.canvas);",
+            "    }",
+            "",
+            "    // 3. Completely wipe the global object",
+            "    // This is the most important part. By setting this to null, ",
+            "    // your Redraw script's \"if (!pb || !pb.ctx) return;\" line ",
+            "    // will trigger and STOP the loop instantly.",
+            "    globalThis.PatchBay = null;",
+            "",
+            "    console.log(\"[PatchBay] System fully destroyed ✓\");",
+            "}",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
         }
       ]
     },
