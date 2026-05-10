@@ -4815,12 +4815,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "\"PS_Crave\"",
-                    ""
+                    "\"PS_Crave\""
                   ]
                 }
               ]
@@ -4913,6 +4912,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Patch Loading",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6550,6 +6550,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Detail Mode",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

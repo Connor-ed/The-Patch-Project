@@ -4643,7 +4643,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Window Title\n"
+      "comment": "Window Title"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -6246,6 +6246,7 @@
       "comment": "Patch Point in"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6344,6 +6345,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6458,6 +6460,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
