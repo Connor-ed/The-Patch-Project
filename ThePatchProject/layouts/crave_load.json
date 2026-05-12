@@ -21,7 +21,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.2987985363607124,
+    "zoomFactor": 0.430340380220797,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -4374,7 +4374,7 @@
           ],
           "parameterObjects": "",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         }
       ]
     },
@@ -4815,12 +4815,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "\"PS_Crave\"",
-                    ""
+                    "\"PS_Crave\""
                   ]
                 }
               ]
@@ -4990,6 +4989,17 @@
                 "=",
                 "255"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "INST",
+                "Text",
+                "=",
+                "\"Press the enter key to load a patch\""
+              ]
             }
           ],
           "events": [
@@ -5094,13 +5104,11 @@
             "",
             "  const gdjsObject = objects[0];",
             "  const rendererObject = gdjsObject.getRendererObject();",
-            "  const currentBaseTexture = rendererObject.texture.baseTexture;",
             "",
             "  const img = new Image();",
             "  img.onload = function() {",
-            "    currentBaseTexture.resource.source = img;",
-            "    currentBaseTexture.resource.update();",
-            "    currentBaseTexture.update();",
+            "    const texture = PIXI.Texture.from(img);",
+            "    rendererObject.texture = texture;",
             "",
             "    const imgW = img.naturalWidth;",
             "    const imgH = img.naturalHeight;",
@@ -5119,7 +5127,7 @@
             "  runtimeScene.getVariables().get(\"PL01\").setNumber(-2);",
             "}"
           ],
-          "parameterObjects": "Knob_overlay",
+          "parameterObjects": "Loaded_Input",
           "useStrict": true,
           "eventsSheetExpanded": true
         },
@@ -5270,7 +5278,6 @@
           "comment": "E_Keys"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6550,6 +6557,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Detail Mode",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
