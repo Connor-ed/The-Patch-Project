@@ -4360,7 +4360,7 @@
             "  reader.onload = function(e) {",
             "    gdjs._pendingUploadBase64 = e.target.result;",
             "  };",
-            "  reader.readAsDataURL(this.files[0]);",
+            "  reader.readAsDataURL(this.files[0])",
             "  this.value = \"\";",
             "});",
             "",
