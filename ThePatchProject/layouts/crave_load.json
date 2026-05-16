@@ -21,7 +21,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.430340380220797,
+    "zoomFactor": 0.30887412163428796,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -4379,7 +4379,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4560,7 +4559,6 @@
       "actions": []
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4625,7 +4623,7 @@
             {
               "type": {
                 "inverted": true,
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Global_Home",
@@ -4654,7 +4652,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Global_Play",
@@ -4683,7 +4681,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Global_Home",
@@ -4722,7 +4720,7 @@
                 },
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Home",
@@ -4763,7 +4761,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Global_Home",
@@ -4802,7 +4800,7 @@
                 },
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Home",
@@ -4831,7 +4829,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
                 "Global_Editor",
@@ -4870,7 +4868,7 @@
                 },
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Editor",
@@ -4929,7 +4927,6 @@
           "comment": "Loading"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5330,7 +5327,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -5353,7 +5350,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
@@ -5988,7 +5985,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6011,7 +6008,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
@@ -6083,7 +6080,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6106,7 +6103,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
@@ -6187,7 +6184,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6210,7 +6207,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
@@ -6291,7 +6288,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6314,7 +6311,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
@@ -6394,7 +6391,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "value": "IsCursorOnObject"
                   },
                   "parameters": [
                     "Global_Play",
@@ -6417,7 +6414,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlayMusicCanal"
+                    "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
                     "",
