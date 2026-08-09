@@ -740,6 +740,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -900,118 +901,6 @@
       "comment": "Update Alert"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "InternetConnectivity::IsDeviceOnline"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "NewSprite",
-            "Animation",
-            "=",
-            "\"updating\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"a\"",
-            ">=",
-            "30"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "URLTools::Reload"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1053,16 +942,6 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "CompareTimer"
@@ -1148,44 +1027,6 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "NewSprite",
-            "Animation",
-            "=",
-            "\"down\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
@@ -1275,11 +1116,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
