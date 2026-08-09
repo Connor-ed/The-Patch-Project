@@ -740,7 +740,6 @@
   },
   "events": [
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -763,8 +762,8 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const SB_URL = \"https://dyuuloipijvkfejfqoay.supabase.co\";",
-            "const SB_KEY = \"sb_publishable_YkIqOOig3cqxaLO5uBtfcw_mX_3lwc_\";",
+            "const SB_URL = \"https://api.edgingtondesmet.com\";",
+            "const SB_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg2MjgyNDA1LCJleHAiOjIxMDE2NDI0MDV9.7qr68KLl8WbBD4TPD-VX5uoqglJ9BLL0oIWmxWndaNE\";",
             "",
             "function checkStatus() {",
             "    fetch(`${SB_URL}/rest/v1/app_status?id=eq.1&select=status`, {",
@@ -1073,15 +1072,6 @@
             "\"a\"",
             ">=",
             "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "AreSceneAssetsLoaded"
-          },
-          "parameters": [
-            "",
-            "\"Menu\""
           ]
         },
         {

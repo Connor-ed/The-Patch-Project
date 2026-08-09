@@ -21,7 +21,7 @@
     "gridColor": 13880525,
     "gridAlpha": 1,
     "snap": false,
-    "zoomFactor": 0.2368956372544906,
+    "zoomFactor": 0.3895856273827697,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -4750,7 +4750,7 @@
           "inlineCode": "gdjs._uploadKeyListenerScene = null;",
           "parameterObjects": "",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         }
       ]
     },
@@ -5812,9 +5812,8 @@
             "    return;",
             "}",
             "",
-            "const SUPABASE_URL = 'https://dyuuloipijvkfejfqoay.supabase.co';",
-            "const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5dXVsb2lwaWp2a2ZlamZxb2F5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNjg2NjQsImV4cCI6MjA4ODY0NDY2NH0.3LkBaKfBLD8rH83944X0iSV-DVQWEsWITulESvY6xzQ';",
-            "",
+            "const SUPABASE_URL = 'https://api.edgingtondesmet.com';",
+            "const SB_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg2MjgyNDA1LCJleHAiOjIxMDE2NDI0MDV9.7qr68KLl8WbBD4TPD-VX5uoqglJ9BLL0oIWmxWndaNE\";",
             "const pixiRenderer = runtimeScene.getGame().getRenderer()._pixiRenderer;",
             "",
             "// Hide canvas overlay immediately",

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19415059112740973,
+    "zoomFactor": 0.2796226521839405,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -818,7 +818,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b][size=22]About The Patch Project[/size][/b]\n\n[size=16]The Patch Project is a patch sheet designer and editor that lets you create, manage, and explore synth patches with an intuitive visual interface.[/size]\n\n[b][size=18]How It Works[/size][/b]\n\n[b][size=16]Detail Button[/size][/b]\n[size=15]Toggles the visibility of knob and switch functions on the synth interface, giving you a cleaner view when you need it.[/size]\n\n[b][size=16]Patch Bay Button[/size][/b]\n[size=15]Opens or closes the patch bay popup.\n  • In [b]Editor Mode[/b], drag between an input and output point to draw a cable connection.\n  • Right-click on a point to remove a cable.\n  • In [b]Loading Mode[/b], patches are premade — no connections required.[/size]\n\n[b][size=16]Patch Selector[/size][/b]\n[size=15]  • Click a patch to open the loading page and view its details and patch bay layout.\n  • Right-click a patch to preview the selected sound.[/size]\n\n[b][size=16]Patch Library[/size][/b]\n[size=15]  • Upload patches using [b]Command + U[/b]. All uploads are reviewed and tested before being added to the library.\n  • Note: Text box contents are not currently uploaded, but you can share details in the description text box.[/size]\n\n[b][size=18]What's New in version 1.4.1[/size][/b]\n[size=15]\n\n- Fixed an issue that prevented patch loading.\n\n- Other bug fixes and improvements.\n\n\n\n\n\nDeveloped by: Connor_ed (Connor Edgington-Desmet)\nGitHub: https://github.com/Connor-ed/The-Patch-Project[/size]",
+        "text": "[b][size=22]About The Patch Project[/size][/b]\n\n[size=16]The Patch Project is a patch sheet designer and editor that lets you create, manage, and explore synth patches with an intuitive visual interface.[/size]\n\n[b][size=18]How It Works[/size][/b]\n\n[b][size=16]Detail Button[/size][/b]\n[size=15]Toggles the visibility of knob and switch functions on the synth interface, giving you a cleaner view when you need it.[/size]\n\n[b][size=16]Patch Bay Button[/size][/b]\n[size=15]Opens or closes the patch bay popup.\n  • In [b]Editor Mode[/b], drag between an input and output point to draw a cable connection.\n  • Right-click on a point to remove a cable.\n  • In [b]Loading Mode[/b], patches are premade — no connections required.[/size]\n\n[b][size=16]Patch Selector[/size][/b]\n[size=15]  • Click a patch to open the loading page and view its details and patch bay layout.\n  • Right-click a patch to preview the selected sound.[/size]\n\n[b][size=16]Patch Library[/size][/b]\n[size=15]  • Upload patches using [b]Command + U[/b]. All uploads are reviewed and tested before being added to the library.\n  • Note: Text box contents are not currently uploaded, but you can share details in the description text box.[/size]\n\n[b][size=18]What's New in version 1.4.3[/size][/b]\n[size=15]\n\n- Migrated the app storage away from supabase.\n\n- Fixed an issue \n\n\n\n\n\nDeveloped by: Connor_ed (Connor Edgington-Desmet)\nGitHub: https://github.com/Connor-ed/The-Patch-Project[/size]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
