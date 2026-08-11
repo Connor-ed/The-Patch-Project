@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3300560049165963,
+    "zoomFactor": 0.2705012603962582,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -763,8 +763,8 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const SB_URL = \"https://dyuuloipijvkfejfqoay.supabase.co\";",
-            "const SB_KEY = \"sb_publishable_YkIqOOig3cqxaLO5uBtfcw_mX_3lwc_\";",
+            "const SB_URL = \"https://api.edgingtondesmet.com\";",
+            "const SB_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg2MjgyNDA1LCJleHAiOjIxMDE2NDI0MDV9.7qr68KLl8WbBD4TPD-VX5uoqglJ9BLL0oIWmxWndaNE\";",
             "",
             "function checkStatus() {",
             "    fetch(`${SB_URL}/rest/v1/app_status?id=eq.1&select=status`, {",
@@ -901,118 +901,6 @@
       "comment": "Update Alert"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "InternetConnectivity::IsDeviceOnline"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "NewSprite",
-            "Animation",
-            "=",
-            "\"updating\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"a\"",
-            ">=",
-            "30"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "URLTools::Reload"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1056,16 +944,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "UpdateChecker::UpdateAvailable"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
@@ -1073,15 +951,6 @@
             "\"a\"",
             ">=",
             "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "AreSceneAssetsLoaded"
-          },
-          "parameters": [
-            "",
-            "\"Menu\""
           ]
         },
         {
@@ -1132,6 +1001,64 @@
       "conditions": [
         {
           "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"a\"",
+            ">=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "InternetConnectivity::IsDeviceOnline"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "StatusLoaded",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "AppOnline",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "NewSprite",
+            "Animation",
+            "=",
+            "\"down\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "KeyFromTextPressed"
           },
           "parameters": [
@@ -1149,44 +1076,6 @@
             "",
             "\"Menu\"",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "AppOnline",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "StatusLoaded",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "NewSprite",
-            "Animation",
-            "=",
-            "\"down\""
           ]
         }
       ]
@@ -1285,11 +1174,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

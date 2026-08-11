@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 271,
+    "build": 277,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -12,13 +12,13 @@
     "antialisingEnabledOnMobile": true,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.edgingtondesmet.ThePatchProject",
+    "packageName": "com.edgingtondesmet.app",
     "pixelsRounding": false,
     "projectUuid": "8540cf9a-68a7-4e20-9abc-72f17553fa2f",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.4.1",
+    "version": "1.4.3",
     "name": "The Patch Project",
     "description": "",
     "author": "The Patch Project",
