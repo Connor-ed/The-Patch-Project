@@ -5884,12 +5884,15 @@
             "        return fetch(`${SUPABASE_URL}/storage/v1/object/patches/${filename}`, {",
             "            method: 'POST',",
             "            headers: {",
-            "                'Authorization': `Bearer ${SUPABASE_KEY}`,",
+            "                'Authorization': `Bearer ${SB_KEY}`,",
+            "                'apikey': SB_KEY,",
             "                'Content-Type': 'image/png'",
             "            },",
             "            body: blob",
-            "        }).then(uploadRes => {",
-            "            if (!uploadRes.ok) throw new Error(\"Image upload failed\");",
+            "        }).then(async uploadRes => {",
+            "            if (!uploadRes.ok) {",
+            "                throw new Error(\"Image upload failed: \" + uploadRes.status + \" \" + await uploadRes.text());",
+            "            }",
             "",
             "            const imageUrl = `${SUPABASE_URL}/storage/v1/object/public/patches/${filename}`;",
             "",
@@ -5905,8 +5908,8 @@
             "            return fetch(`${SUPABASE_URL}/rest/v1/patches`, {",
             "                method: 'POST',",
             "                headers: {",
-            "                    'Authorization': `Bearer ${SUPABASE_KEY}`,",
-            "                    'apikey': SUPABASE_KEY,",
+            "                    'Authorization': `Bearer ${SB_KEY}`,",
+            "                    'apikey': SB_KEY,",
             "                    'Content-Type': 'application/json',",
             "                    'Prefer': 'return=minimal'",
             "                },",
@@ -5918,8 +5921,10 @@
             "                    connections: savedConnections",
             "                })",
             "            });",
-            "        }).then(insertRes => {",
-            "            if (!insertRes.ok) throw new Error(\"Insert failed\");",
+            "        }).then(async insertRes => {",
+            "            if (!insertRes.ok) {",
+            "                throw new Error(\"Insert failed: \" + insertRes.status + \" \" + await insertRes.text());",
+            "            }",
             "            console.log(\"Patch shared successfully!\");",
             "            runtimeScene.getLayer(\"Share\").show(false);",
             "        });",
@@ -6246,7 +6251,6 @@
       "comment": "Patch Point in"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6345,7 +6349,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
