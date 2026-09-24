@@ -1,7 +1,7 @@
 {
   "firstLayout": "Quick_Check",
   "gdVersion": {
-    "build": 277,
+    "build": 282,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -16,15 +16,16 @@
     "pixelsRounding": false,
     "projectUuid": "8540cf9a-68a7-4e20-9abc-72f17553fa2f",
     "scaleMode": "linear",
+    "sceneResourcesUnloading": "at-scene-exit",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.4.3",
+    "version": "1.4.5",
     "name": "The Patch Project",
     "description": "",
     "author": "The Patch Project",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.3.1",
+    "latestCompilationDirectory": "/Users/connoredgington-desmet/Downloads/v1.4.3",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -3657,25 +3658,30 @@
   "variables": [
     {
       "name": "Patchloading_",
+      "persistentUuid": "dd586e2f-1d60-4bf0-9713-5b15110bddf0",
       "type": "string",
       "value": "E_Keys"
     },
     {
       "name": "PL01",
+      "persistentUuid": "dafafbd2-4d7a-48b0-bcd5-f2e32eba5c82",
       "type": "number",
       "value": 0
     },
     {
       "name": "Variable",
+      "persistentUuid": "517287b0-640c-4cce-a8f3-7582f9dcd729",
       "type": "structure",
       "children": [
         {
           "name": "hasbeenused",
+          "persistentUuid": "8c75546a-579e-4fba-87b7-40c6c52be047",
           "type": "number",
           "value": 0
         },
         {
           "name": "version number",
+          "persistentUuid": "b50ee6eb-59c2-4a60-bc72-4204b4b4b9e7",
           "type": "number",
           "value": 0
         }
@@ -3683,41 +3689,49 @@
     },
     {
       "name": "tracking",
+      "persistentUuid": "490f0a06-0df8-4d63-aa03-6ae8402706a6",
       "type": "number",
       "value": 0
     },
     {
       "name": "firebase",
+      "persistentUuid": "acdb46b5-c385-44c9-bece-b0b5332832d3",
       "type": "number",
       "value": 1
     },
     {
       "name": "screenreader",
+      "persistentUuid": "7a5c39a8-3a5a-4b75-9098-4075360660c7",
       "type": "number",
       "value": 0
     },
     {
       "name": "devpre",
+      "persistentUuid": "975a1bca-a78f-437f-a8bc-2ab3f7104294",
       "type": "number",
       "value": 0
     },
     {
       "name": "Selected_Patch_URL",
+      "persistentUuid": "435eaf22-704f-4f8f-8e75-bdb2e76cfe99",
       "type": "string",
       "value": "0"
     },
     {
       "name": "Browser_Status",
+      "persistentUuid": "fba6e0c9-4944-41c1-b01b-5af01377c5eb",
       "type": "string",
       "value": "0"
     },
     {
       "name": "SB01",
+      "persistentUuid": "a0efd2d2-65da-4e3a-97f3-f225bf7bd296",
       "type": "number",
       "value": 0
     },
     {
       "name": "L_E",
+      "persistentUuid": "35a5b247-b3e0-4acc-90d4-397bf36a0c1a",
       "type": "number",
       "value": 0
     }
