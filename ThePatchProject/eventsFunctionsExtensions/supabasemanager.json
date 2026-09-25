@@ -1,0 +1,535 @@
+{
+  "author": "Connor-ed",
+  "category": "Network",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "SupabaseManager",
+  "previewIconUrl": "",
+  "shortDescription": "Fetch table data and storage URLs from Supabase with async support for GDevelop",
+  "version": "1.0.0",
+  "description": "Fetch table data and storage URLs from Supabase with async support for GDevelop",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "FetchTableData",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "FetchTableData",
+      "sentence": "Fetch table _PARAM3_ from Supabase with query _PARAM4_ and store result in variable _PARAM5_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"supabase_url\");",
+            "const key = eventsFunctionContext.getArgument(\"supabase_key\");",
+            "const table = eventsFunctionContext.getArgument(\"table_name\");",
+            "const query = eventsFunctionContext.getArgument(\"query_params\");",
+            "const outputVarName = eventsFunctionContext.getArgument(\"output_variable\");",
+            "",
+            "const fullUrl = `${url}/rest/v1/${table}?${query}`;",
+            "",
+            "eventsFunctionContext.task = new gdjs.PromiseTask(",
+            "  fetch(fullUrl, {",
+            "    method: \"GET\",",
+            "    headers: {",
+            "      \"apikey\": key,",
+            "      \"Authorization\": `Bearer ${key}`,",
+            "      \"Content-Type\": \"application/json\",",
+            "      \"Prefer\": \"return=representation\"",
+            "    }",
+            "  })",
+            "  .then(response => {",
+            "    if (!response.ok) throw new Error(`HTTP ${response.status}`);",
+            "    return response.json();",
+            "  })",
+            "  .then(data => {",
+            "    const variable = runtimeScene.getVariables().get(outputVarName);",
+            "    variable.setString(JSON.stringify(data));",
+            "  })",
+            "  .catch(error => {",
+            "    const errorVar = runtimeScene.getVariables().get(outputVarName + \"_error\");",
+            "    if (errorVar) errorVar.setString(error.message);",
+            "  })",
+            ");"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "supabase_url",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "supabase_key",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "table_name",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "query_params",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "output_variable",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "FetchSingleRow",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "FetchSingleRow",
+      "sentence": "Fetch single row from _PARAM3_ where _PARAM4_ = _PARAM5_ and store result in variable _PARAM6_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"supabase_url\");",
+            "const key = eventsFunctionContext.getArgument(\"supabase_key\");",
+            "const table = eventsFunctionContext.getArgument(\"table_name\");",
+            "const idCol = eventsFunctionContext.getArgument(\"id_column\");",
+            "const idVal = eventsFunctionContext.getArgument(\"id_value\");",
+            "const outputVarName = eventsFunctionContext.getArgument(\"output_variable\");",
+            "",
+            "const fullUrl = `${url}/rest/v1/${table}?${encodeURIComponent(idCol)}=eq.${encodeURIComponent(idVal)}&select=*`;",
+            "",
+            "eventsFunctionContext.task = new gdjs.PromiseTask(",
+            "  fetch(fullUrl, {",
+            "    method: \"GET\",",
+            "    headers: {",
+            "      \"apikey\": key,",
+            "      \"Authorization\": `Bearer ${key}`,",
+            "      \"Content-Type\": \"application/json\"",
+            "    }",
+            "  })",
+            "  .then(r => r.json())",
+            "  .then(data => {",
+            "    runtimeScene.getVariables().get(outputVarName).setString(JSON.stringify(data));",
+            "  })",
+            "  .catch(e => {",
+            "    const err = runtimeScene.getVariables().get(outputVarName + \"_error\");",
+            "    if (err) err.setString(e.message);",
+            "  })",
+            ");"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "supabase_url",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "supabase_key",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "table_name",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "id_column",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "id_value",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "output_variable",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "InsertRow",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "InsertRow",
+      "sentence": "Insert row into _PARAM3_ with JSON _PARAM4_ and store result in variable _PARAM5_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"supabase_url\");",
+            "const key = eventsFunctionContext.getArgument(\"supabase_key\");",
+            "const table = eventsFunctionContext.getArgument(\"table_name\");",
+            "const jsonStr = eventsFunctionContext.getArgument(\"json_data\");",
+            "const outputVarName = eventsFunctionContext.getArgument(\"output_variable\");",
+            "",
+            "let payload;",
+            "try { payload = JSON.parse(jsonStr); } catch { payload = {}; }",
+            "",
+            "eventsFunctionContext.task = new gdjs.PromiseTask(",
+            "  fetch(`${url}/rest/v1/${table}`, {",
+            "    method: \"POST\",",
+            "    headers: {",
+            "      \"apikey\": key,",
+            "      \"Authorization\": `Bearer ${key}`,",
+            "      \"Content-Type\": \"application/json\",",
+            "      \"Prefer\": \"return=representation\"",
+            "    },",
+            "    body: JSON.stringify(payload)",
+            "  })",
+            "  .then(r => r.json())",
+            "  .then(data => {",
+            "    runtimeScene.getVariables().get(outputVarName).setString(JSON.stringify(data));",
+            "  })",
+            "  .catch(e => {",
+            "    const err = runtimeScene.getVariables().get(outputVarName + \"_error\");",
+            "    if (err) err.setString(e.message);",
+            "  })",
+            ");"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "supabase_url",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "supabase_key",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "table_name",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "json_data",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "output_variable",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "GetStorageURL",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "GetStorageURL",
+      "sentence": "Get public storage URL for bucket _PARAM2_ file _PARAM3_ and store in variable _PARAM4_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"supabase_url\");",
+            "const bucket = eventsFunctionContext.getArgument(\"bucket\");",
+            "const path = eventsFunctionContext.getArgument(\"file_path\");",
+            "const outputVarName = eventsFunctionContext.getArgument(\"output_variable\");",
+            "",
+            "const publicUrl = `${url}/storage/v1/object/public/${bucket}/${encodeURIComponent(path)}`;",
+            "const variable = runtimeScene.getVariables().get(outputVarName);",
+            "variable.setString(publicUrl);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "supabase_url",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "bucket",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "file_path",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "output_variable",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "SetTextFromJsonField",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "SetTextFromJsonField",
+      "sentence": "Set text object _PARAM1_ of type _PARAM2_ from JSON variable _PARAM3_ field _PARAM4_ with fallback _PARAM5_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const objName = eventsFunctionContext.getArgument(\"object_name\");",
+            "const objType = eventsFunctionContext.getArgument(\"object_type\");",
+            "const jsonVarName = eventsFunctionContext.getArgument(\"json_variable\");",
+            "const jsonPath = eventsFunctionContext.getArgument(\"json_path\");",
+            "const fallback = eventsFunctionContext.getArgument(\"fallback_text\");",
+            "",
+            "const jsonStr = runtimeScene.getVariables().get(jsonVarName).getString();",
+            "let value = fallback;",
+            "try {",
+            "  const data = JSON.parse(jsonStr);",
+            "  // Simple dot path support: e.g., \"0.title\" or \"title\"",
+            "  const parts = jsonPath.split('.');",
+            "  let cur = data;",
+            "  for (const p of parts) {",
+            "    if (cur == null) break;",
+            "    const idx = Number(p);",
+            "    cur = isNaN(idx) ? cur[p] : cur[idx];",
+            "  }",
+            "  if (cur !== undefined && cur !== null) value = String(cur);",
+            "} catch {}",
+            "",
+            "const objects = runtimeScene.getObjects(objType);",
+            "const obj = objects.find(o => o.getName() === objName);",
+            "if (obj && obj.setString) {",
+            "  obj.setString(value);",
+            "} else if (obj) {",
+            "  // fallback for Text objects using setText",
+            "  if (typeof obj.setText === \"function\") obj.setText(value);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "object_name",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "object_type",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "json_variable",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "json_path",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "fallback_text",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "SearchJsonData",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "SearchJsonData",
+      "sentence": "Search JSON data in variable _PARAM3_ for term _PARAM2_ and store results in variable _PARAM3_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "try {",
+            "    const data = JSON.parse(eventsFunctionContext.getArgument(\"json_data\"));",
+            "    const term = eventsFunctionContext.getArgument(\"search_term\").toLowerCase();",
+            "    const outputVarName = eventsFunctionContext.getArgument(\"output_variable\");",
+            "    ",
+            "    let results = [];",
+            "    if (Array.isArray(data)) {",
+            "        results = data.filter(item => {",
+            "            return JSON.stringify(item).toLowerCase().includes(term);",
+            "        });",
+            "    }",
+            "    ",
+            "    const variable = runtimeScene.getVariables().get(outputVarName);",
+            "    variable.setString(JSON.stringify(results));",
+            "} catch (e) {",
+            "    const errorVarName = eventsFunctionContext.getArgument(\"output_variable\") + \"_error\";",
+            "    const errorVar = runtimeScene.getVariables().get(errorVarName);",
+            "    if (errorVar) errorVar.setString(e.message);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "json_data",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "search_term",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "output_variable",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "LoadImageFromSupabase",
+      "functionType": "Action",
+      "group": "Supabase",
+      "name": "LoadImageFromSupabase",
+      "sentence": "Load image from Supabase bucket _PARAM2_ file _PARAM3_ into object _PARAM4_ of type _PARAM5_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const url = eventsFunctionContext.getArgument(\"supabase_url\");",
+            "const bucket = eventsFunctionContext.getArgument(\"bucket\");",
+            "const path = eventsFunctionContext.getArgument(\"file_path\");",
+            "const objName = eventsFunctionContext.getArgument(\"object_name\");",
+            "const objType = eventsFunctionContext.getArgument(\"object_type\");",
+            "",
+            "const publicUrl = `${url}/storage/v1/object/public/${bucket}/${encodeURIComponent(path)}`;",
+            "",
+            "const objects = runtimeScene.getObjects(objType);",
+            "const obj = objects.find(o => o.getName() === objName);",
+            "if (!obj) return;",
+            "",
+            "// Try direct URL first, fallback to blob for CORS",
+            "if (typeof obj.setImage === \"function\") {",
+            "    eventsFunctionContext.task = new gdjs.PromiseTask(",
+            "        fetch(publicUrl, {mode: 'cors'}).then(r => {",
+            "            if (!r.ok) throw new Error('HTTP ' + r.status);",
+            "            return r.blob();",
+            "        }).then(blob => {",
+            "            const objectUrl = URL.createObjectURL(blob);",
+            "            // Give the engine a frame to process",
+            "            obj.setImage(objectUrl);",
+            "        }).catch(e => {",
+            "            // Fallback to direct URL",
+            "            try { obj.setImage(publicUrl); } catch {}",
+            "        })",
+            "    );",
+            "} else if (typeof obj.setTexture === \"function\") {",
+            "    eventsFunctionContext.task = new gdjs.PromiseTask(",
+            "        Promise.resolve().then(() => { obj.setTexture(publicUrl); })",
+            "    );",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "supabase_url",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "bucket",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "file_path",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "object_name",
+          "type": "string"
+        },
+        {
+          "description": "",
+          "name": "object_type",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "Supabase",
+        "children": [
+          {
+            "functionName": "FetchTableData"
+          },
+          {
+            "functionName": "FetchSingleRow"
+          },
+          {
+            "functionName": "InsertRow"
+          },
+          {
+            "functionName": "GetStorageURL"
+          },
+          {
+            "functionName": "SetTextFromJsonField"
+          },
+          {
+            "functionName": "SearchJsonData"
+          },
+          {
+            "functionName": "LoadImageFromSupabase"
+          }
+        ]
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
